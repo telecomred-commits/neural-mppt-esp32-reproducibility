@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  Cite the associated manuscript and the archived version of this research software
+  once a version-specific DOI is assigned.
+type: software
+title: "Neural MPPT: online identification and power-reference verification in photovoltaic simulation"
+authors:
+  - family-names: "Suárez Suárez"
+    given-names: "Carlos René"
+  - family-names: "Penagos Espinel"
+    given-names: "Oscar Fernando"
+abstract: >-
+  Sources, calibrated photovoltaic model, neural MPPT firmware, Wokwi project snapshot,
+  host-simulation campaigns, measurements, and analysis supporting the manuscript.
+keywords:
+  - photovoltaic simulation
+  - maximum power point tracking
+  - online identification
+  - ESP32
+  - Wokwi

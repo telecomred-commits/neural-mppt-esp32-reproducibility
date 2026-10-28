@@ -1,0 +1,6 @@
+Independent audit environment (not necessarily original experimental environment):
+Python 3.13.5
+NumPy 2.3.5
+Matplotlib 3.10.8
+GCC 14.2.0 / G++ 14.2.0
+Scientific software originally used for pretrained NN-I/V6 weights: initial training script not supplied.

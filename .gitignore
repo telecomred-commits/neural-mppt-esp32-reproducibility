@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.idea/
+.vscode/
+*.aux
+*.out
+*.synctex.gz
+.pio/
+firmware.bin
+firmware.elf
