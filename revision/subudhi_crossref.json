@@ -1,0 +1,535 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        17
+      ]
+    ],
+    "date-time": "2026-10-17T16:50:56Z",
+    "timestamp": 1792255856680,
+    "version": "4.4.0"
+  },
+  "reference-count": 62,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "1",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Sustain. Energy"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tste.2012.2202294",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        7,
+        26
+      ]
+    ],
+    "date-time": "2012-07-26T19:18:59Z",
+    "timestamp": 1343330339000
+  },
+  "page": "89-98",
+  "source": "Crossref",
+  "is-referenced-by-count": 1601,
+  "title": [
+    "A Comparative Study on Maximum Power Point Tracking Techniques for Photovoltaic Power Systems"
+  ],
+  "prefix": "10.1109",
+  "volume": "4",
+  "author": [
+    {
+      "given": "Bidyadhar",
+      "family": "Subudhi",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Raseswari",
+      "family": "Pradhan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.629709"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2010.2041551"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/pip.459"
+    },
+    {
+      "key": "ref32",
+      "author": "pongratananukul",
+      "year": "2005",
+      "journal-title": "Analysis and Simulation Tools for Solar Array Power Systems"
+    },
+    {
+      "key": "ref31",
+      "article-title": "Advanced algorithm for MPPT control of photovoltaic systems",
+      "author": "liu",
+      "year": "2004",
+      "journal-title": "Proc Canadian Solar Build Conf"
+    },
+    {
+      "key": "ref30",
+      "article-title": "Maximum power point tracking method of photovoltaic using only single current sensor",
+      "author": "noguchi",
+      "year": "2003",
+      "journal-title": "Proc Euro Conf Power Electronics Applications"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "crossref",
+      "first-page": "793",
+      "DOI": "10.1109/TEC.2006.875430",
+      "article-title": "New MPPT for PV arrays using fuzzy controller in close cooperation with fuzzy cognitive network",
+      "volume": "21",
+      "author": "mathew",
+      "year": "2006",
+      "journal-title": "IEEE Trans Energy Conv"
+    },
+    {
+      "key": "ref36",
+      "article-title": "An improved MPPT algorithm with current-mode control for photovoltaic applications",
+      "author": "tan",
+      "year": "2005",
+      "journal-title": "Power Electron Drive Syst"
+    },
+    {
+      "key": "ref35",
+      "first-page": "455",
+      "article-title": "MPPT based on standalone water pumping system",
+      "author": "hua",
+      "year": "2011",
+      "journal-title": "Proc Int Conf Comp Comm Elect Tech"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-epa:20040978"
+    },
+    {
+      "key": "ref60",
+      "article-title": "Back-stepping PWM control for maximum power tracking in photovoltaic array systems",
+      "author": "iyasere",
+      "year": "2010",
+      "journal-title": "Proc Amer Control Conf"
+    },
+    {
+      "key": "ref62",
+      "article-title": "Comparison study of maximum power point tracker techniques for PV systems",
+      "author": "zainudin",
+      "year": "2010",
+      "journal-title": "Proc 14th Int Middle East Power Systems Conf"
+    },
+    {
+      "key": "ref61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/OPTIM.2008.4602445"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2002.805594"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2009.10.011"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2006.880242"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2005.10.023"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.epsr.2007.09.009"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "crossref",
+      "first-page": "997",
+      "DOI": "10.1049/el:20000730",
+      "article-title": "simple maximum power point tracker for photovoltaic arrays",
+      "volume": "36",
+      "author": "hong",
+      "year": "2000",
+      "journal-title": "Electronics Letters"
+    },
+    {
+      "key": "ref22",
+      "article-title": "A modified adaptive hill climbing MPPT method for photovoltaic power systems",
+      "author": "xiao",
+      "year": "2004",
+      "journal-title": "Proc 35th Annu IEEE Power Electron Conf"
+    },
+    {
+      "key": "ref21",
+      "article-title": "Comparison of p&#38;o and hill climbing MPPT methods for grid-connected PV generator",
+      "author": "liu",
+      "year": "2008",
+      "journal-title": "Proc 3rd IEEE Conf Industrial Electron Applicat"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.2007.4383584"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg.2009.0006"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.24084/repqj08.685",
+      "article-title": "Comparison of MPPT strategies for solar modules",
+      "author": "calavia1",
+      "year": "2010",
+      "journal-title": "Proc Int Conf Renewable Energies Power Quality"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2006.08.004"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878355"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCSI.2007.902537"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2010.5637998"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICIT.2010.5472546"
+    },
+    {
+      "key": "ref57",
+      "first-page": "2378",
+      "article-title": "Distributed MPPT for PV arrays",
+      "author": "tsao",
+      "year": "2009",
+      "journal-title": "Proc 34th IEEE PV Specs Conf"
+    },
+    {
+      "key": "ref56",
+      "article-title": "MPPT of PV system using ANFIS prediction and fuzzy logic tracking",
+      "author": "aldobhani",
+      "year": "2008",
+      "journal-title": "Proc Int Multi-Conf of Eng and Comp Sci"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ENERGYCON.2010.5771737"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2009.01.006"
+    },
+    {
+      "key": "ref53",
+      "first-page": "37",
+      "article-title": "Intelligent controller based maximum power point tracking for solar PV system",
+      "volume": "12",
+      "author": "ramprava",
+      "year": "2011",
+      "journal-title": "Int J Comp Appl"
+    },
+    {
+      "key": "ref52",
+      "first-page": "11",
+      "article-title": "Artifical intelligence based P&#38;O MPPT method for photovoltaic systems",
+      "author": "amrouche",
+      "year": "2007",
+      "journal-title": "Proc Rev Energies Renouvelables"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.2006.248205"
+    },
+    {
+      "key": "ref11",
+      "first-page": "1289",
+      "article-title": "A cost-effective single-stage inverter with maximum power point tracking",
+      "volume": "17",
+      "author": "chen",
+      "year": "2002",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0038-092X(00)00085-2"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/APEC.2010.5433388"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPEL.2004.828444"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2009.2037653"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2004.07.053"
+    },
+    {
+      "key": "ref16",
+      "article-title": "Study of maximum power tracking techniques and control of DC/DC converters for photovoltaic power system",
+      "author": "hua",
+      "year": "1998",
+      "journal-title": "Proc Power Electron Specialist Conf"
+    },
+    {
+      "key": "ref17",
+      "first-page": "568",
+      "article-title": "A rapid MPPT algorithm based on the research of solar cell's diode factor and reverse saturation current",
+      "volume": "7",
+      "author": "li-qun",
+      "year": "2008",
+      "journal-title": "WSEAS Trans Syst"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2005.07.010"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2004.09.019"
+    },
+    {
+      "key": "ref4",
+      "first-page": "53",
+      "article-title": "An efficient maximum power point tracking controller for photovoltaic systems using new boost converter design and improved control algorithm",
+      "volume": "5",
+      "author": "khatib",
+      "year": "2010",
+      "journal-title": "WSEAS Trans Power Syst"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.874230"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2002.805205"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/el:19840281"
+    },
+    {
+      "key": "ref8",
+      "first-page": "147",
+      "article-title": "Maximum power tracking for photovoltaic power systems",
+      "volume": "8",
+      "author": "jiang",
+      "year": "2005",
+      "journal-title": "Tamkang J Sci Eng"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PEDS.2011.6147269"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2007.899922"
+    },
+    {
+      "key": "ref9",
+      "article-title": "A new maximum power point tracking controller",
+      "author": "chen",
+      "year": "2003",
+      "journal-title": "Proc IEEE 16th Annu Conf Applied Power Electronics Conf Expo"
+    },
+    {
+      "key": "ref46",
+      "article-title": "MPPT control of photovoltaic pumping system based on discrete sliding mode",
+      "author": "khiari",
+      "year": "2010",
+      "journal-title": "Proc Int Renew Energy Congr"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2009.03.005"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878331"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-pel.2010.0049"
+    },
+    {
+      "key": "ref42",
+      "first-page": "593",
+      "article-title": "Verification of efficacy of PSO-based MPPT for photovoltaics",
+      "author": "kondo",
+      "year": "2010",
+      "journal-title": "Proc Int Conf Elect Mach Systs Incheon"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2004.09.011"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2010.04.011"
+    },
+    {
+      "key": "ref43",
+      "first-page": "8",
+      "article-title": "Perceptive particle swarm optimization: An investigation",
+      "volume": "1",
+      "author": "kaewkamnerdpong",
+      "year": "2005",
+      "journal-title": "Proc IEEE Swarm Intelligence Symp"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Sustainable Energy"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/5165391/6380594/06249779.pdf?arnumber=6249779",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2019,
+        7,
+        1
+      ]
+    ],
+    "date-time": "2019-07-01T15:17:46Z",
+    "timestamp": 1561994266000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://ieeexplore.ieee.org/document/6249779/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        1
+      ]
+    ]
+  },
+  "references-count": 62,
+  "journal-issue": {
+    "issue": "1"
+  },
+  "URL": "https://doi.org/10.1109/tste.2012.2202294",
+  "relation": {},
+  "ISSN": [
+    "1949-3029",
+    "1949-3037"
+  ],
+  "issn-type": [
+    {
+      "value": "1949-3029",
+      "type": "print"
+    },
+    {
+      "value": "1949-3037",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        1
+      ]
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 5,
+  "pages": 25,
+  "bibliographic_entries": 31,
+  "scientific_doi_checked": 28,
+  "all_citations_resolve": true,
+  "comparison_studies": 10,
+  "comparison_table": 8,
+  "new_doi_references": 4,
+  "methods_preserved_verbatim": true,
+  "algorithm_pseudocode_preserved": true,
+  "result_values_preserved": true,
+  "conclusions_preserved_verbatim": true,
+  "firmware_panel_and_circuit_modified": false,
+  "no_overfull_boxes": true,
+  "visual_review": "All25pages reviewed on rendered contact sheets. Table8 also reviewed at page resolution. Final corrected discussion paragraph re-rendered.",
+  "locations": {
+    "3.2. Current prediction": 19,
+    "4. Discussion": 20,
+    "4.1. Current identification": 20,
+    "4.2. Relationship": 20,
+    "Table 8.": 21,
+    "4.3. Source structure": 22,
+    "5. Conclusions": 22,
+    "References": 23
+  }
+}

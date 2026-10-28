@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "pages": 26,
+  "bibliographic_entries": 41,
+  "scientific_doi_checked": 28,
+  "manufacturer_datasheets": 10,
+  "manufacturer_doi_assigned": false,
+  "table2_values_preserved": true,
+  "table2_each_row_cited": true,
+  "all_ten_source_hyperlinks_in_pdf": true,
+  "all_citations_resolve": true,
+  "source_figure_number": 4,
+  "article_figure_number": 1,
+  "figure_page": 7,
+  "table2_page": 6,
+  "native_figure_resolution": [
+    2069,
+    1036
+  ],
+  "figure_data_modified": false,
+  "introductory_and_explanatory_paragraphs_present": true,
+  "figure_and_explanation_before_section24": true,
+  "algorithm_protocol_results_discussion_preserved": true,
+  "firmware_panel_and_circuit_modified": false,
+  "no_overfull_boxes": true,
+  "pdf_eof_and_page_count_valid": true,
+  "visual_review": "All26pages inspected on rendered contact sheets. Table2 and figure reviewed at full page scale. Final bibliography page re-rendered after punctuation correction."
+}

@@ -1,0 +1,2348 @@
+[
+  {
+    "key": "esram",
+    "doi": "10.1109/tec.2006.874230",
+    "title": "Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques",
+    "journal": "IEEE Transactions on Energy Conversion",
+    "authors": [
+      "Esram",
+      "Chapman"
+    ],
+    "year": [
+      [
+        2007,
+        6
+      ]
+    ],
+    "volume": "22",
+    "issue": "2",
+    "pages": "439-449",
+    "crossref_citations": 4321,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tec.2006.874230",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2007,
+          6
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Trishan",
+        "family": "Esram",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick L.",
+        "family": "Chapman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/4207429/"
+      }
+    }
+  },
+  {
+    "key": "femia",
+    "doi": "10.1109/tpel.2005.850975",
+    "title": "Optimization of Perturb and Observe Maximum Power Point Tracking Method",
+    "journal": "IEEE Transactions on Power Electronics",
+    "authors": [
+      "Femia",
+      "Petrone",
+      "Spagnuolo",
+      "Vitelli"
+    ],
+    "year": [
+      [
+        2005,
+        7
+      ]
+    ],
+    "volume": "20",
+    "issue": "4",
+    "pages": "963-973",
+    "crossref_citations": 2469,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tpel.2005.850975",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2005,
+          7
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "N.",
+        "family": "Femia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Petrone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G.",
+        "family": "Spagnuolo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.",
+        "family": "Vitelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/1461481/"
+      }
+    }
+  },
+  {
+    "key": "hussein",
+    "doi": "10.1049/ip-gtd:19951577",
+    "title": "Maximum photovoltaic power tracking: an algorithm for rapidly changing atmospheric conditions",
+    "journal": "IEE Proceedings - Generation, Transmission and Distribution",
+    "authors": [
+      "Hussein"
+    ],
+    "year": [
+      [
+        1995
+      ]
+    ],
+    "volume": "142",
+    "issue": "1",
+    "pages": "59",
+    "crossref_citations": 1322,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/ip-gtd:19951577",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "K.H.",
+        "family": "Hussein",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://digital-library.theiet.org/content/journals/10.1049/ip-gtd_19951577"
+      }
+    }
+  },
+  {
+    "key": "liu",
+    "doi": "10.1109/tie.2008.920550",
+    "title": "A Variable Step Size INC MPPT Method for PV Systems",
+    "journal": "IEEE Transactions on Industrial Electronics",
+    "authors": [
+      "Fangrui Liu",
+      "Shanxu Duan",
+      "Fei Liu",
+      "Bangyin Liu",
+      "Yong Kang"
+    ],
+    "year": [
+      [
+        2008,
+        7
+      ]
+    ],
+    "volume": "55",
+    "issue": "7",
+    "pages": "2622-2628",
+    "crossref_citations": 1043,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tie.2008.920550",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2008,
+          7
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "family": "Fangrui Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Shanxu Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Fei Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Bangyin Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Yong Kang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/4470576/"
+      }
+    }
+  },
+  {
+    "key": "sera",
+    "doi": "10.1109/jphotov.2013.2261118",
+    "title": "On the Perturb-and-Observe and Incremental Conductance MPPT Methods for PV Systems",
+    "journal": "IEEE Journal of Photovoltaics",
+    "authors": [
+      "Sera",
+      "Mathe",
+      "Kerekes",
+      "Spataru",
+      "Teodorescu"
+    ],
+    "year": [
+      [
+        2013,
+        7
+      ]
+    ],
+    "volume": "3",
+    "issue": "3",
+    "pages": "1070-1078",
+    "crossref_citations": 725,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/jphotov.2013.2261118",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2013,
+          7
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Dezso",
+        "family": "Sera",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laszlo",
+        "family": "Mathe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tamas",
+        "family": "Kerekes",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sergiu Viorel",
+        "family": "Spataru",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Remus",
+        "family": "Teodorescu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/6517453/"
+      }
+    }
+  },
+  {
+    "key": "hohm",
+    "doi": "10.1002/pip.459",
+    "title": "Comparative study of maximum power point tracking algorithms",
+    "journal": "Progress in Photovoltaics: Research and Applications",
+    "authors": [
+      "Hohm",
+      "Ropp"
+    ],
+    "year": [
+      [
+        2002,
+        11,
+        22
+      ]
+    ],
+    "volume": "11",
+    "issue": "1",
+    "pages": "47-62",
+    "crossref_citations": 649,
+    "publisher": "Wiley",
+    "url": "https://doi.org/10.1002/pip.459",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2003,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2002,
+          11,
+          22
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "given": "D. P.",
+        "family": "Hohm",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M. E.",
+        "family": "Ropp",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/pip.459"
+      }
+    }
+  },
+  {
+    "key": "elobaid",
+    "doi": "10.1049/iet-rpg.2014.0359",
+    "title": "Artificial neural network‐based photovoltaic maximum power point tracking techniques: a survey",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Elobaid",
+      "Abdelsalam",
+      "Zakzouk"
+    ],
+    "year": [
+      [
+        2015,
+        11
+      ]
+    ],
+    "volume": "9",
+    "issue": "8",
+    "pages": "1043-1063",
+    "crossref_citations": 294,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2014.0359",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2015,
+          11
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2015,
+          11
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "given": "Lina M.",
+        "family": "Elobaid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed K.",
+        "family": "Abdelsalam",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ezeldin E.",
+        "family": "Zakzouk",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-rpg.2014.0359"
+      }
+    }
+  },
+  {
+    "key": "adaptive",
+    "doi": "10.1049/iet-rpg.2009.0006",
+    "title": "Adaptive perturb and observe algorithm for photovoltaic maximum power point tracking",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Piegari",
+      "Rizzo"
+    ],
+    "year": [
+      [
+        2010,
+        7,
+        7
+      ]
+    ],
+    "volume": "4",
+    "issue": "4",
+    "pages": "317-328",
+    "crossref_citations": 361,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2009.0006",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2010,
+          7,
+          7
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "L.",
+        "family": "Piegari",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, University of Naples Federico II, Via Claudio, Naples, 21-80125, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Rizzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, University of Naples Federico II, Via Claudio, Naples, 21-80125, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://digital-library.theiet.org/doi/10.1049/iet-rpg.2009.0006"
+      }
+    }
+  },
+  {
+    "key": "zainuri",
+    "doi": "10.1049/iet-rpg.2012.0362",
+    "title": "Development of adaptive perturb and observe‐fuzzy control maximum power point tracking for photovoltaic boost dc–dc converter",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Zainuri",
+      "Radzi",
+      "Che Soh",
+      "Rahim"
+    ],
+    "year": [
+      [
+        2014,
+        3
+      ]
+    ],
+    "volume": "8",
+    "issue": "2",
+    "pages": "183-194",
+    "crossref_citations": 228,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2012.0362",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "given": "Muhammad Ammirrul Atiqi Mohd",
+        "family": "Zainuri",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohd Amran Mohd",
+        "family": "Radzi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Azura",
+        "family": "Che Soh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nasrudin Abd",
+        "family": "Rahim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Malaya Power Energy Dedicated Advanced Centre (UMPEDAC) Kuala Lumpur Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-rpg.2012.0362"
+      }
+    }
+  },
+  {
+    "key": "mellit",
+    "doi": "10.1016/j.pecs.2008.01.001",
+    "title": "Artificial intelligence techniques for photovoltaic applications: A review",
+    "journal": "Progress in Energy and Combustion Science",
+    "authors": [
+      "Mellit",
+      "Kalogirou"
+    ],
+    "year": [
+      [
+        2008,
+        10
+      ]
+    ],
+    "volume": "34",
+    "issue": "5",
+    "pages": "574-632",
+    "crossref_citations": 891,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.pecs.2008.01.001",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2008,
+          10
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Adel",
+        "family": "Mellit",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Soteris A.",
+        "family": "Kalogirou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0360128508000026"
+      }
+    }
+  },
+  {
+    "key": "rizzo",
+    "doi": "10.1016/j.apenergy.2015.01.077",
+    "title": "ANN based MPPT method for rapidly variable shading conditions",
+    "journal": "Applied Energy",
+    "authors": [
+      "Rizzo",
+      "Scelba"
+    ],
+    "year": [
+      [
+        2015,
+        5
+      ]
+    ],
+    "volume": "145",
+    "issue": null,
+    "pages": "124-132",
+    "crossref_citations": 283,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.apenergy.2015.01.077",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Santi Agatino",
+        "family": "Rizzo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giacomo",
+        "family": "Scelba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0306261915001130"
+      }
+    }
+  },
+  {
+    "key": "giraldo",
+    "doi": "10.1016/j.heliyon.2024.e37974",
+    "title": "Deep reinforcement learning using deep-Q-network for Global Maximum Power Point tracking: Design and experiments in real photovoltaic systems",
+    "journal": "Heliyon",
+    "authors": [
+      "Giraldo",
+      "Gaviria",
+      "Torres",
+      "Alonso",
+      "Bressan"
+    ],
+    "year": [
+      [
+        2024,
+        11
+      ]
+    ],
+    "volume": "10",
+    "issue": "21",
+    "pages": "e37974",
+    "crossref_citations": 19,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e37974",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Luis Felipe",
+        "family": "Giraldo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jorge Felipe",
+        "family": "Gaviria",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "María Isabella",
+        "family": "Torres",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Corinne",
+        "family": "Alonso",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5057-1958",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Bressan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024140054"
+      }
+    }
+  },
+  {
+    "key": "suarez",
+    "doi": "10.3390/en19174131",
+    "title": "A Sensing-Aware Simulation-Based Digital Twin Framework for Firmware-Level Validation of Photovoltaic MPPT Controllers",
+    "journal": "Energies",
+    "authors": [
+      "Suárez Suárez",
+      "García Vera",
+      "Caicedo"
+    ],
+    "year": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "volume": "19",
+    "issue": "17",
+    "pages": "4131",
+    "crossref_citations": 0,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en19174131",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7558-1503",
+        "authenticated-orcid": false,
+        "given": "Carlos René",
+        "family": "Suárez Suárez",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "formal-analysis",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "resources",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-original-draft",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "funding-acquisition",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "data-curation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "given": "Yimy Edisson",
+        "family": "García Vera",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "formal-analysis",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "resources",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "supervision",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "funding-acquisition",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "given": "Alfonso Durán",
+        "family": "Caicedo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1996-1073/19/17/4131"
+      }
+    }
+  },
+  {
+    "key": "abouzeid",
+    "doi": "10.1038/s41598-024-67306-0",
+    "title": "Experimental validation of a low-cost maximum power point tracking technique based on artificial neural network for photovoltaic systems",
+    "journal": "Scientific Reports",
+    "authors": [
+      "Abouzeid",
+      "Eleraky",
+      "Kalas",
+      "Rizk",
+      "Elsakka",
+      "Refaat"
+    ],
+    "year": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ],
+    "volume": "14",
+    "issue": "1",
+    "pages": "18280",
+    "crossref_citations": 51,
+    "publisher": "Springer Science and Business Media LLC",
+    "url": "https://doi.org/10.1038/s41598-024-67306-0",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          7
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "given": "Ahmed Fathy",
+        "family": "Abouzeid",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hadeer",
+        "family": "Eleraky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed",
+        "family": "Kalas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rawya",
+        "family": "Rizk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohamed Mohamed",
+        "family": "Elsakka",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ahmed",
+        "family": "Refaat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-024-67306-0"
+      }
+    }
+  },
+  {
+    "key": "amine",
+    "doi": "10.1002/ese3.70555",
+    "title": "Real‐Time Incremental Learning Artificial Neural Networks Maximum Power Point Tracking With Raspberry Pi‐Based Meteorological Data Acquisition",
+    "journal": "Energy Science &amp; Engineering",
+    "authors": [
+      "Amine",
+      "El Barbri",
+      "Yessef",
+      "Alammar",
+      "El‐Barbary",
+      "Ameziane"
+    ],
+    "year": [
+      [
+        2026,
+        5,
+        18
+      ]
+    ],
+    "volume": "14",
+    "issue": "8",
+    "pages": "3741-3773",
+    "crossref_citations": 0,
+    "publisher": "Wiley",
+    "url": "https://doi.org/10.1002/ese3.70555",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2026,
+          8
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          18
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-9078-0285",
+        "authenticated-orcid": false,
+        "given": "Rida",
+        "family": "Amine",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Science and Technology for the Engineer Laboratory (LaSTI), National School of Applied Sciences of Khouribga (ENSA Khouribga), Sultan Moulay Slimane University Khouribga Morocco"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Noureddine",
+        "family": "El Barbri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Science and Technology for the Engineer Laboratory (LaSTI), National School of Applied Sciences of Khouribga (ENSA Khouribga), Sultan Moulay Slimane University Khouribga Morocco"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6344-7174",
+        "authenticated-orcid": false,
+        "given": "Mourad",
+        "family": "Yessef",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Higher School of Technology of Nador, Mohammed First University  Morocco"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4925-5472",
+        "authenticated-orcid": false,
+        "given": "Mohammed M.",
+        "family": "Alammar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering College of Engineering, King Khalid University Abha Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Z.M.S.",
+        "family": "El‐Barbary",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering College of Engineering, King Khalid University Abha Saudi Arabia"
+          },
+          {
+            "name": "Center for Engineering and Technology Innovations, King Khalid University Abha Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hatim",
+        "family": "Ameziane",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Science and Technology for the Engineer Laboratory (LaSTI), National School of Applied Sciences of Khouribga (ENSA Khouribga), Sultan Moulay Slimane University Khouribga Morocco"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ese3.70555"
+      }
+    }
+  },
+  {
+    "key": "jamshed",
+    "doi": "10.3390/electronics15184342",
+    "title": "Hardware-in-the-Loop Assessment of Neural MPPT Control in Photovoltaic Systems with Two-Phase Boost Conversion",
+    "journal": "Electronics",
+    "authors": [
+      "Jamshed",
+      "Becchi",
+      "Bindi",
+      "Corti",
+      "Grasso",
+      "Intravaia",
+      "Lozito",
+      "Mastromauro"
+    ],
+    "year": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "volume": "15",
+    "issue": "18",
+    "pages": "4342",
+    "crossref_citations": 0,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/electronics15184342",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          21
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-9671-4975",
+        "authenticated-orcid": false,
+        "given": "Javed",
+        "family": "Jamshed",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "conceptualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "visualization",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3370-9158",
+        "authenticated-orcid": false,
+        "given": "Lorenzo",
+        "family": "Becchi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9749-602X",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Bindi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8888-0388",
+        "authenticated-orcid": false,
+        "given": "Fabio",
+        "family": "Corti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "writing-original-draft",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8697-2091",
+        "authenticated-orcid": false,
+        "given": "Francesco",
+        "family": "Grasso",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "funding-acquisition",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8388-2210",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Intravaia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "methodology",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "data-curation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7987-0487",
+        "authenticated-orcid": false,
+        "given": "Gabriele Maria",
+        "family": "Lozito",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "project-administration",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "funding-acquisition",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "validation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "visualization",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "supervision",
+            "vocabulary": "credit"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8878-2059",
+        "authenticated-orcid": false,
+        "given": "Rosa Anna",
+        "family": "Mastromauro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "investigation",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-review-editing",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "software",
+            "vocabulary": "credit"
+          },
+          {
+            "role": "writing-original-draft",
+            "vocabulary": "credit"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2079-9292/15/18/4342"
+      }
+    }
+  },
+  {
+    "key": "review2023",
+    "doi": "10.3390/en16052206",
+    "title": "A Comprehensive Review of Maximum Power Point Tracking (MPPT) Techniques Used in Solar PV Systems",
+    "journal": "Energies",
+    "authors": [
+      "Katche",
+      "Makokha",
+      "Zachary",
+      "Adaramola"
+    ],
+    "year": [
+      [
+        2023,
+        2,
+        24
+      ]
+    ],
+    "volume": "16",
+    "issue": "5",
+    "pages": "2206",
+    "crossref_citations": 320,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en16052206",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          24
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3519-4098",
+        "authenticated-orcid": false,
+        "given": "Musong L.",
+        "family": "Katche",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+          },
+          {
+            "name": "Faculty of Engineering and Technology, University of Buea, Buea P.O. Box 63, Cameroon"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Augustine B.",
+        "family": "Makokha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Siagi O.",
+        "family": "Zachary",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1998-687X",
+        "authenticated-orcid": false,
+        "given": "Muyiwa S.",
+        "family": "Adaramola",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, 1430 Ås, Norway"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1996-1073/16/5/2206"
+      }
+    }
+  },
+  {
+    "key": "subudhi",
+    "doi": "10.1109/tste.2012.2202294",
+    "title": "A Comparative Study on Maximum Power Point Tracking Techniques for Photovoltaic Power Systems",
+    "journal": "IEEE Transactions on Sustainable Energy",
+    "authors": [
+      "Subudhi",
+      "Pradhan"
+    ],
+    "year": [
+      [
+        2013,
+        1
+      ]
+    ],
+    "volume": "4",
+    "issue": "1",
+    "pages": "89-98",
+    "crossref_citations": 1601,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tste.2012.2202294",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2013,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Bidyadhar",
+        "family": "Subudhi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Raseswari",
+        "family": "Pradhan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6249779/"
+      }
+    }
+  },
+  {
+    "key": "hiyama",
+    "doi": "10.1109/60.464880",
+    "title": "Evaluation of neural network based real time maximum power tracking controller for PV system",
+    "journal": "IEEE Transactions on Energy Conversion",
+    "authors": [
+      "Hiyama",
+      "Kouzuma",
+      "Imakubo",
+      "Ortmeyer"
+    ],
+    "year": [
+      [
+        1995
+      ]
+    ],
+    "volume": "10",
+    "issue": "3",
+    "pages": "543-548",
+    "crossref_citations": 119,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/60.464880",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "T.",
+        "family": "Hiyama",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Kouzuma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "Imakubo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.H.",
+        "family": "Ortmeyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/464880/"
+      }
+    }
+  },
+  {
+    "key": "nnmodel",
+    "doi": "10.3390/app10155051",
+    "title": "Neural Network Approach to MPPT Control and Irradiance Estimation",
+    "journal": "Applied Sciences",
+    "authors": [
+      "Zečević",
+      "Rolevski"
+    ],
+    "year": [
+      [
+        2020,
+        7,
+        22
+      ]
+    ],
+    "volume": "10",
+    "issue": "15",
+    "pages": "5051",
+    "crossref_citations": 52,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/app10155051",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          22
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1934-7365",
+        "authenticated-orcid": false,
+        "given": "Žarko",
+        "family": "Zečević",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Electrical Engineering, University of Montenegro, Džordža Vašingtona bb, 81000 Podgorica, Montenegro"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maja",
+        "family": "Rolevski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Electrical Engineering, University of Montenegro, Džordža Vašingtona bb, 81000 Podgorica, Montenegro"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3417/10/15/5051"
+      }
+    }
+  },
+  {
+    "key": "adaptive2015",
+    "doi": "10.3390/en8053418",
+    "title": "Optimized Adaptive Perturb and Observe Maximum Power Point Tracking Control for Photovoltaic Generation",
+    "journal": "Energies",
+    "authors": [
+      "Piegari",
+      "Rizzo",
+      "Spina",
+      "Tricoli"
+    ],
+    "year": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ],
+    "volume": "8",
+    "issue": "5",
+    "pages": "3418-3436",
+    "crossref_citations": 55,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en8053418",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          27
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3776-7486",
+        "authenticated-orcid": false,
+        "given": "Luigi",
+        "family": "Piegari",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electronics, Information and Bioengineering, Politecnico di Milano,  Piazza Leonardo da Vinci 32, 20133 Milan, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Renato",
+        "family": "Rizzo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Information Technologies, University of Naples Federico II, Via Claudio 21, 80125 Naples, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ivan",
+        "family": "Spina",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Information Technologies, University of Naples Federico II, Via Claudio 21, 80125 Naples, Italy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pietro",
+        "family": "Tricoli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic, Electrical and Computer Engineering, University of Birmingham,  Gisbert Kapp Building, Birmingham B15 2TT, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1996-1073/8/5/3418"
+      }
+    }
+  },
+  {
+    "key": "salam",
+    "doi": "10.1016/j.apenergy.2013.02.008",
+    "title": "The application of soft computing methods for MPPT of PV system: A technological and status review",
+    "journal": "Applied Energy",
+    "authors": [
+      "Salam",
+      "Ahmed",
+      "Merugu"
+    ],
+    "year": [
+      [
+        2013,
+        7
+      ]
+    ],
+    "volume": "107",
+    "issue": null,
+    "pages": "135-148",
+    "crossref_citations": 357,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.apenergy.2013.02.008",
+    "status": "registered",
+    "published_print": {
+      "date-parts": [
+        [
+          2013,
+          7
+        ]
+      ]
+    },
+    "published_online": null,
+    "author_metadata": [
+      {
+        "given": "Zainal",
+        "family": "Salam",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jubaer",
+        "family": "Ahmed",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benny S.",
+        "family": "Merugu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0306261913001165"
+      }
+    }
+  },
+  {
+    "key": "hybrid2024",
+    "doi": "10.3390/su16031021",
+    "title": "Novel MPPT Controller Augmented with Neural Network for Use with Photovoltaic Systems Experiencing Rapid Solar Radiation Changes",
+    "journal": "Sustainability",
+    "authors": [
+      "Dawahdeh",
+      "Sharadga",
+      "Kumar"
+    ],
+    "year": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ],
+    "volume": "16",
+    "issue": "3",
+    "pages": "1021",
+    "crossref_citations": 21,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/su16031021",
+    "status": "registered",
+    "published_print": null,
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          25
+        ]
+      ]
+    },
+    "author_metadata": [
+      {
+        "given": "Ahmad",
+        "family": "Dawahdeh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, Jordan University of Science and Technology, Irbid 22110, Jordan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hussein",
+        "family": "Sharadga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8309-908X",
+        "authenticated-orcid": false,
+        "given": "Sunil",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "primary_resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2071-1050/16/3/1021"
+      }
+    }
+  }
+]

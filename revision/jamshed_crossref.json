@@ -1,0 +1,756 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        23
+      ]
+    ],
+    "date-time": "2026-10-23T21:02:25Z",
+    "timestamp": 1792789345133,
+    "version": "4.5.0"
+  },
+  "reference-count": 38,
+  "publisher": "MDPI AG",
+  "issue": "18",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T00:00:00Z",
+        "timestamp": 1789948800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "University of Florence Bando Attrezzature di Ateneo",
+      "id": [
+        {
+          "id": "https://ror.org/04jr1s763",
+          "id-type": "ROR",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "id": [
+        {
+          "id": "https://ror.org/04jr1s763",
+          "id-type": "ROR",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Electronics"
+  ],
+  "abstract": "<jats:p>Photovoltaic power conversion systems require maximum power point tracking (MPPT) strategies capable of fast dynamic response with low computational burden, while remaining reliable under variable environmental conditions. While neural-network-based methods have been widely investigated, their practical deployment is often limited by the availability of representative training data and by the gap between offline algorithm development and real-time converter-level validation. This paper presents a reproducible hardware-in-the-loop workflow for the development and assessment of a lightweight neural MPPT controller applied to a photovoltaic system with a two-phase interleaved boost converter. The proposed approach generates a large synthetic training dataset using the single-diode photovoltaic model, leveraging only measurable quantities (PV voltage, PV current, and module temperature) as neural network inputs. The trained network estimates the voltage and current corresponding to the maximum power point, while a proportional-integral controller drives the converter toward the predicted operating point. The trained network is deployed on an STM32 microcontroller interfaced with the Typhoon HIL platform, allowing its real-time behavior to be tested against the emulated system. The measured neural MPPT execution time on the microcontroller is around 65 μs, with an overall CPU occupancy of nearly 4%, considering the PI controller stage. The implemented setup reproduces the photovoltaic generator, converter dynamics, switching behavior, and realistic irradiance and temperature profiles under repeatable real-time conditions. The interleaved boost architecture also reduces input current ripple and distributes current stress, making the setup suitable for medium-power photovoltaic applications. The main contribution of this work lies in the integrated modeling, training, control, and hardware-in-the-loop validation procedure, supporting the implementation of neural MPPT strategies.</jats:p>",
+  "DOI": "10.3390/electronics15184342",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "date-time": "2026-09-21T17:23:17Z",
+    "timestamp": 1790011397000
+  },
+  "page": "4342",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Hardware-in-the-Loop Assessment of Neural MPPT Control in Photovoltaic Systems with Two-Phase Boost Conversion"
+  ],
+  "prefix": "10.3390",
+  "volume": "15",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0009-9671-4975",
+      "authenticated-orcid": false,
+      "given": "Javed",
+      "family": "Jamshed",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "conceptualization",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "methodology",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "software",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "investigation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "visualization",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3370-9158",
+      "authenticated-orcid": false,
+      "given": "Lorenzo",
+      "family": "Becchi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9749-602X",
+      "authenticated-orcid": false,
+      "given": "Marco",
+      "family": "Bindi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "software",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8888-0388",
+      "authenticated-orcid": false,
+      "given": "Fabio",
+      "family": "Corti",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "writing-original-draft",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "writing-review-editing",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8697-2091",
+      "authenticated-orcid": false,
+      "given": "Francesco",
+      "family": "Grasso",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "project-administration",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "funding-acquisition",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8388-2210",
+      "authenticated-orcid": false,
+      "given": "Matteo",
+      "family": "Intravaia",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "methodology",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "investigation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "data-curation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "software",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7987-0487",
+      "authenticated-orcid": false,
+      "given": "Gabriele Maria",
+      "family": "Lozito",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "project-administration",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "funding-acquisition",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "visualization",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "supervision",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8878-2059",
+      "authenticated-orcid": false,
+      "given": "Rosa Anna",
+      "family": "Mastromauro",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Information Engineering, Università degli Studi di Firenze, Via di Santa Marta 3, 50139 Firenze, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "investigation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "writing-review-editing",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "software",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "writing-original-draft",
+          "vocabulary": "credit"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "111272",
+      "DOI": "10.1016/j.compeleceng.2026.111272",
+      "article-title": "Optimal placement of photovoltaic generation and reactive power compensation for power grid stability using metaheuristic optimization",
+      "volume": "138",
+      "author": "Labed",
+      "year": "2026",
+      "journal-title": "Comput. Electr. Eng."
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "109648",
+      "DOI": "10.1016/j.compeleceng.2024.109648",
+      "article-title": "Novel adaptive MPPT technique for enhanced performance of grid integrated solar photovoltaic system",
+      "volume": "120",
+      "author": "Prajapati",
+      "year": "2024",
+      "journal-title": "Comput. Electr. Eng."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Raghavendra, K.V.G., Zeb, K., Muthusamy, A., Krishna, T.N.V., Kumar, S.V.S.V.P., Kim, D.H., Kim, M.S., Cho, H.G., and Kim, H.J. (2020). A Comprehensive Review of DC–DC Converter Topologies and Modulation Strategies with Recent Advances in Solar Photovoltaic Systems. Electronics, 9.",
+      "DOI": "10.3390/electronics9010031"
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Farzan Moghaddam, A., and Van den Bossche, A. (2020). Direct Usage of Photovoltaic Solar Panels to Supply a Freezer Motor with Variable DC Input Voltage. Electronics, 9.",
+      "DOI": "10.3390/electronics9010167"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "4363",
+      "DOI": "10.1109/TIE.2009.2019567",
+      "article-title": "Fuzzy Switching Technique Applied to PWM Boost Converter Operating in Mixed Conduction Mode for PV Systems",
+      "volume": "56",
+      "author": "Agorreta",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "515",
+      "DOI": "10.1109/TIE.2009.2036025",
+      "article-title": "Design and Application for PV Generation System Using a Soft-Switching Boost Converter With SARC",
+      "volume": "57",
+      "author": "Park",
+      "year": "2010",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "973",
+      "DOI": "10.1109/TPEL.2008.2010397",
+      "article-title": "An Interleaved Boost Converter With Zero-Voltage Transition",
+      "volume": "24",
+      "author": "Hsieh",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "first-page": "1038",
+      "DOI": "10.1109/TII.2015.2462805",
+      "article-title": "Multiobjective Optimal Design of Photovoltaic Synchronous Boost Converters Assessing Efficiency, Reliability, and Cost Savings",
+      "volume": "11",
+      "author": "Adinolfi",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Ind. Inform."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "4763",
+      "DOI": "10.1109/JESTPE.2021.3120802",
+      "article-title": "High-Gain Compact Interleaved Boost Converter with Reduced Voltage Stress for PV Application",
+      "volume": "10",
+      "author": "Singh",
+      "year": "2022",
+      "journal-title": "IEEE J. Emerg. Sel. Top. Power Electron."
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "4812",
+      "DOI": "10.1109/TMAG.2009.2024639",
+      "article-title": "Coupled Inductor Characterization for a High Performance Interleaved Boost Converter",
+      "volume": "45",
+      "author": "Kosai",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Magn."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "107227",
+      "DOI": "10.1016/j.rineng.2025.107227",
+      "article-title": "Maximum power point tracking strategies for solar PV systems: A review of current methods and future innovations",
+      "volume": "28",
+      "author": "Guanghua",
+      "year": "2025",
+      "journal-title": "Results Eng."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Endiz, M.S., Gökkuş, G., Coşgun, A.E., and Demir, H. (2025). A Review of Traditional and Advanced MPPT Approaches for PV Systems Under Uniformly Insolation and Partially Shaded Conditions. Appl. Sci., 15.",
+      "DOI": "10.3390/app15031031"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bindi, M., Garcia, C.I., Corti, F., Piccirilli, M.C., Luchetta, A., Grasso, F., and Manetti, S. (2021, January 14–16). Comparison Between PI and Neural Network Controller for Dual Active Bridge Converter. Proceedings of the 2021 IEEE 15th International Conference on Compatibility, Power Electronics and Power Engineering (CPE-POWERENG), Florence, Italy.",
+      "DOI": "10.1109/CPE-POWERENG50821.2021.9501168"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Corti, F., Lozito, G.M., Meshram, V.S., and Reatti, A. (2026). Toward Fast-Tracking in Solar Vehicles: Neural MPPT and Supercapacitor Synergy. IEEE Trans. Ind. Electron., 1–10.",
+      "DOI": "10.1109/TIE.2026.3692871"
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Corti, F., Reatti, A., and Pau, D.P. (2026). Edge-Deployable Tabular Q-Learning Voltage Control for LLC Resonant Converters Under Dynamic Conditions. Electronics, 15.",
+      "DOI": "10.3390/electronics15102091"
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "301",
+      "DOI": "10.1109/TSTE.2013.2282168",
+      "article-title": "An Explicit PV String Model Based on the Lambert W Function and Simplified MPP Expressions for Operation Under Partial Shading",
+      "volume": "5",
+      "author": "Batzelis",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "504",
+      "DOI": "10.1109/TSTE.2015.2503435",
+      "article-title": "A Method for the Analytical Extraction of the Single-Diode PV Model Parameters",
+      "volume": "7",
+      "author": "Batzelis",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "1370",
+      "DOI": "10.1016/j.renene.2020.08.136",
+      "article-title": "In-depth analysis of single-diode model parameters from manufacturer’s datasheet",
+      "volume": "163",
+      "author": "Toledo",
+      "year": "2021",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "493",
+      "DOI": "10.1109/JPHOTOV.2021.3132900",
+      "article-title": "Quick and accurate strategy for calculating the solutions of the photovoltaic single-diode model equation",
+      "volume": "12",
+      "author": "Toledo",
+      "year": "2022",
+      "journal-title": "IEEE J. Photovolt."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "149",
+      "DOI": "10.1016/0031-8914(67)90062-6",
+      "article-title": "Temperature dependence of the energy gap in semiconductors",
+      "volume": "34",
+      "author": "Varshni",
+      "year": "1967",
+      "journal-title": "Physica"
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "157",
+      "DOI": "10.1109/TII.2015.2462293",
+      "article-title": "Two FPGA-oriented high-speed irradiance virtual sensors for photovoltaic plants",
+      "volume": "13",
+      "author": "Oliveri",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Ind. Inform."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Batzelis, E. (2019). Non-Iterative Methods for the Extraction of the Single-Diode Model Parameters of Photovoltaic Modules: A Review and Comparative Assessment. Energies, 12.",
+      "DOI": "10.3390/en12030358"
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "794",
+      "DOI": "10.1016/j.matcom.2023.01.005",
+      "article-title": "Photovoltaic single-diode model parametrization. An application to the calculus of the Euclidean distance to an I–V curve",
+      "volume": "225",
+      "author": "Toledo",
+      "year": "2024",
+      "journal-title": "Math. Comput. Simul."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "102199",
+      "DOI": "10.1016/j.jocs.2023.102199",
+      "article-title": "Efficient computation of the photovoltaic single-diode model curve by means of a piecewise linear self-adaptive representation",
+      "volume": "75",
+      "author": "Toledo",
+      "year": "2024",
+      "journal-title": "J. Comput. Sci."
+    },
+    {
+      "key": "ref_25",
+      "unstructured": "(2026, May 04). Photovoltaic Modelling. Available online: https://pvmodel.umh.es/."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ismail, M., Dahech, K., Tadeo, F., Damak, T., and Chaabane, M. (2026). Adaptive Fault Diagnosis of DC-DC Boost Converters in Photovoltaic Systems Based on Sliding Mode Observers with Dynamic Thresholds. Electronics, 15.",
+      "DOI": "10.3390/electronics15010040"
+    },
+    {
+      "key": "ref_27",
+      "first-page": "102750",
+      "article-title": "ZETA DC-DC converter supports photovoltaic production design with utmost tracking POWER using Dual-Anfis",
+      "volume": "53",
+      "year": "2022",
+      "journal-title": "Sustain. Energy Technol. Assess."
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rebullosa-Castillo, J.F., García-Vite, P.M., Contreras-Alvarez, C., Chavez-Muro, J.d.J., and Robles-Campos, H.R. (2026). A Partial Power Processing SEPIC Converter for Photovoltaic Applications. Energies, 19.",
+      "DOI": "10.3390/en19061484"
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "4011715",
+      "DOI": "10.1109/TIM.2025.3577838",
+      "article-title": "Study of Accelerated Aging Effects on Hybrid Supercapacitors Under Different Fast-Charging Strategies",
+      "volume": "74",
+      "author": "Patrizi",
+      "year": "2025",
+      "journal-title": "IEEE Trans. Instrum. Meas."
+    },
+    {
+      "key": "ref_30",
+      "unstructured": "Crews, R. (2013). AN-1820 LM5032 Interleaved Boost Converter, Texas Instruments. Application Report SNVA335A."
+    },
+    {
+      "key": "ref_31",
+      "unstructured": "Hauke, B. (2022). Basic Calculation of a Boost Converter’s Power Stage, Texas Instruments. Application Report SLVA372D."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Intravaia, M., Becchi, L., Bindi, M., Costanzo, L., Garzon Alfonso, C.C., Shriram Meshram, V., Reatti, A., and Vitelli, M. (2024, January 29–31). Sensitivity analysis of PV produced power in presence of measurement uncertainty. Proceedings of the 2024 IEEE International Workshop on Metrology for Industry 4.0 & IoT (MetroInd4.0 & IoT), Florence, Italy.",
+      "DOI": "10.1109/MetroInd4.0IoT61288.2024.10584219"
+    },
+    {
+      "key": "ref_33",
+      "unstructured": "(2010). Overall Efficiency of Grid Connected Photovoltaic Inverters (Standard No. EN 50530:2010)."
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "78",
+      "DOI": "10.1016/j.solener.2005.06.010",
+      "article-title": "Improvement and validation of a model for photovoltaic array performance",
+      "volume": "80",
+      "author": "Klein",
+      "year": "2006",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "1945",
+      "DOI": "10.1109/PESC.2004.1355415",
+      "article-title": "Optimizing sampling rate of P&O MPPT technique",
+      "volume": "Volume 3",
+      "author": "Femia",
+      "year": "2004",
+      "journal-title": "Proceedings of the 2004 IEEE 35th Annual Power Electronics Specialists Conference (IEEE Cat. No.04CH37551)"
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Angadi, S., Yaragatti, U.R., Suresh, Y., and Raju, A.B. (2021). System Parameter Based Performance Optimization of Solar PV Systems with Perturbation Based MPPT Algorithms. Energies, 14.",
+      "DOI": "10.3390/en14072007"
+    },
+    {
+      "key": "ref_37",
+      "doi-asserted-by": "crossref",
+      "first-page": "e2327",
+      "DOI": "10.1002/jnm.2327",
+      "article-title": "Sensitivity analysis of the reduced forms of the one-diode model for photovoltaic devices",
+      "volume": "32",
+      "author": "Coco",
+      "year": "2019",
+      "journal-title": "Int. J. Numer. Model. Electron. Netw. Devices Fields"
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Meshram, V.S., Corti, F., Lozito, G.M., Costanzo, L., Reatti, A., and Vitelli, M. (2025). Small-Signal Modeling, Comparative Analysis, and Gain-Scheduled Control of DC–DC Converters in Photovoltaic Applications. Electronics, 14.",
+      "DOI": "10.3390/electronics14214308"
+    }
+  ],
+  "container-title": [
+    "Electronics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2079-9292/15/18/4342/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2026-09-23T09:02:09Z",
+    "timestamp": 1790154129000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2079-9292/15/18/4342"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ]
+  },
+  "references-count": 38,
+  "journal-issue": {
+    "issue": "18",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "electronics15184342"
+  ],
+  "URL": "https://doi.org/10.3390/electronics15184342",
+  "relation": {},
+  "ISSN": [
+    "2079-9292"
+  ],
+  "issn-type": [
+    {
+      "value": "2079-9292",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ]
+  }
+}

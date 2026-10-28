@@ -1,0 +1,136 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T21:14:36Z",
+    "timestamp": 1792962876287,
+    "version": "4.5.0"
+  },
+  "reference-count": 0,
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "issue": "1",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEE Proc., Gener. Transm. Distrib."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1995
+      ]
+    ]
+  },
+  "DOI": "10.1049/ip-gtd:19951577",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        7,
+        26
+      ]
+    ],
+    "date-time": "2002-07-26T07:08:12Z",
+    "timestamp": 1027667292000
+  },
+  "page": "59",
+  "source": "Crossref",
+  "is-referenced-by-count": 1322,
+  "title": [
+    "Maximum photovoltaic power tracking: an algorithm for rapidly changing atmospheric conditions"
+  ],
+  "prefix": "10.1049",
+  "volume": "142",
+  "author": [
+    {
+      "given": "K.H.",
+      "family": "Hussein",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "265",
+  "container-title": [
+    "IEE Proceedings - Generation, Transmission and Distribution"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://digital-library.theiet.org/content/journals/10.1049/ip-gtd_19951577?crawler=true&mimetype=application/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        12,
+        31
+      ]
+    ],
+    "date-time": "2020-12-31T22:27:22Z",
+    "timestamp": 1609453642000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://digital-library.theiet.org/content/journals/10.1049/ip-gtd_19951577"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1995
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1049/ip-gtd:19951577",
+  "relation": {},
+  "ISSN": [
+    "1350-2360"
+  ],
+  "issn-type": [
+    {
+      "value": "1350-2360",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        1995
+      ]
+    ]
+  }
+}

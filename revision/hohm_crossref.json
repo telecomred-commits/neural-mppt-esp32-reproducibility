@@ -1,0 +1,306 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T19:35:11Z",
+    "timestamp": 1792956911752,
+    "version": "4.5.0"
+  },
+  "reference-count": 18,
+  "publisher": "Wiley",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2002,
+            11,
+            22
+          ]
+        ],
+        "date-time": "2002-11-22T00:00:00Z",
+        "timestamp": 1037923200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Progress in Photovoltaics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2003,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Maximum power point trackers (MPPTs) play an important role in photovoltaic (PV) power systems because they maximize the power output from a PV system for a given set of conditions, and therefore maximize the array efficiency. Thus, an MPPT can minimize the overall system cost. MPPTs find and maintain operation at the maximum power point, using an MPPT algorithm. Many such algorithms have been proposed. However, one particular algorithm, the perturb‐and‐observe (P&amp;O) method, claimed by many in the literature to be inferior to others, continues to be by far the most widely used method in commercial PV MPPTs. Part of the reason for this is that the published comparisons between methods do not include an experimental comparison between multiple algorithms with all algorithms optimized and a standardized MPPT hardware. This paper provides such a comparison. MPPT algorithm performance is quantified through the MPPT efficiency. In this work, results are obtained for three optimized algorithms, using a microprocessor‐controlled MPPT operating from a PV array and also a PV array simulator. It is found that the P&amp;O method, when properly optimized, can have MPPT efficiencies well in excess of 97%, and is highly competitive against other MPPT algorithms. Copyright © 2002 John Wiley &amp; Sons, Ltd.</jats:p>",
+  "DOI": "10.1002/pip.459",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2002,
+        12,
+        18
+      ]
+    ],
+    "date-time": "2002-12-18T09:07:21Z",
+    "timestamp": 1040202441000
+  },
+  "page": "47-62",
+  "source": "Crossref",
+  "is-referenced-by-count": 649,
+  "title": [
+    "Comparative study of maximum power point tracking algorithms"
+  ],
+  "prefix": "10.1002",
+  "volume": "11",
+  "author": [
+    {
+      "given": "D. P.",
+      "family": "Hohm",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M. E.",
+      "family": "Ropp",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2002,
+        11,
+        22
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_1_2_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "KatanRE AgelidisVG NayarCV.Performance analysis of a solar water pumping system.Proceedings of the 1996 IEEE International Conference on Power Electronics Drives and Energy Systems for Industrial Growth (PEDES) 1996;81–87.",
+      "DOI": "10.1109/PEDES.1996.537286"
+    },
+    {
+      "key": "e_1_2_1_3_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "TahaMS SureshK.Maximum power point tracking inverter for photovoltaic source pumping applications.Proceedings of the 1996 IEEE International Conference on Power Electronics Drives and Energy Systems for Industrial Growth (PEDES) 1996;883–886.",
+      "DOI": "10.1109/PEDES.1996.536389"
+    },
+    {
+      "key": "e_1_2_1_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/63.903988"
+    },
+    {
+      "key": "e_1_2_1_5_2",
+      "unstructured": "WonC‐Y KimD‐H KimS‐C KimW‐S KimH‐S.A new maximum power point tracker of photovoltaic arrays using fuzzy controller.Proceedings of the 24th IEEE Power Electronics Specialists Conference (PESC) 1994;396–403."
+    },
+    {
+      "key": "e_1_2_1_6_2",
+      "unstructured": "HuaC ShenC.Comparative study of peak power tracking techniques for solar storage systems.IEEE Applied Power Electronics Conference and Exposition—APEC Proceedings of the 1998 13th Annual Applied Power Electronics Conference and Exposition1998;2:697–685."
+    },
+    {
+      "key": "e_1_2_1_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_1_8_2",
+      "first-page": "1673",
+      "article-title": "A new peak power tracker for cost‐effective photovoltaic power systems",
+      "volume": "3",
+      "author": "Kim Y",
+      "year": "1996",
+      "journal-title": "IEEE Proceedings"
+    },
+    {
+      "key": "e_1_2_1_9_2",
+      "unstructured": "KawamuraT et al.Analysis of MPPT characteristics in photovoltaic power systems.Solar Energy Materials and Solar Cells Proceedings of the 1996 9th International Photovoltaic Science and Engineering Conference PVSEC‐91997;47(14):155–165."
+    },
+    {
+      "key": "e_1_2_1_10_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.649937"
+    },
+    {
+      "key": "e_1_2_1_11_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "AndersenM AlvstenB.200W low cost module integrated utility interface for modular photovoltaic energy systems.IECON: Proceedings of the 1995 IEEE 21st International Conference on Industrial Electronics Control and Instrumentation1995;1(1):572–577.",
+      "DOI": "10.1109/IECON.1995.483472"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_1_12_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "214",
+      "DOI": "10.1109/ISIE.1998.707779",
+      "article-title": "Maximum power point tracking—implementation strategies",
+      "volume": "1",
+      "author": "van der Merwe L",
+      "year": "1998",
+      "journal-title": "Proceedings of the IEEE International Symposium on Industrial Electronics"
+    },
+    {
+      "key": "e_1_2_1_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0379-6787(84)90002-4"
+    },
+    {
+      "key": "e_1_2_1_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0038-092X(91)90095-E"
+    },
+    {
+      "key": "e_1_2_1_15_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "BrambillaA et al.New approach to photovoltaic arrays maximum power point tracking.Proceedings of the 30th IEEE Power Electronics Conference 1998;632–637.",
+      "DOI": "10.1109/PESC.1999.785575"
+    },
+    {
+      "key": "e_1_2_1_16_2",
+      "first-page": "64ff",
+      "volume-title": "Semiconductors and Semimetals: Solar Cells",
+      "author": "Hovel HJ",
+      "year": "1975"
+    },
+    {
+      "key": "e_1_2_1_17_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "FraasLM AveryJE GruenbaumPE SundaramVS.Fundamental characterization studies of GaSb solar cells.Proceedings of the IEEE Photovoltaic Specialists Conference 1991;80–84.",
+      "DOI": "10.1109/PVSC.1991.169186"
+    },
+    {
+      "key": "e_1_2_1_18_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.661310"
+    },
+    {
+      "key": "e_1_2_1_19_2",
+      "unstructured": "WonC‐Y KimD‐H KimS‐C KimW‐S KimH‐S.New maximum power point tracker of photovoltaic arrays using fuzzy controller.Proceedings of the 1994 25th Annual IEEE Power Electronics Specialists Conference1994;2:396–403."
+    }
+  ],
+  "container-title": [
+    "Progress in Photovoltaics: Research and Applications"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fpip.459",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/pip.459",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        12,
+        11
+      ]
+    ],
+    "date-time": "2024-12-11T10:55:04Z",
+    "timestamp": 1733914504000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1002/pip.459"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2002,
+        11,
+        22
+      ]
+    ]
+  },
+  "references-count": 18,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2003,
+          1
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/pip.459"
+  ],
+  "URL": "https://doi.org/10.1002/pip.459",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1062-7995",
+    "1099-159X"
+  ],
+  "issn-type": [
+    {
+      "value": "1062-7995",
+      "type": "print"
+    },
+    {
+      "value": "1099-159X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2002,
+        11,
+        22
+      ]
+    ]
+  }
+}

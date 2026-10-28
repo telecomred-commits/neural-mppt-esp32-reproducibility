@@ -1,0 +1,212 @@
+[
+  {
+    "key": "jinko",
+    "author": "Jinko Solar Co., Ltd.",
+    "title": "Tiger Neo N-Type 54HL4R-B 425-445 Watt",
+    "revision": "JKM425-445N-54HL4R-B-F2-EN",
+    "year": "2023",
+    "model": "Jinko JKM440N-54HL4R-B",
+    "values": [
+      "440",
+      "32.99",
+      "13.34",
+      "39.57",
+      "13.80"
+    ],
+    "source_reference_number": 1,
+    "citation_key": "panel_jinko",
+    "url": "https://jinkosolar.eu/wp-content/uploads/JKM425-445N-54HL4R-B-F2-EN-3.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF text retrieved through web source turn51view0. Direct local download returned HTTP202."
+  },
+  {
+    "key": "trina",
+    "author": "Trina Solar Limited",
+    "title": "Vertex S+ TSM-NEG9R.28 Dual Glass N-Type i-TOPCon Module 430-460 W",
+    "revision": "TSM_ESP_2024_C. Spanish edition",
+    "year": "2024",
+    "model": "Trina TSM-450NEG9R.28",
+    "values": [
+      "450",
+      "44.60",
+      "10.09",
+      "52.90",
+      "10.74"
+    ],
+    "source_reference_number": 2,
+    "citation_key": "panel_trina",
+    "url": "https://vertexsplus.trinasolar.com/es/wp-content/uploads/sites/6/2024/09/240916_Datasheet_Vertex-S_NEG9R.28_ESP_2024_C_web.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "longi",
+    "author": "LONGi",
+    "title": "Hi-MO X6 Scientist LR5-54HTH 445-455M",
+    "revision": "20230926V19 DG. Spanish edition",
+    "year": "2023",
+    "model": "LONGi LR5-54HTH-450M",
+    "values": [
+      "450",
+      "33.64",
+      "13.38",
+      "39.93",
+      "14.45"
+    ],
+    "source_reference_number": 3,
+    "citation_key": "panel_longi",
+    "url": "https://static.longi.com/Hi_MO_X6_LR_5_54_HTH_445_455_M_V1_30_30_and_15_V19_ES_09bf28ff6d.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "ja",
+    "author": "JA Solar",
+    "title": "JAM54D40 LB N-Type Double Glass Bifacial Modules",
+    "revision": "Global-EN-20250408A",
+    "year": "2025",
+    "model": "JA Solar JAM54D40-450/LB",
+    "values": [
+      "450",
+      "32.82",
+      "13.71",
+      "39.30",
+      "14.48"
+    ],
+    "source_reference_number": 4,
+    "citation_key": "panel_ja",
+    "url": "https://www.jasolar.eu/fileadmin/data/products/4.0/JAM54D40_LB_BF_25y.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "canadian",
+    "author": "CSI Solar Co., Ltd.",
+    "title": "TOPHiKu6 CS6R-425-450T N-Type TOPCon Technology",
+    "revision": "V2.1_EN. April 2025",
+    "year": "2025",
+    "model": "Canadian Solar CS6R-440T",
+    "values": [
+      "440",
+      "32.40",
+      "13.59",
+      "39.40",
+      "14.01"
+    ],
+    "source_reference_number": 5,
+    "citation_key": "panel_canadian",
+    "url": "https://static.csisolar.com/wp-content/uploads/2025/05/14135840/CS-Datasheet-TOPHiKu6_CS6R-T_v2.1_EN.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "rec",
+    "author": "REC Solar Pte. Ltd.",
+    "title": "REC Alpha Pure-RX 460-485 W Datasheet",
+    "revision": "IEC EN 8.2026 V8. PM-DS-12-06/09.04.08.01",
+    "year": "2026",
+    "model": "REC460AA Pure-RX",
+    "values": [
+      "460",
+      "54.90",
+      "8.38",
+      "65.70",
+      "8.88"
+    ],
+    "source_reference_number": 6,
+    "citation_key": "panel_rec",
+    "url": "https://www.recgroup.com/sites/default/files/2025-01/Web_DS_REC%20Alpha%20Pure-RX_EN.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "qcells",
+    "author": "Hanwha Q CELLS America Inc.",
+    "title": "Q.TRON BLK M-G2+ Series 420-440 Wp",
+    "revision": "DCA 2026-04 Rev02 NA",
+    "year": "2026",
+    "model": "Qcells Q.TRON BLK M-G2+ 440",
+    "values": [
+      "440",
+      "33.33",
+      "13.20",
+      "39.88",
+      "13.90"
+    ],
+    "source_reference_number": 7,
+    "citation_key": "panel_qcells",
+    "url": "https://media.qcells.com/v/1FhTENgd/",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "aiko",
+    "author": "AIKO",
+    "title": "Neostar 2S+ AIKO-A-MAH54Db 440-470 W",
+    "revision": "DS_EN_2405_V1.5",
+    "year": "2024",
+    "model": "AIKO-A450-MAH54Db",
+    "values": [
+      "450",
+      "34.50",
+      "13.05",
+      "40.94",
+      "14.12"
+    ],
+    "source_reference_number": 8,
+    "citation_key": "panel_aiko",
+    "url": "https://aikosolar.com/wp-content/uploads/2024/10/Neostar-2S_Plus_188-AIKO-A-MAH54Db-440-470W_1757x1134x30mm_DS_EN_2405_V1.5.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "risen",
+    "author": "Risen Energy Co., Ltd.",
+    "title": "RSM108-10-435-455NDGB N-Type TOPCon Module",
+    "revision": "REM108-NDGB-16BB-EN-H1-3-2024",
+    "year": "2024",
+    "model": "Risen RSM108-10-450NDGB",
+    "values": [
+      "450",
+      "33.35",
+      "13.50",
+      "39.92",
+      "14.28"
+    ],
+    "source_reference_number": 9,
+    "citation_key": "panel_risen",
+    "url": "https://en.risen.com/uploads/20240528/RSM108-10-435-455NDGB%20%20IEC1500V-30mm%202024H1-3-EN.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  },
+  {
+    "key": "maxeon",
+    "author": "Maxeon Solar Technologies",
+    "title": "Maxeon 3 SPR-MAX3-XXX-R Solar Panel 415-430 W",
+    "revision": "545907 Rev E LTR_US. March 2024",
+    "year": "2024",
+    "model": "Maxeon SPR-MAX3-430-R",
+    "values": [
+      "430",
+      "35.10",
+      "12.25",
+      "40.70",
+      "13.15"
+    ],
+    "source_reference_number": 10,
+    "citation_key": "panel_maxeon",
+    "url": "https://maxeon-production.squarespace.com/s/Maxeon-3-DC-415-430-W.pdf",
+    "accessed": "27 October 2026",
+    "table_values_preserved": true,
+    "verification": "Manufacturer PDF downloaded and inspected"
+  }
+]

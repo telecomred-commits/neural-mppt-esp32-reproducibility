@@ -1,0 +1,111 @@
+[
+  {
+    "key": "jinko",
+    "url": "https://jinkosolar.eu/wp-content/uploads/JKM425-445N-54HL4R-B-F2-EN-3.pdf",
+    "resolved_url": "https://jinkosolar.eu/wp-content/uploads/JKM425-445N-54HL4R-B-F2-EN-3.pdf",
+    "status": 202,
+    "bytes": 223,
+    "file": "research_panels_v6/sources/jinko.html",
+    "sha256": "d22602df5116e616ce081ec7a4f32085991ef5c282aa47abf41cced37bae90dd",
+    "pdf": false
+  },
+  {
+    "key": "maxeon",
+    "url": "https://maxeon-production.squarespace.com/s/Maxeon-3-DC-415-430-W.pdf",
+    "resolved_url": "https://static1.squarespace.com/static/6740dc6b95218e0ecdaa68f6/t/67a955ebe1378b6fb77d2f94/1785035346104/Maxeon+3+DC%2C+415-430+W.pdf",
+    "status": 200,
+    "bytes": 774095,
+    "file": "research_panels_v6/sources/maxeon.pdf",
+    "sha256": "019a5469c9ca10637686ca385cc3eaea880aa8e20c6dda2bc16ee42f3a409983",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "risen",
+    "url": "https://en.risen.com/uploads/20240528/RSM108-10-435-455NDGB%20%20IEC1500V-30mm%202024H1-3-EN.pdf",
+    "resolved_url": "https://en.risen.com/uploads/20240528/RSM108-10-435-455NDGB%20%20IEC1500V-30mm%202024H1-3-EN.pdf",
+    "status": 200,
+    "bytes": 1999639,
+    "file": "research_panels_v6/sources/risen.pdf",
+    "sha256": "ee4f939fa024039edfc6da8c67e2dbdfc126e7f4ab4d43b406845f85ab987b23",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "aiko",
+    "url": "https://aikosolar.com/wp-content/uploads/2024/10/Neostar-2S_Plus_188-AIKO-A-MAH54Db-440-470W_1757x1134x30mm_DS_EN_2405_V1.5.pdf",
+    "resolved_url": "https://aikosolar.com/wp-content/uploads/2024/10/Neostar-2S_Plus_188-AIKO-A-MAH54Db-440-470W_1757x1134x30mm_DS_EN_2405_V1.5.pdf",
+    "status": 200,
+    "bytes": 5224385,
+    "file": "research_panels_v6/sources/aiko.pdf",
+    "sha256": "183dfa67e08b072d891a410d9327508596303d019c6e42df5ddd799600f502f8",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "qcells",
+    "url": "https://media.qcells.com/v/1FhTENgd/",
+    "resolved_url": "https://media.qcells.com/v/1FhTENgd/",
+    "status": 200,
+    "bytes": 961146,
+    "file": "research_panels_v6/sources/qcells.pdf",
+    "sha256": "ab070b17b73693366f8bd1d88c7071cb8c529ce34e394fffb2984372bd04e9dc",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "rec",
+    "url": "https://www.recgroup.com/sites/default/files/2025-01/Web_DS_REC%20Alpha%20Pure-RX_EN.pdf",
+    "resolved_url": "https://www.recgroup.com/sites/default/files/2025-01/Web_DS_REC%20Alpha%20Pure-RX_EN.pdf",
+    "status": 200,
+    "bytes": 865194,
+    "file": "research_panels_v6/sources/rec.pdf",
+    "sha256": "5be75e3acbe40ea77bff6fbe0f9357a9463118ada7d4c791c89f7776e4a84d72",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "canadian",
+    "url": "https://static.csisolar.com/wp-content/uploads/2025/05/14135840/CS-Datasheet-TOPHiKu6_CS6R-T_v2.1_EN.pdf",
+    "resolved_url": "https://static.csisolar.com/wp-content/uploads/2025/05/14135840/CS-Datasheet-TOPHiKu6_CS6R-T_v2.1_EN.pdf",
+    "status": 200,
+    "bytes": 947322,
+    "file": "research_panels_v6/sources/canadian.pdf",
+    "sha256": "5d37c0720a7070fb7458eb7e1005e9a4c0be2642a7ce1cd1c2966fd36a32b58d",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "ja",
+    "url": "https://www.jasolar.eu/fileadmin/data/products/4.0/JAM54D40_LB_BF_25y.pdf",
+    "resolved_url": "https://www.jasolar.eu/fileadmin/data/products/4.0/JAM54D40_LB_BF_25y.pdf",
+    "status": 200,
+    "bytes": 1211810,
+    "file": "research_panels_v6/sources/ja.pdf",
+    "sha256": "021cde910302f0068e9ac32be82f6448f9cfb2f23fc18f8b389203b0301f63c7",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "longi",
+    "url": "https://static.longi.com/Hi_MO_X6_LR_5_54_HTH_445_455_M_V1_30_30_and_15_V19_ES_09bf28ff6d.pdf",
+    "resolved_url": "https://static.longi.com/Hi_MO_X6_LR_5_54_HTH_445_455_M_V1_30_30_and_15_V19_ES_09bf28ff6d.pdf",
+    "status": 200,
+    "bytes": 658179,
+    "file": "research_panels_v6/sources/longi.pdf",
+    "sha256": "f027b1ac7f047f712b5e6438f0004919ea8c6d7b66987c4abf79bed122581031",
+    "pdf": true,
+    "pages": 2
+  },
+  {
+    "key": "trina",
+    "url": "https://vertexsplus.trinasolar.com/es/wp-content/uploads/sites/6/2024/09/240916_Datasheet_Vertex-S_NEG9R.28_ESP_2024_C_web.pdf",
+    "resolved_url": "https://vertexsplus.trinasolar.com/es/wp-content/uploads/sites/6/2024/09/240916_Datasheet_Vertex-S_NEG9R.28_ESP_2024_C_web.pdf",
+    "status": 200,
+    "bytes": 475181,
+    "file": "research_panels_v6/sources/trina.pdf",
+    "sha256": "69918a71a47b4c7c0f1425c5345616741b5d085ee4e43f0125eeb0b77464cd03",
+    "pdf": true,
+    "pages": 2
+  }
+]

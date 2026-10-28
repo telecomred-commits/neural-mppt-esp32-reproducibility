@@ -1,0 +1,8 @@
+{
+  "sketch.ino": "7a2093df480c9d98050d9b2a785c75dbfe38cccba294dc8f05bf5d1dd5d101db",
+  "mppt_neural.h": "09681e3cc0b7dc55b2942b0d46382dffe30cc9677bbd4c30350b1105a6dab5d5",
+  "mppt_weights.h": "e35c8a122b08c27ff22b487cd622522be75045868d473f9d1738982b40458428",
+  "solar.chip.c": "b7a6d078bb99b69a9eb5f1d7479e0da0b663f01ddce02f58b517f40b982c7a83",
+  "solar.chip.json": "093d5f9ea9663d956b6563079b165f526adeacf13b6586dd75ab10a9cfd744f6",
+  "diagram.json": "912e47ec567352b33e3df86481808e8db63bbfc60bedef737e688d45ff6c1af1"
+}

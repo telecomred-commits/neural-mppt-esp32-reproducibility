@@ -1,0 +1,451 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        18
+      ]
+    ],
+    "date-time": "2026-08-18T04:41:40Z",
+    "timestamp": 1787028100622,
+    "version": "build-2736575974"
+  },
+  "reference-count": 30,
+  "publisher": "MDPI AG",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            4,
+            27
+          ]
+        ],
+        "date-time": "2015-04-27T00:00:00Z",
+        "timestamp": 1430092800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Energies"
+  ],
+  "abstract": "<jats:p>The power extracted from PV arrays is usually maximized using maximum power point tracking algorithms. One of the most widely used techniques is the perturb &amp; observe algorithm, which periodically perturbs the operating point of the PV array, sometime with an adaptive perturbation step, and compares the PV power before and after the perturbation. This paper analyses the most suitable perturbation step to optimize maximum power point tracking performance and suggests a design criterion to select the parameters of the controller. Using this proposed adaptive step, the MPPT perturb &amp; observe algorithm achieves an excellent dynamic response by adapting the perturbation step to the actual operating conditions of the PV array. The proposed algorithm has been validated and tested in a laboratory using a dual input inductor push-pull converter. This particular converter topology is an efficient interface to boost the low voltage of PV arrays and effectively control the power flow when input or output voltages are variable. The experimental results have proved the superiority of the proposed algorithm in comparison of traditional perturb &amp; observe and incremental conductance techniques.</jats:p>",
+  "DOI": "10.3390/en8053418",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ],
+    "date-time": "2015-04-27T12:16:51Z",
+    "timestamp": 1430137011000
+  },
+  "page": "3418-3436",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 55,
+  "title": [
+    "Optimized Adaptive Perturb and Observe Maximum Power Point Tracking Control for Photovoltaic Generation"
+  ],
+  "prefix": "10.3390",
+  "volume": "8",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-3776-7486",
+      "authenticated-orcid": false,
+      "given": "Luigi",
+      "family": "Piegari",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Electronics, Information and Bioengineering, Politecnico di Milano,  Piazza Leonardo da Vinci 32, 20133 Milan, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Renato",
+      "family": "Rizzo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering and Information Technologies, University of Naples Federico II, Via Claudio 21, 80125 Naples, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ivan",
+      "family": "Spina",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering and Information Technologies, University of Naples Federico II, Via Claudio 21, 80125 Naples, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Pietro",
+      "family": "Tricoli",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Electronic, Electrical and Computer Engineering, University of Birmingham,  Gisbert Kapp Building, Birmingham B15 2TT, UK"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "439",
+      "DOI": "10.1109/TEC.2006.874230",
+      "article-title": "Comparison of photovoltaic array maximum power point tracking techniques",
+      "volume": "22",
+      "author": "Esram",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_2",
+      "unstructured": "Liu, X., and Lopes, L.A.C. (2004, January 20–25). An improved perturbation and observation maximum power point tracking algorithm for PV arrays. Proceedings of the Power Electronics Specialists Conference PESC, Aachen, Germany."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "1027",
+      "DOI": "10.1109/TIE.2006.878331",
+      "article-title": "New maximum power point tracker using sliding-mode observer for estimation of solar array current in the grid-connected photovoltaic system",
+      "volume": "53",
+      "author": "Kim",
+      "year": "2006",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Cabal, C., Alonso, C., Cid-Pastor, A., Estibals, B., Seguier, L., Leyva, R., Schweitz, G., and Alzieu, J. (2007, January 4–7). Adaptive digital MPPT control for photovoltaic applications. Proceedings of the ISIE, Vigo, Spain.",
+      "DOI": "10.1109/ISIE.2007.4374985"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sera, D., Kerekes, T., Teodorescu, R., and Blaabjerg, F. (2006, January 9–13). Improved MPPT method for rapidly changing environmental conditions. Proceedings of the IEEE, Montreal, QC, Canada.",
+      "DOI": "10.1109/ISIE.2006.295680"
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "963",
+      "DOI": "10.1109/TPEL.2005.850975",
+      "article-title": "Optimization of perturb and observe maximum power point tracking method",
+      "volume": "20",
+      "author": "Femia",
+      "year": "2005",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "287",
+      "DOI": "10.1109/41.836344",
+      "article-title": "A fuzzy-logic-controlled single stage converter for PV-powered lighting system applications",
+      "volume": "47",
+      "author": "Wu",
+      "year": "2000",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_8",
+      "unstructured": "Khaehintung, N., Wiangtong, T., and Sirsuk, P. (October, January 20). FPGA Implementation of MPPT using variable step-size P&O algorithm for PV applications. Proceedings of the ISCIT, Bangkok, Thailand."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "934",
+      "DOI": "10.1109/TAES.2007.4383584",
+      "article-title": "Predictive and adaptive MPPT perturb and observe method",
+      "volume": "43",
+      "author": "Femia",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "317",
+      "DOI": "10.1049/iet-rpg.2009.0006",
+      "article-title": "Adaptive perturb and observe algorithm for photovoltaic maximum power point tracking",
+      "volume": "4",
+      "author": "Piegari",
+      "year": "2010",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "1010",
+      "DOI": "10.1109/TPEL.2011.2106221",
+      "article-title": "High-performance adaptive perturb and observe MPPT technique for photovoltaic-based microgrids",
+      "volume": "26",
+      "author": "Abdelsalam",
+      "year": "2011",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al-Amoudi, A., and Zhang, L. (1998, January 21–23). Optimal control of a grid-connected PV system for maximum power point tracking and unity power factor. Proceedings of the 7th International Conference Power Electronics and Variable Speed Drives, London, UK.",
+      "DOI": "10.1049/cp:19980504"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zhang, L., Al-Amoudi, A., and Bai, Y. (2000, January 18–19). Real-time maximum power point tracking for grid-connected photovoltaic systems. Proceedings of the 8th International Conference Power Electronics and Variable Speed Drives, London, UK.",
+      "DOI": "10.1049/cp:20000232"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "256",
+      "DOI": "10.1109/TEC.2008.2005282",
+      "article-title": "MPPT scheme for a PV-fed single-phase single stage grid-connected inverter operating in CCM with only one current sensor",
+      "volume": "24",
+      "author": "Patel",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_15",
+      "unstructured": "Chiang, M.-L., Hua, C.-C., and Lin, J.-R. (2002, January 2–5). Direct power control for distributed PV power system. Proceedings of the Power Conversation Conference, Osaka, Japan."
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "681",
+      "DOI": "10.1109/TEC.2007.914201",
+      "article-title": "High-performance algorithms for drift avoidance and fast tracking in solar MPPT system",
+      "volume": "23",
+      "author": "Pandey",
+      "year": "2008",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_17",
+      "unstructured": "Xiao, W., and Dunford, W.G. (2004, January 20–25). A modified adaptive hill climbing MPPT method for photovoltaic power systems. Proceedings of the IEEE 35th Annual PESC, Aachen, Germany."
+    },
+    {
+      "key": "ref_18",
+      "unstructured": "Wolfs, P.J., and Tang, L. (2005, January 16). A single cell maximum power point tracking converter without a current sensor for high performance vehicle solar arrays. Proceedings of the IEEE 36th PESC, Recife, Brazil."
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "16",
+      "DOI": "10.1109/LPEL.2004.828444",
+      "article-title": "A new algorithm for rapid tracking of approximate maximum power point in photovoltaic systems",
+      "volume": "2",
+      "author": "Jain",
+      "year": "2004",
+      "journal-title": "IEEE Power Electron. Lett."
+    },
+    {
+      "key": "ref_20",
+      "unstructured": "D’Souza, N.S., Lopes, L.A.C., and Liu, X. (2005, January 16). An intelligent maximum power point tracker using peak current control. Proceedings of the IEEE 36th PESC, Recife, Brazil."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Manna, B., Saha, N., and Palit, D. (2014, January 11–13). Optimization of solar power using servo mechanism by Perturb & Observe method. Proceedings of the 2014 Annual IEEE India Conference (INDICON), Pune, India.",
+      "DOI": "10.1109/INDICON.2014.7030594"
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "4473",
+      "DOI": "10.1109/TIE.2009.2029589",
+      "article-title": "A technique for improving P&O MPPT performances of double-stage grid-connected photovoltaic systems",
+      "volume": "56",
+      "author": "Femia",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Desai, H.P., and Patel, H.K. (2007, January 27–30). Maximum power point algorithm in PV generation: An overview. Proceedings of the 7th International Conference Power Electron Drive System, Bangkok, Thailand.",
+      "DOI": "10.1109/PEDS.2007.4487766"
+    },
+    {
+      "key": "ref_24",
+      "unstructured": "De Aragao Filho, W.C., and Barbi, P.I. (1996, January 6–10). A comparison between two current-fed push-pull DC-DC converters-analysis, design and experimentation. Proceedings of the 18th INTELEC '96, Boston, MA, USA."
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "3028",
+      "DOI": "10.1109/TPEL.2012.2209899",
+      "article-title": "Photovoltaic generator as an input source for power electronic converters",
+      "volume": "28",
+      "author": "Nousiainen",
+      "year": "2013",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "2409",
+      "DOI": "10.1109/TPEL.2010.2048580",
+      "article-title": "Issues on solar-generator interfacing with current-fed MPP-tracking converters",
+      "volume": "25",
+      "author": "Suntio",
+      "year": "2010",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sera, D., Teodorescu, R., Hantschel, J., and Knoll, M. (2008–2, January 30). Optimized maximum power point tracker for fast changing environmental conditions. Proceedings of the IEEE International Symposium on Industrial Electronics, Cambridge, UK.",
+      "DOI": "10.1109/ISIE.2008.4677275"
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Khanaki, R., Radzi, M.A.M., and Marhaban, M.H. (2013, January 18–20). Comparison of ANN and P&O MPPT methods for PV Applications under Changing Solar Irradiation. Proceedings of the 2013 IEEE Conference on Clean Energy and Technology (CEAT), Lankgkawi, Malesia.",
+      "DOI": "10.1109/CEAT.2013.6775642"
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zorrilla-Casanova, J., Piliougine, M., Carretero, J., Bernaola, P., Carpena, P., Mora-López, L., and Sidrach-de-Cardona, M. (2011, January 8–13). Analysis of dust losses in photovoltaic modules. Proceedings of the World Renewable Energy Congress, Linköping, Sweden.",
+      "DOI": "10.3384/ecp110572985"
+    },
+    {
+      "key": "ref_30",
+      "unstructured": "Galan, D.M., Starzak, L., Torzewicz, T., Piotrowicz, M., and Maranda, W. (2013, January 20–22). Laboratory setup for investigation of MPPT algorithms of photovoltaic modules under non-uniform insolation. Proceedings of the 20th International Conference Mixed Design of Integrated Circuits and Systems (MIXDES), Gdynia, Polonia."
+    }
+  ],
+  "container-title": [
+    "Energies"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1996-1073/8/5/3418/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T20:45:23Z",
+    "timestamp": 1760215523000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/1996-1073/8/5/3418"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ]
+  },
+  "references-count": 30,
+  "journal-issue": {
+    "issue": "5",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "en8053418"
+  ],
+  "URL": "https://doi.org/10.3390/en8053418",
+  "relation": {},
+  "ISSN": [
+    "1996-1073"
+  ],
+  "issn-type": [
+    {
+      "value": "1996-1073",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+--- v3/manuscript.tex
++++ v4/manuscript.tex
+@@ -27,7 +27,7 @@
+ \textbf{Conclusions:} The available runs show improved local current prediction without increased energy capture. Dynamic Wokwi comparisons remain in progress. The findings concern a digital plant and simulated firmware execution, not a physical photovoltaic converter.}
+ \keyword{photovoltaic systems; maximum power point tracking; online learning; ESP32; digital photovoltaic model; measurement scaling}
+ \begin{document}
+-\pending{Version 3, 26 October 2026. Algorithm-centered methods and implementation-matched pseudocode. Working manuscript. Author metadata, manufacturer references and dynamic Wokwi results require completion before submission.}
++\pending{Version 4, 26 October 2026. Complete experimental protocol integrated into Materials and methods. Working manuscript. Author metadata, manufacturer references and dynamic Wokwi results require completion before submission.}
+ \section{Introduction}
+ Photovoltaic maximum power point tracking (MPPT) controls the electrical operating point of a source whose current--voltage characteristic depends on irradiance, temperature and module configuration. Its objective is to extract available energy over time, including environmental transitions and load disturbances. This objective differs from predicting an instantaneous electrical quantity accurately. An estimator can reduce its current residuals without locating the maximum of the power curve more accurately. Establishing whether online learning improves MPPT therefore requires both a predictive assessment and a closed-loop energy comparison.
+ 
+@@ -278,18 +278,106 @@
+ \input{algorithm_helpers.tex}
+ \clearpage
+ 
+-\subsection{Evaluation protocol for the proposed algorithm}
+-Five variants share acquisition, communications and sampling: P\&O, INC, adaptive P\&O, a frozen neural controller and its online-learning counterpart. The conventional branches retain the firmware settings stated above. The comparison concerns these implementations and does not establish dominance over all possible parameter choices.
+-
+-Five primary host profiles cover static interpolation, irradiance steps and ramps, temperature steps, load disturbances and combined changes. Two additional profiles examine operation outside the trained domain and instrumentation perturbations. Ten noise seeds are paired across the five variants, giving 350 runs. Separate processes reset all states. The host executes the actual firmware and custom-component sources through analog and serial mocks. Serial timing and controller execution time on a physical ESP32 are not measured by that bench.
+-
+-An independent reference is derived from the plant equations. With $r=(1/(k+1))^{1/k}$,
+-\begin{equation}
+- V_{mp}^{*}=V_{oc}r,\qquad P_{mp}^{*}=V_{oc}rI_{sc}\frac{k}{k+1}.
+-\end{equation}
+-Model-referenced tracking efficiency is $100\int P_{plant}dt/\int P_{mp}^{*}dt$. Programmed environmental controls and acknowledged applied load determine $P_{plant}$. It is reported separately from measured-channel energy $\int V_{meas}I_{meas}dt$, which can be biased by sensing errors. Integration uses observed timestamps and left rectangles. Paired variants use the same observed window.
+-
+-The principal contrast is online minus frozen tracking efficiency. Secondary endpoints include pre-update current error, voltage deviation from the independent maximum, update count, saturation and communication status. Settling is defined as five consecutive samples within 0.20 V of the independent reference. A parameter update alone is not counted as successful adaptation of energy tracking.
++\subsection{Experimental protocol for evaluating the proposed algorithm}
++\label{sec:protocol}
++The experiment evaluates the complete algorithm and separately tests the contribution of its online update. Its primary contrast is the neural controller with updating enabled against the same controller with frozen output parameters. P\&O, INC and adaptive P\&O provide conventional references. This design follows the requirement for common implementation conditions identified by Hohm and Ropp \cite{hohm} and the implementation-level comparison discussed by Sera et al. \cite{sera}. The experimental ANN comparison of Abouzeid et al. \cite{abouzeid}, the reinforcement-learning experiments of Giraldo et al. \cite{giraldo}, the incremental-learning workflow of Amine et al. \cite{amine}, the comparative environmental scenarios of Ogunfowora and Bhattacharya \cite{ogunfowora}, and the C-HIL assessment of Jamshed et al. \cite{jamshed} inform the separation of algorithm, adaptation mechanism and validation platform. The profiles below are defined for the present digital plant rather than copied from those studies.
++
++IEC 62891:2020 distinguishes static and dynamic MPPT efficiency for grid-connected photovoltaic inverters \cite{iec62891}. That distinction motivates separate stationary and transient assessments here. Only the official scope description was consulted, not the complete normative procedure. The present source has no physical inverter, and the study does not claim IEC or EN conformity, certification, or reproduction of a normative irradiance sequence.
++
++\subsubsection{Hypotheses, comparison variants and common settings}
++The primary hypothesis is that online parameter updating improves model-referenced energy tracking relative to frozen weights. The secondary identification hypothesis is that it reduces pre-update current-prediction error. A separate functional assessment determines whether the complete controller recovers after achievable irradiance, temperature and load disturbances. These outcomes are not substituted for one another: a smaller current residual or a nonzero update counter does not establish an energy benefit.
++
++Table~\ref{tab:variants} identifies the five variants. Each uses the same source equations, analog connections, signal scaling, acknowledgement interface, sampling path and command limits. The P\&O/INC/adaptive-P\&O settings remain those defined in Section~2.4. The two neural variants share the same pretrained weights, reference search, regulator, fallback and initial state. Only the online-learning flag changes. This comparison concerns the documented implementations, not every possible tuning of the algorithm families.
++
++\begin{table}[htbp]
++\caption{Variants evaluated through the same firmware acquisition and actuation path. Mode and learning settings correspond to the firmware constants.}
++\label{tab:variants}
++\centering\small
++\begin{tabularx}{\textwidth}{LccL}\toprule
++Variant & Mode & Learning flag & Control mechanism\\\midrule
++P\&O & 0 & 0 & Fixed-step perturbation\\
++INC & 1 & 0 & Incremental conductance\\
++Adaptive P\&O & 2 & 0 & Slope-dependent perturbation step\\
++Frozen neural controller & 3 & 0 & Neural reference with unchanged output weights and INC fallback\\
++Online neural controller & 3 & 1 & Same neural controller with bounded output-layer updates\\\bottomrule
++\end{tabularx}
++\end{table}
++
++Every run starts from a reset source and controller with initial command 50\%, $N_s=N_p=1$, sensing ranges 50 V and 15 A, and the gains stated in Section~2.2. Baseline voltage and current noise are 2 and 1 mV at the simulated analog output. Gain error, offset and ripple controls are zero unless a profile specifies otherwise. The load slider starts at 50\%, corresponding to zero external disturbance. Resetting also restores the initial neural parameters, clears controller history and returns the learning counter to zero. Parameters are not carried from one comparison run into another.
++
++\subsubsection{Programmed environmental, load and instrumentation profiles}
++Table~\ref{tab:profiles} specifies the seven profiles. Times are measured from simulation startup. $G$ is in W/m$^2$, $T$ in $^\circ$C, and $L_s$ is the external load-slider percentage, not the controller command or the applied load. Unless changed in the table, a control retains its previous value. Simultaneous entries are applied at the same scheduled instant.
++
++\begin{table}[htbp]
++\caption{Experimental profiles. S0--S4 are primary tracking profiles. R1 and R2 are reported separately as domain and sensing tests. The time-stamped machine-readable event files accompany the manuscript.}
++\label{tab:profiles}
++\centering\small
++\begin{tabularx}{\textwidth}{p{0.08\textwidth}p{0.10\textwidth}L}\toprule
++ID & Duration & Initial conditions and scheduled changes\\\midrule
++S0 & 120 s & Constant $(G,T,L_s)=(600,37,50)$. The setting is absent from the four initial training sweeps but was previously inspected during development.\\
++S1 & 160 s & Start $(800,25,50)$. Set $G=400$ at 30 s and $G=800$ at 60 s. From 80 to 120 s, decrease $G$ by 10 each second to 400. From 120 to 160 s, increase $G$ by 10 each second to 800.\\
++S2 & 150 s & Start $(800,25,50)$. Set $T=37$ at 30 s, 50 at 60 s, 37 at 90 s and 25 at 120 s.\\
++S3 & 160 s & Start $(800,25,50)$. Set $L_s=60$ at 40 s, 40 at 80 s and 50 at 120 s.\\
++S4 & 160 s & Start $(600,37,50)$. Set $(G,T,L_s)=(450,30,60)$ at 40 s, $(750,45,40)$ at 80 s and $(600,37,50)$ at 120 s.\\
++R1 & 160 s & Start $(800,25,50)$. Set $(G,T)=(200,25)$ at 40 s, $(900,60)$ at 80 s and $(600,37)$ at 120 s. Keep $L_s=50$.\\
++R2 & 180 s & Keep $(600,37,50)$. At 60 s, set current gain error to $+2$\% and voltage/current noise to 8/4 mV. At 120 s, restore zero gain error and noise of 2/1 mV.\\\bottomrule
++\end{tabularx}
++\end{table}
++
++S1 uses discrete one-second ramp increments. The first descending increment occurs at 81 s and the first ascending increment at 121 s. The S2 temperature steps probe algorithm sensitivity in a digital source. They are not a model of the thermal evolution of a physical module. R1 tests branch selection and tracking outside the neural domain. R2 changes sensing rather than source physics and therefore cannot establish adaptation to physical module aging.
++
++In S3, the transition from $L_s=60$ to 40 can briefly saturate the applied-load expression near open circuit. This transient remains in the record and energy calculation. Recovery is assessed only where the maximum is reachable within the available command interval. No success criterion requires the controller to overcome a disturbance beyond its actuator authority.
++
++\subsubsection{Host execution, paired repetitions and data separation}
++The automated host experiment combines seven profiles, five variants and ten noise seeds, producing $7\times5\times10=350$ runs. A separate process starts each run. Seeds 1--10 are paired between variants. The host harness changes the pseudo-random seed after source initialization without editing the photovoltaic-component source. Noise is generated at common source-update times, although measured values differ as controller trajectories diverge.
++
++The bench compiles the evaluated controller and source through analog and serial API mocks. It reproduces the configured virtual conversion and quantization path. It does not execute an ESP32 instruction-set model or validate physical UART timing. Its mocked compute clock is not used as a measurement of processor execution time. Host timing and physical-controller timing are therefore not interchangeable.
++
++Training and evaluation preserve environmental-condition provenance. The four calibrated sweeps supply initial fitting data. The previously inspected 600 W/m$^2$/37 $^\circ$C curve remains an interpolation reference rather than a blind validation dataset. Adjacent rows from one sweep are not split randomly to claim independent environmental generalization. The profiles are documented in the working protocol, but the study is not externally preregistered. A later change in weights or controller tuning would require a separately identified experiment version.
++
++\subsubsection{Independent maximum-power reference and energy endpoints}
++The tracking reference used for evaluation is independent of the learned voltage reference. It follows from the source equations in Section~2.1. With $r=(1/(k+1))^{1/k}$,
++\begin{equation}
++ V_{mp}^{*}=V_{oc}r,\qquad
++ P_{mp}^{*}=V_{oc}rI_{sc}\frac{k}{k+1}.
++ \label{eq:independentmpp}
++\end{equation}
++For host measurements, programmed $G,T$ and the acknowledged applied load determine the uncorrupted source operating voltage and current. Their product is denoted $P_{\mathrm{plant}}$. It is distinct from $P_{\mathrm{meas}}=V_{\mathrm{meas}}I_{\mathrm{meas}}$ reconstructed from the sensing channels.
++
++Let $t_1,\ldots,t_N$ be the common observed timestamps of a paired comparison and $\Delta t_n=(t_{n+1}-t_n)/1000$ when timestamps are recorded in milliseconds. Energy is integrated using left rectangles:
++\begin{align}
++ E_{\mathrm{plant}}&=\sum_{n=1}^{N-1}P_{\mathrm{plant},n}\Delta t_n,\\
++ E_{\mathrm{available}}&=\sum_{n=1}^{N-1}P_{mp,n}^{*}\Delta t_n,\\
++ E_{\mathrm{meas}}&=\sum_{n=1}^{N-1}P_{\mathrm{meas},n}\Delta t_n,\\
++ \eta_{\mathrm{MPPT}}&=100\frac{E_{\mathrm{plant}}}{E_{\mathrm{available}}}.
++ \label{eq:trackingefficiency}
++\end{align}
++The integration window is the observed common interval, not an assumed interval extending beyond the first or last sample. Startup and disturbance transients remain included. Startup and terminal windows are also reported separately. Equation~\ref{eq:trackingefficiency} is a digital-plant tracking measure, not a converter DC--AC efficiency or an experimentally certified module efficiency.
++
++Measured-channel energy is retained as a separate endpoint, including in the Wokwi static pair. With sensing errors, $E_{\mathrm{meas}}/E_{\mathrm{available}}$ can exceed unity. Such values are not clipped to produce an apparently valid physical efficiency. In the instrumentation profile, the uncorrupted model-derived quantity is used to distinguish control effects from measurement bias. The independent plant reference is not replaced by the neural reference when computing voltage error or recovery.
++
++\subsubsection{Recovery, identification and execution diagnostics}
++After each transition into a plateau, recovery time is the interval from the disturbance to the first of five consecutive samples satisfying $|V_{\mathrm{meas}}-V_{mp}^{*}|\leq0.20$ V. The threshold is defined for this experiment. If no such sequence occurs before the next event, recovery is recorded as not achieved. Ramp samples are not treated as stationary settling tests.
++
++Steady-state voltage and power variation are summarized by sample standard deviations in the final 10 s of each plateau. For the completed static Wokwi pair, the current-prediction RMSE and mean measured power reported in Results use its final 30 s. The window is stated explicitly so those summaries are not confused with the plateau oscillation endpoint. Current RMSE uses the prediction produced before each online update. Trajectory-dependent comparisons of predictive error are identified as such.
++
++The remaining diagnostics are the number of update steps, parameter displacement, active control branch, fraction of samples at command limits, fallback fraction, retransmission count and inter-sample gaps. These retain the distinction between a changing model and a changing command. Finite values, chronological timestamps, acknowledgement consistency and profile coverage are checked before paired analysis. Failed or incomplete runs must be identified with their reason rather than silently removing unfavorable samples. Execution durations reported by Wokwi remain simulator-reported values and do not become physical ESP32 measurements.
++
++\subsubsection{Paired analysis and criteria for interpreting learning}
++For each profile and seed, the energy contrast is the online-minus-frozen difference in tracking efficiency, expressed in percentage points. Per-profile means and descriptive 95\% bootstrap intervals resample the ten paired seed differences. The analysis uses 10000 bootstrap resamples with random seed 20261026. The experimental unit for that interval is a run pair, not an individual telemetry row.
++
++The primary aggregate is computed within each seed by summing extracted energy over S0--S4 and dividing by the sum of available energy over the same profiles. Online and frozen aggregate efficiencies are then subtracted and summarized over seeds. R1 and R2 are excluded from this primary aggregate and reported separately. Per-profile intervals are descriptive, and isolated favorable profiles are not selected as evidence of a general advantage.
++
++The working protocol records an exploratory practical criterion of at least 0.1 percentage point aggregate improvement, with a positive lower bootstrap bound and no consequential deterioration of tracking or communication. This is a study-specific interpretation criterion, not an IEC requirement or an externally preregistered hypothesis test. Noise-seed intervals characterize variation within the fixed digital model. They do not establish uncertainty across commercial panels, installations or physical controllers.
++
++A reduction in current error without a favorable energy contrast is interpreted as improved identification in the tested conditions. A recovery accomplished outside the neural domain is attributed to the hybrid controller with INC fallback. An increased update count without a corresponding performance benefit is not labeled successful energy adaptation.
++
++\subsubsection{Wokwi replication and status of the dynamic trials}
++The Wokwi source uses a fixed random seed of 1. Repeating the same reset simulation therefore does not create independent noise realizations. Such repeats are treated as deterministic implementation checks, and host-seed confidence intervals are not transferred to Wokwi.
++
++The completed static replication fixes $G=600$ W/m$^2$, $T=37\ ^\circ$C and $L_s=50$\% for two runs, one with learning enabled and one with weights frozen. Both reset before acquisition and are compared over the common recorded 120 s interval. Dynamic Wokwi comparisons remain in progress. Manually moved controls are checked using the observed environmental channels and the difference between applied and commanded load. Event alignment supports descriptive recovery analysis but does not make unequal manual trajectories identical for an energy comparison.
++
++Wokwi documents YAML automation scenarios and CLI-based serial recording \cite{wokwiautomation,wokwicli}. Candidate scenarios matching Table~\ref{tab:profiles} have been prepared. Their execution on the custom panel controls has not yet been verified in Wokwi and is not reported as completed. Quantitative automated replication requires checking event delivery, timestamps, measured environmental settings and acknowledged applied load. No additional control-interface or photovoltaic-equation change is assumed in this protocol.
+ 
+ \paragraph{Use of generative artificial intelligence}
+ ChatGPT was used to assist with code drafting, analysis scripts, reference searches and preparation of this working manuscript. This use extends beyond language editing. The author review of equations, source code, numerical outputs and bibliographic records must be completed before submission. The exact tool/model identifier and the final scope of assistance will be recorded in the submission version.
+@@ -373,5 +461,9 @@
+ \bibitem{amine} Amine R, El Barbri N, Yessef M, Alammar MM, El-Barbary ZMS, Ameziane H. Real-Time Incremental Learning Artificial Neural Networks Maximum Power Point Tracking With Raspberry Pi-Based Meteorological Data Acquisition. Energy Science \& Engineering. 2026;14(8):3741-3773. \url{https://doi.org/10.1002/ese3.70555}.
+ \bibitem{jamshed} Jamshed J, Becchi L, Bindi M, Corti F, Grasso F, Intravaia M, et al. Hardware-in-the-Loop Assessment of Neural MPPT Control in Photovoltaic Systems with Two-Phase Boost Conversion. Electronics. 2026;15(18):4342. \url{https://doi.org/10.3390/electronics15184342}.
+ \bibitem{suarez} Suárez Suárez CR, García Vera YE, Caicedo AD. A Sensing-Aware Simulation-Based Digital Twin Framework for Firmware-Level Validation of Photovoltaic MPPT Controllers. Energies. 2026;19(17):4131. \url{https://doi.org/10.3390/en19174131}.
++\bibitem{ogunfowora} Ogunfowora AR, Bhattacharya I. Solar Photovoltaic Maximum Power Point Tracking (MPPT): A Comparative Analysis of Incremental Conductance, Q-Learning, and Transformer Deep Learning for Performance Evaluation Under Standard and Dynamic Environmental Scenarios. Energies. 2026;19(13):3183. \url{https://doi.org/10.3390/en19133183}.
++\bibitem{iec62891} International Electrotechnical Commission. IEC 62891:2020. Maximum power point tracking efficiency of grid connected photovoltaic inverters. Geneva: IEC, 2020. Official scope and catalogue record. Available from: \url{https://webstore.iec.ch/en/publication/28105}. Accessed 26 October 2026.
++\bibitem{wokwiautomation} Wokwi. Automation Scenarios. Official documentation. Available from: \url{https://docs.wokwi.com/wokwi-ci/automation-scenarios}. Accessed 26 October 2026.
++\bibitem{wokwicli} Wokwi. CLI Usage. Official documentation. Available from: \url{https://docs.wokwi.com/wokwi-ci/cli-usage}. Accessed 26 October 2026.
+ \end{thebibliography}
+ \end{document}

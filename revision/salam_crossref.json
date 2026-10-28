@@ -1,0 +1,874 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        8
+      ]
+    ],
+    "date-time": "2026-10-08T13:51:43Z",
+    "timestamp": 1791467503142,
+    "version": "4.3.4"
+  },
+  "reference-count": 73,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2013-07-01T00:00:00Z",
+        "timestamp": 1372636800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2013-07-01T00:00:00Z",
+        "timestamp": 1372636800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Applied Energy"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.apenergy.2013.02.008",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        3,
+        8
+      ]
+    ],
+    "date-time": "2013-03-08T15:20:56Z",
+    "timestamp": 1362756056000
+  },
+  "page": "135-148",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 357,
+  "special_numbering": "C",
+  "title": [
+    "The application of soft computing methods for MPPT of PV system: A technological and status review"
+  ],
+  "prefix": "10.1016",
+  "volume": "107",
+  "author": [
+    {
+      "given": "Zainal",
+      "family": "Salam",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jubaer",
+      "family": "Ahmed",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Benny S.",
+      "family": "Merugu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "issue": "5",
+      "key": "10.1016/j.apenergy.2013.02.008_b0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "1678",
+      "DOI": "10.1109/TIE.2009.2032201",
+      "article-title": "Soft-switching converter with HF transformer for grid-connected photovoltaic systems",
+      "volume": "57",
+      "author": "Cacciato",
+      "year": "2010",
+      "journal-title": "IEEE Trans Ind Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "1613",
+      "DOI": "10.1016/j.simpat.2011.04.005",
+      "article-title": "Modeling and simulation of photovoltaic (PV) system during partial shading based on a two-diode model",
+      "volume": "19",
+      "author": "Ishaque",
+      "year": "2011",
+      "journal-title": "Simul Modell Practice Theor"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0015",
+      "unstructured": "Bruendlinger R, Bletterie B, Milde M, Oldenkamp H. Maximum power point tracking performance under partially shaded PV array conditions. In: Proc. 21st EUPVSEC; 2006. p. 2157–60."
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "1282",
+      "DOI": "10.1109/TPEL.2006.880242",
+      "article-title": "Dynamic maximum power point tracking of photovoltaic arrays using ripple correlation control",
+      "volume": "21",
+      "author": "Esram",
+      "year": "2006",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "1625",
+      "DOI": "10.1016/j.rser.2010.11.032",
+      "article-title": "A review of solar photovoltaic technologies",
+      "volume": "15",
+      "author": "Parida",
+      "year": "2011",
+      "journal-title": "Renew Sust Energy Rev"
+    },
+    {
+      "issue": "12",
+      "key": "10.1016/j.apenergy.2013.02.008_b0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "4481",
+      "DOI": "10.1016/j.apenergy.2011.05.037",
+      "article-title": "Electrical and thermal performance of silicon concentrator solar cells immersed in dielectric liquids",
+      "volume": "88",
+      "author": "Han",
+      "year": "2011",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.apenergy.2013.02.008_b0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "394",
+      "DOI": "10.1016/j.solmat.2008.10.004",
+      "article-title": "Fabrication and processing of polymer solar cells: a review of printing and coating techniques",
+      "volume": "93",
+      "author": "Krebs",
+      "year": "2009",
+      "journal-title": "Sol Energy Mater Sol Cells"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.apenergy.2013.02.008_b0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "16",
+      "DOI": "10.1109/LPEL.2004.828444",
+      "article-title": "A new algorithm for rapid tracking of approximate maximum power point in photovoltaic systems",
+      "volume": "2",
+      "author": "Jainand",
+      "year": "2004",
+      "journal-title": "IEEE Power Electron Lett"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.apenergy.2013.02.008_b0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "963",
+      "DOI": "10.1109/TPEL.2005.850975",
+      "article-title": "Optimization of perturb and observe maximum power point tracking method",
+      "volume": "20",
+      "author": "Femia",
+      "year": "2005",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.apenergy.2013.02.008_b0050",
+      "doi-asserted-by": "crossref",
+      "first-page": "594",
+      "DOI": "10.1109/41.925586",
+      "article-title": "Novel maximum-power-point-tracking controller for photovoltaic energy conversion system",
+      "volume": "48",
+      "author": "Kuo",
+      "year": "2001",
+      "journal-title": "IEEE Trans Ind Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0370",
+      "first-page": "2612",
+      "article-title": "A study on a two stage maximum power point tracking control of a photovoltaic system under partially shaded irradiance conditions",
+      "author": "Kobayashi",
+      "year": "2003",
+      "journal-title": "IEEE Power Eng Soc Gen Meet"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "4840",
+      "DOI": "10.1016/j.apenergy.2011.06.024",
+      "article-title": "Maximum photovoltaic power tracking for the PV array using the fractional-order incremental conductance method",
+      "volume": "88",
+      "author": "Lin",
+      "year": "2011",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "21",
+      "key": "10.1016/j.apenergy.2013.02.008_b0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "46",
+      "DOI": "10.1109/63.903988",
+      "article-title": "Development of a microcontroller-based photovoltaic maximum power point tracking control system",
+      "volume": "16",
+      "author": "Koutroulis",
+      "year": "2001",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0070",
+      "unstructured": "Xiao W, Dunford WG. A modified adaptive hill climbing MPPT method for photovoltaic power systems. In: Proc 35th annu IEEE power electron spec conf; 2004. p. 1957–63."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.apenergy.2013.02.008_b0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "514",
+      "DOI": "10.1109/TEC.2002.805205",
+      "article-title": "Theoretical and experimental analyses of photovoltaic systems with voltage and current-based maximum power-point tracking",
+      "volume": "17",
+      "author": "Masoum",
+      "year": "2002",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0080",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Noguchi T, Togashi S, Nakamoto R. Short-current pulse based adaptive maximum power point tracking for photovoltaic power generation system. In: IEEE Int Symp Indust Electron; 2000. p. 157–62.",
+      "DOI": "10.1109/ISIE.2000.930504"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0085",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1016/0379-6787(84)90008-5",
+      "article-title": "Experimental tests of open-loop maximum-power-point tracking techniques",
+      "volume": "13",
+      "author": "Hart",
+      "year": "1984",
+      "journal-title": "Sol Cells"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0090",
+      "unstructured": "Noh HJ, Lee DY, Hyun DS. An improved MPPT converter with current compensation method for small scaled PV-applications. In: Proc 28th annu conf Indust Electron Soc; 2002. p. 1113–8."
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0095",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Midya P, Krein PT, Turnbull RJ, Reppa R, Kimball J. Dynamic maximum power point tracker for photovoltaic applications. In: Proc 27th annu IEEE power electron spec conf; 1996. p. 1710–6.",
+      "DOI": "10.1109/PESC.1996.548811"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0100",
+      "unstructured": "Arcidiacono V, Corsi S, Lambri L. Maximum power point tracker for photovoltaic power plants. In: Proc IEEE photovoltaic spec conf; 1982. p. 507–12."
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0105",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bodur M, Ermis M. Maximum power point tracking for low power photovoltaic solar panels. In: Proc 7th Mediterranean electrotechnical conf; 1994. p. 758–61.",
+      "DOI": "10.1109/MELCON.1994.380992"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0110",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kitano T, Matsui M, Xu DH. Power sensor-less MPPT control scheme utilizing power balance at DC link-system design to ensure stability and response. In: Proc 27th annual conf IEEE Indust Electron Soc; 2001. p. 1309–14.",
+      "DOI": "10.1109/IECON.2001.975971"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0115",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1049/ip-epa:20040978",
+      "article-title": "On the control of photovoltaic maximum power point tracker via output parameters",
+      "author": "Shmilovitz",
+      "year": "2005",
+      "journal-title": "IEE Proc Electr Power Appl"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0120",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sugimoto H, Dong H. A new scheme for maximum photovoltaic power tracking control. In: Proc IEEE power conv conf; 1997. p. 691–6.",
+      "DOI": "10.1109/PCCON.1997.638281"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0125",
+      "unstructured": "Pan CT, Chen JY, Chu CP, Huang YS. A fast maximum power point tracker for photovoltaic power systems. In: Proc 25th annu conf IEEE ind electron soc; 1999. p. 390–3."
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.apenergy.2013.02.008_b0130",
+      "doi-asserted-by": "crossref",
+      "first-page": "1295",
+      "DOI": "10.1109/TPEL.2004.833457",
+      "article-title": "Power controller design for maximum power tracking in solar installations",
+      "volume": "19",
+      "author": "Solodovnik",
+      "year": "2004",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0135",
+      "doi-asserted-by": "crossref",
+      "unstructured": "De Carvalho PCM, Pontes RST, Oliviera Jr DS, Riffel DB, De Oliviera RGV, Mesquita SB. Control method of a photovoltaic powered reverse osmosis plant without batteries based on maximum power point tracking. In: Proc IEEE PES transmiss distrib conf & expo. Latin, America; 2004. p. 137–42.",
+      "DOI": "10.1109/TDC.2004.1432366"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0140",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rtiz-Rivera EI, Peng F. A novel method to estimate the maximum power for a photovoltaic inverter system. In: Proc 35th annu IEEE power electron spec conf; 2004. p. 2065–9.",
+      "DOI": "10.1109/PESC.2004.1355436"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0375",
+      "unstructured": "Zhang M, Wu J, Zhao H. The application of slide technology in PV maximum power point tracking system. In: Proc 5th world congr intell contr automat; 2004. P. 5591–4."
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "1101",
+      "DOI": "10.1016/j.apenergy.2005.11.004",
+      "article-title": "Sliding mode controller for the single-phase grid-connected photovoltaic system",
+      "volume": "83",
+      "author": "Kim",
+      "year": "2006",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1016/j.apenergy.2011.09.005",
+      "article-title": "Mathematical and graphical approach for maximum power point modeling",
+      "volume": "91",
+      "author": "Ioulia",
+      "year": "2012",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0160",
+      "doi-asserted-by": "crossref",
+      "first-page": "395",
+      "DOI": "10.1016/j.apenergy.2011.09.036",
+      "article-title": "A simple behavioural model for solar module electric characteristics based on the first order system step response for MPPT study and comparison",
+      "volume": "91",
+      "author": "Amrouche",
+      "year": "2012",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0165",
+      "doi-asserted-by": "crossref",
+      "first-page": "2217",
+      "DOI": "10.1016/j.solener.2011.06.008",
+      "article-title": "A comprehensive MATLAB Simulink PV system simulator with partial shading capability based on two-diode mode",
+      "volume": "85",
+      "author": "Ishaque",
+      "year": "2011",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0170",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kobayashi K. Matsuo H, Sekine Y. A novel optimum operating point tracker of the solar cell power supply system. In: 35th Power electron spec conf, vol. 3; 2004. p. 2147–51.",
+      "DOI": "10.1109/PESC.2004.1355451"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0175",
+      "doi-asserted-by": "crossref",
+      "first-page": "814",
+      "DOI": "10.1016/j.apenergy.2009.09.036",
+      "article-title": "Photovoltaic field emulation including dynamic and partial shadow conditions",
+      "volume": "87",
+      "author": "Di Piazza",
+      "year": "2012",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0180",
+      "doi-asserted-by": "crossref",
+      "first-page": "343",
+      "DOI": "10.1016/S0038-092X(00)00085-2",
+      "article-title": "ANN based peak power tracking for PV supplied DC motors",
+      "volume": "69",
+      "author": "Veerachary",
+      "year": "2000",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0380",
+      "first-page": "1",
+      "article-title": "Maximum power point tracking for photovoltaic systems using fuzzy logic and artificial neural networks",
+      "author": "Alabedin",
+      "year": "2011",
+      "journal-title": "IEEE Power Energy Soc Gen Meet"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0190",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jinbang X, Shen A, Yang C, Rao W, Yang X. ANN based on IncCond algorithm for MPP tracker. In: Bio-inspired computing: theories and applications (BIC-TA), 2011. Sixth international conference on; 2011. p. 129–34.",
+      "DOI": "10.1109/BIC-TA.2011.16"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0195",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Islam MA, Kabir MA. Neural network based maximum power point tracking of photovoltaic arrays. In: TENCON IEEE region 10 conf; 2011. p. 79–82.",
+      "DOI": "10.1109/TENCON.2011.6129067"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0200",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jie L, Ziran C. Research on the MPPT algorithms of photovoltaic system based on PV neural network. In: Chinese control and decision conference; 2011.",
+      "DOI": "10.1109/CCDC.2011.5968501"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.apenergy.2013.02.008_b0205",
+      "doi-asserted-by": "crossref",
+      "first-page": "749",
+      "DOI": "10.1109/TIE.2003.814762",
+      "article-title": "Neural-network-based maximum-power-point tracking of coupled-inductor interleaved-boost-converter-supplied PV system using fuzzy controller",
+      "volume": "50",
+      "author": "Veerachary",
+      "year": "2003",
+      "journal-title": "IEEE Trans Ind Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0210",
+      "doi-asserted-by": "crossref",
+      "first-page": "262",
+      "DOI": "10.1109/TEC.2009.2032575",
+      "article-title": "Min CRA new algorithm to photovoltaic power point tracking problems with quadratic maximization",
+      "volume": "25",
+      "author": "Sheng",
+      "year": "2010",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0215",
+      "first-page": "60",
+      "article-title": "Performance evaluation of parabolic prediction to maximum power point tracking for PV array",
+      "volume": "2",
+      "author": "Sheng",
+      "year": "2011",
+      "journal-title": "IEEE Trans Sust Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0220",
+      "doi-asserted-by": "crossref",
+      "first-page": "1038",
+      "DOI": "10.1109/TPEL.2010.2078519",
+      "article-title": "New approach for MPPT control of photovoltaic system with mutative-scale dual-carrier chaotic search",
+      "volume": "26",
+      "author": "Zhou",
+      "year": "2011",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0225",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mahmoud AMA, Mashaly HM, Kandil SA, El-Khashab, Nashed HMN. Fuzzy logic implementation for photovoltaic maximum power tracking. In: Indust Electron Soc, IECON 26th annu conf IEEE, vol. 1; 2000. p. 735–40.",
+      "DOI": "10.1109/IECON.2000.973240"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.apenergy.2013.02.008_b0230",
+      "doi-asserted-by": "crossref",
+      "first-page": "969",
+      "DOI": "10.1109/TAES.2002.1039412",
+      "article-title": "Feed forward maximum power point tracking of PV systems using fuzzy logic controller",
+      "volume": "38",
+      "author": "Veerachary",
+      "year": "2002",
+      "journal-title": "IEEE Trans Aerospase Electron Syst"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0235",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Khaehintung N, Pramotung K, Tuvirat1 B, Sirisuk P. RISC-microcontroller built-in fuzzy logic controller of maximum power point tracking for solar-powered light-flasher applications. In: Indust Electron Soc, IECON 30th annu conf IEEE, vol. 3; 2004. p. 2673–8.",
+      "DOI": "10.1109/IECON.2004.1432228"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0240",
+      "unstructured": "Chung-Yuen W, Duk-Heon K, Chen KS. A new maximum power point tracker of photovoltaic arrays using fuzzy controller. In: Power electron specialists 25th annu IEEE conf, vol. 1; 1994. p. 396–403."
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0385",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Simoes MG, Franceschetti NN, Friedhofer M. A fuzzy logic based photovoltaic peak power tracking control. In: Proce of Indust Electron IEEE Int Symp, vol. 1; 1998. p. 300–5.",
+      "DOI": "10.1109/ISIE.1998.707796"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0250",
+      "first-page": "27",
+      "article-title": "Design, simulation and implementation of a fuzzy-based maximum power point tracker under variable irradiance and temperature conditions",
+      "volume": "29",
+      "author": "Masoum",
+      "year": "2005",
+      "journal-title": "Iran J Sci Technol"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0255",
+      "doi-asserted-by": "crossref",
+      "first-page": "1123",
+      "DOI": "10.1109/TEC.2010.2041551",
+      "article-title": "T–S fuzzy maximum power point tracking control of solar power generation systems",
+      "volume": "25",
+      "author": "Chian-Song",
+      "year": "2010",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0260",
+      "doi-asserted-by": "crossref",
+      "first-page": "793",
+      "DOI": "10.1109/TEC.2006.875430",
+      "article-title": "New maximum power point tracker for PV arrays using fuzzy controller in close cooperation with fuzzy cognitive networks",
+      "volume": "21",
+      "author": "Kottas",
+      "year": "2006",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0265",
+      "doi-asserted-by": "crossref",
+      "first-page": "1022",
+      "DOI": "10.1109/TPEL.2010.2090903",
+      "article-title": "Fuzzy-logic-control approach of a modified Hill–Climbing method for maximum power point in microgrid standalone photovoltaic system",
+      "volume": "26",
+      "author": "Alajmi",
+      "year": "2011",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0270",
+      "doi-asserted-by": "crossref",
+      "first-page": "372",
+      "DOI": "10.1109/PESW.2002.985022",
+      "article-title": "Maximum power point tracking using adaptive fuzzy logic control for grid-connected photovoltaic system",
+      "volume": "1",
+      "author": "Patcharaprakiti",
+      "year": "2002",
+      "journal-title": "Power Eng Soc Winter Meet IEEE"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0275",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wu TF, Yang CH, Chen YK, Liu R. Photovoltaic inverter systems with self-tuning fuzzy control based on an experimental planning method. In: 34th indust app annu meet conf IEEE, vol. 3; 1999. p. 1887–94.",
+      "DOI": "10.1109/IAS.1999.805996"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0280",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Purnama I, Lo YK, Chiu HJ. A fuzzy control maximum power point tracking photovoltaic system. In: Fuzzy systems (FUZZ) IEEE int conf; 2011. p. 2432–9.",
+      "DOI": "10.1109/FUZZY.2011.6007399"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0285",
+      "first-page": "6",
+      "article-title": "Neural network optimized fuzzy logic controller for maximum power point tracking in a photovoltaic system",
+      "author": "Subiyanto",
+      "year": "2012",
+      "journal-title": "Int J Photoenergy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0290",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chin CS, Neelakantan P, Yoong HP, Yang SS, Teo KTK. Maximum power point tracking for PV array under partially shaded condition. In: 3rd int conf on comput intell, comm sys and net; 2011. p. 72–7.",
+      "DOI": "10.1109/CICSyN.2011.27"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.apenergy.2013.02.008_b0295",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1049/iet-rpg:20080065",
+      "article-title": "Artificial neural network-polar coordinated fuzzy controller based maximum power point tracking control under partially shaded conditions",
+      "volume": "3",
+      "author": "Syafaruddin",
+      "year": "2009",
+      "journal-title": "IET Renew Power Gener"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0300",
+      "doi-asserted-by": "crossref",
+      "first-page": "414",
+      "DOI": "10.1016/j.apenergy.2012.05.026",
+      "article-title": "A direct control based maximum power point tracking method for photovoltaic system under partial shading conditions using particle swarm optimization algorithm",
+      "volume": "99",
+      "author": "Ishaque",
+      "year": "2012",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0305",
+      "doi-asserted-by": "crossref",
+      "first-page": "3627",
+      "DOI": "10.1109/TPEL.2012.2185713",
+      "article-title": "An improved particle swarm optimization (PSO)-based MPPT for PV with reduced steady-state oscillation",
+      "volume": "27",
+      "author": "Ishaque",
+      "year": "2012",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0310",
+      "doi-asserted-by": "crossref",
+      "first-page": "678",
+      "DOI": "10.1109/TIE.2009.2034680",
+      "article-title": "Dual mechatronic MPPT controllers with PN and OPSO control algorithms for the rotatable solar panel in PHEV system",
+      "volume": "57",
+      "author": "Kuo",
+      "year": "2010",
+      "journal-title": "IEEE Trans Ind Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0315",
+      "doi-asserted-by": "crossref",
+      "first-page": "367",
+      "DOI": "10.1109/TAES.2011.5705681",
+      "article-title": "Maximum power point tracking of multiple photovoltaic arrays: a PSO approach",
+      "volume": "47",
+      "author": "Miyatake",
+      "year": "2011",
+      "journal-title": "IEEE Trans Aerospace Electron Sys"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0320",
+      "doi-asserted-by": "crossref",
+      "first-page": "3975",
+      "DOI": "10.1109/TPEL.2012.2188818",
+      "article-title": "Photovoltaic model identification using particle swarm optimization with inverse barrier constraint",
+      "volume": "27",
+      "author": "Soon",
+      "year": "2012",
+      "journal-title": "IEEE Trans Power Electron"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0325",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fu Q, Tong N. A complex-method-based PSO algorithm for the maximum power point tracking in photovoltaic system. In: 2nd Int conf on InfoTech and com sci; 2010. p. 134–7.",
+      "DOI": "10.1109/ITCS.2010.39"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0330",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Besheer AH, Adly M. Ant colony system based PI maximum power point tracking for standalone photovoltaic system. In: Indust tech IEEE international conference; 2012. p. 693–8.",
+      "DOI": "10.1109/ICIT.2012.6210019"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0335",
+      "doi-asserted-by": "crossref",
+      "first-page": "265",
+      "DOI": "10.1016/j.solener.2010.12.004",
+      "article-title": "Maximum power point tracking using a GA optimized fuzzy logic controller and its FPGA implementation",
+      "volume": "85",
+      "author": "Messai",
+      "year": "2011",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0340",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ramaprabha R, Gothandaraman V, Kanimozhi K, Divya R, Mathur BL. Maximum power point tracking using GA-optimized artificial neural network for Solar PV system. In: 1st Int conf on elec energy sys IEEE; 2011. p. 264–8.",
+      "DOI": "10.1109/ICEES.2011.5725340"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0345",
+      "doi-asserted-by": "crossref",
+      "first-page": "2349",
+      "DOI": "10.1016/j.solener.2011.06.025",
+      "article-title": "An improved modeling method to determine the model parameters of photovoltaic (PV) modules using differential evolution (DE)",
+      "volume": "85",
+      "author": "Ishaque",
+      "year": "2011",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0390",
+      "first-page": "82",
+      "article-title": "A novel maximum power point tracking control of photovoltaic system under partial and rapidly fluctuating shadow conditions using differential evolution",
+      "author": "Taheri",
+      "year": "2010",
+      "journal-title": "IEEE Symp Ind Electron Appl"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0355",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Keyrouz F, Georges S. Efficient multidimensional maximum power point tracking using Bayesian fusion. In: Elec power and energy conv syst 2nd int conf; 2011. p. 1–5.",
+      "DOI": "10.1109/EPECS.2011.6126831"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.apenergy.2013.02.008_b0360",
+      "doi-asserted-by": "crossref",
+      "first-page": "439",
+      "DOI": "10.1109/TEC.2006.874230",
+      "article-title": "Comparison of photovoltaic array maximum power point tracking techniques",
+      "volume": "22",
+      "author": "Esram",
+      "year": "2007",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.apenergy.2013.02.008_b0365",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Da Costa WT, Fardin JF, Simonetti DSL, Neto VBM. Identification of photovoltaic model parameters by differential evolution. In: Indust tech IEEE conf on Dig Obj Ident; 2010. p. 931–6.",
+      "DOI": "10.1109/ICIT.2010.5472557"
+    }
+  ],
+  "container-title": [
+    "Applied Energy"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0306261913001165?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0306261913001165?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        5
+      ]
+    ],
+    "date-time": "2025-10-05T10:41:45Z",
+    "timestamp": 1759660905000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0306261913001165"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "references-count": 73,
+  "alternative-id": [
+    "S0306261913001165"
+  ],
+  "URL": "https://doi.org/10.1016/j.apenergy.2013.02.008",
+  "relation": {},
+  "ISSN": [
+    "0306-2619"
+  ],
+  "issn-type": [
+    {
+      "value": "0306-2619",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "The application of soft computing methods for MPPT of PV system: A technological and status review",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Applied Energy",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.apenergy.2013.02.008",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "Copyright © 2013 Elsevier Ltd. All rights reserved.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ]
+}

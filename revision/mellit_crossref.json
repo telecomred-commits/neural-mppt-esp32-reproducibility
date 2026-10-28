@@ -1,0 +1,3248 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T19:23:30Z",
+    "timestamp": 1792956210518,
+    "version": "4.5.0"
+  },
+  "reference-count": 335,
+  "publisher": "Elsevier BV",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2008,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2008-10-01T00:00:00Z",
+        "timestamp": 1222819200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Progress in Energy and Combustion Science"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.pecs.2008.01.001",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2008,
+        3,
+        6
+      ]
+    ],
+    "date-time": "2008-03-06T18:48:09Z",
+    "timestamp": 1204829289000
+  },
+  "page": "574-632",
+  "source": "Crossref",
+  "is-referenced-by-count": 891,
+  "title": [
+    "Artificial intelligence techniques for photovoltaic applications: A review"
+  ],
+  "prefix": "10.1016",
+  "volume": "34",
+  "author": [
+    {
+      "given": "Adel",
+      "family": "Mellit",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Soteris A.",
+      "family": "Kalogirou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib1",
+      "volume": "vol. 1",
+      "author": "Barr",
+      "year": "1981"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib2",
+      "doi-asserted-by": "crossref",
+      "first-page": "515",
+      "DOI": "10.1016/S0360-1285(03)00058-3",
+      "article-title": "Artificial intelligence for the modeling and control of combustion processes: a review",
+      "volume": "29",
+      "author": "Kalogirou",
+      "year": "2003",
+      "journal-title": "Prog Energy Combust Sci"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib3",
+      "series-title": "Artificial intelligence in energy and renewable energy systems",
+      "author": "Kalogirou",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib4",
+      "doi-asserted-by": "crossref",
+      "first-page": "213",
+      "DOI": "10.1006/jnca.1996.0015",
+      "article-title": "Microcomputer applications of hybrid intelligent systems",
+      "volume": "19",
+      "author": "Medsker",
+      "year": "1996",
+      "journal-title": "J Network Comput Appl"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib5",
+      "series-title": "Artificial intelligence and expert systems for engineers",
+      "author": "Krishnamoorthy",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib6",
+      "series-title": "Artificial intelligence",
+      "author": "Rich",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib7",
+      "series-title": "Artificial intelligence and soft computing behavioral and cognitive modeling of the human brain",
+      "author": "Konar",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib8",
+      "series-title": "Artificial intelligence with uncertainty",
+      "author": "Deyi",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib9",
+      "volume": "vol. 3",
+      "author": "Kodratoff",
+      "year": "1990"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib10",
+      "doi-asserted-by": "crossref",
+      "first-page": "338",
+      "DOI": "10.1016/S0019-9958(65)90241-X",
+      "article-title": "Fuzzy sets",
+      "volume": "8",
+      "author": "Zadeh",
+      "year": "1965",
+      "journal-title": "Inform Control"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib11",
+      "series-title": "Artificial intelligence structures and strategies for complex problem solving",
+      "author": "George",
+      "year": "1998"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib12",
+      "article-title": "Language for proving theorems in robots",
+      "volume": "2",
+      "author": "Hewitt",
+      "year": "1971",
+      "journal-title": "Proc IJCAI"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Greer LR. Artificial intelligence and simulation: an introduction. In: Wilson J, Henriksen J, Roberts S, editors. Proceedings of the 1986 winter simulation conference. 1986. p. 448–52.",
+      "DOI": "10.1145/318242.318475"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "235",
+      "DOI": "10.1016/0954-1810(95)00034-8",
+      "article-title": "Component selection using non-monotonic reasoning",
+      "volume": "1",
+      "author": "Seddon",
+      "year": "1996",
+      "journal-title": "Artif Intell Eng"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib15",
+      "series-title": "Programs with common sense. Symposium on mechanization of thought processes",
+      "author": "McCarthy",
+      "year": "1958"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib16",
+      "volume": "Vol. 1",
+      "author": "Barr",
+      "year": "1982"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib17",
+      "series-title": "Understanding natural language",
+      "author": "Winograd",
+      "year": "1972"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib18",
+      "series-title": "The psychology of computer vision",
+      "article-title": "A framework for representing knowledge",
+      "author": "Minsky",
+      "year": "1975"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib19",
+      "series-title": "Robotics in practice",
+      "author": "Engelberger",
+      "year": "1980"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib20",
+      "series-title": "Artificial intelligence: theory and practice",
+      "author": "Dean",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib21",
+      "series-title": "Artificial intelligence",
+      "author": "Winston",
+      "year": "1994"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib22",
+      "article-title": "A model for learning systems",
+      "volume": "5",
+      "author": "Smith",
+      "year": "1977",
+      "journal-title": "Proc IJCAI"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib23",
+      "series-title": "Evolutionary computation: toward a new philosophy of machine intelligence",
+      "author": "Fogel",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib24",
+      "series-title": "Mathematical methods in artificial intelligence",
+      "author": "Bender",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib25",
+      "series-title": "Hybrid intelligent systems",
+      "author": "Medsker",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib26",
+      "first-page": "388",
+      "article-title": "Energy supply, its demand and security issues for developed and emerging economies",
+      "volume": "111",
+      "author": "Asif",
+      "year": "2007",
+      "journal-title": "Renew Sustain Energy Rev"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib27",
+      "series-title": "Photovoltaic solar energy generation",
+      "author": "Goetzberger",
+      "year": "2005"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib28",
+      "series-title": "Computers and thought",
+      "article-title": "Empirical explorations with the logic theory machine: a case study in heuristics",
+      "author": "Newell",
+      "year": "1963"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib29",
+      "doi-asserted-by": "crossref",
+      "first-page": "256",
+      "DOI": "10.1080/14786445008521796",
+      "article-title": "Programming a computer for playing chess",
+      "volume": "41",
+      "author": "Shannon",
+      "year": "1950",
+      "journal-title": "Philos Mag Series 7"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "27",
+      "DOI": "10.1016/0004-3702(80)90011-9",
+      "article-title": "Circumscription—a form of non-monotonic reasoning",
+      "volume": "13",
+      "author": "McCarthy",
+      "year": "1980",
+      "journal-title": "Artif Intell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib31",
+      "series-title": "Artificial intelligence: the very idea",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib32",
+      "series-title": "The age of intelligent machines",
+      "author": "Kurzweil",
+      "year": "1990"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib33",
+      "series-title": "Human problem solving",
+      "author": "Newell",
+      "year": "1972"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib34",
+      "series-title": "Artificial intelligence",
+      "author": "Rich",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib35",
+      "series-title": "Artificial intelligence: a modern approach",
+      "author": "Russel",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib36",
+      "series-title": "Artificial intelligence: structures and strategies for complex problem solving",
+      "author": "Luger",
+      "year": "1993"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib37",
+      "series-title": "Artificial intelligence",
+      "author": "Winston",
+      "year": "1994"
+    },
+    {
+      "issue": "2–3",
+      "key": "10.1016/j.pecs.2008.01.001_bib38",
+      "first-page": "273",
+      "article-title": "A world championship caliber checkers program",
+      "volume": "53",
+      "author": "Schalkoff",
+      "year": "1992",
+      "journal-title": "Artif Intell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib39",
+      "series-title": "Introduction to artificial intelligence",
+      "author": "Charniak",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib40",
+      "series-title": "Computational intelligence for decision support",
+      "author": "Chen",
+      "year": "2000"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib41",
+      "series-title": "Artificial intelligence: a new synthesis",
+      "author": "Nilsson",
+      "year": "1998"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib42",
+      "series-title": "Advances in computational intelligence and learning: methods and applications",
+      "year": "2001"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib43",
+      "unstructured": "Feigenbaum EA. Knowledge engineering for the 1980, Department of Computer Science, Stanford University, Stanford, CA, 1982."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib44",
+      "series-title": "Expert systems and applied artificial intelligence",
+      "author": "Turban",
+      "year": "1992"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib45",
+      "doi-asserted-by": "crossref",
+      "first-page": "1012",
+      "DOI": "10.1109/32.31358",
+      "article-title": "Expert systems and optimization",
+      "volume": "15",
+      "author": "Kusiak",
+      "year": "1989",
+      "journal-title": "IEEE Trans Software Eng"
+    },
+    {
+      "issue": "I",
+      "key": "10.1016/j.pecs.2008.01.001_bib46",
+      "first-page": "2",
+      "article-title": "Artificial intelligence and operations research in flexible manufacturing systems",
+      "volume": "25",
+      "author": "Kusiak",
+      "year": "1987",
+      "journal-title": "Inf Process"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib47",
+      "doi-asserted-by": "crossref",
+      "first-page": "115",
+      "DOI": "10.1007/BF02478259",
+      "article-title": "A logical calculus of the ideas imminent in nervous activity",
+      "volume": "5",
+      "author": "McCulloch",
+      "year": "1943",
+      "journal-title": "Bull Math Biophys"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib48",
+      "series-title": "The organization of behavior",
+      "author": "Hebb",
+      "year": "1949"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib49",
+      "series-title": "Perceptrons",
+      "author": "Minsky",
+      "year": "1969"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib50",
+      "doi-asserted-by": "crossref",
+      "first-page": "2554",
+      "DOI": "10.1073/pnas.79.8.2554",
+      "article-title": "Neural networks and to physical systems with emergent collective computational abilities",
+      "volume": "79",
+      "author": "Hopfield",
+      "year": "1982",
+      "journal-title": "Proc Natl Acad Sci"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib51",
+      "series-title": "Self-organization and associative memory",
+      "author": "Kohonen",
+      "year": "1984"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib52",
+      "series-title": "The PDP research group, parallel distributed processing: explorations in the microstructure of cognition",
+      "author": "Rumelhart",
+      "year": "1986"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib53",
+      "unstructured": "Robert F. Neural fuzzy systems. Abo Akademi University, 1995."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib54",
+      "doi-asserted-by": "crossref",
+      "first-page": "58",
+      "DOI": "10.1191/014362401701524127",
+      "article-title": "Introduction to neural network analysis and its applications to building services engineering",
+      "volume": "22",
+      "author": "Nannariello",
+      "year": "2001",
+      "journal-title": "Build Serv Eng Res Technol"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib55",
+      "series-title": "Handbook of neural network signal processing",
+      "author": "Yu",
+      "year": "2001"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib56",
+      "series-title": "Neural networks: a comprehensive foundation",
+      "author": "Haykin",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib57",
+      "series-title": "Static and dynamic neural networks, from fundamentals to advanced theory",
+      "author": "Gupta",
+      "year": "2003"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib58",
+      "series-title": "Fusion of neural networks, fuzzy systems and genetic algorithms: industrial applications",
+      "author": "Lakhmi",
+      "year": "1998"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib59",
+      "series-title": "Introduction to the theory of neural computation",
+      "author": "Herts",
+      "year": "1991"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib60",
+      "unstructured": "Jordan M. Serial order: a parallel distributed processing approach. In: Elman JL, Rumelhart DE, editors. Advances in connectionist theory: speech Erlbaum. 1988."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib61",
+      "doi-asserted-by": "crossref",
+      "first-page": "179",
+      "DOI": "10.1207/s15516709cog1402_1",
+      "article-title": "Finding structure in time",
+      "volume": "14",
+      "author": "Elman",
+      "year": "1990",
+      "journal-title": "Cognit Sci"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib62",
+      "doi-asserted-by": "crossref",
+      "first-page": "87",
+      "DOI": "10.1080/09540098908915631",
+      "article-title": "Experimental analysis of the real-time recurrent learning algorithm",
+      "volume": "1",
+      "author": "Williams",
+      "year": "1989",
+      "journal-title": "Connect Sci"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib63",
+      "first-page": "34",
+      "article-title": "Horne remembering the past: the role of embedded memory in recurrent neural network architectures",
+      "author": "Giles",
+      "year": "1997",
+      "journal-title": "IEEE Proc"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib64",
+      "doi-asserted-by": "crossref",
+      "first-page": "4",
+      "DOI": "10.1080/01969727208542910",
+      "article-title": "A fuzzy-set-theoretic interpretation of linguistic hedges",
+      "volume": "2",
+      "author": "Zadeh",
+      "year": "1972",
+      "journal-title": "Cyber Net"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib65",
+      "doi-asserted-by": "crossref",
+      "first-page": "28",
+      "DOI": "10.1109/TSMC.1973.5408575",
+      "article-title": "Outline of a new approach to the analysis of complex systems and decision processes",
+      "volume": "3",
+      "author": "Zadeh",
+      "year": "1973",
+      "journal-title": "IEEE Trans Syst Man Cybernet"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib66",
+      "series-title": "Modern uses of multiple-valued logic",
+      "first-page": "103",
+      "article-title": "Local and fuzzy logics",
+      "author": "Bellman",
+      "year": "1977"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib67",
+      "series-title": "Fuzzy sets syst.: theory and applications",
+      "author": "Dubois",
+      "year": "1980"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib68",
+      "series-title": "Introduction to fuzzy arithmetic, theory and applications",
+      "author": "Kaufmann",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib69",
+      "unstructured": "Robert F. Neural Fuzzy Systems. Abo Akademi University, 1995."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib70",
+      "series-title": "Hybrid architectures for intelligent systems",
+      "article-title": "A hybrid architecture for fuzzy connectionist expert systems",
+      "author": "Machado",
+      "year": "1992"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib71",
+      "series-title": "Adaptation in natural and artificial systems",
+      "author": "Holland",
+      "year": "1975"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib72",
+      "series-title": "Genetic algorithms+Data Structures=Evolution Programs",
+      "author": "Michalewicz",
+      "year": "1992"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib73",
+      "unstructured": "DeJong KA. An analysis of the behavior of a class of genetic adaptive systems. PhD dissertation, University of Michigan, 1975."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib74",
+      "series-title": "Genetic algorithms in search, optimization and machine learning",
+      "author": "Goldberg",
+      "year": "1989"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib75",
+      "series-title": "Genetic algorithms—principles and perspectives, a guide to GA theory",
+      "author": "Colin",
+      "year": "2002"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib76",
+      "unstructured": "Tsakonas A, Dounias G. Hybrid computational intelligence schemes in complex domains: an extended review. In: Vlahavas IP, Spyropoulos CD, editors. SETN 2002, LNAI 2308, 2002; p. 494–511."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib77",
+      "doi-asserted-by": "crossref",
+      "first-page": "15",
+      "DOI": "10.1016/0957-4174(91)90131-W",
+      "article-title": "Integration of adaptive machine learning and knowledge-cased systems for routing and scheduling applications",
+      "volume": "2",
+      "author": "Kadaba",
+      "year": "1991",
+      "journal-title": "Expert Syst Appl"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib78",
+      "unstructured": "Harp SA, Samad T. Optimizing neural networks with genetic algorithms. Proceedings of the American Power Conference, Chicago, 1991; p. 1138–43."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib79",
+      "series-title": "Computational intelligence: imitating life",
+      "first-page": "371",
+      "article-title": "Combinations of genetic algorithms with neural networks or fuzzy systems",
+      "author": "SchaVer",
+      "year": "1994"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib80",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/0038-092X(81)90013-X",
+      "article-title": "The frequency distribution of daily insolation values",
+      "volume": "27",
+      "author": "Bendt",
+      "year": "1981",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib81",
+      "doi-asserted-by": "crossref",
+      "first-page": "195",
+      "DOI": "10.1016/0038-092X(83)90149-4",
+      "article-title": "A probability density function for the clearness index, with applications",
+      "volume": "30",
+      "author": "Hollands",
+      "year": "1983",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib82",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/0038-092X(60)90062-1",
+      "article-title": "The interrelationship and characteristic distribution of direct, diffuse and total solar radiation",
+      "volume": "4",
+      "author": "Liu",
+      "year": "1960",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib83",
+      "doi-asserted-by": "crossref",
+      "first-page": "155",
+      "DOI": "10.1016/0038-092X(79)90100-2",
+      "article-title": "The average distribution of solar radiation-correlations between diffuse and hemispherical and between daily and hourly insolation values",
+      "volume": "22",
+      "author": "Collares-Pereira",
+      "year": "1979",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib84",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1016/0038-092X(79)90042-2",
+      "article-title": "Stochastic simulation of hourly global radiation sequences",
+      "volume": "23",
+      "author": "Mustacchi",
+      "year": "1979",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.pecs.2008.01.001_bib85",
+      "doi-asserted-by": "crossref",
+      "first-page": "533",
+      "DOI": "10.1016/0038-092X(84)90008-2",
+      "article-title": "A probability density function for daily insolation within the temperate storm belts",
+      "volume": "33",
+      "author": "Olseth",
+      "year": "1984",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib86",
+      "doi-asserted-by": "crossref",
+      "first-page": "179",
+      "DOI": "10.1016/0038-092X(86)90075-7",
+      "article-title": "Markov processes and Fourier analysis as a tool to describe and simulate daily solar irradiance",
+      "volume": "37",
+      "author": "Amato",
+      "year": "1986",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib87",
+      "doi-asserted-by": "crossref",
+      "first-page": "269",
+      "DOI": "10.1016/0306-2619(86)90011-5",
+      "article-title": "Solar radiation model for hot dry arid climates",
+      "volume": "23",
+      "author": "Habbane",
+      "year": "1986",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib88",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1016/0038-092X(88)90075-8",
+      "article-title": "A time series model for Kt with application to global synthetic weather generation",
+      "volume": "40",
+      "author": "Graham",
+      "year": "1988",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib89",
+      "doi-asserted-by": "crossref",
+      "first-page": "269",
+      "DOI": "10.1016/0038-092X(88)90049-7",
+      "article-title": "Simple procedure for generating sequences of daily radiation values using library of Markov transition matrices",
+      "volume": "40",
+      "author": "Aguiar",
+      "year": "1988",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib90",
+      "doi-asserted-by": "crossref",
+      "first-page": "247",
+      "DOI": "10.1016/0741-983X(89)90076-3",
+      "article-title": "A two state Markovian model of global irradiation suitable for photovoltaic conversion",
+      "volume": "6",
+      "author": "Maafi",
+      "year": "1989",
+      "journal-title": "Sol Wind Technol"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib91",
+      "doi-asserted-by": "crossref",
+      "first-page": "865",
+      "DOI": "10.1016/0360-5442(90)90068-D",
+      "article-title": "A further comparison and discussion of sunshine-based models to estimate global solar radiation",
+      "volume": "15",
+      "author": "Akinoslu",
+      "year": "1990",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib92",
+      "first-page": "373",
+      "article-title": "Statistical time series models of solar radiation and outdoor temperature identification of seasonal models by Kalman Filter",
+      "volume": "15–16",
+      "author": "Shuichi",
+      "year": "1990",
+      "journal-title": "Energy Build"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib93",
+      "first-page": "245",
+      "article-title": "Stochastic models of solar radiation and outdoor temperature",
+      "volume": "2",
+      "author": "Hokoi",
+      "year": "1990",
+      "journal-title": "ASHRAE Trans"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib94",
+      "doi-asserted-by": "crossref",
+      "first-page": "167",
+      "DOI": "10.1016/0038-092X(92)90068-L",
+      "article-title": "A time dependent autoregressive Gaussian model for generating synthetic hourly radiation",
+      "volume": "49",
+      "author": "Aguiar",
+      "year": "1992",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib95",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1016/0306-2619(91)90015-P",
+      "article-title": "Correlation between estimated and measured hourly and daily solar fluxes over Bahrain",
+      "volume": "40",
+      "author": "Ragab",
+      "year": "1991",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib96",
+      "doi-asserted-by": "crossref",
+      "first-page": "183",
+      "DOI": "10.1016/0196-8904(95)00168-D",
+      "article-title": "A simple technique for estimating solar radiation parameters and its application for Gebze",
+      "volume": "37",
+      "author": "Dincer",
+      "year": "1996",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib97",
+      "doi-asserted-by": "crossref",
+      "first-page": "657",
+      "DOI": "10.1016/0360-5442(95)00004-Z",
+      "article-title": "Diffuse radiation models and monthly-average, daily, diffuse data for a wide latitude range",
+      "volume": "20",
+      "author": "Gopinathan",
+      "year": "1995",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib98",
+      "first-page": "9",
+      "article-title": "Analysis of residuals in daily solar radiation time series",
+      "volume": "11",
+      "author": "Yusof",
+      "year": "1997",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib99",
+      "doi-asserted-by": "crossref",
+      "first-page": "303",
+      "DOI": "10.1016/S0960-1481(97)00039-6",
+      "article-title": "Estimation of hourly solar radiation for India",
+      "volume": "12",
+      "author": "Parishwad",
+      "year": "1997",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib100",
+      "doi-asserted-by": "crossref",
+      "first-page": "369",
+      "DOI": "10.1016/S0960-1481(97)00057-8",
+      "article-title": "Global solar radiation estimation",
+      "volume": "12",
+      "author": "Rehman",
+      "year": "1997",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib101",
+      "doi-asserted-by": "crossref",
+      "first-page": "283",
+      "DOI": "10.1016/S0038-092X(98)00078-4",
+      "article-title": "Multiplicative ARMA models to generate hourly series of global irradiation",
+      "volume": "63",
+      "author": "Mora-Lopez",
+      "year": "1998",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib102",
+      "doi-asserted-by": "crossref",
+      "first-page": "161",
+      "DOI": "10.1016/S0306-2619(99)00025-2",
+      "article-title": "Estimation of solar radiation from the number of sunshine hours",
+      "volume": "63",
+      "author": "David",
+      "year": "1999",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib103",
+      "doi-asserted-by": "crossref",
+      "first-page": "39",
+      "DOI": "10.1016/S0960-1481(97)00009-8",
+      "article-title": "Compilation and evaluation of solar and wind energy resources in Sudan",
+      "volume": "12",
+      "author": "Omer",
+      "year": "1997",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib104",
+      "doi-asserted-by": "crossref",
+      "first-page": "445",
+      "DOI": "10.1016/S0960-1481(98)00815-5",
+      "article-title": "Stochastic modeling of solar irradiance on horizontal and vertical planes at a northerly location",
+      "volume": "18",
+      "author": "Craggsa",
+      "year": "1999",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib105",
+      "doi-asserted-by": "crossref",
+      "first-page": "883",
+      "DOI": "10.1016/S0360-5442(99)00027-4",
+      "article-title": "Correlations to estimate monthly mean daily solar global irradiation: application to Romania",
+      "volume": "24",
+      "author": "Badescu",
+      "year": "1999",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib106",
+      "doi-asserted-by": "crossref",
+      "first-page": "11",
+      "DOI": "10.1016/S0038-092X(01)00009-3",
+      "article-title": "Spatial interpolation and estimation of solar irradiation by cumulative semivariograms",
+      "volume": "71",
+      "author": "Sen",
+      "year": "2001",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib107",
+      "doi-asserted-by": "crossref",
+      "first-page": "369",
+      "DOI": "10.1016/S0306-2619(99)00108-7",
+      "article-title": "Empirical model development and comparison with existing correlations",
+      "volume": "64",
+      "author": "Rehman",
+      "year": "1999",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib108",
+      "doi-asserted-by": "crossref",
+      "first-page": "217",
+      "DOI": "10.1016/S0038-092X(01)00049-4",
+      "article-title": "Power estimating clear-sky beam irradiation from sunshine duration",
+      "volume": "71",
+      "author": "Helen",
+      "year": "2001",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1,1",
+      "key": "10.1016/j.pecs.2008.01.001_bib109",
+      "doi-asserted-by": "crossref",
+      "first-page": "37",
+      "DOI": "10.1016/S0960-1481(99)00124-X",
+      "article-title": "Development of energy model based on total daily irradiation and maximum ambient temperature",
+      "volume": "21",
+      "author": "Meyer",
+      "year": "2000",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib110",
+      "doi-asserted-by": "crossref",
+      "first-page": "675",
+      "DOI": "10.1016/S0360-5442(00)00007-4",
+      "article-title": "Empirical modeling of hourly direct irradiance by means of hourly global irradiance",
+      "volume": "25",
+      "author": "Batlles",
+      "year": "2000",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib111",
+      "doi-asserted-by": "crossref",
+      "first-page": "967",
+      "DOI": "10.1016/S0196-8904(00)00105-9",
+      "article-title": "Global solar radiation estimation in Algeria",
+      "volume": "42",
+      "author": "Chegaar",
+      "year": "2001",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib112",
+      "doi-asserted-by": "crossref",
+      "first-page": "587",
+      "DOI": "10.1016/S0196-8904(00)00083-2",
+      "article-title": "Simple models of solar radiation data for north-western part of Turkey",
+      "volume": "42",
+      "author": "Sen",
+      "year": "2001",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.pecs.2008.01.001_bib113",
+      "doi-asserted-by": "crossref",
+      "first-page": "475",
+      "DOI": "10.1016/S0038-092X(02)00121-4",
+      "article-title": "A web service for controlling the quality of measurements of global solar irradiation",
+      "volume": "73",
+      "author": "Geiger",
+      "year": "2002",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib114",
+      "doi-asserted-by": "crossref",
+      "first-page": "191",
+      "DOI": "10.1016/S0306-2619(01)00012-5",
+      "article-title": "Solar radiation model",
+      "volume": "69",
+      "author": "Wong",
+      "year": "2001",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib115",
+      "doi-asserted-by": "crossref",
+      "first-page": "479",
+      "DOI": "10.1016/S0360-5442(02)00140-8",
+      "article-title": "Long-term energy output estimation for photovoltaic energy systems using synthetic solar irradiation data",
+      "volume": "28",
+      "author": "Celik",
+      "year": "2003",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib116",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1016/S0306-2619(01)00040-X",
+      "article-title": "Correlation models of diffuse solar-radiation applied to the city of Sao Paulo, Brazil",
+      "volume": "71",
+      "author": "Oliveira",
+      "year": "2002",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib117",
+      "doi-asserted-by": "crossref",
+      "first-page": "647",
+      "DOI": "10.1016/S0960-1481(01)00153-7",
+      "article-title": "Prediction of global daily solar radiation using higher order statistics",
+      "volume": "27",
+      "author": "Safi",
+      "year": "2002",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib118",
+      "doi-asserted-by": "crossref",
+      "first-page": "1523",
+      "DOI": "10.1016/S0960-1481(02)00217-3",
+      "article-title": "Methodology for generating daily clearness index values Kt starting from the monthly average daily value Kt. Determining the daily sequence using stochastic models",
+      "volume": "28",
+      "author": "Santos",
+      "year": "2003",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib119",
+      "doi-asserted-by": "crossref",
+      "first-page": "2849",
+      "DOI": "10.1016/j.enconman.2004.01.003",
+      "article-title": "Calculation on an hourly basis of solar diffuse irradiations from global data for horizontal surfaces in Ajaccio",
+      "volume": "45",
+      "author": "Notton",
+      "year": "2004",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib120",
+      "doi-asserted-by": "crossref",
+      "first-page": "2221",
+      "DOI": "10.1016/j.renene.2005.02.009",
+      "article-title": "Estimation of global radiation using clearness index model for sizing photovoltaic system",
+      "volume": "30",
+      "author": "Ravinder",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib121",
+      "doi-asserted-by": "crossref",
+      "first-page": "197",
+      "DOI": "10.1016/S0960-1481(01)00190-2",
+      "article-title": "Stochastic models for sunshine duration and solar irradiation",
+      "volume": "27",
+      "author": "Jain",
+      "year": "2002",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib122",
+      "doi-asserted-by": "crossref",
+      "first-page": "2441",
+      "DOI": "10.1016/j.enconman.2005.11.002",
+      "article-title": "A critical review on the estimation of daily global solar radiation from sunshine duration",
+      "volume": "47",
+      "author": "Yorukoglu",
+      "year": "2006",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib123",
+      "doi-asserted-by": "crossref",
+      "first-page": "281",
+      "DOI": "10.1016/j.rser.2004.09.004",
+      "article-title": "A review of energy models",
+      "volume": "10",
+      "author": "Jebaraj",
+      "year": "2006",
+      "journal-title": "Renew Sustain Energy Rev"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib124",
+      "doi-asserted-by": "crossref",
+      "first-page": "1414",
+      "DOI": "10.1016/j.renene.2006.06.014",
+      "article-title": "A model to predict expected mean and stochastic hourly global solar radiation I(h;nj) values",
+      "volume": "32",
+      "author": "Kaplanis",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib125",
+      "doi-asserted-by": "crossref",
+      "first-page": "226",
+      "DOI": "10.1016/j.enconman.2006.04.019",
+      "article-title": "A new simple parameterization of daily clear-sky global solar radiation including horizon effects",
+      "volume": "48",
+      "author": "Gabriel",
+      "year": "2007",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib126",
+      "first-page": "32342",
+      "article-title": "Simple nonlinear solar irradiation estimation model",
+      "author": "Sen",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib127",
+      "doi-asserted-by": "crossref",
+      "first-page": "195",
+      "DOI": "10.1016/j.solener.2006.03.001",
+      "article-title": "Fluctuations in instantaneous clearness index: analysis and statistics",
+      "volume": "81",
+      "author": "Achim",
+      "year": "2007",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib128",
+      "first-page": "254",
+      "volume": "81",
+      "author": "Loutzenhier",
+      "year": "2007",
+      "journal-title": "Empirical validation of models to compute solar irradiance on inclined surfaces for building energy simulation, Sol Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib129",
+      "first-page": "185",
+      "volume": "18",
+      "author": "Svec",
+      "year": "2007",
+      "journal-title": "Modelling and forecasting temperature based weather derivatives, Global Finance J"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib130",
+      "doi-asserted-by": "crossref",
+      "first-page": "115",
+      "DOI": "10.1016/0168-1923(94)90103-1",
+      "article-title": "Development of a neural network model to predict daily solar radiation",
+      "volume": "71",
+      "author": "Elizondo",
+      "year": "1994",
+      "journal-title": "Agric Forest Meteorol"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib131",
+      "unstructured": "Williams DB, Zazueta FS. Solar radiation estimation via neural network. In: ASAE, editor. Sixth internationalconference on computers in agriculture, Cancun, Mexico, 1994. p. 140–6."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib132",
+      "unstructured": "Williams D, Zazueta F. Solar radiation estimation via neural network. In: Sixth international conference on radiation. Computers in Agriculture, Cancun, Mexico, 1996. p. 1143–9."
+    },
+    {
+      "issue": "1–4",
+      "key": "10.1016/j.pecs.2008.01.001_bib133",
+      "doi-asserted-by": "crossref",
+      "first-page": "179",
+      "DOI": "10.1016/S0960-1481(98)00065-2",
+      "article-title": "Estimation of global solar radiation using artificial neural networks",
+      "volume": "14",
+      "author": "Mohandes",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "1–4",
+      "key": "10.1016/j.pecs.2008.01.001_bib134",
+      "doi-asserted-by": "crossref",
+      "first-page": "199",
+      "DOI": "10.1016/S0960-1481(98)00068-8",
+      "article-title": "An ANN-based approach for predicting global radiation in locations with no direct measurement instrumentation",
+      "volume": "14",
+      "author": "Alawi",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib135",
+      "unstructured": "Guessoum A, Boubkeur S, Maafi A. A global irradiation model using radial basis function neural network. WREC, UK, 1998. p. 332–6."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib136",
+      "series-title": "Improved generation of hourly solar radiation artificial series using neural networks. EANN99, Warsaw",
+      "author": "Hontoria",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib137",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zufiria P, Vázquez A, Riesco J, Aguilera J, Hontoria L. A neural network approach for generating solar radiation artificial series. In: Proceedings of the IWANN099. 4–5 June. Alicante, Spain, 1999.",
+      "DOI": "10.1007/BFb0100555"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib138",
+      "doi-asserted-by": "crossref",
+      "first-page": "161",
+      "DOI": "10.1016/S0038-092X(99)00071-7",
+      "article-title": "Use of radial basis functions for estimating monthly mean daily solar radiation",
+      "volume": "68",
+      "author": "Mohandes",
+      "year": "2000",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib139",
+      "unstructured": "Hontoria L, Riesco J, Zufiria P, Aguilera J. Application of neural networks in the solar radiation field. Obtainment of solar radiation maps. In: 16th European photovoltaic for chemical engineers, vol. 3. Amsterdam: Elsevier; 2000. p. 385–408."
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib140",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.1016/S0038-092X(99)00064-X",
+      "article-title": "Univariate and multivariate forecasting of hourly solar radiation with artificial intelligence techniques",
+      "volume": "68",
+      "author": "Sfetsos",
+      "year": "2000",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib141",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1007/s007040070024",
+      "article-title": "The total solar radiation time series simulation in Athens, using neural networks",
+      "volume": "66",
+      "author": "Mihalakakou",
+      "year": "2000",
+      "journal-title": "Theor Appl Climatol"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib142",
+      "doi-asserted-by": "crossref",
+      "first-page": "373",
+      "DOI": "10.1016/S1364-0321(01)00006-5",
+      "article-title": "Artificial neural networks in renewable energy systems applications: a review",
+      "author": "Kalogirou",
+      "year": "2001",
+      "journal-title": "Renew Sustain Energy Rev"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib143",
+      "doi-asserted-by": "crossref",
+      "first-page": "201",
+      "DOI": "10.1023/A:1012031827871",
+      "article-title": "Recurrent neural supervised models for generating solar radiation synthetic series",
+      "volume": "31",
+      "author": "Hontoria",
+      "year": "2001",
+      "journal-title": "J Intell Robot Syst"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.pecs.2008.01.001_bib144",
+      "doi-asserted-by": "crossref",
+      "first-page": "441",
+      "DOI": "10.1016/S0038-092X(02)00010-5",
+      "article-title": "Generation of hourly irradiation synthetic series using the neural network multilayer Perceptron",
+      "volume": "72",
+      "author": "Hontoria",
+      "year": "2002",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib145",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1016/S0306-2619(02)00016-8",
+      "article-title": "Solar radiation estimation using artificial neural networks",
+      "volume": "74",
+      "author": "Dorvio",
+      "year": "2002",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib146",
+      "unstructured": "Tymvios F, Jacovides CP, Michaelides SC. The total solar energy on a horizontal level with the use of artificial neural networks. In: Sixth hellenic conference of meteorology, climatology and atmospheric physics, Ioannina, Greece, 26–28 September 2002."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib147",
+      "unstructured": "Kalogirou S, Michaelides SC, Tymvios FS. Prediction of maximum solar radiation using artificial neural networks. World Renewable Energy Congress VII (WREC 2002), 2002 (on CD-ROM)."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib148",
+      "doi-asserted-by": "crossref",
+      "first-page": "2519",
+      "DOI": "10.1016/S0196-8904(03)00009-8",
+      "article-title": "Solar resource estimation using artificial neural networks and comparison with other correlation models",
+      "volume": "44",
+      "author": "Reddy",
+      "year": "2003",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib149",
+      "doi-asserted-by": "crossref",
+      "first-page": "273",
+      "DOI": "10.1016/S0306-2619(03)00137-5",
+      "article-title": "Use of artificial neural networks for mapping the solar potential in Turkey",
+      "volume": "77",
+      "author": "Sozen",
+      "year": "2004",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "issue": "18–19",
+      "key": "10.1016/j.pecs.2008.01.001_bib150",
+      "doi-asserted-by": "crossref",
+      "first-page": "3033",
+      "DOI": "10.1016/j.enconman.2003.12.020",
+      "article-title": "Estimation of solar potential in Turkey by artificial neural networks using meteorological and geographical data",
+      "volume": "45",
+      "author": "Sozen",
+      "year": "2004",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib151",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. Modeling of global solar radiation data from sunshine duration and temperature using the Radial Basis Function networks, The IASTED, MIC, February 22–25, 2004, Grindelwald, Switzerland, 2004 (on CD-ROM)."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib152",
+      "doi-asserted-by": "crossref",
+      "first-page": "523",
+      "DOI": "10.1016/j.solener.2004.11.013",
+      "article-title": "An application of the multilayer perceptron: solar radiation maps in Spain",
+      "volume": "79",
+      "author": "Hontoria",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib153",
+      "doi-asserted-by": "crossref",
+      "first-page": "1075",
+      "DOI": "10.1016/j.renene.2004.09.020",
+      "article-title": "Forecasting based on neural network approach of solar potential in Turkey",
+      "volume": "30",
+      "author": "Sozen",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib154",
+      "doi-asserted-by": "crossref",
+      "first-page": "752",
+      "DOI": "10.1016/j.solener.2004.09.007",
+      "article-title": "Comparative study of Angstroms and artificial neural networks methodologies in estimating global solar radiation",
+      "volume": "78",
+      "author": "Tymvios",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib155",
+      "unstructured": "Mellit A, Benghanem M, Bendekhis M. Artificial neural network model for prediction solar radiation data: application for sizing stand-alone photovoltaic power system. In: Proceedings of IEEE power engineering society, vol. 1. General Meeting, USA, June 12–16, 2005. p. 40–4."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib156",
+      "doi-asserted-by": "crossref",
+      "first-page": "1675",
+      "DOI": "10.1016/j.energy.2004.04.035",
+      "article-title": "Selection of input parameters to model direct solar irradiance by using artificial neural networks",
+      "volume": "30",
+      "author": "López",
+      "year": "2005",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib157",
+      "doi-asserted-by": "crossref",
+      "first-page": "1685",
+      "DOI": "10.1016/j.energy.2004.04.047",
+      "article-title": "Artificial intelligence techniques applied to hourly global irradiance estimation from satellite-derived cloud index",
+      "volume": "30",
+      "author": "Zarzalejo",
+      "year": "2005",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib158",
+      "doi-asserted-by": "crossref",
+      "first-page": "1483",
+      "DOI": "10.1016/j.renene.2005.07.010",
+      "article-title": "Computation of beam solar radiation at normal incidence using artificial neural network",
+      "volume": "31",
+      "author": "Alam",
+      "year": "2006",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib159",
+      "doi-asserted-by": "crossref",
+      "first-page": "1513",
+      "DOI": "10.1016/j.energy.2006.10.010",
+      "article-title": "Prediction of hourly and daily diffuse fraction using neural network, as compared to linear regression models",
+      "volume": "32",
+      "author": "Elminir",
+      "year": "2007",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.pecs.2008.01.001_bib160",
+      "doi-asserted-by": "crossref",
+      "first-page": "929",
+      "DOI": "10.1016/j.solener.2006.11.001",
+      "article-title": "Clear-sky solar luminous efficacy determination using artificial neural networks",
+      "volume": "81",
+      "author": "Gabriel",
+      "year": "2007",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib161",
+      "article-title": "Estimation of monthly average daily global solar irradiation using artificial neural networks",
+      "author": "Mubiru",
+      "year": "2007",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib162",
+      "doi-asserted-by": "crossref",
+      "first-page": "345",
+      "DOI": "10.1016/S0960-1481(98)00001-9",
+      "article-title": "A neural networks approach for wind speed prediction",
+      "volume": "13",
+      "author": "Mohandes",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib163",
+      "doi-asserted-by": "crossref",
+      "first-page": "23",
+      "DOI": "10.1016/S0960-1481(99)00125-1",
+      "article-title": "A comparison of various forecasting techniques applied to mean hourly wind speed time series",
+      "volume": "21",
+      "author": "Sfetsos",
+      "year": "2000",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib164",
+      "doi-asserted-by": "crossref",
+      "first-page": "273",
+      "DOI": "10.1109/TEC.2005.847954",
+      "article-title": "Long-term wind speed and power forecasting using local recurrent neural network models",
+      "volume": "21",
+      "author": "Barbounis",
+      "year": "2006",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib165",
+      "doi-asserted-by": "crossref",
+      "first-page": "5775",
+      "DOI": "10.1016/j.ins.2007.05.024",
+      "article-title": "Locally recurrent neural networks for wind speed prediction using spatial correlation",
+      "volume": "177",
+      "author": "Barbounis",
+      "year": "2007",
+      "journal-title": "Inf Sci"
+    },
+    {
+      "issue": "14",
+      "key": "10.1016/j.pecs.2008.01.001_bib166",
+      "doi-asserted-by": "crossref",
+      "first-page": "2350",
+      "DOI": "10.1016/j.renene.2006.12.001",
+      "article-title": "Application of artificial neural networks for the wind speed prediction of target station using reference stations data",
+      "volume": "32",
+      "author": "Bilgili",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib167",
+      "doi-asserted-by": "crossref",
+      "first-page": "2116",
+      "DOI": "10.1016/j.renene.2006.10.005",
+      "article-title": "Wind speed forecasting in the South Coast of Oaxaca, Mexico",
+      "volume": "32",
+      "author": "Cadenasa",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib168",
+      "first-page": "23",
+      "article-title": "Application of a control algorithm for wind speed prediction and active power generation",
+      "volume": "305",
+      "author": "Flores",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib169",
+      "doi-asserted-by": "crossref",
+      "first-page": "2111",
+      "DOI": "10.1016/j.renene.2004.03.011",
+      "article-title": "Stochastic generation of hourly mean wind speed data",
+      "volume": "29",
+      "author": "Aksoy",
+      "year": "2004",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib170",
+      "doi-asserted-by": "crossref",
+      "first-page": "545",
+      "DOI": "10.1016/S0960-1481(01)00082-9",
+      "article-title": "Application of neural networks for the prediction of hourly mean surface temperatures in Saudi Arabia",
+      "volume": "25",
+      "author": "Tasadduq",
+      "year": "2002",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib171",
+      "doi-asserted-by": "crossref",
+      "first-page": "193",
+      "DOI": "10.1016/S0038-092X(99)00017-1",
+      "article-title": "Daily insolation forecasting using a multi-stage neural network",
+      "volume": "66",
+      "author": "Kemmoku",
+      "year": "1999",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib172",
+      "doi-asserted-by": "crossref",
+      "first-page": "270",
+      "DOI": "10.1016/j.solener.2004.11.006",
+      "article-title": "Estimation of solar radiation components incident on Helwan site using neural networks",
+      "volume": "79",
+      "author": "Elminir",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib173",
+      "doi-asserted-by": "crossref",
+      "first-page": "39",
+      "DOI": "10.1016/S0038-092X(98)00043-7",
+      "article-title": "Fuzzy algorithm for estimation of solar irradiation from sunshine duration",
+      "volume": "63",
+      "author": "Sen",
+      "year": "1998",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib174",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1016/j.solener.2003.08.006",
+      "article-title": "Fuzzy modeling of solar irradiance on inclined surfaces",
+      "volume": "75",
+      "author": "Gomez",
+      "year": "2003",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib175",
+      "doi-asserted-by": "crossref",
+      "first-page": "19",
+      "DOI": "10.1080/14786450701265371",
+      "article-title": "Prediction of daily global solar radiation using fuzzy systems",
+      "volume": "26",
+      "author": "Iqdour",
+      "year": "2005",
+      "journal-title": "Int J Sustain Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib176",
+      "unstructured": "Mellit A, Guessoum A. Application of an adaptive neuro-fuzzy inference (ANFIS) for prediction of clearness index (Kt) in isolated sites. In: 19th international conference on efficiency, cost, optimization. Simulation and environment impact of energy system, 12–14 July 2006, Greece."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib177",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mellit A, Hadj Arab A, Khorissi N, Salhi H. An ANFIS-based forecasting for solar radiation data from sunshine duration and ambient temperature IEEE Power Engineering Society General Meeting Florida, USA, 24–28 June 2007. p. 1–6.",
+      "DOI": "10.1109/PES.2007.386131"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib178",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mellit A, Kalogirou SA, Shaari S, Salhi H, Hadj Arab A. Methodology for predicting sequences of mean monthly clearness index and daily solar radiation data in remote areas: application for sizing a stand-alone PV system. Renew Energy 2007, in press, doi:10.1016/j.renene.2007.08.006.",
+      "DOI": "10.1016/j.renene.2007.08.006"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib179",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. Hybrid model for prediction sequences of global solar radiation data using artificial neural network and Markov Transitions Matrices, The IASTED, ASM, June 28–30 2004 Greece (on CD-ROM)."
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.pecs.2008.01.001_bib180",
+      "doi-asserted-by": "crossref",
+      "first-page": "468",
+      "DOI": "10.1016/j.solener.2004.12.006",
+      "article-title": "A simplified model for generating sequences of global radiation data for isolated sites: using artificial neural network and a library of Markov transition Matrices",
+      "volume": "79",
+      "author": "Mellit",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib181",
+      "doi-asserted-by": "crossref",
+      "first-page": "161",
+      "DOI": "10.1016/j.applthermaleng.2004.06.017",
+      "article-title": "Forecast of solar irradiance using recurrent neural networks combined with wavelet analysis",
+      "volume": "25",
+      "author": "Cao",
+      "year": "2005",
+      "journal-title": "Appl Therm Eng"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib182",
+      "unstructured": "Mellit A. Artificial neural network with discrete wavelet transforms for time series prediction: application for solar radiation data. In: Proceedings of European modeling and simulation symposium, Greece, June 20–23, 2006."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib183",
+      "first-page": "13435",
+      "article-title": "Study of forecasting solar irradiance using neural networks with preprocessing sample data by wavelet analysis",
+      "volume": "3",
+      "author": "Cao",
+      "year": "2006",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.pecs.2008.01.001_bib184",
+      "doi-asserted-by": "crossref",
+      "first-page": "705",
+      "DOI": "10.1016/j.apenergy.2005.06.003",
+      "article-title": "An adaptive wavelet-network model for forecasting daily total solar radiation",
+      "volume": "83",
+      "author": "Mellit",
+      "year": "2006",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib185",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Maqsood I, Khan MR, Abraham A. Canadian weather analysis using connectionist learning paradigms. The seventh online world conference on soft computing in industrial application, On the Internet, Springer, Germany, 2002.",
+      "DOI": "10.1007/978-1-4471-3744-3_3"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib186",
+      "unstructured": "Maqsood I, Khan MR, Abraham A. Neuro-computing based Canadian weather analysis. The second international workshop on intelligent systems design and applications, computational intelligence and applications. Dynamic Publishers, Atlanta, Georgia, 2002. p. 39–44."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib187",
+      "first-page": "157",
+      "article-title": "Intelligent weather monitoring systems using connectionist models",
+      "volume": "10",
+      "author": "Khan",
+      "year": "2002",
+      "journal-title": "Int J Neural Parallel Sci Comput"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib188",
+      "doi-asserted-by": "crossref",
+      "first-page": "995",
+      "DOI": "10.1016/j.asoc.2006.06.005",
+      "article-title": "Weather analysis using ensemble of connectionist learning paradigms",
+      "volume": "7",
+      "author": "Maqsood",
+      "year": "2007",
+      "journal-title": "Appl Soft Comput"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib189",
+      "doi-asserted-by": "crossref",
+      "first-page": "115",
+      "DOI": "10.1016/j.engappai.2004.08.019",
+      "article-title": "Application of soft computing models to hourly weather analysis in southern Saskatchewan, Canada",
+      "volume": "18",
+      "author": "Maqsood",
+      "year": "2005",
+      "journal-title": "Eng Appl Artif Intell"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib190",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1016/0038-092X(94)00099-Y",
+      "article-title": "The value of photovoltaic electricity for society",
+      "volume": "5",
+      "author": "Haas",
+      "year": "1995",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib191",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1016/0038-092X(63)90006-9",
+      "article-title": "A rational procedure for predicting the long-term average performance flat-plate solar energy collectors",
+      "volume": "7",
+      "author": "Liu",
+      "year": "1963",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib192",
+      "doi-asserted-by": "crossref",
+      "first-page": "325",
+      "DOI": "10.1016/0038-092X(78)90171-8",
+      "article-title": "Calculation of flat-plate collector utilisability",
+      "volume": "21",
+      "author": "Klein",
+      "year": "1978",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib193",
+      "doi-asserted-by": "crossref",
+      "first-page": "413",
+      "DOI": "10.1016/0038-092X(81)90220-6",
+      "article-title": "A simplified method for estimating the monthly average of photovoltaic system",
+      "volume": "22",
+      "author": "Siegel",
+      "year": "1981",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.pecs.2008.01.001_bib194",
+      "first-page": "45",
+      "article-title": "Simplified method for predicting array output",
+      "volume": "27",
+      "author": "Evans",
+      "year": "1980",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib195",
+      "unstructured": "Gupta Y, Young S. Method of predicting long-term average performance of photovoltaic systems. In: Proceedings of systems simulation and economy conference, San Diego, CA, 1980."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib196",
+      "doi-asserted-by": "crossref",
+      "first-page": "551",
+      "DOI": "10.1016/0038-092X(84)90010-0",
+      "article-title": "A method for estimating the performance of photovoltaic system",
+      "volume": "433",
+      "author": "Clark",
+      "year": "1984",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib197",
+      "doi-asserted-by": "crossref",
+      "first-page": "205",
+      "DOI": "10.1016/S0038-092X(84)80037-7",
+      "article-title": "Estimating loss of load probabilities of stand alone photovoltaic solar energy system",
+      "volume": "32",
+      "author": "Bucciarelli",
+      "year": "1984",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib198",
+      "doi-asserted-by": "crossref",
+      "first-page": "499",
+      "DOI": "10.1016/0038-092X(87)90057-0",
+      "article-title": "Loss of load probabilities for stand-alone PV",
+      "volume": "39",
+      "author": "Klein",
+      "year": "1987",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib199",
+      "doi-asserted-by": "crossref",
+      "first-page": "509",
+      "DOI": "10.1016/0038-092X(84)90005-7",
+      "article-title": "A analytical method to determine the optimal size the photovoltaic plant",
+      "volume": "6",
+      "author": "Barra",
+      "year": "1984",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib200",
+      "doi-asserted-by": "crossref",
+      "first-page": "37",
+      "DOI": "10.1016/0306-2619(84)90044-8",
+      "article-title": "The design of photovoltaic plants: an optimization procedure",
+      "volume": "18",
+      "author": "Bartoli",
+      "year": "1984",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib201",
+      "doi-asserted-by": "crossref",
+      "first-page": "11",
+      "DOI": "10.1016/0038-092X(86)90054-X",
+      "article-title": "The effect of day-to-day correlation in solar radiation on the probability of loss-power in stand-alone photovoltaic solar energy system",
+      "volume": "36",
+      "author": "Bucciarelli",
+      "year": "1986",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.pecs.2008.01.001_bib202",
+      "doi-asserted-by": "crossref",
+      "first-page": "314",
+      "DOI": "10.1016/0038-092X(87)90006-5",
+      "article-title": "An optimal sizing method for PV power system",
+      "volume": "38",
+      "author": "Groumpos",
+      "year": "1987",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib203",
+      "doi-asserted-by": "crossref",
+      "first-page": "71",
+      "DOI": "10.1016/0038-092X(89)90148-5",
+      "article-title": "Development of sizing nomograms for stand-alone photovoltaic/storage systems",
+      "volume": "43",
+      "author": "Chapman",
+      "year": "1989",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib204",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1109/60.73783",
+      "article-title": "Loss of power supply probability of stand-alone photovoltaic systems: a closed form solution approach",
+      "volume": "6",
+      "author": "Abouzahr",
+      "year": "1991",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib205",
+      "doi-asserted-by": "crossref",
+      "first-page": "51",
+      "DOI": "10.1016/0927-0248(92)90125-9",
+      "article-title": "The sizing of sand-alone PV systems: a review and a proposed new method",
+      "volume": "26",
+      "author": "Egido",
+      "year": "1992",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib206",
+      "unstructured": "Lorenzo E. Solar electricity. Engineering of photovoltaic systems, Progensa, SeviIle. 1994."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib207",
+      "series-title": "Practical handbook of photovoltaics: fundamentals and applications",
+      "author": "Markvart",
+      "year": "2003"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib208",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1016/0038-092X(94)00091-Q",
+      "article-title": "Photovoltaic systems for Algeria",
+      "volume": "54",
+      "author": "Hadj Arab",
+      "year": "1995",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib209",
+      "doi-asserted-by": "crossref",
+      "first-page": "353",
+      "DOI": "10.1016/0960-1481(96)00017-1",
+      "article-title": "Autonomous photovoltaic systems: influences of some parameters on the sizing: simulation time step, input and output power profile",
+      "volume": "7",
+      "author": "Notton",
+      "year": "1996",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib210",
+      "doi-asserted-by": "crossref",
+      "first-page": "373",
+      "DOI": "10.1109/60.736323",
+      "article-title": "A study on optimal sizing of stand-alone photovoltaic stations",
+      "volume": "13",
+      "author": "Shrestha",
+      "year": "1998",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.pecs.2008.01.001_bib211",
+      "doi-asserted-by": "crossref",
+      "first-page": "429",
+      "DOI": "10.1016/S0038-092X(98)00030-9",
+      "article-title": "Improved procedure for stand-alone photovoltaic systems sizing using meteosat satellite images",
+      "volume": "62",
+      "author": "Muselli",
+      "year": "1998",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib212",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1016/S0927-0248(99)00020-3",
+      "article-title": "A general multivariate qualitative model for sizing stand-alone photovoltaic systems",
+      "volume": "59",
+      "author": "Sidrach-de-Cardona",
+      "year": "1999",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib213",
+      "doi-asserted-by": "crossref",
+      "first-page": "199",
+      "DOI": "10.1016/S0927-0248(98)00093-2",
+      "article-title": "A simple model for sizing stand alone photovoltaic systems",
+      "volume": "55",
+      "author": "Sidrach-de-Cardona",
+      "year": "1998",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib214",
+      "doi-asserted-by": "crossref",
+      "first-page": "391",
+      "DOI": "10.1002/1099-159X(200007/08)8:4<391::AID-PIP319>3.0.CO;2-Z",
+      "article-title": "On the usefulness of stand-alone PV sizing methods",
+      "volume": "8",
+      "author": "Lorenzo",
+      "year": "2000",
+      "journal-title": "Prog Photovolt: Res Appl"
+    },
+    {
+      "issue": "1–4",
+      "key": "10.1016/j.pecs.2008.01.001_bib215",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1016/S0306-2619(99)00093-8",
+      "article-title": "On the sizing parameters for stand-alone solar-energy systems",
+      "volume": "65",
+      "author": "Agha",
+      "year": "2000",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib216",
+      "doi-asserted-by": "crossref",
+      "first-page": "411",
+      "DOI": "10.1016/S0927-0248(00)00005-2",
+      "article-title": "The economics of photovoltaic stand-alone residential households: a case study for various European and Mediterranean locations",
+      "volume": "62",
+      "author": "Lazou",
+      "year": "2000",
+      "journal-title": "Sol Energy Mater Solar Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib217",
+      "series-title": "World renewable energy congress VI, conference proceedings",
+      "first-page": "1966",
+      "article-title": "Optimum stand-alone PV solution, including financial aspects",
+      "author": "Kaldellis",
+      "year": "2000"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib218",
+      "series-title": "Proceedings of the world renewable energy congress IV",
+      "article-title": "An optimal sizing method for stand-alone photovoltaic system for Algeria",
+      "author": "Benghanem",
+      "year": "2002"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.pecs.2008.01.001_bib219",
+      "doi-asserted-by": "crossref",
+      "first-page": "929",
+      "DOI": "10.1016/S0960-1481(02)00154-4",
+      "article-title": "Sizing of a stand-alone photovoltaic power system at Dhaka",
+      "volume": "28",
+      "author": "Bhuiyan",
+      "year": "2003",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib220",
+      "series-title": "Proceedings of the 14th international photovoltaic science and engineering conference",
+      "first-page": "114",
+      "article-title": "Spatial modeling of the optimal sizing stand-alone photovoltaic system using spline function",
+      "author": "Mellit",
+      "year": "2004"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib221",
+      "doi-asserted-by": "crossref",
+      "first-page": "2745",
+      "DOI": "10.1016/j.enconman.2003.12.007",
+      "article-title": "Optimum techno-economic energy autonomous photovoltaic solution for remote consumers throughout Greece",
+      "volume": "45",
+      "author": "Kaldellis",
+      "year": "2004",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib222",
+      "doi-asserted-by": "crossref",
+      "first-page": "499",
+      "DOI": "10.1016/j.solmat.2004.05.024",
+      "article-title": "Simulation model for sizing of stand-alone solar PV system with interconnected array",
+      "volume": "85",
+      "author": "Kaushika",
+      "year": "2005",
+      "journal-title": "Sol Energy Mater Sol Cells"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib223",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1155/IJP/2006/73650",
+      "article-title": "Sizing stand-alone photovoltaic systems",
+      "volume": "00",
+      "author": "Balouktsis",
+      "year": "2006",
+      "journal-title": "Int J Photoenergy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib224",
+      "doi-asserted-by": "crossref",
+      "first-page": "162",
+      "DOI": "10.1016/j.renene.2007.01.016",
+      "article-title": "Stand-alone PV system design: results using a new sizing approach",
+      "volume": "33",
+      "author": "Fragaki",
+      "year": "2008",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib225",
+      "doi-asserted-by": "crossref",
+      "first-page": "445",
+      "DOI": "10.1016/0927-0248(94)90172-4",
+      "article-title": "Optimal sizing of grid-connected PV-systems for different climates and array orientations: a simulation study",
+      "volume": "35",
+      "author": "Peippo",
+      "year": "1994",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib226",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/0038-092X(95)00032-M",
+      "article-title": "Optimizing the panel area of a photovoltaic system in relation to the static inverter-practical results",
+      "volume": "55",
+      "author": "Keller",
+      "year": "1995",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib227",
+      "doi-asserted-by": "crossref",
+      "first-page": "562",
+      "DOI": "10.1016/S0960-1481(98)00225-0",
+      "article-title": "Photovoltaic in grid-connected buildings. Sizing and economic analysis",
+      "volume": "15",
+      "author": "Hernandes",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib228",
+      "doi-asserted-by": "crossref",
+      "first-page": "1517",
+      "DOI": "10.1016/j.solener.2006.01.006",
+      "article-title": "Optimal sizing of array and inverter for grid-connected photovoltaic systems",
+      "volume": "80",
+      "author": "Mondol",
+      "year": "2006",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib229",
+      "doi-asserted-by": "crossref",
+      "first-page": "32",
+      "DOI": "10.1016/j.solener.2005.08.012",
+      "article-title": "Inverter sizing of grid-connected photovoltaic systems in the light of local solar resource distribution characteristics and temperature",
+      "volume": "80",
+      "author": "Burger",
+      "year": "2006",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "11",
+      "key": "10.1016/j.pecs.2008.01.001_bib230",
+      "doi-asserted-by": "crossref",
+      "first-page": "1741",
+      "DOI": "10.1016/S0960-1481(03)00013-2",
+      "article-title": "Opportunities for utilization of stand-alone hybrid (photovoltaic+diesel+battery) power systems in hot climates",
+      "volume": "28",
+      "author": "Shaahid",
+      "year": "2003",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib231",
+      "doi-asserted-by": "crossref",
+      "first-page": "165",
+      "DOI": "10.1016/S0960-1481(03)00194-0",
+      "article-title": "Prospects of autonomous/stand-alone hybrid (photo-voltaic+diesel+battery) power systems in commercial applications in hot regions",
+      "volume": "29",
+      "author": "Shaahid",
+      "year": "2004",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib232",
+      "doi-asserted-by": "crossref",
+      "first-page": "277",
+      "DOI": "10.1016/S0038-092X(96)00106-5",
+      "article-title": "Sizing of hybrid photovoltaic-wind energy systems",
+      "volume": "51",
+      "author": "Markvart",
+      "year": "1996",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib233",
+      "first-page": "323",
+      "article-title": "Sizing of a stand-alone hybrid wind-photovoltaic system using a three-event probability density approximation solar energy",
+      "volume": "56",
+      "author": "Bagul",
+      "year": "1996",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib234",
+      "doi-asserted-by": "crossref",
+      "first-page": "482",
+      "DOI": "10.1109/60.326466",
+      "article-title": "Optimum photovoltaic array size for a hybrid wind–PV system",
+      "volume": "9",
+      "author": "Borowy",
+      "year": "1994",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib235",
+      "first-page": "1",
+      "article-title": "Generation unit sizing and cost analysis for stand-alone wind, photovoltaic and hybrid wind/PV systems",
+      "volume": "1",
+      "author": "Kellogg",
+      "year": "1998",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib236",
+      "doi-asserted-by": "crossref",
+      "first-page": "175",
+      "DOI": "10.1109/60.629700",
+      "article-title": "Probabilistic production costing for photovoltaic-utility systems with battery storage",
+      "volume": "12",
+      "author": "Marwali",
+      "year": "1997",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib237",
+      "doi-asserted-by": "crossref",
+      "first-page": "766",
+      "DOI": "10.1109/60.790949",
+      "article-title": "Probabilistic performance assessment of autonomous solar-wind energy conversion systems",
+      "volume": "14",
+      "author": "Karaki",
+      "year": "1999",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib238",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/S0960-1481(99)00094-4",
+      "article-title": "PV-hybrid power systems sizing incorporating battery storage: an analysis via simulation calculations",
+      "volume": "20",
+      "author": "Muselli",
+      "year": "2000",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "18",
+      "key": "10.1016/j.pecs.2008.01.001_bib239",
+      "doi-asserted-by": "crossref",
+      "first-page": "2453",
+      "DOI": "10.1016/S0196-8904(01)00198-4",
+      "article-title": "Optimization and techno-economic analysis of autonomous photovoltaic-wind hybrid energy systems in comparison to single photovoltaic and wind systems",
+      "volume": "43",
+      "author": "Celik",
+      "year": "2002",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib240",
+      "doi-asserted-by": "crossref",
+      "first-page": "1491",
+      "DOI": "10.1016/S0960-1481(03)00011-9",
+      "article-title": "Computer-aided design of PV/wind hybrid system",
+      "volume": "28",
+      "author": "Ai",
+      "year": "2003",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib241",
+      "doi-asserted-by": "crossref",
+      "first-page": "1641",
+      "DOI": "10.1016/j.renene.2005.08.031",
+      "article-title": "Unit sizing and cost analysis of stand-alone hybrid wind/PV/fuel cell power generation systems",
+      "volume": "31",
+      "author": "Nelson",
+      "year": "2006",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib242",
+      "doi-asserted-by": "crossref",
+      "first-page": "1155",
+      "DOI": "10.1016/j.renene.2006.04.008",
+      "article-title": "Optimised model for community-based hybrid energy system",
+      "volume": "32",
+      "author": "Ashok",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib243",
+      "doi-asserted-by": "crossref",
+      "first-page": "1346",
+      "DOI": "10.1016/j.renene.2006.06.001",
+      "article-title": "Alternative energy facilities based on site matching and generation unit sizing for remote area power supply",
+      "volume": "32",
+      "author": "Katti",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib244",
+      "first-page": "8176",
+      "article-title": "A novel optimization sizing model for hybrid solar wind power generation system",
+      "author": "Yang",
+      "year": "2007",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "14",
+      "key": "10.1016/j.pecs.2008.01.001_bib245",
+      "doi-asserted-by": "crossref",
+      "first-page": "2712",
+      "DOI": "10.1016/j.ijhydene.2006.09.013",
+      "article-title": "A comparison of hydrogen storage technologies for solar-powered stand-alone power supplies: a photovoltaic system sizing approach",
+      "volume": "32",
+      "author": "Richards",
+      "year": "2007",
+      "journal-title": "Int J Hydrogen Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib246",
+      "unstructured": "Mellit A. Artificial intelligence techniques for sizing and simulation of photovoltaic system. PhD thesis, Faculty of electronics & computer sciences, USTHB (Algiers), Algeria, 2006."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib247",
+      "first-page": "353",
+      "article-title": "Modeling of sizing the photovoltaic system parameters using artificial neural network",
+      "volume": "vol. 1",
+      "author": "Mellit",
+      "year": "2003"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib248",
+      "doi-asserted-by": "crossref",
+      "first-page": "313",
+      "DOI": "10.1016/j.solener.2004.08.018",
+      "article-title": "A new approach for sizing stand-alone photovoltaic systems based in neural networks",
+      "volume": "78",
+      "author": "Hontoria",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib249",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. Identification and modeling of the optimal sizing combination of stand-alone photovoltaic systems using the radial basis function networks. In Proceedings of WREC VIII, Denver, USA. August 31, September 3, 2004, on CDROM."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib250",
+      "unstructured": "Mellit A, Benghanem M, Bendekhis M. Artificial neural network model for prediction solar radiation data: application for sizing stand-alone photovoltaic power system. In: Proceedings of IEEE power engineering society, General meeting, USA, vol. 1. June 12–16, 2005. p. 40–4."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib251",
+      "doi-asserted-by": "crossref",
+      "first-page": "64",
+      "DOI": "10.1016/j.desal.2007.04.010",
+      "article-title": "Sizing of stand-alone photovoltaic systems using neural network adaptive model",
+      "volume": "209",
+      "author": "Mellit",
+      "year": "2007",
+      "journal-title": "Desalination"
+    },
+    {
+      "issue": "10",
+      "key": "10.1016/j.pecs.2008.01.001_bib252",
+      "doi-asserted-by": "crossref",
+      "first-page": "1501",
+      "DOI": "10.1016/j.renene.2004.11.012",
+      "article-title": "An adaptive artificial neural network model for sizing of stand-alone photovoltaic system: application for isolated sites in Algeria",
+      "volume": "80",
+      "author": "Mellit",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib253",
+      "doi-asserted-by": "crossref",
+      "first-page": "1917",
+      "DOI": "10.1016/j.renene.2006.09.003",
+      "article-title": "Optimal configuration of power generating systems in isolated island with renewable energy",
+      "volume": "32",
+      "author": "Senjyua",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib254",
+      "doi-asserted-by": "crossref",
+      "first-page": "1072",
+      "DOI": "10.1016/j.solener.2005.11.002",
+      "article-title": "A methodology for optimal sizing of stand-alone photovoltaic/wind-generator systems using genetic algorithms",
+      "volume": "80",
+      "author": "Koutroulis",
+      "year": "2006",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.pecs.2008.01.001_bib255",
+      "doi-asserted-by": "crossref",
+      "first-page": "1102",
+      "DOI": "10.1016/j.renene.2006.04.013",
+      "article-title": "Optimization of control strategies for stand-alone renewable energy systems with hydrogen storage",
+      "volume": "32",
+      "author": "Dufo-López",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib256",
+      "doi-asserted-by": "crossref",
+      "first-page": "1768",
+      "DOI": "10.1016/j.renene.2006.11.003",
+      "article-title": "Optimal allocation and sizing for profitability and voltage enhancement of PV systems on feeders",
+      "volume": "32",
+      "author": "Hernádeza",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib257",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.1016/S0960-1481(97)00074-8",
+      "article-title": "Photovoltaic diesel-generator hybrid power system sizing",
+      "volume": "13",
+      "author": "El-Hefnawi",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib258",
+      "unstructured": "Xu D, Kang L, Chang L, Cao B. Optimal sizing of stand-alone hybrid wind/PV power systems using genetic. In: Canadian conference on electrical and computer engineering 2005;1(1–4):1722–5."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib259",
+      "series-title": "Proceedings of the world renewable energy congress IX and exhibition, 19–25 August 2006",
+      "article-title": "Application of neural networks and genetic algorithms for predicting the optimal sizing coefficient of photovoltaic supply (PVS) systems",
+      "author": "Mellit",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib260",
+      "series-title": "Proceedings of the third international conference on thermal engineering: theory and applications, May 21–23, 2007",
+      "first-page": "96",
+      "article-title": "ANFIS-based genetic algorithm for predicting the optimal sizing coefficient of photovoltaic supply (PVS) systems",
+      "author": "Mellit",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib261",
+      "first-page": "605",
+      "article-title": "Artificial intelligence based-modeling for sizing of a stand-alone photovoltaic power system: proposition for a new model using neuro-fuzzy system (ANFIS)",
+      "volume": "vol. 1",
+      "author": "Mellit",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib262",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A, Moulai K. Neural network adaptive wavelets for sizing of stand-alone photovoltaic systems. In: Second IEEE international conference on intelligent systems, vol. 1, 2004. p. 365–70.",
+      "DOI": "10.1109/IS.2004.1344762"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib263",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1002/pip.4670030405",
+      "article-title": "Photovoltaic system simulation using electronic circuit simulator",
+      "volume": "3",
+      "author": "Castner",
+      "year": "1995",
+      "journal-title": "Prog Photovolt"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib264",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.1109/60.124547",
+      "article-title": "A mathematical model for lead–acid batteries",
+      "volume": "7",
+      "author": "Salameh",
+      "year": "1992",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "1,2",
+      "key": "10.1016/j.pecs.2008.01.001_bib265",
+      "first-page": "71",
+      "article-title": "Photovoltaics: a review of cell and module technologies",
+      "volume": "1",
+      "author": "Lawrencel",
+      "year": "1997",
+      "journal-title": "Renew Sustain Energy Rev"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib266",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sivakuma S, Parsons T. Modeling, analysis and control of bidirectional power flow in grid connected inverter systems, PCC-Osaka 2002, p. 1015–9.",
+      "DOI": "10.1109/PCC.2002.998111"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib267",
+      "doi-asserted-by": "crossref",
+      "first-page": "590",
+      "DOI": "10.1016/S0960-1481(98)00231-6",
+      "article-title": "Monitoring and performance evaluation of SAPVS in South of Algeria",
+      "volume": "15",
+      "author": "Mehdaoui",
+      "year": "1998",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib268",
+      "doi-asserted-by": "crossref",
+      "first-page": "193",
+      "DOI": "10.1049/ip-epa:19990116",
+      "article-title": "Development of a photovoltaic array model for use in power electronics simulation studies",
+      "volume": "146",
+      "author": "Gow",
+      "year": "1999",
+      "journal-title": "IEE Proc Electric Power Appl"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib269",
+      "unstructured": "Hansen D, Sorensen P, Hansen Lars H, Henrik B. Models for a stand-alone PV system. Rio-R-1219 (EN)/SEC-R-12, 2000."
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib270",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1016/S0038-092X(00)00079-7",
+      "article-title": "Modelling battery charge regulation for a stand-alone photovoltaic system",
+      "volume": "69",
+      "author": "Ross",
+      "year": "2000",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib271",
+      "doi-asserted-by": "crossref",
+      "first-page": "207",
+      "DOI": "10.1016/S0960-1481(99)00131-7",
+      "article-title": "A method for predicting long-term average performance of photovoltaic systems",
+      "volume": "21",
+      "author": "Tawanda",
+      "year": "2000",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib272",
+      "doi-asserted-by": "crossref",
+      "first-page": "275",
+      "DOI": "10.1016/S0960-1481(00)00031-8",
+      "article-title": "Modelling PV system",
+      "volume": "22",
+      "author": "Joyce",
+      "year": "2001",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.pecs.2008.01.001_bib273",
+      "first-page": "448",
+      "article-title": "Power control of a photovoltaic array in a hybrid electric generation system using sliding mode techniques",
+      "volume": "148",
+      "author": "Valenciaga",
+      "year": "2001",
+      "journal-title": "Proc IEEE"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib274",
+      "doi-asserted-by": "crossref",
+      "first-page": "237",
+      "DOI": "10.1016/S0960-1481(02)00002-2",
+      "article-title": "A simulation model for predicting the performance of a solar photovoltaic system with alternating current loads",
+      "volume": "27",
+      "author": "Sukamongkol",
+      "year": "2002",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib275",
+      "series-title": "Modelling PV-system using PSPice®",
+      "author": "Castaner",
+      "year": "2002"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib276",
+      "doi-asserted-by": "crossref",
+      "first-page": "143",
+      "DOI": "10.1016/S0960-1481(01)00107-0",
+      "article-title": "Dynamic modelling and simulation of a photovoltaic refrigeration plant",
+      "volume": "26",
+      "author": "Cherif",
+      "year": "2002",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib277",
+      "doi-asserted-by": "crossref",
+      "first-page": "127",
+      "DOI": "10.1109/TEC.2002.805204",
+      "article-title": "Energy yield simulations of interconnected solar PV arrays",
+      "volume": "18",
+      "author": "Kaushika",
+      "year": "2003",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib278",
+      "unstructured": "Moreno A, Silvestre S, Julve J, Castafier L. Detailed simulation methodology for PV Systems. In: Proceedings of the second world conference on photovoltaic energy conversion, Vienna, 1998. p. 3215–8."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib279",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Boulanger P, Malbranche P. Photovoltaic system performance statistical analysis. In: Third world conference on photovoltaic energy conversion, May 11–18, 2003 Japan Osaka, 2003. p. 2098–101.",
+      "DOI": "10.1016/S1473-8325(03)00623-0"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib280",
+      "doi-asserted-by": "crossref",
+      "first-page": "357",
+      "DOI": "10.1016/j.solener.2004.03.011",
+      "article-title": "Validation of a simplified PV simulation engine",
+      "volume": "77",
+      "author": "Perez",
+      "year": "2004",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib281",
+      "first-page": "1556",
+      "article-title": "Procedures for determining the performance of stand-alone photovoltaic systems",
+      "author": "McNutt",
+      "year": "2004",
+      "journal-title": "Proc IEEE"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib282",
+      "doi-asserted-by": "crossref",
+      "first-page": "633",
+      "DOI": "10.1109/TEC.2004.827719",
+      "article-title": "Performance of a stand-alone renewable energy system based on energy storage as hydrogen",
+      "volume": "19",
+      "author": "Agbossou",
+      "year": "2004",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib283",
+      "first-page": "1",
+      "article-title": "Performance analysis of a photovoltaic system coupled to a universal motor using Matlab tool",
+      "author": "Bello",
+      "year": "2005",
+      "journal-title": "Proc IEEE"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib284",
+      "doi-asserted-by": "crossref",
+      "first-page": "398",
+      "DOI": "10.1109/TEC.2005.845524",
+      "article-title": "Supervisor control for a stand-alone hybrid generation system using wind and photovoltaic energy",
+      "volume": "20",
+      "author": "Valenciaga",
+      "year": "2005",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib285",
+      "first-page": "472424",
+      "article-title": "Modeling power output in photovoltaic modules for outdoor operating conditions",
+      "author": "Rosell",
+      "year": "2006",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib286",
+      "doi-asserted-by": "crossref",
+      "first-page": "1101",
+      "DOI": "10.1016/j.apenergy.2005.11.004",
+      "article-title": "Sliding mode controller for the single-phase grid-connected photovoltaic system",
+      "volume": "83",
+      "author": "Il-Song",
+      "year": "2006",
+      "journal-title": "Appl Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib287",
+      "doi-asserted-by": "crossref",
+      "first-page": "216",
+      "DOI": "10.1016/j.renene.2006.01.005",
+      "article-title": "Effects of large-scale photovoltaic power integration on electricity distribution networks",
+      "volume": "32",
+      "author": "Paatero",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "15",
+      "key": "10.1016/j.pecs.2008.01.001_bib288",
+      "doi-asserted-by": "crossref",
+      "first-page": "2579",
+      "DOI": "10.1016/j.renene.2007.01.001",
+      "article-title": "A single procedure for helping PV designers to select silicon PV modules and evaluate the loss resistances",
+      "volume": "32",
+      "author": "Carrero",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib289",
+      "series-title": "14th European photovoltaic solar energy conference",
+      "article-title": "Fuzzy modeling and simulation of photovoltaic system",
+      "author": "Elshatter",
+      "year": "1997"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib290",
+      "doi-asserted-by": "crossref",
+      "first-page": "123",
+      "DOI": "10.1109/RME.2005.1542952",
+      "article-title": "Neural network based model of a PV array for the optimum performance of PV system",
+      "volume": "2",
+      "author": "Balzani",
+      "year": "2005",
+      "journal-title": "Res Microelectron Electron, IEEE"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib291",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. Prediction and modeling signals from the monitoring of stand-alone PV systems using an adaptive neural network model. Proceedings of the fifth ISES European solar conference, February 20–23, June 2004, Germany. 2004. p. 224–30."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib292",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. An adaptive radial basis function network model for prediction signals from the monitoring of stand-alone PV systems. The 12th IEEE Mediterranean electro technical conference MELCON, May 12–15, 2004, Dubronik, Croitia (on CD-ROM)."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib293",
+      "unstructured": "Mellit A, Benghanem M. Modeling and simulation of stand-alone photovoltaic power system using artificial neural network. Solar Word Congress ISES 2005 August 6–12, 2005, FL, USA."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib294",
+      "doi-asserted-by": "crossref",
+      "first-page": "285",
+      "DOI": "10.1016/j.renene.2006.01.002",
+      "article-title": "Modeling and simulation of a stand-alone photovoltaic system using an adaptive artificial neural network",
+      "volume": "32",
+      "author": "Mellit",
+      "year": "2007",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib295",
+      "first-page": "258",
+      "article-title": "An adaptive artificial neural network for modeling and simulation of a stand-alone photovoltaic power system",
+      "volume": "4",
+      "author": "Mellit",
+      "year": "2005",
+      "journal-title": "Proc IEEE (SSD’05 March 21–24, 2005 Tunisia)"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib296",
+      "unstructured": "Mellit A. Artificial intelligence-based modeling and simulation of a stand-alone photovoltaic power supply system third international conference on artificial intelligence in engineering and technology ICAIET, 22–24 November, Malaysia, 2006."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib297",
+      "doi-asserted-by": "crossref",
+      "first-page": "1159",
+      "DOI": "10.1016/j.enconman.2005.07.007",
+      "article-title": "Neural network based solar cell model",
+      "volume": "47",
+      "author": "Karatepe",
+      "year": "2006",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib298",
+      "unstructured": "Ohsawa Y, Emurd S, Arai K. Optimal operation of photovoltaic/diesel power generation system by neural network. In: Proceedings of the second international forum on applications of neural networks to power systems, ANNPS 93, 1993."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib299",
+      "doi-asserted-by": "crossref",
+      "first-page": "2475",
+      "DOI": "10.1016/j.renene.2005.11.012",
+      "article-title": "Impact of interconnection photovoltaic/wind system with utility on their reliability using a fuzzy scheme",
+      "volume": "31",
+      "author": "El-Tamaly",
+      "year": "2006",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib300",
+      "doi-asserted-by": "crossref",
+      "first-page": "343",
+      "DOI": "10.1016/S0038-092X(00)00085-2",
+      "article-title": "ANN based peak power tracking for PV supplied dc motors",
+      "volume": "69",
+      "author": "Veerachary",
+      "year": "2000",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib301",
+      "first-page": "1618",
+      "article-title": "A fuzzy logic controller for stand alone PV systems",
+      "volume": "00",
+      "author": "Moreno",
+      "year": "2000",
+      "journal-title": "IEEE"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib302",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1109/60.629709",
+      "article-title": "Neural network based estimation of maximum power generation from PV module using environmental information",
+      "volume": "12",
+      "author": "Hiyama",
+      "year": "1997",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib303",
+      "unstructured": "Mellit A, Benghanem M, Hadj Arab A, Guessoum A. Use a fuzzy-logic controller for control of stand-alone photovoltaic systems. In: Proceedings of IEEE 12th Mediterranean conference on control and automation, Kusadaci, Turkey, vol. 2. June 6–9 2004. p. 281–5."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib304",
+      "doi-asserted-by": "crossref",
+      "first-page": "771",
+      "DOI": "10.1016/j.solener.2003.12.011",
+      "article-title": "A robust control method for a PV-supplied DC motor using universal learning networks",
+      "volume": "76",
+      "author": "Hussein",
+      "year": "2004",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib305",
+      "doi-asserted-by": "crossref",
+      "first-page": "1771",
+      "DOI": "10.1016/j.renene.2004.11.018",
+      "article-title": "Maximum power point tracking using adaptive fuzzy logic control for grid-connected photovoltaic system",
+      "volume": "30",
+      "author": "Patcharaprakiti",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib306",
+      "doi-asserted-by": "crossref",
+      "first-page": "204",
+      "DOI": "10.1016/S1007-0214(05)70055-9",
+      "article-title": "Artificial neural network maximum power point tracker for solar electric vehicle",
+      "volume": "10",
+      "author": "Theodore",
+      "year": "2005",
+      "journal-title": "Singhua Sci Technol"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib307",
+      "doi-asserted-by": "crossref",
+      "first-page": "1257",
+      "DOI": "10.1016/j.renene.2004.09.011",
+      "article-title": "Maximum power point traking controller for PV systems using neural networks",
+      "volume": "30",
+      "author": "Bahgat",
+      "year": "2005",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib308",
+      "doi-asserted-by": "crossref",
+      "first-page": "388",
+      "DOI": "10.1016/j.renene.2007.03.002",
+      "article-title": "A novel maximum power fuzzy logic controller for photovoltaic solar energy systems",
+      "volume": "33",
+      "author": "Altas",
+      "year": "2008",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib309",
+      "first-page": "129",
+      "article-title": "Fuzzy logic modeling of a grid-connected wind photovoltaic system with battery storage",
+      "author": "Davis",
+      "year": "2004",
+      "journal-title": "IEEE"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.pecs.2008.01.001_bib310",
+      "doi-asserted-by": "crossref",
+      "first-page": "1572",
+      "DOI": "10.1109/60.815107",
+      "article-title": "Analysis of the effects of a passing cloud on a grid-interactive photovoltaic system with battery storage using neural networks",
+      "volume": "14",
+      "author": "Giraud",
+      "year": "1999",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.pecs.2008.01.001_bib311",
+      "first-page": "310",
+      "article-title": "Application of radial basis function networks for solar-array modeling and maximum power point prediction",
+      "volume": "147",
+      "author": "Al-moudi",
+      "year": "2000",
+      "journal-title": "IEE Proc"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib312",
+      "doi-asserted-by": "crossref",
+      "first-page": "443",
+      "DOI": "10.1016/S0960-1481(03)00126-5",
+      "article-title": "Estimation of the maximum power and normal operating power of a photovoltaic module by neural networks",
+      "volume": "29",
+      "author": "Bahgat",
+      "year": "2004",
+      "journal-title": "Renew Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib313",
+      "doi-asserted-by": "crossref",
+      "first-page": "723",
+      "DOI": "10.1016/S0927-0248(02)00138-1",
+      "article-title": "Evaluation of a proper controller performance for maximum-power point tracking of a stand-alone PV system",
+      "volume": "75",
+      "author": "Abd El-Shafy",
+      "year": "2003",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib314",
+      "first-page": "5",
+      "article-title": "Solar-array modeling and maximum power point tracking using neural networks",
+      "volume": "vol. 2",
+      "author": "Premrudeepreechacham",
+      "year": "2003"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib315",
+      "doi-asserted-by": "crossref",
+      "first-page": "1555",
+      "DOI": "10.1016/j.solmat.2005.10.023",
+      "article-title": "Review of the maximum power point tracking algorithms for stand-alone photovoltaic systems",
+      "volume": "90",
+      "author": "Salas",
+      "year": "2006",
+      "journal-title": "Sol Energy Mater Sol Cell"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib316",
+      "doi-asserted-by": "crossref",
+      "first-page": "315",
+      "DOI": "10.1016/j.epsr.2006.03.008",
+      "article-title": "A novel maximum power point tracking method for PV systems using fuzzy cognitive networks (FCN)",
+      "volume": "77",
+      "author": "Karlis",
+      "year": "2007",
+      "journal-title": "Electric Power Syst Res"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib317",
+      "first-page": "88",
+      "article-title": "Neuro-fuzzy based modeling for photovoltaic power supply (PVPS) system",
+      "volume": "vol. 1",
+      "author": "Mellit",
+      "year": "2006"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.pecs.2008.01.001_bib318",
+      "doi-asserted-by": "crossref",
+      "first-page": "619",
+      "DOI": "10.1109/TEC.2004.827033",
+      "article-title": "Neuro-fuzzy based solar cell models",
+      "volume": "19",
+      "author": "Abdulhadi",
+      "year": "2004",
+      "journal-title": "IEEE Trans Energy Convers"
+    },
+    {
+      "issue": "1/2",
+      "key": "10.1016/j.pecs.2008.01.001_bib319",
+      "doi-asserted-by": "crossref",
+      "first-page": "119",
+      "DOI": "10.1504/IJGEI.2004.004704",
+      "article-title": "Artificial neural network based models for forecasting electricity generation of grid connected solar PV power plant",
+      "volume": "21",
+      "author": "Ashraf",
+      "year": "2004",
+      "journal-title": "Int J Global Energy Issue"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib320",
+      "unstructured": "Mellit A, Khorissi N, Shaari S. Recurrent neural network with wavelet analysis for predicting the output electrical signal of grid-connected photovoltaic system. The fourth international summer school on signal processing and its applications, IEEE-ISSSPA 2007. University of Boumerdès, Algeria, June 30–July 04, 2007."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib321",
+      "unstructured": "Mellit A, Shaari S. Recurrent neural network-based forecasting of the daily electricity generation of a photovoltaic power system. In: Proceedings of ICEEDT-2007, Hammamet, Tunisia, November 5–6, 2007."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib322",
+      "unstructured": "Mellit A, Khorissi N, Shaari S, Salhi H. ANN-based DWT for prediction electrical signal from photovoltaic power supply system: a new expert photovoltaic system. In: Proceedings of the international symposium of innovation intelligent system and applications, Istanbul Turkey, IEEE, 20–23 June 2007. p. 215–9."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib323",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mellit A. Development of an expert configuration of stand-alone power PV system based on adaptive neuro-fuzzy inference system (ANFIS). In: The 12th IEEE Mediterranean electro-technical conference on MELECON, Malaga, Spain, vol. 1, May 16–19, 2006. p. 893–6.",
+      "DOI": "10.1109/MELCON.2006.1653242"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib324",
+      "unstructured": "Mellit A, Benghanem M. An expert structure of photovoltaic power supply system by using artificial neural network. In: Proceedings of the international symposium of innovation intelligent system and applications,Istanbul, Turkey, 15–18 June 2005. p. 83–8."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib325",
+      "doi-asserted-by": "crossref",
+      "first-page": "1357",
+      "DOI": "10.1016/j.enpol.2004.08.054",
+      "article-title": "Assessing renewables-to-electricity systems: a fuzzy expert system model",
+      "volume": "34",
+      "author": "Kaminarisa",
+      "year": "2006",
+      "journal-title": "Energy Policy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib326",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.1016/j.solener.2004.10.004",
+      "article-title": "Design and control strategies of PV-diesel systems using genetic algorithms",
+      "volume": "79",
+      "author": "Dufo-Lopez",
+      "year": "2005",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib327",
+      "doi-asserted-by": "crossref",
+      "first-page": "833",
+      "DOI": "10.1016/j.engappai.2005.02.004",
+      "article-title": "Genetic algorithm-trained radial basis functions neural networks for modelling photovoltaic panels",
+      "volume": "18",
+      "author": "Zhang",
+      "year": "2005",
+      "journal-title": "Eng Appl Artif Intell"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.pecs.2008.01.001_bib328",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/S0038-092X(99)00016-X",
+      "article-title": "An optimum dispatch strategy using set points for a photovoltaic (PV)-Diesel-battery hybrid power system",
+      "volume": "66",
+      "author": "Ashari",
+      "year": "1999",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib329",
+      "unstructured": "Kaiser R, Sauer DU, Armbruster A, Bopp G, Puls HG. New concepts for system design and operation control of photovoltaic systems. In: Proceedings of 14th European photovoltaic solar energy conference, Barcelona, June 1997."
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.pecs.2008.01.001_bib330",
+      "doi-asserted-by": "crossref",
+      "first-page": "77",
+      "DOI": "10.1016/S0038-092X(97)00028-5",
+      "article-title": "A combined optimization concept for the design and operation strategy of hybrid- PV energy systems",
+      "volume": "61",
+      "author": "Seeling-Hochmuth",
+      "year": "1997",
+      "journal-title": "Sol Energy"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib331",
+      "first-page": "1050",
+      "article-title": "A DSP control system for the grid-connected inverter in wind energy conversion system",
+      "author": "Zhenkun",
+      "year": "1993",
+      "journal-title": "IEEE Proc"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib332",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mekhilef S, Rabim NA. Implementation of grid-connected photovoltaic system with power factor control and islanding detection. In: 35th annual IEEE power electronics specialists conference, Aachpn, Germany, 2004. p. 1409–12.",
+      "DOI": "10.1109/PESC.2004.1355629"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib333",
+      "doi-asserted-by": "crossref",
+      "first-page": "210",
+      "DOI": "10.1016/j.enconman.2006.04.022",
+      "article-title": "DSP implementation of a PV system with GA-MLP-NN based MPPT controller supplying BLDC motor drive",
+      "volume": "48",
+      "author": "Akkaya",
+      "year": "2007",
+      "journal-title": "Energy Convers Manage"
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib334",
+      "unstructured": "Todd EP. FPGA-based design of a maximum-power-point tracking system for space applications. Master thesis, University of Central Florida, 2004."
+    },
+    {
+      "key": "10.1016/j.pecs.2008.01.001_bib335",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mekki H, Mellit A. Modeling and simulation of PV-panel based on neural network and VHDL-language. In: Proceedings of the 14th IEEE-international conference on electronics, circuits and systems, December 11–14, Marrakech 2007 (on CD-ROM).",
+      "DOI": "10.1109/ICECS.2007.4510930"
+    }
+  ],
+  "container-title": [
+    "Progress in Energy and Combustion Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0360128508000026?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0360128508000026?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        1,
+        28
+      ]
+    ],
+    "date-time": "2025-01-28T18:12:46Z",
+    "timestamp": 1738087966000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0360128508000026"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        10
+      ]
+    ]
+  },
+  "references-count": 335,
+  "journal-issue": {
+    "issue": "5",
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          10
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "S0360128508000026"
+  ],
+  "URL": "https://doi.org/10.1016/j.pecs.2008.01.001",
+  "relation": {},
+  "ISSN": [
+    "0360-1285"
+  ],
+  "issn-type": [
+    {
+      "value": "0360-1285",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008,
+        10
+      ]
+    ]
+  }
+}

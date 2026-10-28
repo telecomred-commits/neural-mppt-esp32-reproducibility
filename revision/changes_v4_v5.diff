@@ -1,0 +1,104 @@
+--- v4/manuscript.tex
++++ v5/manuscript.tex
+@@ -27,7 +27,7 @@
+ \textbf{Conclusions:} The available runs show improved local current prediction without increased energy capture. Dynamic Wokwi comparisons remain in progress. The findings concern a digital plant and simulated firmware execution, not a physical photovoltaic converter.}
+ \keyword{photovoltaic systems; maximum power point tracking; online learning; ESP32; digital photovoltaic model; measurement scaling}
+ \begin{document}
+-\pending{Version 4, 26 October 2026. Complete experimental protocol integrated into Materials and methods. Working manuscript. Author metadata, manufacturer references and dynamic Wokwi results require completion before submission.}
++\pending{Version 5, 27 October 2026. Identification and energy outcomes distinguished in Results. Comparative interpretation integrated into Discussion. Working manuscript. Author metadata, manufacturer references and dynamic Wokwi results require completion before submission.}
+ \section{Introduction}
+ Photovoltaic maximum power point tracking (MPPT) controls the electrical operating point of a source whose current--voltage characteristic depends on irradiance, temperature and module configuration. Its objective is to extract available energy over time, including environmental transitions and load disturbances. This objective differs from predicting an instantaneous electrical quantity accurately. An estimator can reduce its current residuals without locating the maximum of the power curve more accurately. Establishing whether online learning improves MPPT therefore requires both a predictive assessment and a closed-loop energy comparison.
+ 
+@@ -390,7 +390,7 @@
+ P\&O&98.1173\\ INC&98.3646\\ Adaptive P\&O&97.1373\\ Frozen neural controller&99.4294\\ Online neural controller&99.4274\\\bottomrule\end{tabular}\end{table}
+ The mean paired online-minus-frozen difference is $-0.00201$ percentage points. The descriptive 95\% bootstrap interval across paired seeds is $[-0.00222,-0.00181]$ percentage points. This difference is small and does not support an energetic advantage of online updates. Its interval describes noise-seed variability within the fixed model. It does not quantify uncertainty across physical modules or installations.
+ 
+-\subsection{Online identification and regulation in the static Wokwi pair}
++\subsection{Current prediction and energy in the static Wokwi pair}
+ The first completed paired Wokwi test uses recorded irradiance 600.1 W/m$^2$, temperature 37.00 $^\circ$C and a neutral load slider. Both records contain 241 samples in the common interval from 0.664 to 120.664 s. Table~\ref{tab:wokwi} reports the comparison.
+ \begin{table}[htbp]\caption{Static Wokwi pair. Stable statistics refer to the final 30 s of the common window.}\label{tab:wokwi}\centering
+ \begin{tabularx}{\textwidth}{Lrr}\toprule Endpoint&Online updates&Frozen weights\\\midrule
+@@ -399,7 +399,7 @@
+ Mean measured power (W)&222.202&222.194\\
+ Measured energy over 120 s (J)&26,547.51&26,548.38\\
+ Median simulated control duration (ms)&51.026&51.021\\\bottomrule\end{tabularx}\end{table}
+-The adaptive predictor has approximately 91\% lower recorded stable current RMSE. The two controllers follow slightly different voltage trajectories, so this is not a prediction comparison on exactly identical input samples. The energy difference is 0.88 J in favor of the frozen controller. Both logs are finite, have 500 ms sample spacing and contain no reported command saturation or retransmissions. The timing values are simulator-reported durations and are not physical ESP32 measurements.
++The adaptive predictor has approximately 91\% lower recorded stable current RMSE. Recorded energy over the common 120 s interval is approximately 0.88 J lower with updates. These endpoints therefore have different directions: lower prediction error accompanies slightly lower recorded energy. The two controllers follow slightly different voltage trajectories, so this is not a prediction comparison on exactly identical input samples. Both logs are finite, have 500 ms sample spacing and contain no reported command saturation or retransmissions. The timing values are simulator-reported durations and are not physical ESP32 measurements.
+ 
+ \subsection{Disturbance recovery of the proposed controller}
+ \pending{Insert the paired load-disturbance test after both logs are received and checked. Report actual disturbance times from applied minus commanded load. Subsequent irradiance and temperature tests must retain the same distinction between manual exploratory changes and verified programmed events. No dynamic efficiency or superiority claim is assigned here before analysis.}
+@@ -410,17 +410,56 @@
+ Current and power increase with irradiance. Mean operating voltage changes by approximately 0.11\% between 200 and 1000 W/m$^2$. Recorded power decreases by 20.84\% between 25 and 75 $^\circ$C. First-order reductions based on the selected commercial maximum-power temperature coefficients span 12.00--14.50\%. Because the historical trajectory changes its operating point, the difference cannot be attributed to an intrinsic maximum-power temperature coefficient alone. These observations support qualitative consistency while retaining departures that require further characterization.
+ 
+ \section{Discussion}
+-The proposed algorithm forms a chain from a measured current residual to parameter correction, reference calculation and load regulation. The static pair shows why each stage must be evaluated separately. It distinguishes local identification from energy tracking. Output-layer updates substantially reduce current residuals, yet the extracted energy remains almost unchanged. In this implementation the learning objective is current approximation, while the reference depends on the maximum of the resulting power curve. The online update does not directly minimize voltage-reference error or maximize measured energy. A controller can therefore tolerate prediction errors that have little effect on the maximizing voltage. Conversely, a correction that reduces local current error can shift the reference without improving the position of the true maximum.
+-
+-The source structure also explains why changing irradiance need not change the optimal voltage. At fixed temperature, irradiance multiplies current without changing the normalized curve shape. That factor cancels when maximizing predicted power. A nearly constant voltage under changing irradiance is therefore compatible with this plant, but it does not independently demonstrate learning. The conclusion follows from the implementation and should not be generalized to every commercial photovoltaic characteristic.
++\subsection{Current identification and energy tracking}
++The proposed algorithm forms a chain from a measured current residual to parameter correction, reference calculation and load regulation. The completed tests distinguish improvement in the predictor from improvement in the control objective. Ten output-layer updates reduced the recorded stable current RMSE in the static Wokwi pair. Neither its common-window energy comparison nor the primary host aggregate favors the controller with updates. The current results support local identification in the tested trajectories, without establishing an energy benefit from the update rule.
++
++The learning objective is current approximation, while the reference depends on the maximum of the resulting power curve. The online update does not directly minimize voltage-reference error or maximize measured energy. A controller can tolerate prediction errors that have little effect on the maximizing voltage. Conversely, reducing local current error can shift the predicted reference without improving its proximity to the independent maximum. This is an interpretation of the implemented learning and reference equations. The available tests do not isolate every contribution to that shift.
++
++The static RMSE values also come from trajectories that differ slightly between controllers. They describe the prediction errors encountered by each closed loop. They are not an equal-input replay test of two predictors. A lower residual on the visited trajectory does not show that the full current--voltage characteristic has been identified.
++
++\subsection{Relationship to intelligent MPPT proposals}
++Table~\ref{tab:intelligentcomparison} places the implementation alongside ten representative studies. It compares the learned quantity, the update mechanism and the validation platform. This directed comparison is not an exhaustive review or a common experimental benchmark. Published efficiencies are not ranked across different sources, converters, sensors and profiles.
++
++Online neural adaptation and hybrid tracking have prior implementations. Kohata et al. \cite{kohata2010} combine incremental GRNN learning with references obtained through P\&O. Dounis et al. \cite{dounis2015} describe direct adaptive control using a single neuron. The latter comparison is restricted to its editorial abstract. Neural representation of the current characteristic also has a prior formulation in Ze\v{c}evi\'c and Rolevski \cite{nnmodel}. These precedents prevent attributing novelty to online learning, characteristic approximation or their embedded use in isolation.
++
++The target of learning distinguishes the present mechanism from several direct-control proposals. Dawahdeh et al. \cite{hybrid2024} estimate a duty-cycle correction that assists P\&O. Abouzeid et al. \cite{abouzeid} train an ANN to produce the duty cycle and evaluate it on an Arduino-based physical system. Here, measured current supplies the update target. A separate search converts the corrected current model into a voltage reference. This difference defines the computation being tested, rather than an inherent advantage over direct control.
++
++Bandara et al. \cite{bandara2024} combine irradiance forecasting with an FNN voltage predictor. Their pretrained ESP32 model communicates its reference to a DSP that controls the boost converter. Jamshed et al. \cite{jamshed} assess a pretrained neural reference and PI control using a physical STM32 and Typhoon C-HIL. MPPT inference on a microcontroller is therefore an established implementation route. The present Wokwi evaluation does not provide equivalent evidence about physical controller timing or converter dynamics.
++
++Other adaptation mechanisms are closer in purpose but differ in the quantity updated and where it is computed. Amine et al. \cite{amine} update a voltage estimator through a meteorological acquisition and MATLAB workflow. Eladawy et al. \cite{eladawy2026} describe recurrent duty-cycle estimation with pretraining and incremental refinement. Our fixed hidden features and bounded updates of 17 output parameters implement a local current-identification rule. This is a specific design choice, not evidence that lightweight adaptation is itself new.
++
++The reinforcement-learning formulation is different again. Giraldo et al. \cite{giraldo} learn action values through rewards and evaluate global tracking under partial shading. Ogunfowora and Bhattacharya \cite{ogunfowora} compare INC, Q-learning and a Transformer-inspired estimator, with Bellman updates retained during one simulation scenario. Our current residual is not an energy reward. Nor does the single-maximum source test global tracking of a multimodal characteristic.
++
++Within these bounds, the contribution examined here is the documented combination of bounded current identification, reference search, load regulation and INC fallback in firmware targeting an ESP32. The online--frozen comparison isolates the update flag while retaining initial weights, acquisition and command limits. The resulting evidence distinguishes predictor adaptation from energy tracking. It does not establish priority over every neural MPPT architecture or superiority over the published methods in Table~\ref{tab:intelligentcomparison}.
++
++\begin{table}[htbp]
++\caption{Qualitative comparison of intelligent MPPT proposals and the present implementation. The rows identify mechanisms and validation levels, not a ranking of reported efficiencies.}
++\label{tab:intelligentcomparison}
++\centering\small
++\begin{tabularx}{\textwidth}{p{0.17\textwidth}LLL}\toprule
++Study & Learned quantity & Update and validation & Relation to this work\\\midrule
++Kohata et al. \cite{kohata2010} & GRNN maps $G,T$ to a voltage reference learned from P\&O. & Incremental learning. H8-3069F and PV experiments. & Our model learns current and then searches predicted power.\\
++Dounis et al. \cite{dounis2015} & Single-neuron direct adaptive control. & Online adaptation. Simulation described in the abstract. & Identification and regulation are separate here. Full text not consulted.\\
++Dawahdeh et al. \cite{hybrid2024} & ANN maps $I,\Delta I$ to $\Delta D$. & Pretrained model. MATLAB/Simulink. & Our updates identify current rather than duty increments.\\
++Abouzeid et al. \cite{abouzeid} & ANN maps $G,T$ or $I,T$ to $D$. & Pretrained model. Arduino MEGA-2560 physical prototype. & Our current model uses four acquired signals and local updates.\\
++Giraldo et al. \cite{giraldo} & DQN learns values of duty-perturbation actions. & Simulation training. Raspberry Pi 4B, physical buck and partial shading. & No reward optimization or validated multimodal tracking here.\\
++Bandara et al. \cite{bandara2024} & LSTM forecasts $G$. FNN predicts $V_{mp}$. & Pretrained ESP32 model with DSP-controlled boost. & Our predictor adapts from measured current without forecasting $G$.\\
++Amine et al. \cite{amine} & ANN maps $G,T$ to $V_{mp}$. & Periodic MATLAB updates with Raspberry Pi weather acquisition. & Our update target is current measured within the firmware loop.\\
++Eladawy et al. \cite{eladawy2026} & Recurrent ANN estimates $D$ from electrical and rule features. & Pretraining and incremental updates. MATLAB simulation. & Our bounded NLMS updates a fixed-feature current model.\\
++Ogunfowora and Bhattacharya \cite{ogunfowora} & Q-learning and Transformer-inspired estimation determine $D$. & MATLAB simulation. Bellman updates in scenario S4. & Our paired ablation keeps the architecture and initial weights fixed.\\
++Jamshed et al. \cite{jamshed} & ANN maps $V,I,T$ to $V_{mp},I_{mp}$. & Pretrained STM32 controller and Typhoon C-HIL. & Our code updates the predictor. Converter hardware remains unvalidated.\\
++Present work & MLP identifies $I=(G/1000)f(V,T)$ before power search. & Bounded output-layer NLMS. Host and Wokwi simulation. & Local prediction improves. An energy benefit from updating is not established.\\\bottomrule
++\end{tabularx}
++\end{table}
++
++\subsection{Source structure, sensing and validation limits}
++The source structure explains why changing irradiance need not change the optimal voltage. At fixed temperature, irradiance multiplies current without changing the normalized curve shape. With fixed network parameters and positive irradiance, that factor also cancels when maximizing predicted power. A nearly constant voltage under changing irradiance is therefore compatible with this plant, but it does not independently demonstrate learning. The conclusion follows from the implementation and should not be generalized to every commercial photovoltaic characteristic.
+ 
+ The commercial comparison provides context for the source, not a substitute for calibration or physical validation. Its historical operating record is separate from the newer calibrated sweeps. Combining their absolute power values without documenting acquisition scales would obscure provenance. The simulated source is used as a reproducible test plant rather than claimed as an exact surrogate for all ten commercial modules.
+ 
+-Embedded neural studies already provide experimental or HIL precedents \cite{abouzeid,jamshed}. The scope here is narrower: firmware-oriented simulation and a controlled ablation of online output-layer updates. Incremental data collection and retraining workflows \cite{amine} address a related but different adaptation mechanism. Direct efficiency rankings against those papers would be inappropriate because plants, converters, sensing assumptions and test profiles differ.
+-
+-Several limitations remain. Four training conditions provide limited environmental coverage. The test point at 600 W/m$^2$ and 37 $^\circ$C has already informed development and cannot establish broad generalization. Online observations near a tracked operating point do not identify an entire current--voltage curve. Instrument bias can be absorbed into the predictor, reducing measured residuals without improving the physical reference. Additional module characteristics, physical converter testing and independent final profiles would be required for broader claims.
+-
+-The host baseline currently favors the frozen network over the implemented conventional branches. However, these comparisons also reflect step sizes, prior source knowledge and the absence of converter dynamics. A simple affine reference model remains an additional control worth evaluating before attributing an advantage specifically to neural representation. The current results do not establish that online adaptation is necessary for successful regulation.
++Four training conditions provide limited environmental coverage. The test point at 600 W/m$^2$ and 37 $^\circ$C has already informed development and cannot establish broad generalization. Online observations near a tracked operating point do not identify an entire current--voltage curve. Instrument bias can be absorbed into the predictor, reducing measured residuals without improving the physical reference. Additional module characteristics, physical converter testing and independent final profiles would be required for broader claims.
++
++The host baseline currently favors the frozen network over the implemented conventional branches. These comparisons also reflect step sizes, prior source knowledge and the absence of converter dynamics. A simple affine reference model remains an additional control worth evaluating before attributing an advantage specifically to neural representation. Physical-device measurements should cover the full reference-search and control cycle, rather than one network evaluation. The current results do not establish that online adaptation is necessary for successful regulation.
+ 
+ \section{Conclusions}
+ A neural MPPT algorithm combining bounded output-layer identification, predicted-power search, voltage-reference regulation and INC fallback was evaluated within an ESP32-oriented photovoltaic simulation. The completed static Wokwi pair shows reduced current prediction error after ten updates, while recorded energy is slightly lower than with frozen weights. The programmed host comparison likewise provides no energy benefit from the current update rule. These findings support local model adaptation but not improved energy capture. Dynamic paired Wokwi trials remain necessary to complete the controller assessment.
+@@ -465,5 +504,9 @@
+ \bibitem{iec62891} International Electrotechnical Commission. IEC 62891:2020. Maximum power point tracking efficiency of grid connected photovoltaic inverters. Geneva: IEC, 2020. Official scope and catalogue record. Available from: \url{https://webstore.iec.ch/en/publication/28105}. Accessed 26 October 2026.
+ \bibitem{wokwiautomation} Wokwi. Automation Scenarios. Official documentation. Available from: \url{https://docs.wokwi.com/wokwi-ci/automation-scenarios}. Accessed 26 October 2026.
+ \bibitem{wokwicli} Wokwi. CLI Usage. Official documentation. Available from: \url{https://docs.wokwi.com/wokwi-ci/cli-usage}. Accessed 26 October 2026.
++\bibitem{kohata2010} Kohata Y, Yamauchi K, Kurihara M. High-Speed Maximum Power Point Tracker for Photovoltaic Systems Using Online Learning Neural Networks. Journal of Advanced Computational Intelligence and Intelligent Informatics. 2010;14(6):677-682. \url{https://doi.org/10.20965/jaciii.2010.p0677}.
++\bibitem{dounis2015} Dounis AI, Kofinas P, Papadakis G, Alafodimos C. A direct adaptive neural control for maximum power point tracking of photovoltaic system. Solar Energy. 2015;115:145-165. \url{https://doi.org/10.1016/j.solener.2015.02.004}.
++\bibitem{bandara2024} Bandara A, Ratnayake K, Dissanayake R, Udawatte H, Godaliyadda R, Ekanayake P, Ekanayake J. LSTM-Based MPPT Algorithm for Efficient Energy Harvesting of a Solar PV System Under Different Operating Conditions. Electronics. 2024;13(24):4875. \url{https://doi.org/10.3390/electronics13244875}.
++\bibitem{eladawy2026} Eladawy M, Lebied R, Elsadd MA. Hybrid ANN-Based MPPT Strategy for Boost Converter PV Systems Under Rapid Irradiance Variations. Machines. 2026;14(6):659. \url{https://doi.org/10.3390/machines14060659}.
+ \end{thebibliography}
+ \end{document}

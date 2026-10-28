@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "pages": 23,
+  "all_citations_resolve": true,
+  "bibliography_entries": 27,
+  "scientific_articles_with_checked_doi": 24,
+  "standards_and_software_references_without_invented_doi": 3,
+  "algorithm_section_preserved": true,
+  "algorithm_environments": 2,
+  "full_experimental_protocol_in_methods": true,
+  "protocol_subsections": 7,
+  "profile_event_files": 7,
+  "profile_files_identical_to_working_protocol": true,
+  "result_and_discussion_text_preserved": true,
+  "firmware_panel_and_circuit_modified": false,
+  "no_overfull_boxes": true,
+  "unresolved_citations": false,
+  "visual_qa": "Pages 13–23 rendered and inspected; new protocol tables and equations readable; unchanged earlier layout retained.",
+  "locations": {
+    "2.6. Experimental protocol for evaluating the proposed algorithm": 14,
+    "2.6.1. Hypotheses, comparison variants and common settings": 14,
+    "2.6.2. Programmed environmental, load and instrumentation profiles": 15,
+    "2.6.3. Host execution, paired repetitions and data separation": 15,
+    "2.6.4. Independent maximum-power reference and energy endpoints": 16,
+    "2.6.5. Recovery, identification and execution diagnostics": 16,
+    "2.6.6. Paired analysis and criteria for interpreting learning": 17,
+    "2.6.7. Wokwi replication and status of the dynamic trials": 17,
+    "3. Results": 18,
+    "References": 21
+  }
+}

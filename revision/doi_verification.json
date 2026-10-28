@@ -1,0 +1,687 @@
+[
+  {
+    "key": "esram",
+    "doi": "10.1109/tec.2006.874230",
+    "title": "Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques",
+    "journal": "IEEE Transactions on Energy Conversion",
+    "authors": [
+      "Esram",
+      "Chapman"
+    ],
+    "year": [
+      [
+        2007,
+        6
+      ]
+    ],
+    "volume": "22",
+    "issue": "2",
+    "pages": "439-449",
+    "crossref_citations": 4321,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tec.2006.874230",
+    "status": "registered"
+  },
+  {
+    "key": "femia",
+    "doi": "10.1109/tpel.2005.850975",
+    "title": "Optimization of Perturb and Observe Maximum Power Point Tracking Method",
+    "journal": "IEEE Transactions on Power Electronics",
+    "authors": [
+      "Femia",
+      "Petrone",
+      "Spagnuolo",
+      "Vitelli"
+    ],
+    "year": [
+      [
+        2005,
+        7
+      ]
+    ],
+    "volume": "20",
+    "issue": "4",
+    "pages": "963-973",
+    "crossref_citations": 2469,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tpel.2005.850975",
+    "status": "registered"
+  },
+  {
+    "key": "hussein",
+    "doi": "10.1049/ip-gtd:19951577",
+    "title": "Maximum photovoltaic power tracking: an algorithm for rapidly changing atmospheric conditions",
+    "journal": "IEE Proceedings - Generation, Transmission and Distribution",
+    "authors": [
+      "Hussein"
+    ],
+    "year": [
+      [
+        1995
+      ]
+    ],
+    "volume": "142",
+    "issue": "1",
+    "pages": "59",
+    "crossref_citations": 1322,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/ip-gtd:19951577",
+    "status": "registered"
+  },
+  {
+    "key": "liu",
+    "doi": "10.1109/tie.2008.920550",
+    "title": "A Variable Step Size INC MPPT Method for PV Systems",
+    "journal": "IEEE Transactions on Industrial Electronics",
+    "authors": [
+      "Fangrui Liu",
+      "Shanxu Duan",
+      "Fei Liu",
+      "Bangyin Liu",
+      "Yong Kang"
+    ],
+    "year": [
+      [
+        2008,
+        7
+      ]
+    ],
+    "volume": "55",
+    "issue": "7",
+    "pages": "2622-2628",
+    "crossref_citations": 1043,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tie.2008.920550",
+    "status": "registered"
+  },
+  {
+    "key": "sera",
+    "doi": "10.1109/jphotov.2013.2261118",
+    "title": "On the Perturb-and-Observe and Incremental Conductance MPPT Methods for PV Systems",
+    "journal": "IEEE Journal of Photovoltaics",
+    "authors": [
+      "Sera",
+      "Mathe",
+      "Kerekes",
+      "Spataru",
+      "Teodorescu"
+    ],
+    "year": [
+      [
+        2013,
+        7
+      ]
+    ],
+    "volume": "3",
+    "issue": "3",
+    "pages": "1070-1078",
+    "crossref_citations": 725,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/jphotov.2013.2261118",
+    "status": "registered"
+  },
+  {
+    "key": "hohm",
+    "doi": "10.1002/pip.459",
+    "title": "Comparative study of maximum power point tracking algorithms",
+    "journal": "Progress in Photovoltaics: Research and Applications",
+    "authors": [
+      "Hohm",
+      "Ropp"
+    ],
+    "year": [
+      [
+        2002,
+        11,
+        22
+      ]
+    ],
+    "volume": "11",
+    "issue": "1",
+    "pages": "47-62",
+    "crossref_citations": 649,
+    "publisher": "Wiley",
+    "url": "https://doi.org/10.1002/pip.459",
+    "status": "registered"
+  },
+  {
+    "key": "elobaid",
+    "doi": "10.1049/iet-rpg.2014.0359",
+    "title": "Artificial neural network‐based photovoltaic maximum power point tracking techniques: a survey",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Elobaid",
+      "Abdelsalam",
+      "Zakzouk"
+    ],
+    "year": [
+      [
+        2015,
+        11
+      ]
+    ],
+    "volume": "9",
+    "issue": "8",
+    "pages": "1043-1063",
+    "crossref_citations": 294,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2014.0359",
+    "status": "registered"
+  },
+  {
+    "key": "adaptive",
+    "doi": "10.1049/iet-rpg.2009.0006",
+    "title": "Adaptive perturb and observe algorithm for photovoltaic maximum power point tracking",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Piegari",
+      "Rizzo"
+    ],
+    "year": [
+      [
+        2010,
+        7,
+        7
+      ]
+    ],
+    "volume": "4",
+    "issue": "4",
+    "pages": "317-328",
+    "crossref_citations": 361,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2009.0006",
+    "status": "registered"
+  },
+  {
+    "key": "zainuri",
+    "doi": "10.1049/iet-rpg.2012.0362",
+    "title": "Development of adaptive perturb and observe‐fuzzy control maximum power point tracking for photovoltaic boost dc–dc converter",
+    "journal": "IET Renewable Power Generation",
+    "authors": [
+      "Zainuri",
+      "Radzi",
+      "Che Soh",
+      "Rahim"
+    ],
+    "year": [
+      [
+        2014,
+        3
+      ]
+    ],
+    "volume": "8",
+    "issue": "2",
+    "pages": "183-194",
+    "crossref_citations": 228,
+    "publisher": "Institution of Engineering and Technology (IET)",
+    "url": "https://doi.org/10.1049/iet-rpg.2012.0362",
+    "status": "registered"
+  },
+  {
+    "key": "mellit",
+    "doi": "10.1016/j.pecs.2008.01.001",
+    "title": "Artificial intelligence techniques for photovoltaic applications: A review",
+    "journal": "Progress in Energy and Combustion Science",
+    "authors": [
+      "Mellit",
+      "Kalogirou"
+    ],
+    "year": [
+      [
+        2008,
+        10
+      ]
+    ],
+    "volume": "34",
+    "issue": "5",
+    "pages": "574-632",
+    "crossref_citations": 891,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.pecs.2008.01.001",
+    "status": "registered"
+  },
+  {
+    "key": "rizzo",
+    "doi": "10.1016/j.apenergy.2015.01.077",
+    "title": "ANN based MPPT method for rapidly variable shading conditions",
+    "journal": "Applied Energy",
+    "authors": [
+      "Rizzo",
+      "Scelba"
+    ],
+    "year": [
+      [
+        2015,
+        5
+      ]
+    ],
+    "volume": "145",
+    "issue": null,
+    "pages": "124-132",
+    "crossref_citations": 283,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.apenergy.2015.01.077",
+    "status": "registered"
+  },
+  {
+    "key": "giraldo",
+    "doi": "10.1016/j.heliyon.2024.e37974",
+    "title": "Deep reinforcement learning using deep-Q-network for Global Maximum Power Point tracking: Design and experiments in real photovoltaic systems",
+    "journal": "Heliyon",
+    "authors": [
+      "Giraldo",
+      "Gaviria",
+      "Torres",
+      "Alonso",
+      "Bressan"
+    ],
+    "year": [
+      [
+        2024,
+        11
+      ]
+    ],
+    "volume": "10",
+    "issue": "21",
+    "pages": "e37974",
+    "crossref_citations": 19,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e37974",
+    "status": "registered"
+  },
+  {
+    "key": "suarez",
+    "doi": "10.3390/en19174131",
+    "title": "A Sensing-Aware Simulation-Based Digital Twin Framework for Firmware-Level Validation of Photovoltaic MPPT Controllers",
+    "journal": "Energies",
+    "authors": [
+      "Suárez Suárez",
+      "García Vera",
+      "Caicedo"
+    ],
+    "year": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "volume": "19",
+    "issue": "17",
+    "pages": "4131",
+    "crossref_citations": 0,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en19174131",
+    "status": "registered"
+  },
+  {
+    "key": "abouzeid",
+    "doi": "10.1038/s41598-024-67306-0",
+    "title": "Experimental validation of a low-cost maximum power point tracking technique based on artificial neural network for photovoltaic systems",
+    "journal": "Scientific Reports",
+    "authors": [
+      "Abouzeid",
+      "Eleraky",
+      "Kalas",
+      "Rizk",
+      "Elsakka",
+      "Refaat"
+    ],
+    "year": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ],
+    "volume": "14",
+    "issue": "1",
+    "pages": "18280",
+    "crossref_citations": 51,
+    "publisher": "Springer Science and Business Media LLC",
+    "url": "https://doi.org/10.1038/s41598-024-67306-0",
+    "status": "registered"
+  },
+  {
+    "key": "amine",
+    "doi": "10.1002/ese3.70555",
+    "title": "Real‐Time Incremental Learning Artificial Neural Networks Maximum Power Point Tracking With Raspberry Pi‐Based Meteorological Data Acquisition",
+    "journal": "Energy Science &amp; Engineering",
+    "authors": [
+      "Amine",
+      "El Barbri",
+      "Yessef",
+      "Alammar",
+      "El‐Barbary",
+      "Ameziane"
+    ],
+    "year": [
+      [
+        2026,
+        5,
+        18
+      ]
+    ],
+    "volume": "14",
+    "issue": "8",
+    "pages": "3741-3773",
+    "crossref_citations": 0,
+    "publisher": "Wiley",
+    "url": "https://doi.org/10.1002/ese3.70555",
+    "status": "registered"
+  },
+  {
+    "key": "jamshed",
+    "doi": "10.3390/electronics15184342",
+    "title": "Hardware-in-the-Loop Assessment of Neural MPPT Control in Photovoltaic Systems with Two-Phase Boost Conversion",
+    "journal": "Electronics",
+    "authors": [
+      "Jamshed",
+      "Becchi",
+      "Bindi",
+      "Corti",
+      "Grasso",
+      "Intravaia",
+      "Lozito",
+      "Mastromauro"
+    ],
+    "year": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "volume": "15",
+    "issue": "18",
+    "pages": "4342",
+    "crossref_citations": 0,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/electronics15184342",
+    "status": "registered"
+  },
+  {
+    "key": "review2023",
+    "doi": "10.3390/en16052206",
+    "title": "A Comprehensive Review of Maximum Power Point Tracking (MPPT) Techniques Used in Solar PV Systems",
+    "journal": "Energies",
+    "authors": [
+      "Katche",
+      "Makokha",
+      "Zachary",
+      "Adaramola"
+    ],
+    "year": [
+      [
+        2023,
+        2,
+        24
+      ]
+    ],
+    "volume": "16",
+    "issue": "5",
+    "pages": "2206",
+    "crossref_citations": 320,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en16052206",
+    "status": "registered"
+  },
+  {
+    "key": "subudhi",
+    "doi": "10.1109/tste.2012.2202294",
+    "title": "A Comparative Study on Maximum Power Point Tracking Techniques for Photovoltaic Power Systems",
+    "journal": "IEEE Transactions on Sustainable Energy",
+    "authors": [
+      "Subudhi",
+      "Pradhan"
+    ],
+    "year": [
+      [
+        2013,
+        1
+      ]
+    ],
+    "volume": "4",
+    "issue": "1",
+    "pages": "89-98",
+    "crossref_citations": 1601,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tste.2012.2202294",
+    "status": "registered"
+  },
+  {
+    "key": "hiyama",
+    "doi": "10.1109/60.464880",
+    "title": "Evaluation of neural network based real time maximum power tracking controller for PV system",
+    "journal": "IEEE Transactions on Energy Conversion",
+    "authors": [
+      "Hiyama",
+      "Kouzuma",
+      "Imakubo",
+      "Ortmeyer"
+    ],
+    "year": [
+      [
+        1995
+      ]
+    ],
+    "volume": "10",
+    "issue": "3",
+    "pages": "543-548",
+    "crossref_citations": 119,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/60.464880",
+    "status": "registered"
+  },
+  {
+    "key": "nnmodel",
+    "doi": "10.3390/app10155051",
+    "title": "Neural Network Approach to MPPT Control and Irradiance Estimation",
+    "journal": "Applied Sciences",
+    "authors": [
+      "Zečević",
+      "Rolevski"
+    ],
+    "year": [
+      [
+        2020,
+        7,
+        22
+      ]
+    ],
+    "volume": "10",
+    "issue": "15",
+    "pages": "5051",
+    "crossref_citations": 52,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/app10155051",
+    "status": "registered"
+  },
+  {
+    "key": "adaptive2015",
+    "doi": "10.3390/en8053418",
+    "title": "Optimized Adaptive Perturb and Observe Maximum Power Point Tracking Control for Photovoltaic Generation",
+    "journal": "Energies",
+    "authors": [
+      "Piegari",
+      "Rizzo",
+      "Spina",
+      "Tricoli"
+    ],
+    "year": [
+      [
+        2015,
+        4,
+        27
+      ]
+    ],
+    "volume": "8",
+    "issue": "5",
+    "pages": "3418-3436",
+    "crossref_citations": 55,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/en8053418",
+    "status": "registered"
+  },
+  {
+    "key": "salam",
+    "doi": "10.1016/j.apenergy.2013.02.008",
+    "title": "The application of soft computing methods for MPPT of PV system: A technological and status review",
+    "journal": "Applied Energy",
+    "authors": [
+      "Salam",
+      "Ahmed",
+      "Merugu"
+    ],
+    "year": [
+      [
+        2013,
+        7
+      ]
+    ],
+    "volume": "107",
+    "issue": null,
+    "pages": "135-148",
+    "crossref_citations": 357,
+    "publisher": "Elsevier BV",
+    "url": "https://doi.org/10.1016/j.apenergy.2013.02.008",
+    "status": "registered"
+  },
+  {
+    "key": "hybrid2024",
+    "doi": "10.3390/su16031021",
+    "title": "Novel MPPT Controller Augmented with Neural Network for Use with Photovoltaic Systems Experiencing Rapid Solar Radiation Changes",
+    "journal": "Sustainability",
+    "authors": [
+      "Dawahdeh",
+      "Sharadga",
+      "Kumar"
+    ],
+    "year": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ],
+    "volume": "16",
+    "issue": "3",
+    "pages": "1021",
+    "crossref_citations": 21,
+    "publisher": "MDPI AG",
+    "url": "https://doi.org/10.3390/su16031021",
+    "status": "registered"
+  },
+  {
+    "key": "ogunfowora",
+    "doi": "10.3390/en19133183",
+    "title": "Solar Photovoltaic Maximum Power Point Tracking (MPPT): A Comparative Analysis of Incremental Conductance, Q-Learning, and Transformer Deep Learning for Performance Evaluation Under Standard and Dynamic Environmental Scenarios",
+    "journal": "Energies",
+    "authors": [
+      "Ogunfowora",
+      "Bhattacharya"
+    ],
+    "year": [
+      [
+        2026,
+        7,
+        4
+      ]
+    ],
+    "volume": "19",
+    "issue": "13",
+    "pages": "3183",
+    "crossref_citations": 0,
+    "url": "https://doi.org/10.3390/en19133183",
+    "status": "registered"
+  },
+  {
+    "key": "kohata2010",
+    "doi": "10.20965/jaciii.2010.p0677",
+    "title": "High-Speed Maximum Power Point Tracker for Photovoltaic Systems Using Online Learning Neural Networks",
+    "journal": "Journal of Advanced Computational Intelligence and Intelligent Informatics",
+    "authors": [
+      "Kohata",
+      "Yamauchi",
+      "Kurihara"
+    ],
+    "year": [
+      [
+        2010
+      ]
+    ],
+    "volume": "14",
+    "issue": "6",
+    "pages": "677-682",
+    "url": "https://doi.org/10.20965/jaciii.2010.p0677",
+    "status": "registered"
+  },
+  {
+    "key": "dounis2015",
+    "doi": "10.1016/j.solener.2015.02.004",
+    "title": "A direct adaptive neural control for maximum power point tracking of photovoltaic system",
+    "journal": "Solar Energy",
+    "authors": [
+      "Dounis",
+      "Kofinas",
+      "Papadakis",
+      "Alafodimos"
+    ],
+    "year": [
+      [
+        2015
+      ]
+    ],
+    "volume": "115",
+    "issue": null,
+    "pages": "145-165",
+    "url": "https://doi.org/10.1016/j.solener.2015.02.004",
+    "status": "registered"
+  },
+  {
+    "key": "bandara2024",
+    "doi": "10.3390/electronics13244875",
+    "title": "LSTM-Based MPPT Algorithm for Efficient Energy Harvesting of a Solar PV System Under Different Operating Conditions",
+    "journal": "Electronics",
+    "authors": [
+      "Bandara",
+      "Ratnayake",
+      "Dissanayake",
+      "Udawatte",
+      "Godaliyadda",
+      "Ekanayake",
+      "Ekanayake"
+    ],
+    "year": [
+      [
+        2024
+      ]
+    ],
+    "volume": "13",
+    "issue": "24",
+    "pages": "4875",
+    "url": "https://doi.org/10.3390/electronics13244875",
+    "status": "registered"
+  },
+  {
+    "key": "eladawy2026",
+    "doi": "10.3390/machines14060659",
+    "title": "Hybrid ANN-Based MPPT Strategy for Boost Converter PV Systems Under Rapid Irradiance Variations",
+    "journal": "Machines",
+    "authors": [
+      "Eladawy",
+      "Lebied",
+      "Elsadd"
+    ],
+    "year": [
+      [
+        2026
+      ]
+    ],
+    "volume": "14",
+    "issue": "6",
+    "pages": "659",
+    "url": "https://doi.org/10.3390/machines14060659",
+    "status": "registered"
+  }
+]

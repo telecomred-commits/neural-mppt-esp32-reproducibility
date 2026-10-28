@@ -1,0 +1,646 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        6
+      ]
+    ],
+    "date-time": "2026-10-06T16:45:10Z",
+    "timestamp": 1791305110184,
+    "version": "4.3.1"
+  },
+  "reference-count": 38,
+  "publisher": "Elsevier BV",
+  "issue": "21",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2024-11-01T00:00:00Z",
+        "timestamp": 1730419200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2024-11-01T00:00:00Z",
+        "timestamp": 1730419200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            14
+          ]
+        ],
+        "date-time": "2024-09-14T00:00:00Z",
+        "timestamp": 1726272000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100006070",
+      "name": "Universidad de los Andes",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100006070",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "cell.com",
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Heliyon"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.heliyon.2024.e37974",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        17
+      ]
+    ],
+    "date-time": "2024-09-17T18:31:33Z",
+    "timestamp": 1726597893000
+  },
+  "page": "e37974",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 19,
+  "title": [
+    "Deep reinforcement learning using deep-Q-network for Global Maximum Power Point tracking: Design and experiments in real photovoltaic systems"
+  ],
+  "prefix": "10.1016",
+  "volume": "10",
+  "author": [
+    {
+      "given": "Luis Felipe",
+      "family": "Giraldo",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jorge Felipe",
+      "family": "Gaviria",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "María Isabella",
+      "family": "Torres",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Corinne",
+      "family": "Alonso",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5057-1958",
+      "authenticated-orcid": false,
+      "given": "Michael",
+      "family": "Bressan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib1",
+      "author": "Ritchie",
+      "year": "2022",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib2",
+      "unstructured": "G. Data. Global solar photovoltaic (PV) market update, 2019 with historic (2006-2018) and forecast (2019-2030). [Online]. Available: https://www.businesswire.com."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib3",
+      "series-title": "2014 4th International Conference on Artificial Intelligence with Applications in Engineering and Technology",
+      "first-page": "17",
+      "article-title": "Intelligent techniques for MPPT control in photovoltaic systems: a comprehensive review",
+      "author": "El Telbany",
+      "year": "2014"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "F. Liu, S. Duan, F. Liu, B. Liu, and Y. Kang, “A variable step size INC MPPT method for PV systems,” IEEE, vol. 55, no. 7, pp. 2622–2628, 2008, conference Name: IEEE Transactions on Industrial Electronics.",
+      "DOI": "10.1109/TIE.2008.920550"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib5",
+      "first-page": "172 524",
+      "article-title": "Short-term photovoltaic power forecasting using an LSTM neural network and synthetic weather forecast",
+      "volume": "8",
+      "author": "Hossain",
+      "year": "2020",
+      "journal-title": "IEEE"
+    },
+    {
+      "issue": "12",
+      "key": "10.1016/j.heliyon.2024.e37974_bib6",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.heliyon.2021.e08602",
+      "article-title": "Prediction of site-specific solar diffuse horizontal irradiance from two input variables in Colombia",
+      "volume": "7",
+      "author": "Miranda",
+      "year": "2021",
+      "journal-title": "Heliyon"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib7",
+      "doi-asserted-by": "crossref",
+      "first-page": "557",
+      "DOI": "10.1016/j.renene.2020.01.092",
+      "article-title": "Solar irradiance forecasting models without on-site training measurements",
+      "volume": "152",
+      "author": "Zambrano",
+      "year": "2020",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib8",
+      "doi-asserted-by": "crossref",
+      "first-page": "333",
+      "DOI": "10.1016/j.renene.2020.11.089",
+      "article-title": "Machine learning for site-adaptation and solar radiation forecasting",
+      "volume": "167",
+      "author": "Narvaez",
+      "year": "2021",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib9",
+      "doi-asserted-by": "crossref",
+      "first-page": "249",
+      "DOI": "10.1016/j.renene.2020.07.154",
+      "article-title": "Failure signature classifica- tion in solar photovoltaic plants using RGB images and convolutional neural networks",
+      "volume": "162",
+      "author": "Rico Espinosa",
+      "year": "2020",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib10",
+      "doi-asserted-by": "crossref",
+      "first-page": "2743",
+      "DOI": "10.1016/j.rser.2017.10.009",
+      "article-title": "Comparative and comprehensive review of maximum power point tracking methods for PV cells",
+      "volume": "82",
+      "author": "Danandeh",
+      "year": "2018",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.heliyon.2024.e37974_bib11",
+      "doi-asserted-by": "crossref",
+      "first-page": "207",
+      "DOI": "10.17350/HJSE19030000231",
+      "article-title": "A review and classification of most used MPPT algorithms for photovoltaic systems",
+      "volume": "8",
+      "author": "Tozlu",
+      "year": "2021",
+      "journal-title": "Hittite Journal of Science and Engineering"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1181",
+      "DOI": "10.1016/j.renene.2016.08.028",
+      "article-title": "A shadow fault detection method based on the standard error analysis of i-v curves",
+      "volume": "99",
+      "author": "Bressan",
+      "year": "2016",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib13",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1016/j.solener.2020.01.049",
+      "article-title": "A gmppt algorithm for preventing the lmpp problems based on trend line transformation technique",
+      "volume": "198",
+      "author": "Liu",
+      "year": "2020",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "issue": "14",
+      "key": "10.1016/j.heliyon.2024.e37974_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "2569",
+      "DOI": "10.1049/iet-rpg.2019.0244",
+      "article-title": "Fast and precise global maximum power point tracking techniques for photovoltaic system",
+      "volume": "13",
+      "author": "Husain",
+      "year": "2019",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib15",
+      "series-title": "2022 2nd International Conference on Emerging Frontiers in Electrical and Electronic Technologies (ICEFEET)",
+      "first-page": "1",
+      "article-title": "A spider monkey optimization based global maximum power point tracking technique for photovoltaic systems",
+      "author": "Naseem",
+      "year": "2022"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib16",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.engappai.2020.103688",
+      "article-title": "A particle swarm optimisation-trained feedforward neural network for predicting the maximum power point of a photovoltaic array",
+      "volume": "92",
+      "author": "Al-Majidi",
+      "year": "2020",
+      "journal-title": "Eng. Appl. Artif. Intell."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib17",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ref.2023.100503",
+      "article-title": "Performance analysis of the global maximum power point tracking based on spider monkey optimization for pv system",
+      "volume": "47",
+      "author": "Husain",
+      "year": "2023",
+      "journal-title": "Renewable Energy Focus"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib18",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.energy.2022.126366",
+      "article-title": "Swarm intelligence-based mppt design for pv systems under diverse partial shading conditions",
+      "volume": "265",
+      "author": "Kishore",
+      "year": "2023",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib19",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.enconman.2023.117410",
+      "article-title": "Salp swarm optimization algorithm based mppt design for pv-teg hybrid system under partial shading conditions",
+      "volume": "292",
+      "author": "Yang",
+      "year": "2023",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib20",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.energy.2023.129169",
+      "article-title": "Archimedes optimization algorithm (aoa)-based global maximum power point tracking for a photovoltaic system under partial and complex shading conditions",
+      "volume": "283",
+      "author": "Sajid",
+      "year": "2023",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.heliyon.2024.e37974_bib21",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3390/math11092166",
+      "article-title": "Maximum power point tracker controller for solar photovoltaic based on reinforcement learning agent with a digital twin",
+      "volume": "11",
+      "author": "Artetxe",
+      "year": "2023",
+      "journal-title": "Mathematics"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib22",
+      "series-title": "Ser. Adaptive Computation and Machine Learning Series",
+      "article-title": "Reinforcement learning: an introduction",
+      "author": "Sutton",
+      "year": "2021"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib23",
+      "doi-asserted-by": "crossref",
+      "first-page": "461",
+      "DOI": "10.1016/j.renene.2017.03.008",
+      "article-title": "A reinforcement learning approach for MPPT control method of photovoltaic sources",
+      "volume": "108",
+      "author": "Kofinas",
+      "year": "2017",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib24",
+      "article-title": "A combined reinforcement learning and sliding mode control scheme for grid integration of a PV system",
+      "author": "Aurobinda",
+      "year": "2019",
+      "journal-title": "IEEE"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.heliyon.2024.e37974_bib25",
+      "doi-asserted-by": "crossref",
+      "first-page": "335",
+      "DOI": "10.3390/en14020335",
+      "article-title": "Maximum power point tracking based on reinforcement learning using evolutionary optimization algorithms",
+      "volume": "14",
+      "author": "Bavarinos",
+      "year": "2021",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib26",
+      "article-title": "Reinforcement learning with fuzzified reward approach for mppt control of pv systems",
+      "volume": "48",
+      "author": "Singh",
+      "year": "2021",
+      "journal-title": "Sustain. Energy Technol. Assessments"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib27",
+      "series-title": "2023 10th Iranian Conference on Renewable Energy Distributed Generation (ICREDG)",
+      "first-page": "1",
+      "article-title": "Mppt control of a pmsg connected to the wind turbine based on deep q-network",
+      "author": "Arianborna",
+      "year": "2023"
+    },
+    {
+      "issue": "11",
+      "key": "10.1016/j.heliyon.2024.e37974_bib28",
+      "doi-asserted-by": "crossref",
+      "first-page": "3039",
+      "DOI": "10.3390/s20113039",
+      "article-title": "A deep reinforcement learning-based MPPT control for PV systems under partial shading condition",
+      "volume": "20",
+      "author": "Phan",
+      "year": "2020",
+      "journal-title": "Sensors"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "L. Avila, M. D. Paula, I. Carlucho, and C. S. Reinoso, “MPPT for PV systems using deep reinforcement learning algorithms,” IEEE, vol. 17, no. 12, pp. 2020–2027 2019, conference Name: IEEE Latin America Trans- actions. [Online]. Available: https://www.research.ed.ac.uk/en/publications/mppt-for-pv-systems-using-deep-reinforcement-learning-algorithms.",
+      "DOI": "10.1109/TLA.2019.9011547"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib30",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.asoc.2020.106711",
+      "article-title": "Deep reinforcement learning approach for MPPT control of partially shaded PV systems in smart grids",
+      "volume": "97",
+      "author": "Avila",
+      "year": "2020",
+      "journal-title": "Appl. Soft Comput."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib31",
+      "unstructured": "OpenAI. Gym: A toolkit for developing and comparing reinforcement learning algorithms.,[Online]. Available: https://gym.openai.com."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib32",
+      "doi-asserted-by": "crossref",
+      "first-page": "217",
+      "DOI": "10.1007/s42341-021-00306-3",
+      "article-title": "Assessment of meta-heuristic and classical methods for gmppt of pv system",
+      "volume": "22",
+      "author": "Naseem M",
+      "year": "2021",
+      "journal-title": "Transactions on Electrical and Electronic Materials"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib33",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.renene.2022.06.105",
+      "article-title": "Machine learning in photovoltaic systems: a review",
+      "author": "Gaviria",
+      "year": "2022",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib34",
+      "doi-asserted-by": "crossref",
+      "first-page": "22",
+      "DOI": "10.1016/j.arcontrol.2019.09.008",
+      "article-title": "(deep) reinforcement learning for electric power system control and related problems: a short review and perspectives",
+      "volume": "48",
+      "author": "Glavic",
+      "year": "2019",
+      "journal-title": "Annu. Rev. Control"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib35",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Kirkpatrick, R. Pascanu, N. Rabinowitz, J. Veness, G. Desjardins, A. A. Rusu, K. Milan, J. Quan, T. Ramalho, A. Grabska-Barwinska, D. Hassabis, C. Clopath, D. Kumaran, and R. Hadsell, “Overcoming catastrophic forgetting in neural networks,” Proc. Natl. Acad. Sci. USA, vol. 114, no. 13, pp. 3521–3526 2017, publisher: Proceedings of the National Academy of Sciences. [Online]. Available: https://www.pnas.org/doi/10.1073/pnas.1611835114.",
+      "DOI": "10.1073/pnas.1611835114"
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib36",
+      "unstructured": "MathWorks. Deep q-network (DQN) agents - MATLAB & simulink.,[On- line]. Available: https://www.mathworks.com/help/reinforcement-learning/ug/dqn-agents.html."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib37",
+      "unstructured": "MATLAB. Options for q-learning agent - MATLAB - MathWorks, [Online]. Available: https://www.mathworks.com/help/reinforcement-learning/ref/rlqagentoptions.html."
+    },
+    {
+      "key": "10.1016/j.heliyon.2024.e37974_bib38",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.renene.2018.04.045",
+      "article-title": "Development of a real-time hot-spot prevention using an emulator of partially shaded PV systems",
+      "volume": "127",
+      "author": "Bressan",
+      "year": "2018",
+      "journal-title": "Renew. Energy"
+    }
+  ],
+  "container-title": [
+    "Heliyon"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2405844024140054?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S2405844024140054?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        6
+      ]
+    ],
+    "date-time": "2026-04-06T06:24:03Z",
+    "timestamp": 1775456643000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024140054"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        11
+      ]
+    ]
+  },
+  "references-count": 38,
+  "journal-issue": {
+    "issue": "21",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "S2405844024140054"
+  ],
+  "URL": "https://doi.org/10.1016/j.heliyon.2024.e37974",
+  "relation": {},
+  "ISSN": [
+    "2405-8440"
+  ],
+  "issn-type": [
+    {
+      "value": "2405-8440",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        11
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Deep reinforcement learning using deep-Q-network for Global Maximum Power Point tracking: Design and experiments in real photovoltaic systems",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Heliyon",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.heliyon.2024.e37974",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2024 The Authors. Published by Elsevier Ltd.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "e37974"
+}

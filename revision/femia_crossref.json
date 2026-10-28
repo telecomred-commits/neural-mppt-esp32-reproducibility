@@ -1,0 +1,275 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T21:14:36Z",
+    "timestamp": 1792962876285,
+    "version": "4.5.0"
+  },
+  "reference-count": 14,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2005,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2005-07-01T00:00:00Z",
+        "timestamp": 1120176000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Power Electron."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2005,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1109/tpel.2005.850975",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2005,
+        7,
+        6
+      ]
+    ],
+    "date-time": "2005-07-06T18:53:05Z",
+    "timestamp": 1120675985000
+  },
+  "page": "963-973",
+  "source": "Crossref",
+  "is-referenced-by-count": 2469,
+  "title": [
+    "Optimization of Perturb and Observe Maximum Power Point Tracking Method"
+  ],
+  "prefix": "10.1109",
+  "volume": "20",
+  "author": [
+    {
+      "given": "N.",
+      "family": "Femia",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "G.",
+      "family": "Petrone",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "G.",
+      "family": "Spagnuolo",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Vitelli",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2002.1009482"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/7.993245"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2002.805594"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1996.548811"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/63.903988"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.982265"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2000.916232"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.661310"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.836344"
+    },
+    {
+      "key": "ref11",
+      "first-page": "525",
+      "article-title": "DSP-based multiple peak power tracking for expandable power system",
+      "volume-title": "Proc. 18th Annu. IEEE Applied Power Electronics Conf. Expo",
+      "volume": "1",
+      "author": "Batarseh"
+    },
+    {
+      "key": "ref12",
+      "first-page": "1699",
+      "article-title": "Comparative study of maximum power point tracking algorithms",
+      "volume-title": "Proc. 28th IEEE Photovoltaic Specialists Conf.",
+      "author": "Hohm"
+    },
+    {
+      "key": "ref13",
+      "volume-title": "Basic Circuit Theory",
+      "author": "Desoer",
+      "year": "1969"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/b100747",
+      "volume-title": "Fundamental of Power Electronics",
+      "author": "Erickson",
+      "year": "2001"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Power Electronics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/63/31444/01461481.pdf?arnumber=1461481",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        11
+      ]
+    ],
+    "date-time": "2025-04-11T01:02:55Z",
+    "timestamp": 1744333375000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://ieeexplore.ieee.org/document/1461481/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2005,
+        7
+      ]
+    ]
+  },
+  "references-count": 14,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          7
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1109/tpel.2005.850975",
+  "relation": {},
+  "ISSN": [
+    "0885-8993"
+  ],
+  "issn-type": [
+    {
+      "value": "0885-8993",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2005,
+        7
+      ]
+    ]
+  }
+}

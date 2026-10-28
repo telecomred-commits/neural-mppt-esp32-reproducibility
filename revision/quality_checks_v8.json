@@ -1,0 +1,49 @@
+{
+  "version": 8,
+  "pdf_pages": 37,
+  "inline_bibliography_items": 42,
+  "unresolved_crossrefs": [],
+  "unresolved_citations": [],
+  "duplicate_labels": [],
+  "overfull_boxes": 0,
+  "all_37_pages_rendered_and_visually_reviewed": true,
+  "commercial_table_number": 2,
+  "commercial_figure_preserved_sha256": "dbc0d3dc1bede7d1ac1da1a72d44bbae4402448353bd9e0d48599447600a414e",
+  "main_engine": "XeLaTeX; explicit XDV to PDF conversion",
+  "final_NN_V_physical_ESP32_or_Wokwi_test": false,
+  "author_declarations_pending": true,
+  "page_locations": {
+    "Constrained calibration": [
+      12
+    ],
+    "Measurement-assisted power-reference": [
+      13
+    ],
+    "Matched extension campaign": [
+      20,
+      25
+    ],
+    "Matched constrained-reference": [
+      25
+    ],
+    "Steady-state command": [
+      27
+    ],
+    "Additional recorded adaptation": [
+      27
+    ],
+    "Advantages beyond": [
+      29
+    ],
+    "Qualitative comparison": [
+      32
+    ],
+    "Conclusions": [
+      1,
+      33
+    ]
+  },
+  "final_rebuild_matches_visually_reviewed_text_and_layout": true,
+  "compiled_pdf_sha256": "0aa3ae857ae26a3b37a3bb540fdf8e69965810869278e21c649bb92849c7311c",
+  "protected_panel_and_circuit_checksums_match": true
+}

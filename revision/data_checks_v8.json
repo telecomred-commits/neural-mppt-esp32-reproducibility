@@ -1,0 +1,11 @@
+{
+  "new_and_reused_extension_runs": 880,
+  "passive_ablation_runs": 60,
+  "checked_rows": 288260,
+  "numeric_finite": true,
+  "cadence_500ms": true,
+  "ACK_command_chain": true,
+  "bounded_commands": true,
+  "no_retries": true,
+  "frozen_parameters_unchanged": true
+}

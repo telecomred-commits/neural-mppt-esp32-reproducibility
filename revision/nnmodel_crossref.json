@@ -1,0 +1,604 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T01:07:12Z",
+    "timestamp": 1792804032957,
+    "version": "4.5.0"
+  },
+  "reference-count": 45,
+  "publisher": "MDPI AG",
+  "issue": "15",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2020-07-22T00:00:00Z",
+        "timestamp": 1595376000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Applied Sciences"
+  ],
+  "abstract": "<jats:p>Photovoltaic (PV) modules require maximum power point tracking (MPPT) algorithms to ensure that the amount of power extracted is maximized. In this paper, we propose a low-complexity MPPT algorithm that is based on the neural network (NN) model of the photovoltaic module. Namely, the expression for the output current of the NN model is used to derive the analytical, iterative rules for determining the maximal power point (MPP) voltage and irradiance estimation. In this way, the computational complexity is reduced compared to the other NN-based MPPT methods, in which the optimal voltage is predicted directly from the measurements. The proposed algorithm cannot instantaneously determine the optimal voltage, but it contains a tunable parameter for controlling the trade-off between the tracking speed and computational complexity. Numerical results indicate that the relative error between the actual maximum power and the one obtained by the proposed algorithm is less than 0.1%, which is up to ten times smaller than in the available algorithms.</jats:p>",
+  "DOI": "10.3390/app10155051",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        7,
+        23
+      ]
+    ],
+    "date-time": "2020-07-23T10:14:06Z",
+    "timestamp": 1595499246000
+  },
+  "page": "5051",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 52,
+  "title": [
+    "Neural Network Approach to MPPT Control and Irradiance Estimation"
+  ],
+  "prefix": "10.3390",
+  "volume": "10",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-1934-7365",
+      "authenticated-orcid": false,
+      "given": "Žarko",
+      "family": "Zečević",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Faculty of Electrical Engineering, University of Montenegro, Džordža Vašingtona bb, 81000 Podgorica, Montenegro"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Maja",
+      "family": "Rolevski",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Faculty of Electrical Engineering, University of Montenegro, Džordža Vašingtona bb, 81000 Podgorica, Montenegro"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2020,
+        7,
+        22
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "122",
+      "DOI": "10.1016/j.solener.2013.07.031",
+      "article-title": "Reduced-form of the photovoltaic five-parameter model for efficient computation of parameters",
+      "volume": "97",
+      "author": "Laudani",
+      "year": "2013",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_2",
+      "first-page": "3534",
+      "article-title": "Photovoltaic model with reduced computational time",
+      "volume": "62",
+      "author": "Mahmoud",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "6212",
+      "DOI": "10.1109/TIE.2017.2682023",
+      "article-title": "An Accurate and fast computational algorithm for the two-diode model of PV module based on a hybrid method",
+      "volume": "64",
+      "author": "Chin",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Stornelli, V., Muttillo, M., de Rubeis, T., and Nardi, I. (2019). A New Simplified Five-Parameter Estimation Method for Single-Diode Model of Photovoltaic Panels. Energies, 12.",
+      "DOI": "10.3390/en12224271"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "316",
+      "DOI": "10.1016/j.solener.2014.02.014",
+      "article-title": "High performing extraction procedure for the one-diode model of a photovoltaic panel from experimental I-V curves by using reduced forms",
+      "volume": "103",
+      "author": "Laudani",
+      "year": "2014",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kang, T., Yao, J., Jin, M., Yang, S., and Duong, T. (2018). A Novel Improved Cuckoo Search Algorithm for Parameter Estimation of Photovoltaic (PV) Models. Energies, 11.",
+      "DOI": "10.3390/en11051060"
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "6301",
+      "DOI": "10.1109/TIE.2018.2793216",
+      "article-title": "Two-Step Linear Least-Squares Method for Photovoltaic Single-Diode Model Parameters Extraction",
+      "volume": "65",
+      "author": "Blanes",
+      "year": "2018",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "first-page": "1549",
+      "DOI": "10.1109/TIE.2015.2498139",
+      "article-title": "Comprehensive Parameterization of Solar Cell: Improved Accuracy with Simulation Efficiency",
+      "volume": "63",
+      "author": "Huang",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1016/j.solmat.2005.01.007",
+      "article-title": "Solar cell array parameters using Lambert W-function",
+      "volume": "90",
+      "author": "Jain",
+      "year": "2006",
+      "journal-title": "Sol. Energy Mater. Sol. Cells"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "301",
+      "DOI": "10.1109/TSTE.2013.2282168",
+      "article-title": "An explicit pv string model based on the lambert w function and simplified mpp expressions for operation under partial shading",
+      "volume": "5",
+      "author": "Batzelis",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "938",
+      "DOI": "10.1016/j.rser.2016.11.075",
+      "article-title": "Review of techniques based on artificial neural networks for the electrical characterization of concentrator photovoltaic technology",
+      "volume": "75",
+      "author": "Almonacid",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_12",
+      "first-page": "230",
+      "article-title": "Data-driven PV modules modelling: Comparison between equivalent electric circuit and artificial intelligence based models",
+      "volume": "30",
+      "author": "Castro",
+      "year": "2018",
+      "journal-title": "Sustain. Energy Technol. Assess."
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Xu, X., Zhang, X., Huang, Z., Xie, S., Gu, W., Wang, X., Zhang, L., and Zhang, Z. (2019). Current Characteristics Estimation of Si PV Modules Based on Artificial Neural Network Modeling. Materials, 12.",
+      "DOI": "10.3390/ma12183037"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "462",
+      "DOI": "10.1016/j.solener.2018.07.092",
+      "article-title": "A new offline method for extracting I-V characteristic curve for photovoltaic modules using artificial neural networks",
+      "volume": "173",
+      "author": "Khatib",
+      "year": "2018",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "first-page": "956",
+      "DOI": "10.1016/j.apenergy.2011.12.085",
+      "article-title": "A radial basis function neural network based approach for the electrical characteristics estimation of a photovoltaic module",
+      "volume": "97",
+      "author": "Bonanno",
+      "year": "2012",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "168",
+      "DOI": "10.1016/j.enconman.2019.02.032",
+      "article-title": "Accurate modeling of photovoltaic modules using a 1-D deep residual network based on I-V characteristics",
+      "volume": "186",
+      "author": "Chen",
+      "year": "2019",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "1405",
+      "DOI": "10.1109/JPHOTOV.2019.2928477",
+      "article-title": "Data-Driven $I$–$V$ Feature Extraction for Photovoltaic Modules",
+      "volume": "9",
+      "author": "Ma",
+      "year": "2019",
+      "journal-title": "IEEE J. Photovolt."
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "679",
+      "DOI": "10.1049/iet-rpg.2013.0183",
+      "article-title": "Adaptive neuro-fuzzy based solar cell model",
+      "volume": "8",
+      "author": "Chikh",
+      "year": "2014",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mahmod Mohammad, A.N., Mohd Radzi, M.A., Azis, N., Shafie, S., and Atiqi Mohd Zainuri, M.A. (2020). An Enhanced Adaptive Perturb and Observe Technique for Efficient Maximum Power Point Tracking Under Partial Shading Conditions. Appl. Sci., 10.",
+      "DOI": "10.3390/app10113912"
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kapić, A., Zečević, Ž., and Krstajić, B. (2018, January 19–24). An efficient MPPT algorithm for PV modules under partial shading and sudden change in irradiance. Proceedings of the 2018 23rd International Scientific-Professional Conference on Information Technology (IT), Zabljak, Montenegro.",
+      "DOI": "10.1109/SPIT.2018.8350452"
+    },
+    {
+      "key": "ref_21",
+      "unstructured": "Erauskin, R.L., Gonzalez, A., Petrone, G., Spagnuolo, G., and Gyselinck, J. (2020). Multi-Variable Perturb & Observe Algorithm for Grid-tied PV Systems with Joint Central and Distributed MPPT Configuration. IEEE Trans. Sustain. Energy."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bhattacharyya, S., Patnam, D.S.K., Samanta, S., and Mishra, S. (2020). Steady Output and Fast Tracking MPPT (SOFT MPPT) for P&O and InC Algorithms. IEEE Trans. Sustain. Energy.",
+      "DOI": "10.1109/TSTE.2020.2991768"
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "561",
+      "DOI": "10.1049/iet-rpg.2015.0203",
+      "article-title": "Improved performance low-cost incremental conductance PV MPPT technique",
+      "volume": "10",
+      "author": "Zakzouk",
+      "year": "2016",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "87901",
+      "DOI": "10.1109/ACCESS.2019.2925687",
+      "article-title": "Residual Incremental Conductance Based Nonparametric MPPT Control for Solar Photovoltaic Energy Conversion System",
+      "volume": "7",
+      "author": "Alsumiri",
+      "year": "2019",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Dolara, A., Grimaccia, F., Mussetta, M., Ogliari, E., and Leva, S. (2018). An Evolutionary-Based MPPT Algorithm for Photovoltaic Systems under Dynamic Partial Shading. Appl. Sci., 8.",
+      "DOI": "10.3390/app8040558"
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "126323",
+      "DOI": "10.1109/ACCESS.2019.2939095",
+      "article-title": "A Lipschitz Optimization-Based MPPT Algorithm for Photovoltaic System under Partial Shading Condition",
+      "volume": "7",
+      "author": "Li",
+      "year": "2019",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ali, A., Almutairi, K., Malik, M.Z., Irshad, K., Tirth, V., Algarni, S., Zahir, M.H., Islam, S., Shafiullah, M., and Shukla, N.K. (2020). Review of Online and Soft Computing Maximum Power Point Tracking Techniques under Non-Uniform Solar Irradiation Conditions. Energies, 13.",
+      "DOI": "10.3390/en13123256"
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "first-page": "576",
+      "DOI": "10.1109/TSTE.2015.2504504",
+      "article-title": "An Enhanced MPPT Method Combining Model-Based and Heuristic Techniques",
+      "volume": "7",
+      "author": "Mahmoud",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "117",
+      "DOI": "10.1016/j.solener.2017.12.054",
+      "article-title": "A model-based algorithm for maximum power point tracking of PV systems using exact analytical solution of single-diode equivalent model",
+      "volume": "162",
+      "author": "Moshksar",
+      "year": "2018",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "1043",
+      "DOI": "10.1049/iet-rpg.2014.0359",
+      "article-title": "Artificial neural network-based photovoltaic maximum power point tracking techniques: A survey",
+      "volume": "9",
+      "author": "Elobaid",
+      "year": "2015",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "543",
+      "DOI": "10.1109/60.464880",
+      "article-title": "Evaluation of Neural Network Based Real Time Maximum Power Tracking Controller for PV System",
+      "volume": "10",
+      "author": "Hiyama",
+      "year": "1995",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "first-page": "204",
+      "DOI": "10.1016/S1007-0214(05)70055-9",
+      "article-title": "Artificial neural network maximum power point tracker for solar electric vehicle",
+      "volume": "10",
+      "author": "Ocran",
+      "year": "2005",
+      "journal-title": "Tsinghua Sci. Technol."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gowid, S., and Massoud, A. (2020). A robust experimental-based artificial neural network approach for photovoltaic maximum power point identification considering electrical, thermal and meteorological impact. Alex. Eng. J.",
+      "DOI": "10.1016/j.aej.2020.06.024"
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sedaghati, F., Nahavandi, A., Badamchizadeh, M.A., Ghaemi, S., and Abedinpour Fallah, M. (2012). PV maximum power-point tracking by using artificial neural network. Math. Probl. Eng., 2012.",
+      "DOI": "10.1155/2012/506709"
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.4236/ijmnta.2014.33008",
+      "article-title": "Maximum Power Point Tracking Control Using Neural Networks for Stand-Alone Photovoltaic Systems",
+      "volume": "3",
+      "author": "Essefi",
+      "year": "2014",
+      "journal-title": "Int. J. Mod. Nonlinear Theory Appl."
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rolevski, M., and Zecevic, Z. (2020, January 18–22). MPPT controller based on the neural network model of the photovoltaic panel. Proceedings of the 2020 24th International Conference on Information Technology (IT), Zabljak, Montenegro.",
+      "DOI": "10.1109/IT48810.2020.9070299"
+    },
+    {
+      "key": "ref_37",
+      "doi-asserted-by": "crossref",
+      "first-page": "124",
+      "DOI": "10.1016/j.apenergy.2015.01.077",
+      "article-title": "ANN based MPPT method for rapidly variable shading conditions",
+      "volume": "145",
+      "author": "Rizzo",
+      "year": "2015",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Elobaid, L.M., Abdelsalam, A.K., and Zakzouk, E.E. (2012, January 25–28). Artificial neural network based maximum power point tracking technique for PV systems. Proceedings of the IECON 2012—38th Annual Conference on IEEE Industrial Electronics Society, Montreal, QC, Canada.",
+      "DOI": "10.1109/IECON.2012.6389165"
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "644",
+      "DOI": "10.1109/TSTE.2015.2403845",
+      "article-title": "An Optimal Maximum Power Point Tracking Algorithm for PV Systems with Climatic Parameters Estimation",
+      "volume": "6",
+      "author": "Chikh",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_40",
+      "doi-asserted-by": "crossref",
+      "first-page": "583",
+      "DOI": "10.1109/TIM.2013.2282005",
+      "article-title": "A Neural Network-Based Low-Cost Solar Irradiance Sensor",
+      "volume": "63",
+      "author": "Laudani",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Instrum. Meas."
+    },
+    {
+      "key": "ref_41",
+      "doi-asserted-by": "crossref",
+      "first-page": "3359",
+      "DOI": "10.1109/TIE.2013.2281154",
+      "article-title": "An estimator of solar irradiance in photovoltaic arrays with guaranteed stability properties",
+      "volume": "61",
+      "author": "Carrasco",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_42",
+      "doi-asserted-by": "crossref",
+      "first-page": "634",
+      "DOI": "10.1016/j.ijepes.2019.05.074",
+      "article-title": "Improved MPPT method to increase accuracy and speed in photovoltaic systems under variable atmospheric conditions",
+      "volume": "113",
+      "author": "Yilmaz",
+      "year": "2019",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "ref_43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bendib, B., Krim, F., Belmili, H., Almi, M.F., and Bolouma, S. (2014, January 1–4). An intelligent MPPT approach based on neural-network voltage estimator and fuzzy controller, applied to a stand-alone PV system. Proceedings of the 2014 IEEE 23rd International Symposium on Industrial Electronics (ISIE), Istanbul, Turkey.",
+      "DOI": "10.1109/ISIE.2014.6864647"
+    },
+    {
+      "key": "ref_44",
+      "doi-asserted-by": "crossref",
+      "first-page": "194",
+      "DOI": "10.1016/j.epsr.2017.07.011",
+      "article-title": "A Hybrid MPPT method for grid connected photovoltaic systems under rapidly changing atmospheric conditions",
+      "volume": "152",
+      "author": "Teke",
+      "year": "2017",
+      "journal-title": "Electr. Power Syst. Res."
+    },
+    {
+      "key": "ref_45",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Marion, B., Anderberg, A., Deline, C., del Cueto, J., Muller, M., Perrin, G., Rodriguez, J., Rummel, S., Silverman, T.J., and Vignola, F. (2014, January 8–13). New data set for validating PV module performance models. Proceedings of the 2014 IEEE 40th Photovoltaic Specialist Conference (PVSC), Denver, CO, USA.",
+      "DOI": "10.1109/PVSC.2014.6925171"
+    }
+  ],
+  "container-title": [
+    "Applied Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2076-3417/10/15/5051/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T09:50:55Z",
+    "timestamp": 1760176255000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2076-3417/10/15/5051"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        7,
+        22
+      ]
+    ]
+  },
+  "references-count": 45,
+  "journal-issue": {
+    "issue": "15",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "app10155051"
+  ],
+  "URL": "https://doi.org/10.3390/app10155051",
+  "relation": {},
+  "ISSN": [
+    "2076-3417"
+  ],
+  "issn-type": [
+    {
+      "value": "2076-3417",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        7,
+        22
+      ]
+    ]
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        9
+      ]
+    ],
+    "date-time": "2026-10-09T16:59:07Z",
+    "timestamp": 1791565147164,
+    "version": "4.3.4"
+  },
+  "reference-count": 51,
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "issue": "8",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2015-11-01T00:00:00Z",
+        "timestamp": 1446336000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "ietresearch.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "IET Renewable Power Gen"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2015,
+        11
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Recent researches oriented to photovoltaic (PV) systems feature booming interest in current decade. For efficiency improvement, maximum power point tracking (MPPT) of PV array output power is mandatory. Although classical MPPT techniques offer simplified structure and implementation, their performance is degraded when compared with artificial intelligence‐based techniques especially during partial shading and rapidly changing environmental conditions. Artificial neural network (ANN) algorithms feature several capabilities such as: (i) off‐line training, (ii) nonlinear mapping, (iii) high‐speed response, (iv) robust operation, (v) less computational effort and (vi) compact solution for multiple‐variable problems. Hence, ANN algorithms have been widely applied as PV MPPT techniques. Among various available ANN‐based PV MPPT techniques, very limited references gather those techniques as a survey. Neither classification nor comparisons between those competitors exist. Moreover, no detailed analysis of the system performance under those techniques has been previously discussed. This study presents a detailed survey for ANN based PV MPPT techniques. The authors propose new categorisation for ANN PV MPPT techniques based on controller structure and input variables. In addition, a detailed comparison between those techniques from several points of view, such as ANN structure, experimental verification and transient/steady‐state performance is presented. Recent references are taken into consideration for update purpose.</jats:p>",
+  "DOI": "10.1049/iet-rpg.2014.0359",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2015,
+        7,
+        27
+      ]
+    ],
+    "date-time": "2015-07-27T06:54:23Z",
+    "timestamp": 1437980063000
+  },
+  "page": "1043-1063",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 294,
+  "title": [
+    "Artificial neural network‐based photovoltaic maximum power point tracking techniques: a survey"
+  ],
+  "prefix": "10.1049",
+  "volume": "9",
+  "author": [
+    {
+      "given": "Lina M.",
+      "family": "Elobaid",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ahmed K.",
+      "family": "Abdelsalam",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ezeldin E.",
+      "family": "Zakzouk",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Electrical Engineering Department College of Engineering and Technology Arab Academy for Science and Technology (AAST) Alexandria Egypt"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "265",
+  "published-online": {
+    "date-parts": [
+      [
+        2015,
+        11
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_6_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-pel.2013.0406"
+    },
+    {
+      "key": "e_1_2_6_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2012.2198036"
+    },
+    {
+      "key": "e_1_2_6_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSG.2012.2198674"
+    },
+    {
+      "key": "e_1_2_6_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSTE.2012.2202294"
+    },
+    {
+      "key": "e_1_2_6_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2012.2220861"
+    },
+    {
+      "key": "e_1_2_6_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ENERGYCON.2014.6850406"
+    },
+    {
+      "key": "e_1_2_6_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JPHOTOV.2012.2202879"
+    },
+    {
+      "key": "e_1_2_6_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.874230"
+    },
+    {
+      "key": "e_1_2_6_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2013.6699395"
+    },
+    {
+      "key": "e_1_2_6_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2013.6699386"
+    },
+    {
+      "key": "e_1_2_6_12_1",
+      "first-page": "1321",
+      "volume-title": "Photovoltaic Specialists Conf., 1997, Conf. Record of the 26th IEEE",
+      "author": "Cha I.‐S.",
+      "year": "1997"
+    },
+    {
+      "key": "e_1_2_6_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PEDS.2003.1283074"
+    },
+    {
+      "key": "e_1_2_6_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TENCON.2005.301032"
+    },
+    {
+      "key": "e_1_2_6_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCAS.2008.4694386"
+    },
+    {
+      "key": "e_1_2_6_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICNC.2009.286"
+    },
+    {
+      "key": "e_1_2_6_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/3CA.2010.5533334"
+    },
+    {
+      "key": "e_1_2_6_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IFOST.2010.5668004"
+    },
+    {
+      "key": "e_1_2_6_19_1",
+      "first-page": "1",
+      "volume-title": "Power and Energy Engineering Conf. (APPEEC), 2010 Asia‐Pacific",
+      "author": "Xu Y.",
+      "year": "2010"
+    },
+    {
+      "key": "e_1_2_6_20_1",
+      "first-page": "802",
+      "volume-title": "2010 the Fifth IEEE Conf. on Industrial Electronics and Applications (ICIEA)",
+      "author": "Lu H.‐C.",
+      "year": "2010"
+    },
+    {
+      "key": "e_1_2_6_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.815107"
+    },
+    {
+      "key": "e_1_2_6_22_1",
+      "first-page": "638",
+      "volume-title": "2010 Int. Conf. on Electrical Machines and Systems (ICEMS)",
+      "author": "Baek J.‐W.",
+      "year": "2010"
+    },
+    {
+      "key": "e_1_2_6_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/cp:20020083"
+    },
+    {
+      "key": "e_1_2_6_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICSMA.2008.4505578"
+    },
+    {
+      "key": "e_1_2_6_25_1",
+      "first-page": "1",
+      "volume-title": "2009 Int. Conf. on Control, Automation, Communication and Energy Conservation, 2009. INCACEC 2009",
+      "author": "Ramaprabha R.",
+      "year": "2009"
+    },
+    {
+      "key": "e_1_2_6_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCCCT.2010.5670545"
+    },
+    {
+      "key": "e_1_2_6_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2010.5614462"
+    },
+    {
+      "key": "e_1_2_6_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICEES.2011.5725340"
+    },
+    {
+      "key": "e_1_2_6_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCCET.2011.5762518"
+    },
+    {
+      "key": "e_1_2_6_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2010.5637832"
+    },
+    {
+      "key": "e_1_2_6_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/AFRCON.2009.5308552"
+    },
+    {
+      "key": "e_1_2_6_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg:20080065"
+    },
+    {
+      "key": "e_1_2_6_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/FPS.2005.204215"
+    },
+    {
+      "key": "e_1_2_6_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TCST.2012.2223819"
+    },
+    {
+      "key": "e_1_2_6_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S1007-0214(05)70055-9"
+    },
+    {
+      "key": "e_1_2_6_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.464880"
+    },
+    {
+      "key": "e_1_2_6_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.391904"
+    },
+    {
+      "key": "e_1_2_6_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2013.6700341"
+    },
+    {
+      "key": "e_1_2_6_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2012.6389165"
+    },
+    {
+      "key": "e_1_2_6_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2003.814762"
+    },
+    {
+      "key": "e_1_2_6_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.2002.1039412"
+    },
+    {
+      "key": "e_1_2_6_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:20000605"
+    },
+    {
+      "key": "e_1_2_6_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IRSEC.2014.7059894"
+    },
+    {
+      "key": "e_1_2_6_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CIPECH.2014.7019117"
+    },
+    {
+      "key": "e_1_2_6_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2014.6864647"
+    },
+    {
+      "key": "e_1_2_6_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-gtd.2014.0287"
+    },
+    {
+      "key": "e_1_2_6_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-smt.2013.0011"
+    },
+    {
+      "key": "e_1_2_6_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIA.2010.2072975"
+    },
+    {
+      "key": "e_1_2_6_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IC3I.2014.7019778"
+    },
+    {
+      "key": "e_1_2_6_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSTE.2014.2381224"
+    },
+    {
+      "key": "e_1_2_6_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-smt.2013.0135"
+    },
+    {
+      "key": "e_1_2_6_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSTE.2013.2246591"
+    }
+  ],
+  "container-title": [
+    "IET Renewable Power Generation"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-rpg.2014.0359",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-rpg.2014.0359",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-rpg.2014.0359",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        28
+      ]
+    ],
+    "date-time": "2025-10-28T19:55:44Z",
+    "timestamp": 1761681344000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-rpg.2014.0359"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        11
+      ]
+    ]
+  },
+  "references-count": 51,
+  "journal-issue": {
+    "issue": "8",
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          11
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1049/iet-rpg.2014.0359"
+  ],
+  "URL": "https://doi.org/10.1049/iet-rpg.2014.0359",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1752-1416",
+    "1752-1424"
+  ],
+  "issn-type": [
+    {
+      "value": "1752-1416",
+      "type": "print"
+    },
+    {
+      "value": "1752-1424",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2015,
+        11
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2014-10-29",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2015-05-19",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2015-11-01",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

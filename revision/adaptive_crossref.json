@@ -1,0 +1,512 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        7
+      ]
+    ],
+    "date-time": "2026-10-07T17:03:14Z",
+    "timestamp": 1791392594025,
+    "version": "4.3.3"
+  },
+  "reference-count": 37,
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "issue": "4",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IET Renew. Power Gener."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2010,
+        7,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1049/iet-rpg.2009.0006",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2010,
+        6,
+        28
+      ]
+    ],
+    "date-time": "2010-06-28T12:46:25Z",
+    "timestamp": 1277729185000
+  },
+  "page": "317-328",
+  "source": "Crossref",
+  "is-referenced-by-count": 361,
+  "title": [
+    "Adaptive perturb and observe algorithm for photovoltaic maximum power point tracking"
+  ],
+  "prefix": "10.1049",
+  "volume": "4",
+  "author": [
+    {
+      "given": "L.",
+      "family": "Piegari",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering, University of Naples Federico II, Via Claudio, Naples, 21-80125, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R.",
+      "family": "Rizzo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical Engineering, University of Naples Federico II, Via Claudio, Naples, 21-80125, Italy"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "265",
+  "reference": [
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r1",
+      "doi-asserted-by": "crossref",
+      "first-page": "769",
+      "DOI": "10.1109/41.649937",
+      "volume": "44",
+      "author": "Enslin",
+      "year": "1997",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r2",
+      "doi-asserted-by": "crossref",
+      "first-page": "46",
+      "DOI": "10.1109/63.903988",
+      "volume": "16",
+      "author": "Koutroulis",
+      "year": "2001",
+      "ISSN": "https://id.crossref.org/issn/0885-8993",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r3",
+      "doi-asserted-by": "crossref",
+      "first-page": "88",
+      "DOI": "10.1109/PECON.2004.1461622",
+      "author": "Yusof",
+      "year": "2004",
+      "journal-title": "Proc. PECon 2004"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r4",
+      "doi-asserted-by": "crossref",
+      "first-page": "1699",
+      "DOI": "10.1109/PVSC.2000.916230",
+      "author": "Hohm",
+      "year": "2000",
+      "journal-title": "Proc. Photovoltaic Specialist Conf."
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r5",
+      "first-page": "59",
+      "volume": "142",
+      "author": "Hussein",
+      "year": "1995"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r6",
+      "doi-asserted-by": "crossref",
+      "first-page": "217",
+      "DOI": "10.1109/41.982265",
+      "volume": "49",
+      "author": "Noguchi",
+      "year": "2002",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r7",
+      "doi-asserted-by": "crossref",
+      "first-page": "594",
+      "DOI": "10.1109/41.925586",
+      "volume": "48",
+      "author": "Kuo",
+      "year": "2001",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r8",
+      "doi-asserted-by": "crossref",
+      "first-page": "73",
+      "DOI": "10.1109/63.65005",
+      "volume": "6",
+      "author": "Enslin",
+      "year": "1991",
+      "ISSN": "https://id.crossref.org/issn/0885-8993",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r9",
+      "doi-asserted-by": "crossref",
+      "first-page": "439",
+      "DOI": "10.1109/TEC.2006.874230",
+      "volume": "22",
+      "author": "Esram",
+      "year": "2007",
+      "ISSN": "https://id.crossref.org/issn/0885-8969",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r10",
+      "first-page": "396",
+      "volume": "1",
+      "author": "Won",
+      "year": "1994",
+      "journal-title": "Annual IEEE PESC"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r11",
+      "first-page": "552",
+      "volume": "146",
+      "author": "Simoes",
+      "year": "1999"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r12",
+      "doi-asserted-by": "crossref",
+      "first-page": "793",
+      "DOI": "10.1109/TEC.2006.875430",
+      "volume": "21",
+      "author": "Kottas",
+      "year": "2006",
+      "ISSN": "https://id.crossref.org/issn/0885-8969",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r13",
+      "first-page": "202",
+      "author": "Kottas",
+      "year": "2005",
+      "journal-title": "Proc. Second ICINCO"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r14",
+      "first-page": "119",
+      "author": "Boutalis",
+      "year": "2005",
+      "journal-title": "Proc. Fifth ICTA"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r15",
+      "first-page": "65",
+      "volume": "24",
+      "author": "Kosko",
+      "year": "1986"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r16",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1109/60.629709",
+      "volume": "12",
+      "author": "Hiyama",
+      "year": "1997",
+      "ISSN": "https://id.crossref.org/issn/0885-8969",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r17",
+      "doi-asserted-by": "crossref",
+      "first-page": "514",
+      "DOI": "10.1109/TEC.2002.805205",
+      "volume": "17",
+      "author": "Masoum",
+      "year": "2002",
+      "ISSN": "https://id.crossref.org/issn/0885-8969",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r18",
+      "doi-asserted-by": "crossref",
+      "first-page": "1055",
+      "DOI": "10.1109/TIE.2006.878328",
+      "volume": "53",
+      "author": "Mutoh",
+      "year": "2006",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r19",
+      "doi-asserted-by": "crossref",
+      "first-page": "374",
+      "DOI": "10.1109/TIE.2006.885149",
+      "volume": "54",
+      "author": "Mutoh",
+      "year": "2007",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r20",
+      "first-page": "2264",
+      "volume": "4",
+      "author": "Mutoh",
+      "year": "2004",
+      "journal-title": "Proc. 39th Annual Meeting of IEEE Industrial Application Society"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r21",
+      "first-page": "1435",
+      "volume": "118-D",
+      "author": "Dong",
+      "year": "1998"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r22",
+      "first-page": "841",
+      "volume": "3",
+      "author": "Snyman",
+      "year": "1993"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r23",
+      "doi-asserted-by": "crossref",
+      "first-page": "769",
+      "DOI": "10.1109/41.649937",
+      "volume": "44",
+      "author": "Enslin",
+      "year": "1997",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r24",
+      "doi-asserted-by": "crossref",
+      "first-page": "249",
+      "DOI": "10.1109/TAES.2006.1603420",
+      "volume": "42",
+      "author": "Leyva",
+      "year": "2006",
+      "ISSN": "https://id.crossref.org/issn/0018-9251",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r25",
+      "first-page": "1957",
+      "author": "Xiao",
+      "year": "2004",
+      "journal-title": "Proc. 35th IEEE Power Electronics Specialists Conf."
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r26",
+      "author": "Liu",
+      "year": "2004",
+      "journal-title": "Power Electronics Specialists Conf. PESC 04, IEEE 35th Annual"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r27",
+      "doi-asserted-by": "crossref",
+      "first-page": "1027",
+      "DOI": "10.1109/TIE.2006.878331",
+      "volume": "53",
+      "author": "Kim",
+      "year": "2006",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r28",
+      "doi-asserted-by": "crossref",
+      "first-page": "2414",
+      "DOI": "10.1109/ISIE.2007.4374985",
+      "author": "Cabal",
+      "year": "2007",
+      "journal-title": "Proc. Int. Symp. Industrial Electronics ISIE 2007"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r29",
+      "first-page": "1420",
+      "author": "Sera",
+      "year": "2006",
+      "journal-title": "Proc. IEEE ISIE 2006"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r30",
+      "doi-asserted-by": "crossref",
+      "first-page": "963",
+      "DOI": "10.1109/TPEL.2005.850975",
+      "volume": "20",
+      "author": "Femia",
+      "year": "2005",
+      "ISSN": "https://id.crossref.org/issn/0885-8993",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r31",
+      "doi-asserted-by": "crossref",
+      "first-page": "287",
+      "DOI": "10.1109/41.836344",
+      "volume": "47",
+      "author": "Wu",
+      "year": "2000",
+      "ISSN": "https://id.crossref.org/issn/0278-0046",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r32",
+      "first-page": "212",
+      "author": "Khaehintung",
+      "year": "2006",
+      "journal-title": "Proc. ISCIT"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r33",
+      "doi-asserted-by": "crossref",
+      "first-page": "934",
+      "DOI": "10.1109/TAES.2007.4383584",
+      "volume": "43",
+      "author": "Femia",
+      "year": "2007",
+      "ISSN": "https://id.crossref.org/issn/0018-9251",
+      "issn-type": "print"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r34",
+      "first-page": "604",
+      "volume": "2",
+      "author": "Armstrong",
+      "year": "2004",
+      "journal-title": "Int. Universities Power Engineering Conf., UPEC"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r35",
+      "first-page": "2040",
+      "volume": "3",
+      "author": "Park",
+      "year": "2004",
+      "journal-title": "Annual Conf. Industrial Electronics Society, IECON"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r36",
+      "first-page": "455",
+      "volume": "76",
+      "author": "Yu",
+      "year": "2004"
+    },
+    {
+      "key": "10.1049/iet-rpg.2009.0006_r37",
+      "doi-asserted-by": "crossref",
+      "first-page": "313",
+      "DOI": "10.1109/INTLEC.1996.573330",
+      "author": "De Aragao Filho",
+      "year": "1996",
+      "journal-title": "Int. Telecommunications Energy Conf., INTELEC '96"
+    }
+  ],
+  "container-title": [
+    "IET Renewable Power Generation"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://digital-library.theiet.org/content/journals/10.1049/iet-rpg.2009.0006?crawler=true&mimetype=application/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        12
+      ]
+    ],
+    "date-time": "2024-11-12T18:15:16Z",
+    "timestamp": 1731435316000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://digital-library.theiet.org/doi/10.1049/iet-rpg.2009.0006"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2010,
+        7,
+        7
+      ]
+    ]
+  },
+  "references-count": 37,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          7,
+          7
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1049/iet-rpg.2009.0006"
+  ],
+  "URL": "https://doi.org/10.1049/iet-rpg.2009.0006",
+  "relation": {},
+  "ISSN": [
+    "1752-1416",
+    "1752-1424"
+  ],
+  "issn-type": [
+    {
+      "value": "1752-1416",
+      "type": "print"
+    },
+    {
+      "value": "1752-1424",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2010,
+        7,
+        7
+      ]
+    ]
+  }
+}

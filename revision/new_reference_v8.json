@@ -1,0 +1,17 @@
+{
+  "key": "chen2019",
+  "authors": [
+    "Leian Chen",
+    "Xiaodong Wang"
+  ],
+  "title": "Enhanced MPPT method based on ANN-assisted sequential Monte–Carlo and quickest change detection",
+  "journal": "IET Smart Grid",
+  "year": 2019,
+  "volume": 2,
+  "issue": 4,
+  "pages": "635–644",
+  "doi": "10.1049/iet-stg.2019.0012",
+  "verified_source": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-stg.2019.0012",
+  "verification_date": "2026-10-27",
+  "claim": "Prior ANN assistance within an INC/sequential Monte Carlo framework; no novelty claimed for neural/conventional combination alone."
+}

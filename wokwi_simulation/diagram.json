@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Carlos R. Suárez S. - experimental copy",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -140, "left": 120, "attrs": {} },
+    {
+      "type": "chip-solar",
+      "id": "panel",
+      "top": 116.22,
+      "left": 360,
+      "attrs": {
+        "control_mode": "1",
+        "load": "50",
+        "irradiance": "800",
+        "temperature": "25",
+        "Ns": "1",
+        "Np": "1",
+        "V_sense_max": "50",
+        "I_sense_max": "15"
+      }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "panel:GND", "esp:GND", "black", [] ],
+    [ "panel:GND", "esp:GND.3", "black", [ "h6.84", "v-3.78" ] ],
+    [ "panel:V_OUT", "esp:34", "green", [ "h-268.8", "v-197.6" ] ],
+    [ "esp:35", "panel:I_OUT", "green", [ "h-19.01", "v197.6" ] ],
+    [ "esp:33", "panel:G_OUT", "green", [ "h-9.41", "v159.2", "h220.8", "v28.8" ] ],
+    [ "esp:32", "panel:T_OUT", "green", [ "h-38.21", "v159.2", "h259.2", "v9.6", "v38.4" ] ],
+    [ "esp:17", "panel:CTRL_RX", "orange", [ "h278.44", "v159.2" ] ],
+    [ "panel:CTRL_TX", "esp:16", "blue", [ "h26.04", "v-140" ] ]
+  ],
+  "dependencies": {}
+}

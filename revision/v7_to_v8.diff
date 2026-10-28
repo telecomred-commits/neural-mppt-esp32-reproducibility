@@ -1,0 +1,417 @@
+--- v7/manuscript.tex
++++ v8/manuscript.tex
+@@ -14,20 +14,20 @@
+ \firstpage{1}
+ \pubvolume{Draft}\issuenum{}\pubyear{2026}\copyrightyear{2026}
+ \externaleditor{}\datereceived{Not submitted}\dateaccepted{Not assigned}\datepublished{Not published}\doinum{}
+-\Title{A Neural MPPT Algorithm with Bounded Online Learning in an ESP32-Based Photovoltaic Simulation}
+-\TitleCitation{Neural MPPT with Bounded Online Learning}
++\Title{Online Identification and Power-Reference Verification for Neural MPPT in an ESP32-Oriented Photovoltaic Simulation}
++\TitleCitation{Identification and Reference Verification for Neural MPPT}
+ \Author{Carlos René Suárez Suárez\textsuperscript{1} [provisional author list]}
+ \AuthorNames{Carlos René Suárez Suárez}
+ \AuthorCitation{Suárez Suárez CR}
+ \address{\textsuperscript{1} Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá, Colombia [affiliation to confirm].}
+ \corres{Corresponding author details pending confirmation.}
+-\abstract{\textbf{Introduction:} A neural maximum power point tracking algorithm combines current-characteristic identification, bounded online updates and load regulation in firmware targeting an ESP32. Its evaluation distinguishes prediction accuracy from energy tracking.\\
+-\textbf{Materials and methods:} The algorithm uses a 2--16--1 current predictor, a two-stage search for the voltage reference and a bounded load correction. Its output layer is updated from measured current, with incremental conductance used outside the covered environmental domain. Frozen and adaptive networks were compared with perturb and observe, incremental conductance, and adaptive perturb and observe. Seven programmed profiles and ten paired noise seeds produced 350 host simulations. Eighteen supplied Wokwi logs were audited separately. A matched static pair assessed operation at 600 W/m$^2$ and 37 $^\circ$C. Unequal manual dynamic trajectories were retained for descriptive assessment.\\
+-\textbf{Results:} Across five primary host profiles, mean model-referenced tracking efficiency was 99.429\% for the frozen network and 99.427\% with online updates. In the Wokwi static pair, ten updates occurred with learning enabled. Current prediction root mean square error during the final 30 s was 0.0135 A, compared with 0.1483 A without updates. Recorded energy over a common 120 s window was 26,547.51 and 26,548.38 J, respectively.\\
+-\textbf{Conclusions:} The available runs show improved local current prediction without increased energy capture. Manual dynamic records show load recovery but do not provide matched energy contrasts. The voltage criterion was not met in the observed 45 and 50 $^\circ$C plateaus. The findings concern a digital plant and simulated firmware execution, not a physical photovoltaic converter.}
++\abstract{\textbf{Introduction:} A neural current model can improve local prediction without locating the maximum-power point more accurately. This study separates identification, reference generation and regulation in photovoltaic MPPT firmware targeting an ESP32.\\
++\textbf{Materials and methods:} Three versions of a 2--16--1 model were evaluated: current-only updating, constrained recalibration, and measurement-assisted power verification with guarded current/slope updates. An initial 350-run host campaign was followed by an 880-run matched comparison including P\&O, incremental conductance, adaptive P\&O and a sweep-calibrated affine reference. A further 60 runs tested passive verification. Twenty-nine Wokwi files containing 7491 complete observations were audited separately.\\
++\textbf{Results:} Across five primary profiles, constrained neural tracking reached 99.4302\% model-referenced efficiency, compared with 98.3843\% for the implemented INC and 99.4295\% for the affine comparator. Active power verification reached 99.4159\%, with no practical online-versus-frozen energy gain. In static host operation, measured-voltage standard deviation was approximately 0.032 V for calibrated neural references and 0.359--0.443 V for the classical branches. A matched static Wokwi pair showed current RMSE of 0.0135 A online versus 0.1483 A frozen, without increased energy. Equal-input replay reproduced lower current error alongside greater reference error.\\
++\textbf{Conclusions:} The calibrated-reference controllers reduced command activity and improved criterion-based load recovery for the tested tunings. Similar affine-reference performance prevents attributing their energy advantage to neural representation alone. The neural model adds current estimates and inspectable update diagnostics. Verification and bounded adaptation carry costs and do not establish physical-converter performance, global tracking, or energetic superiority of online learning.}
+ \keyword{photovoltaic systems; maximum power point tracking; online learning; ESP32; digital photovoltaic model; measurement scaling}
+ \begin{document}
+-\pending{Version 7, 27 October 2026. Eighteen Wokwi logs audited. Static and exploratory dynamic findings incorporated. Author metadata and verified matched dynamic trials remain to be completed before submission.}
++\pending{Version 8. Host campaigns and all 29 supplied Wokwi records incorporated. Three neural versions are distinguished. Author metadata and declarations remain to be confirmed before submission.}
+ \section{Introduction}
+ Photovoltaic maximum power point tracking (MPPT) controls the electrical operating point of a source whose current--voltage characteristic depends on irradiance, temperature and module configuration. Its objective is to extract available energy over time, including environmental transitions and load disturbances. This objective differs from predicting an instantaneous electrical quantity accurately. An estimator can reduce its current residuals without locating the maximum of the power curve more accurately. Establishing whether online learning improves MPPT therefore requires both a predictive assessment and a closed-loop energy comparison.
+ 
+@@ -56,7 +56,7 @@
+ 
+ Model-based neural MPPT is particularly close to the present approach. Zečević and Rolevski \cite{nnmodel} derive iterative tracking rules from a neural representation of photovoltaic output current. Their formulation separates characteristic approximation from the search for the maximum. Rizzo and Scelba \cite{rizzo} address rapidly variable shading with an ANN-based MPPT method. These examples show that the represented characteristic and its operating domain matter as much as the network architecture. A source with a single power maximum does not test the same search problem as an array with multiple maxima under partial shading.
+ 
+-Reinforcement learning provides another formulation in which an agent selects actions according to an objective defined through rewards. Giraldo et al. \cite{giraldo} evaluate a deep-Q-network in simulations and real photovoltaic experiments, including partial shading. This differs from updating a supervised current predictor from measured current. In the present implementation, the current residual drives learning and energy tracking is assessed afterward. Improvements in the learning target therefore need not produce improvements in the control objective. Introducing a reward-based policy would require a different training and validation design.
++Reinforcement learning provides another formulation in which an agent selects actions according to an objective defined through rewards. Giraldo et al. \cite{giraldo} evaluate a deep-Q-network in simulations and real photovoltaic experiments, including partial shading. This differs from updating a supervised current predictor from measured current. In the initial implementation, the current residual drives learning and energy tracking is assessed afterward. A later guarded extension adds measurement-assisted power-slope information to its acceptance criterion. Improvements in the learning target therefore need not produce improvements in the control objective. Introducing a reward-based policy would require a different training and validation design.
+ 
+ Recent implementation studies also distinguish forms of adaptation and levels of validation. Abouzeid et al. \cite{abouzeid} combine numerical and physical experimental evaluation of an ANN MPPT against conventional controllers. Amine et al. \cite{amine} use meteorological acquisition through a Raspberry Pi to support dataset expansion and incremental estimator updates. Their workflow differs from local output-layer updates triggered by each eligible electrical observation. Jamshed et al. \cite{jamshed} deploy a lightweight neural controller on an STM32 for controller hardware-in-the-loop assessment. Physical experimentation, physical-controller HIL and simulated firmware execution provide different evidence. Their reported efficiencies and execution times should not be ranked without accounting for those differences.
+ 
+@@ -65,9 +65,9 @@
+ 
+ The project contains records labeled PO, POINC and POINCADAP, corresponding to P\&O, INC and adaptive P\&O in the available firmware. These records supply conventional reference behavior and expose the roles of perturbation direction, slope information and step magnitude. They are not three standardized names for separate neural models. In the current intelligent controller, bounded reference tracking follows these control considerations, while INC supplies fallback behavior outside the covered neural domain. The implemented network weights are fitted to calibrated current--voltage sweep measurements. Historical control commands are not asserted to be optimal training labels or to have been combined into the deployed weights.
+ 
+-The study develops and evaluates a neural MPPT algorithm that couples bounded online current identification with reference generation and load regulation. Within this algorithm, the principal ablation asks whether updating the current predictor improves energy tracking relative to the same predictor with frozen parameters. The study addresses it through a paired online-versus-frozen ablation, conventional P\&O/INC/adaptive-P\&O references, and a common acquisition and actuation path. Predictive residuals, independent maximum-power references and energy integrals are evaluated separately. The documentary comparison with ten commercial modules characterizes the digital source's consistency and limitations. It does not replace an independent MPPT reference for that source.
+-
+-Table~\ref{tab:literature} summarizes the literature-to-design connection. The intended contribution is the documented algorithmic chain from measured signals to bounded learning, reference search and acknowledged load correction, together with an evaluation that separates model identification from tracking behavior in an ESP32-oriented simulation workflow. The study does not claim a new general family of neural MPPT, replacement of physical-converter experiments, or an energetic advantage before the paired tests establish it.
++The study evaluates a current-identification controller and two extensions with constrained calibration and measurement-assisted reference verification. Their shared representation supplies a voltage reference, while the final extension also checks proposed parameter updates against local power-slope information. Within this algorithm, the principal ablation asks whether updating the current predictor improves energy tracking relative to the same predictor with frozen parameters. The study addresses it through a paired online-versus-frozen ablation, conventional P\&O/INC/adaptive-P\&O references, and a common acquisition and actuation path. Predictive residuals, independent maximum-power references and energy integrals are evaluated separately. The documentary comparison with ten commercial modules characterizes the digital source's consistency and limitations. It does not replace an independent MPPT reference for that source.
++
++Table~\ref{tab:literature} summarizes the literature-to-design connection. The contribution is an implementation-level assessment of current identification, constrained reference generation and guarded power verification. Matched classical and affine-reference comparisons identify which outcomes follow from calibration and regulation, while recorded residuals and rejected updates expose the additional behavior of the learned model. The study does not claim a new general family of neural MPPT, replacement of physical-converter experiments, or an energetic advantage before the paired tests establish it.
+ 
+ 
+ 
+@@ -178,262 +178,18 @@
+ 
+ These classical mechanisms inform the intelligent design through signed reference correction, bounded increments, a near-reference dead zone and INC fallback. The neural component supplies a current model and a predicted reference rather than copying all classical decisions. Historical controller logs document trajectories and command behavior. The calibrated sweeps described next supply the current targets used to fit the deployed weights. This separation prevents controller commands from being mislabeled as measured maximum-power ground truth.
+ 
+-\subsection{Proposed intelligent MPPT algorithm}
+-\label{sec:intelligent}
+-The proposed algorithm uses a neural current model to determine a voltage reference and a feedback correction to move the photovoltaic operating point toward that reference. Its operating sequence is measurement validation, current prediction, optional parameter updating, predicted-power maximization, and load-command generation. An INC branch supplies the correction when environmental conditions fall outside the covered neural domain. Algorithms~\ref{alg:main} and~\ref{alg:helpers} specify the execution order and helper routines.
+-
+-This arrangement defines where intelligence enters the control loop. The neural model represents the current characteristic. Measured current supplies the online learning target. The reference search converts that representation into a candidate maximum-power voltage. The regulator then changes the virtual load. The conventional controllers in Section~2.4 provide feedback principles and comparison branches, while the fitted neural characteristic supplies the reference in the proposed branch. The deployed weights are not obtained by averaging or imitating the three historical controller outputs.
+-
+-\subsubsection{Inputs, persistent state and output}
+-At an eligible sampling instant $n$, the algorithm receives voltage $V_n$, current $I_n$, irradiance $G_n$, temperature $T_n$ and the last acknowledged load command $L_n$. Its output is the next load command $L_{n+1}$. The acknowledged applied load is recorded separately from the command because the external slider can introduce a disturbance.
+-
+-The persistent controller state contains the 17 trainable output-layer parameters, their pretrained reference values, the previous valid voltage and current, an initialization flag and an update counter. Hidden-layer parameters remain fixed. The initial load command is 50\%. On restart, the output parameters return to their pretrained values and the counter and measurement-memory flag are reset. Online updates do not overwrite the stored weights. The telemetry identifies neural operation with source code 1, INC fallback with code 3, initialization with code 0 and invalid input with code 4. The learning counter, per-sample update flag and parameter displacement distinguish model updates from changes in the control command.
+-
+-\subsubsection{Initial training and neural current representation}
+-Four calibrated sweeps provide 1012 observations at the combinations of 400 and 800 W/m$^2$ with 25 and 50 $^\circ$C. These constitute four independent environmental settings. A separate sweep at 600 W/m$^2$ and 37 $^\circ$C was previously examined for interpolation assessment and is not described as a blind test. Historical controller logs and calibrated sweeps retain distinct roles: the former document conventional trajectories, and the latter supply current targets for the deployed model.
+-
+-Voltage and temperature are normalized as
+-\begin{equation}
+- x_V=\frac{V-21}{21},\qquad x_T=\frac{T-37.5}{12.5}.
+-\end{equation}
+-For hidden unit $j$, the learned nonlinear feature is
+-\begin{equation}
+- h_j(V,T)=\tanh(a_{j,V}x_V+a_{j,T}x_T+c_j),
+- \quad j=1,\ldots,16.
+-\end{equation}
+-Define $\symbf{\phi}=[1,h_1,\ldots,h_{16}]^{\mathsf T}$ and $\symbf{\theta}=[b,w_1,\ldots,w_{16}]^{\mathsf T}$. The raw normalized output and reconstructed current are
+-\begin{equation}
+- z=\symbf{\theta}^{\mathsf T}\symbf{\phi},\qquad
+- \widehat I(V,G,T)=14\frac{G}{1000}\operatorname{clip}(z,0,1.5).
+- \label{eq:currentmodel}
+-\end{equation}
+-The network contains 65 parameters in total. Initial fitting uses normalized current $I/(14G/1000)$ as its target. The training script specifies a hyperbolic-tangent hidden layer, a linear output, a limited-memory BFGS solver, regularization parameter $10^{-4}$, random seed 20261026, a maximum of 5000 iterations and a maximum of 150000 function evaluations. The fitted weights are exported to the firmware header. Only the 16 output weights and output bias are subsequently eligible for online changes.
+-
+-The irradiance multiplier in Equation~\ref{eq:currentmodel} follows the supplied digital source family. This assumption limits the modeled characteristics and is stated explicitly because the algorithm does not learn an arbitrary dependence on irradiance.
+-
+-\subsubsection{Measurement acceptance and neural-domain selection}
+-The firmware polls acknowledgements continuously, but computes a new control decision only after the nominal 500 ms sampling interval and the acknowledgement conditions have been met. An accepted acknowledgement must identify the current sequence and commanded load. Its age must not exceed 300 ms, the source must confirm automatic mode with $N_s=N_p=1$, and at least 100 ms must have elapsed since command transmission. A pending command is retried after 600 ms. No learning or control update is executed while these conditions remain unmet.
+-
+-On receipt of an eligible sample, nonfinite inputs and negative voltage or current cause the controller to retain its command and parameters without advancing its measurement memory. Finite observations select the neural branch when
+-\begin{equation}
+- 399\leq G_n\leq801,\qquad24.9\leq T_n\leq50.1.
+- \label{eq:domain}
+-\end{equation}
+-Within this border tolerance, the model uses $G_c=\operatorname{clip}(G_n,400,800)$ and $T_c=\operatorname{clip}(T_n,25,50)$. Observations outside Equation~\ref{eq:domain} select INC rather than neural extrapolation. The voltage condition $V_n\leq45$ V gates learning, not selection of the neural reference branch.
+-
+-\subsubsection{Bounded online output-layer identification}
+-The algorithm first evaluates the pre-update current prediction using $V_n,G_c,T_c$ and the current parameter vector $\symbf{\theta}_n$. The recorded prediction residual is
+-\begin{equation}
+- e_{I,n}=I_n-\widehat I(V_n,G_c,T_c;\symbf{\theta}_n).
+- \label{eq:preresidual}
+-\end{equation}
+-This residual is logged before the observation is used for learning. An update is allowed only inside the neural domain, with learning enabled, $V_n\leq45$ V and $|e_{I,n}|>0.04$ A.
+-
+-The normalized update residual uses the raw network output, before the current-output clipping in Equation~\ref{eq:currentmodel}:
+-\begin{equation}
+- r_n=\operatorname{clip}\left(
+- \frac{I_n}{14G_c/1000}-\symbf{\theta}_n^{\mathsf T}\symbf{\phi}_n,
+- -0.10,0.10\right).
+-\end{equation}
+-The proposed bounded normalized least-mean-square step is
+-\begin{align}
+- \widetilde{\symbf{\theta}}_{n+1}
+- &=\symbf{\theta}_n+
+- \frac{0.10\,r_n}{\symbf{\phi}_n^{\mathsf T}\symbf{\phi}_n}
+- \symbf{\phi}_n,\\
+- \theta_{j,n+1}
+- &=\operatorname{clip}(\widetilde\theta_{j,n+1},
+- \theta_{j,0}-0.25,\theta_{j,0}+0.25),\quad j=0,\ldots,16.
+- \label{eq:projection}
+-\end{align}
+-The leading unit entry in $\symbf{\phi}_n$ makes the normalization denominator $1+\sum_j h_j^2$. The residual threshold avoids updates for small discrepancies. Residual clipping bounds the correction associated with one observation, and Equation~\ref{eq:projection} bounds cumulative movement from the initial output parameters. These numerical bounds do not establish global convergence or closed-loop stability. Their effects are assessed through the recorded prediction and tracking behavior.
+-
+-The update counter increments when an eligible parameter-update step is executed. Parameter displacement is reported as $\|\symbf{\theta}_{n+1}-\symbf{\theta}_0\|_2$. With learning disabled, $\symbf{\theta}_{n+1}=\symbf{\theta}_n$ and all subsequent reference-search and regulation steps remain active. Thus, the frozen-network comparison removes the update mechanism while preserving the rest of the algorithm.
+-
+-\subsubsection{Predicted-power maximization and reference generation}
+-After any eligible update, the algorithm evaluates the predicted power $\widehat P(V)=V\widehat I(V,G_c,T_c;\symbf{\theta}_{n+1})$. The search upper bound is the fitted open-circuit-voltage estimate
+-\begin{equation}
+- U=\operatorname{clip}\left(39.75-1.55\frac{T_c-37.5}{12.5},1,45\right).
+-\end{equation}
+-The first search evaluates 101 equally spaced voltages $V_q=qU/100$, $q=0,\ldots,100$. Let $v_b$ denote the best coarse-grid candidate. The second search evaluates 21 equally spaced voltages between $\max(0,v_b-U/100)$ and $\min(U,v_b+U/100)$. The coarse best candidate is retained unless a refinement candidate has larger predicted power. The selected voltage is $V_{\mathrm{ref},n}$.
+-
+-This procedure requires 122 predicted-current evaluations for reference generation, in addition to the measurement prediction used for learning. It is a numerical search over the learned characteristic, not a direct neural output of optimal voltage. Importantly, the search uses the post-update parameters, whereas the residual in Equation~\ref{eq:preresidual} uses the pre-update parameters. This order distinguishes prediction assessment from reference generation.
+-
+-\subsubsection{Load regulation, fallback and state transition}
+-The reference-tracking error is $e_{V,n}=V_n-V_{\mathrm{ref},n}$. The neural load increment is
+-\begin{equation}
+- \Delta L_n=\begin{cases}
+- 0,&|e_{V,n}|\leq0.15\ \mathrm{V},\\
+- \operatorname{clip}(0.5e_{V,n},-3,3),&\text{otherwise}.
+- \end{cases}
+- \label{eq:loadcorrection}
+-\end{equation}
+-Here, load increments are percentage points and the gain is 0.5 percentage points per volt. The next command is
+-\begin{equation}
+- L_{n+1}=\operatorname{clip}(L_n+\Delta L_n,0,100).
+-\end{equation}
+-Increasing virtual load reduces voltage in the digital plant. Therefore a measured voltage below the reference produces a negative load increment. The increment is added to the acknowledged command, not to the externally disturbed applied-load percentage. This preserves the distinction between actuator command and disturbance.
+-
+-Outside the neural environmental domain, parameters remain unchanged and INC supplies an increment of $-1$, 0 or $+1$ percentage point using the logic in Algorithm~\ref{alg:helpers}. If previous measurement memory is unavailable, the first such observation produces zero increment and initializes memory. Valid observations update voltage and current memory after either branch. Invalid observations do not. The firmware records the active branch, sends the next command with a new sequence identifier, and waits for acknowledgement before another decision. Table~\ref{tab:algorithmparameters} lists the settings needed to reproduce this process.
+-
+-
+-
+-\begin{table}[htbp]
+-\caption{Settings of the proposed algorithm and execution gate. Values describe the evaluated implementation rather than recommended settings for all photovoltaic systems.}
+-\label{tab:algorithmparameters}
+-\centering\small
+-\begin{tabularx}{\textwidth}{LL}\toprule
+-Quantity & Implemented value\\\midrule
+-Current model & Two inputs, 16 tanh hidden units, one linear output\\
+-Trainable state online & 16 output weights and one bias\\
+-Learning eligibility & Neural domain, learning enabled, $V\leq45$ V, $|e_I|>0.04$ A\\
+-Normalized learning rate and residual bound & 0.10 and $\pm0.10$\\
+-Parameter projection & Pretrained value $\pm0.25$ per component\\
+-Reference search & 101 coarse candidates and 21 refinement candidates\\
+-Voltage dead zone and load correction & $\pm0.15$ V; gain 0.5 pp/V; neural step $\pm3$ pp\\
+-Command range and initial command & 0--100\%; initial 50\%\\
+-Sampling, ACK freshness and settling & 500 ms, 300 ms and 100 ms\\
+-Retry interval & 600 ms, retaining the pending command\\
+-INC tolerances and fallback step & 0.05 V, 0.02 A, 0.01 A/V; step $\pm1$ pp\\\bottomrule
+-\end{tabularx}
+-\end{table}
+-
+-
+-
+-\subsubsection{Implementation-matched pseudocode}
+-Algorithm~\ref{alg:main} describes the online decision path. Offline fitting supplies the initial hidden features, output parameters and voltage-search bound described above. The helper routines in Algorithm~\ref{alg:helpers} expand the reference search and fallback decisions. The pseudocode preserves the pre-update prediction, post-update reference and acknowledged-command ordering of the firmware. It expresses numerical operations without introducing a new controller variant.
+-
+-\input{algorithm_main.tex}
+-\input{algorithm_helpers.tex}
+-\clearpage
+-
+-\subsection{Experimental protocol for evaluating the proposed algorithm}
+-\label{sec:protocol}
+-The experiment evaluates the complete algorithm and separately tests the contribution of its online update. Its primary contrast is the neural controller with updating enabled against the same controller with frozen output parameters. P\&O, INC and adaptive P\&O provide conventional references. This design follows the requirement for common implementation conditions identified by Hohm and Ropp \cite{hohm} and the implementation-level comparison discussed by Sera et al. \cite{sera}. The experimental ANN comparison of Abouzeid et al. \cite{abouzeid}, the reinforcement-learning experiments of Giraldo et al. \cite{giraldo}, the incremental-learning workflow of Amine et al. \cite{amine}, the comparative environmental scenarios of Ogunfowora and Bhattacharya \cite{ogunfowora}, and the C-HIL assessment of Jamshed et al. \cite{jamshed} inform the separation of algorithm, adaptation mechanism and validation platform. The profiles below are defined for the present digital plant rather than copied from those studies.
+-
+-IEC 62891:2020 distinguishes static and dynamic MPPT efficiency for grid-connected photovoltaic inverters \cite{iec62891}. That distinction motivates separate stationary and transient assessments here. Only the official scope description was consulted, not the complete normative procedure. The present source has no physical inverter, and the study does not claim IEC or EN conformity, certification, or reproduction of a normative irradiance sequence.
+-
+-\subsubsection{Hypotheses, comparison variants and common settings}
+-The primary hypothesis is that online parameter updating improves model-referenced energy tracking relative to frozen weights. The secondary identification hypothesis is that it reduces pre-update current-prediction error. A separate functional assessment determines whether the complete controller recovers after achievable irradiance, temperature and load disturbances. These outcomes are not substituted for one another: a smaller current residual or a nonzero update counter does not establish an energy benefit.
+-
+-Table~\ref{tab:variants} identifies the five variants. Each uses the same source equations, analog connections, signal scaling, acknowledgement interface, sampling path and command limits. The P\&O/INC/adaptive-P\&O settings remain those defined in Section~2.4. The two neural variants share the same pretrained weights, reference search, regulator, fallback and initial state. Only the online-learning flag changes. This comparison concerns the documented implementations, not every possible tuning of the algorithm families.
+-
+-
+-
+-\begin{table}[htbp]
+-\caption{Variants evaluated through the same firmware acquisition and actuation path. Mode and learning settings correspond to the firmware constants.}
+-\label{tab:variants}
+-\centering\small
+-\begin{tabularx}{\textwidth}{LccL}\toprule
+-Variant & Mode & Learning flag & Control mechanism\\\midrule
+-P\&O & 0 & 0 & Fixed-step perturbation\\
+-INC & 1 & 0 & Incremental conductance\\
+-Adaptive P\&O & 2 & 0 & Slope-dependent perturbation step\\
+-Frozen neural controller & 3 & 0 & Neural reference with unchanged output weights and INC fallback\\
+-Online neural controller & 3 & 1 & Same neural controller with bounded output-layer updates\\\bottomrule
+-\end{tabularx}
+-\end{table}
+-
+-
+-
+-Every run starts from a reset source and controller with initial command 50\%, $N_s=N_p=1$, sensing ranges 50 V and 15 A, and the gains stated in Section~2.2. Baseline voltage and current noise are 2 and 1 mV at the simulated analog output. Gain error, offset and ripple controls are zero unless a profile specifies otherwise. The load slider starts at 50\%, corresponding to zero external disturbance. Resetting also restores the initial neural parameters, clears controller history and returns the learning counter to zero. Parameters are not carried from one comparison run into another.
+-
+-\subsubsection{Programmed environmental, load and instrumentation profiles}
+-Table~\ref{tab:profiles} specifies the seven profiles. Times are measured from simulation startup. $G$ is in W/m$^2$, $T$ in $^\circ$C, and $L_s$ is the external load-slider percentage, not the controller command or the applied load. Unless changed in the table, a control retains its previous value. Simultaneous entries are applied at the same scheduled instant.
+-
+-
+-
+-\begin{table}[htbp]
+-\caption{Experimental profiles. S0--S4 are primary tracking profiles. R1 and R2 are reported separately as domain and sensing tests. The time-stamped machine-readable event files accompany the manuscript.}
+-\label{tab:profiles}
+-\centering\small
+-\begin{tabularx}{\textwidth}{p{0.08\textwidth}p{0.10\textwidth}L}\toprule
+-ID & Duration & Initial conditions and scheduled changes\\\midrule
+-S0 & 120 s & Constant $(G,T,L_s)=(600,37,50)$. The setting is absent from the four initial training sweeps but was previously inspected during development.\\
+-S1 & 160 s & Start $(800,25,50)$. Set $G=400$ at 30 s and $G=800$ at 60 s. From 80 to 120 s, decrease $G$ by 10 each second to 400. From 120 to 160 s, increase $G$ by 10 each second to 800.\\
+-S2 & 150 s & Start $(800,25,50)$. Set $T=37$ at 30 s, 50 at 60 s, 37 at 90 s and 25 at 120 s.\\
+-S3 & 160 s & Start $(800,25,50)$. Set $L_s=60$ at 40 s, 40 at 80 s and 50 at 120 s.\\
+-S4 & 160 s & Start $(600,37,50)$. Set $(G,T,L_s)=(450,30,60)$ at 40 s, $(750,45,40)$ at 80 s and $(600,37,50)$ at 120 s.\\
+-R1 & 160 s & Start $(800,25,50)$. Set $(G,T)=(200,25)$ at 40 s, $(900,60)$ at 80 s and $(600,37)$ at 120 s. Keep $L_s=50$.\\
+-R2 & 180 s & Keep $(600,37,50)$. At 60 s, set current gain error to $+2$\% and voltage/current noise to 8/4 mV. At 120 s, restore zero gain error and noise of 2/1 mV.\\\bottomrule
+-\end{tabularx}
+-\end{table}
+-
+-
+-
+-S1 uses discrete one-second ramp increments. The first descending increment occurs at 81 s and the first ascending increment at 121 s. The S2 temperature steps probe algorithm sensitivity in a digital source. They are not a model of the thermal evolution of a physical module. R1 tests branch selection and tracking outside the neural domain. R2 changes sensing rather than source physics and therefore cannot establish adaptation to physical module aging.
+-
+-In S3, the transition from $L_s=60$ to 40 can briefly saturate the applied-load expression near open circuit. This transient remains in the record and energy calculation. Recovery is assessed only where the maximum is reachable within the available command interval. No success criterion requires the controller to overcome a disturbance beyond its actuator authority.
+-
+-\subsubsection{Host execution, paired repetitions and data separation}
+-The automated host experiment combines seven profiles, five variants and ten noise seeds, producing $7\times5\times10=350$ runs. A separate process starts each run. Seeds 1--10 are paired between variants. The host harness changes the pseudo-random seed after source initialization without editing the photovoltaic-component source. Noise is generated at common source-update times, although measured values differ as controller trajectories diverge.
+-
+-The bench compiles the evaluated controller and source through analog and serial API mocks. It reproduces the configured virtual conversion and quantization path. It does not execute an ESP32 instruction-set model or validate physical UART timing. Its mocked compute clock is not used as a measurement of processor execution time. Host timing and physical-controller timing are therefore not interchangeable.
+-
+-Training and evaluation preserve environmental-condition provenance. The four calibrated sweeps supply initial fitting data. The previously inspected 600 W/m$^2$/37 $^\circ$C curve remains an interpolation reference rather than a blind validation dataset. Adjacent rows from one sweep are not split randomly to claim independent environmental generalization. The profiles are documented in the working protocol, but the study is not externally preregistered. A later change in weights or controller tuning would require a separately identified experiment version.
+-
+-\subsubsection{Independent maximum-power reference and energy endpoints}
+-The tracking reference used for evaluation is independent of the learned voltage reference. It follows from the source equations in Section~2.1. With $r=(1/(k+1))^{1/k}$,
+-\begin{equation}
+- V_{mp}^{*}=V_{oc}r,\qquad
+- P_{mp}^{*}=V_{oc}rI_{sc}\frac{k}{k+1}.
+- \label{eq:independentmpp}
+-\end{equation}
+-For host measurements, programmed $G,T$ and the acknowledged applied load determine the uncorrupted source operating voltage and current. Their product is denoted $P_{\mathrm{plant}}$. It is distinct from $P_{\mathrm{meas}}=V_{\mathrm{meas}}I_{\mathrm{meas}}$ reconstructed from the sensing channels.
+-
+-Let $t_1,\ldots,t_N$ be the common observed timestamps of a paired comparison and $\Delta t_n=(t_{n+1}-t_n)/1000$ when timestamps are recorded in milliseconds. Energy is integrated using left rectangles:
+-\begin{align}
+- E_{\mathrm{plant}}&=\sum_{n=1}^{N-1}P_{\mathrm{plant},n}\Delta t_n,\\
+- E_{\mathrm{available}}&=\sum_{n=1}^{N-1}P_{mp,n}^{*}\Delta t_n,\\
+- E_{\mathrm{meas}}&=\sum_{n=1}^{N-1}P_{\mathrm{meas},n}\Delta t_n,\\
+- \eta_{\mathrm{MPPT}}&=100\frac{E_{\mathrm{plant}}}{E_{\mathrm{available}}}.
+- \label{eq:trackingefficiency}
+-\end{align}
+-The integration window is the observed common interval, not an assumed interval extending beyond the first or last sample. Startup and disturbance transients remain included. Startup and terminal windows are also reported separately. Equation~\ref{eq:trackingefficiency} is a digital-plant tracking measure, not a converter DC--AC efficiency or an experimentally certified module efficiency.
+-
+-Measured-channel energy is retained as a separate endpoint, including in the Wokwi static pair. With sensing errors, $E_{\mathrm{meas}}/E_{\mathrm{available}}$ can exceed unity. Such values are not clipped to produce an apparently valid physical efficiency. In the instrumentation profile, the uncorrupted model-derived quantity is used to distinguish control effects from measurement bias. The independent plant reference is not replaced by the neural reference when computing voltage error or recovery.
+-
+-\subsubsection{Recovery, identification and execution diagnostics}
+-After each transition into a plateau, recovery time is the interval from the disturbance to the first of five consecutive samples satisfying $|V_{\mathrm{meas}}-V_{mp}^{*}|\leq0.20$ V. The threshold is defined for this experiment. If no such sequence occurs before the next event, recovery is recorded as not achieved. Ramp samples are not treated as stationary settling tests.
+-
+-Steady-state voltage and power variation are summarized by sample standard deviations in the final 10 s of each plateau. For the completed static Wokwi pair, the current-prediction RMSE and mean measured power reported in Results use its final 30 s. The window is stated explicitly so those summaries are not confused with the plateau oscillation endpoint. Current RMSE uses the prediction produced before each online update. Trajectory-dependent comparisons of predictive error are identified as such.
+-
+-The remaining diagnostics are the number of update steps, parameter displacement, active control branch, fraction of samples at command limits, fallback fraction, retransmission count and inter-sample gaps. These retain the distinction between a changing model and a changing command. Finite values, chronological timestamps, acknowledgement consistency and profile coverage are checked before paired analysis. Failed or incomplete runs must be identified with their reason rather than silently removing unfavorable samples. Execution durations reported by Wokwi remain simulator-reported values and do not become physical ESP32 measurements.
+-
+-\subsubsection{Paired analysis and criteria for interpreting learning}
+-For each profile and seed, the energy contrast is the online-minus-frozen difference in tracking efficiency, expressed in percentage points. Per-profile means and descriptive 95\% bootstrap intervals resample the ten paired seed differences. The analysis uses 10000 bootstrap resamples with random seed 20261026. The experimental unit for that interval is a run pair, not an individual telemetry row.
+-
+-The primary aggregate is computed within each seed by summing extracted energy over S0--S4 and dividing by the sum of available energy over the same profiles. Online and frozen aggregate efficiencies are then subtracted and summarized over seeds. R1 and R2 are excluded from this primary aggregate and reported separately. Per-profile intervals are descriptive, and isolated favorable profiles are not selected as evidence of a general advantage.
+-
+-The working protocol records an exploratory practical criterion of at least 0.1 percentage point aggregate improvement, with a positive lower bootstrap bound and no consequential deterioration of tracking or communication. This is a study-specific interpretation criterion, not an IEC requirement or an externally preregistered hypothesis test. Noise-seed intervals characterize variation within the fixed digital model. They do not establish uncertainty across commercial panels, installations or physical controllers.
+-
+-A reduction in current error without a favorable energy contrast is interpreted as improved identification in the tested conditions. A recovery accomplished outside the neural domain is attributed to the hybrid controller with INC fallback. An increased update count without a corresponding performance benefit is not labeled successful energy adaptation.
+-
+-\subsubsection{Wokwi replication and status of the dynamic trials}
+-The Wokwi source uses a fixed random seed of 1. Repeating the same reset simulation therefore does not create independent noise realizations. Such repeats are treated as deterministic implementation checks, and host-seed confidence intervals are not transferred to Wokwi.
+-
+-The static replication fixes $G=600$ W/m$^2$, $T=37$ $^\circ$C and $L_s=50\%$ for two runs, one with learning enabled and one with weights frozen. Both reset before acquisition and are compared over the common recorded 120 s interval. The supplied dynamic records are assessed as observed manual trajectories. Controls are checked through measured environmental channels and the difference between applied and commanded load. Event alignment supports descriptive recovery analysis but does not make unequal trajectories identical for an energy comparison.
+-
+-Wokwi documents YAML automation scenarios and CLI-based serial recording \cite{wokwiautomation,wokwicli}. Candidate scenarios matching Table~\ref{tab:profiles} have been prepared. Their execution on the custom panel controls has not yet been verified in Wokwi and is not reported as completed. Quantitative automated replication requires checking event delivery, timestamps, measured environmental settings and acknowledged applied load. No additional control-interface or photovoltaic-equation change is assumed in this protocol.
+-
+-\subsubsection{Audit of the supplied Wokwi records}
+-The supplied dataset contains 18 text files with 4829 complete 23-column telemetry rows. Seven nominal profiles each have an online and a frozen record. Four further records comprise an extended temperature pair and a pair provisionally identified as load-disturbance tests from their observed inputs. Original filenames and SHA-256 digests are retained in the supplement. Literal tab and line-ending escapes were decoded for parsing. Complete rows were not interpolated or imputed. One final 17-field fragment in the extended frozen-load file was retained in the source and excluded from calculations.
+-
+-All complete rows have finite values and 500 ms spacing within their respective files. Acknowledgement sequences, command continuity, update counters and power consistency were checked. These logs do not include the later configuration or experiment-start markers. Variant attribution rests on the supplied labels and their consistency with recorded update activity. The compiled binary was not supplied for independent attribution. Firmware timestamps were retained directly.
+-
+-Descriptive plateaus were detected from unchanged rounded environmental channels and the inferred load slider. Slider inference is used only inside the applied-load saturation limits. Temperature and irradiance are rounded to integer control increments for labeling. Recovery from an observed plateau starts at its first recorded sample after manual adjustment, rather than at a verified scheduled step. A zero value means the first five plateau samples already meet the criterion. The 0.20 V criterion and 500 ms sampling resolution are retained. Dynamic energy differences are not interpreted as paired treatment effects when input histories differ.
+-
+-\paragraph{Use of generative artificial intelligence}
+-ChatGPT was used to assist with code drafting, analysis scripts, reference searches and preparation of this working manuscript. This use extends beyond language editing. The author review of equations, source code, numerical outputs and bibliographic records must be completed before submission. The exact tool/model identifier and the final scope of assistance will be recorded in the submission version.
++\input{intelligent_algorithm_section.tex}
++
++\input{experimental_protocol_section.tex}
+ 
+ \section{Results}
+-\subsection{Algorithm comparison under programmed host profiles}
++\subsection{Initial controller comparison under programmed host profiles}
+ Across the five primary profiles, mean aggregate tracking efficiency is shown in Table~\ref{tab:host}. Aggregation sums extracted and available energy across those profiles within each seed before averaging the ten efficiencies. Startup and disturbance transients remain included.
+ 
+ 
+-\begin{table}[htbp]\caption{Host simulation results for the five primary profiles. Values refer to the digital plant, not converter efficiency.}\label{tab:host}\centering
++\begin{table}[htbp]\caption{Initial-campaign host results over S0--S4. The neural rows use NN-I. Values refer to the digital plant, not converter efficiency.}\label{tab:host}\centering
+ \begin{tabular}{lr}\toprule Variant&Mean tracking efficiency (\%)\\\midrule
+-P\&O&98.1173\\ INC&98.3646\\ Adaptive P\&O&97.1373\\ Frozen neural controller&99.4294\\ Online neural controller&99.4274\\\bottomrule\end{tabular}\end{table}
++P\&O&98.1173\\ INC&98.3646\\ Adaptive P\&O&97.1373\\ NN-I frozen&99.4294\\ NN-I online&99.4274\\\bottomrule\end{tabular}\end{table}
+ 
+ 
+ The mean paired online-minus-frozen difference is $-0.00201$ percentage points. The descriptive 95\% bootstrap interval across paired seeds is $[-0.00222,-0.00181]$ percentage points. This difference is small and does not support an energetic advantage of online updates. Its interval describes noise-seed variability within the fixed model. It does not quantify uncertainty across physical modules or installations.
+@@ -466,7 +222,7 @@
+ 
+ 
+ \subsection{Exploratory dynamic Wokwi records}
+-All nine records labeled online show positive update counts, ranging from 1 to 85, and nonzero parameter displacement. All nine frozen records retain zero updates and displacement. This distinguishes recorded adaptation activity without establishing an energy benefit. No retransmissions are reported in the complete rows.
++Within the initial 18-file group, all nine records labeled online show positive update counts, ranging from 1 to 85, and nonzero parameter displacement. All nine frozen records retain zero updates and displacement. This distinguishes recorded adaptation activity without establishing an energy benefit. No retransmissions are reported in the complete rows.
+ 
+ Table~\ref{tab:wokwi-audit} summarizes the seven principal pairs. Additional temperature and load pairs cover approximately 150 and 160 s, respectively. The variants still traverse different intermediate inputs at different times. No dynamic online-minus-frozen energy ranking is calculated from these unequal trajectories.
+ 
+@@ -507,71 +263,21 @@
+ 
+ In R2, a gain reconstruction conditional on $G=600$ W/m$^2$, $T=37$ $^\circ$C and acknowledged load suggests a current-gain intervention earlier than the programmed 60 s. A five-sample mean gain estimate exceeds 1\% from approximately 16.665 to 62.665 s online and 12.668 to 89.168 s frozen. The gain control was not logged. These are diagnostic inferences, not exact control-event timestamps. Unequal sensing interventions and missing post-120-s observation prevent a paired interpretation of the prescribed instrumentation sequence. No conventional-controller Wokwi records are included in this supplied set.
+ 
++\input{results_extensions.tex}
++
+ \subsection{Supporting commercial-reference comparison of the source}
+ In the historical record, 27 samples at recorded 1000 W/m$^2$ and 25 $^\circ$C have mean operating power 248.79 W, voltage 29.43 V and current 8.49 A. The commercial classes span 430--460 W. This is a difference in operating scale and nominal capacity, not a measured conversion loss.
+ 
+ Current and power increase with irradiance. Mean operating voltage changes by approximately 0.11\% between 200 and 1000 W/m$^2$. Recorded power decreases by 20.84\% between 25 and 75 $^\circ$C. First-order reductions based on the selected commercial maximum-power temperature coefficients span 12.00--14.50\%. Because the historical trajectory changes its operating point, the difference cannot be attributed to an intrinsic maximum-power temperature coefficient alone. These observations support qualitative consistency while retaining departures that require further characterization.
+ 
+-\section{Discussion}
+-\subsection{Current identification and energy tracking}
+-The proposed algorithm forms a chain from a measured current residual to parameter correction, reference calculation and load regulation. The completed tests distinguish improvement in the predictor from improvement in the control objective. Ten output-layer updates reduced the recorded stable current RMSE in the static Wokwi pair. Neither its common-window energy comparison nor the primary host aggregate favors the controller with updates. The current results support local identification in the tested trajectories, without establishing an energy benefit from the update rule.
+-
+-The learning objective is current approximation, while the reference depends on the maximum of the resulting power curve. The online update does not directly minimize voltage-reference error or maximize measured energy. A controller can tolerate prediction errors that have little effect on the maximizing voltage. Conversely, reducing local current error can shift the predicted reference without improving its proximity to the independent maximum. This is an interpretation of the implemented learning and reference equations. The available tests do not isolate every contribution to that shift.
+-
+-The static RMSE values also come from trajectories that differ slightly between controllers. They describe the prediction errors encountered by each closed loop. They are not an equal-input replay test of two predictors. A lower residual on the visited trajectory does not show that the full current--voltage characteristic has been identified.
+-
+-\subsection{Relationship to intelligent MPPT proposals}
+-Table~\ref{tab:intelligentcomparison} places the implementation alongside ten representative studies. It compares the learned quantity, the update mechanism and the validation platform. This directed comparison is not an exhaustive review or a common experimental benchmark. Published efficiencies are not ranked across different sources, converters, sensors and profiles.
+-
+-Online neural adaptation and hybrid tracking have prior implementations. Kohata et al. \cite{kohata2010} combine incremental GRNN learning with references obtained through P\&O. Dounis et al. \cite{dounis2015} describe direct adaptive control using a single neuron. The latter comparison is restricted to its editorial abstract. Neural representation of the current characteristic also has a prior formulation in Ze\v{c}evi\'c and Rolevski \cite{nnmodel}. These precedents prevent attributing novelty to online learning, characteristic approximation or their embedded use in isolation.
+-
+-The target of learning distinguishes the present mechanism from several direct-control proposals. Dawahdeh et al. \cite{hybrid2024} estimate a duty-cycle correction that assists P\&O. Abouzeid et al. \cite{abouzeid} train an ANN to produce the duty cycle and evaluate it on an Arduino-based physical system. Here, measured current supplies the update target. A separate search converts the corrected current model into a voltage reference. This difference defines the computation being tested, rather than an inherent advantage over direct control.
+-
+-Bandara et al. \cite{bandara2024} combine irradiance forecasting with an FNN voltage predictor. Their pretrained ESP32 model communicates its reference to a DSP that controls the boost converter. Jamshed et al. \cite{jamshed} assess a pretrained neural reference and PI control using a physical STM32 and Typhoon C-HIL. MPPT inference on a microcontroller is therefore an established implementation route. The present Wokwi evaluation does not provide equivalent evidence about physical controller timing or converter dynamics.
+-
+-Other adaptation mechanisms are closer in purpose but differ in the quantity updated and where it is computed. Amine et al. \cite{amine} update a voltage estimator through a meteorological acquisition and MATLAB workflow. Eladawy et al. \cite{eladawy2026} describe recurrent duty-cycle estimation with pretraining and incremental refinement. Our fixed hidden features and bounded updates of 17 output parameters implement a local current-identification rule. This is a specific design choice, not evidence that lightweight adaptation is itself new.
+-
+-The reinforcement-learning formulation is different again. Giraldo et al. \cite{giraldo} learn action values through rewards and evaluate global tracking under partial shading. Ogunfowora and Bhattacharya \cite{ogunfowora} compare INC, Q-learning and a Transformer-inspired estimator, with Bellman updates retained during one simulation scenario. Our current residual is not an energy reward. Nor does the single-maximum source test global tracking of a multimodal characteristic.
+-
+-Within these bounds, the contribution examined here is the documented combination of bounded current identification, reference search, load regulation and INC fallback in firmware targeting an ESP32. The online--frozen comparison isolates the update flag while retaining initial weights, acquisition and command limits. The resulting evidence distinguishes predictor adaptation from energy tracking. It does not establish priority over every neural MPPT architecture or superiority over the published methods in Table~\ref{tab:intelligentcomparison}.
+-
+-
+-
+-\begin{table}[htbp]
+-\caption{Qualitative comparison of intelligent MPPT proposals and the present implementation. The rows identify mechanisms and validation levels, not a ranking of reported efficiencies.}
+-\label{tab:intelligentcomparison}
+-\centering\small
+-\begin{tabularx}{\textwidth}{p{0.17\textwidth}LLL}\toprule
+-Study & Learned quantity & Update and validation & Relation to this work\\\midrule
+-Kohata et al. \cite{kohata2010} & GRNN maps $G,T$ to a voltage reference learned from P\&O. & Incremental learning. H8-3069F and PV experiments. & Our model learns current and then searches predicted power.\\
+-Dounis et al. \cite{dounis2015} & Single-neuron direct adaptive control. & Online adaptation. Simulation described in the abstract. & Identification and regulation are separate here. Full text not consulted.\\
+-Dawahdeh et al. \cite{hybrid2024} & ANN maps $I,\Delta I$ to $\Delta D$. & Pretrained model. MATLAB/Simulink. & Our updates identify current rather than duty increments.\\
+-Abouzeid et al. \cite{abouzeid} & ANN maps $G,T$ or $I,T$ to $D$. & Pretrained model. Arduino MEGA-2560 physical prototype. & Our current model uses four acquired signals and local updates.\\
+-Giraldo et al. \cite{giraldo} & DQN learns values of duty-perturbation actions. & Simulation training. Raspberry Pi 4B, physical buck and partial shading. & No reward optimization or validated multimodal tracking here.\\
+-Bandara et al. \cite{bandara2024} & LSTM forecasts $G$. FNN predicts $V_{mp}$. & Pretrained ESP32 model with DSP-controlled boost. & Our predictor adapts from measured current without forecasting $G$.\\
+-Amine et al. \cite{amine} & ANN maps $G,T$ to $V_{mp}$. & Periodic MATLAB updates with Raspberry Pi weather acquisition. & Our update target is current measured within the firmware loop.\\
+-Eladawy et al. \cite{eladawy2026} & Recurrent ANN estimates $D$ from electrical and rule features. & Pretraining and incremental updates. MATLAB simulation. & Our bounded NLMS updates a fixed-feature current model.\\
+-Ogunfowora and Bhattacharya \cite{ogunfowora} & Q-learning and Transformer-inspired estimation determine $D$. & MATLAB simulation. Bellman updates in scenario S4. & Our paired ablation keeps the architecture and initial weights fixed.\\
+-Jamshed et al. \cite{jamshed} & ANN maps $V,I,T$ to $V_{mp},I_{mp}$. & Pretrained STM32 controller and Typhoon C-HIL. & Our code updates the predictor. Converter hardware remains unvalidated.\\
+-Present work & MLP identifies $I=(G/1000)f(V,T)$ before power search. & Bounded output-layer NLMS. Host and Wokwi simulation. & Local prediction improves. An energy benefit from updating is not established.\\\bottomrule
+-\end{tabularx}
+-\end{table}
+-
+-
+-
+-\subsection{Source structure, sensing and validation limits}
+-The source structure explains why changing irradiance need not change the optimal voltage. At fixed temperature, irradiance multiplies current without changing the normalized curve shape. With fixed network parameters and positive irradiance, that factor also cancels when maximizing predicted power. A nearly constant voltage under changing irradiance is therefore compatible with this plant, but it does not independently demonstrate learning. The conclusion follows from the implementation and should not be generalized to every commercial photovoltaic characteristic.
+-
+-The commercial comparison provides context for the source, not a substitute for calibration or physical validation. Its historical operating record is separate from the newer calibrated sweeps. Combining their absolute power values without documenting acquisition scales would obscure provenance. The simulated source is used as a reproducible test plant rather than claimed as an exact surrogate for all ten commercial modules.
+-
+-Four training conditions provide limited environmental coverage. The test point at 600 W/m$^2$ and 37 $^\circ$C has already informed development and cannot establish broad generalization. Online observations near a tracked operating point do not identify an entire current--voltage curve. Instrument bias can be absorbed into the predictor, reducing measured residuals without improving the physical reference. Additional module characteristics, physical converter testing and independent final profiles would be required for broader claims.
+-
+-The host baseline currently favors the frozen network over the implemented conventional branches. These comparisons also reflect step sizes, prior source knowledge and the absence of converter dynamics. A simple affine reference model remains an additional control worth evaluating before attributing an advantage specifically to neural representation. Physical-device measurements should cover the full reference-search and control cycle, rather than one network evaluation. The current results do not establish that online adaptation is necessary for successful regulation.
+-
+-The thermal and combined plateaus reveal a reference and regulation limitation. The mean reference bias is approximately 0.136 V at 50 $^\circ$C and 0.166 V at 45 $^\circ$C in the reported windows. A regulator accepting 0.15 V around a biased reference cannot guarantee 0.20 V relative to the independent maximum. Reference accuracy and the internal dead zone must therefore be evaluated together. Lower current residuals did not remove this non-attainment. A revised controller would require a new comparison. The predefined criterion is not widened after observing these failures.
++\input{discussion_section.tex}
+ 
+ \section{Conclusions}
+-A neural MPPT algorithm combining bounded output-layer identification, predicted-power search, voltage-reference regulation and INC fallback was evaluated within an ESP32-oriented photovoltaic simulation. The completed static Wokwi pair shows reduced current prediction error after ten updates, while recorded energy is slightly lower than with frozen weights. The programmed host comparison likewise provides no energy benefit from the current update rule. These findings support local model adaptation but not improved energy capture. The manual dynamic records show load recovery by both variants and criterion non-attainment at the observed 45 and 50 $^\circ$C plateaus. Their unequal inputs do not identify a dynamic energy effect of learning. Verified matched dynamic Wokwi trials remain necessary to complete that comparison.
++A current-model MPPT design was evaluated through an initial controller, constrained calibration and a guarded power-verification extension. In the later matched host campaign, NN-C achieved 99.4302\% aggregate tracking efficiency over S0--S4, compared with 98.3843\% for the implemented INC branch. It also reduced measured steady-state voltage variation and command activity under the specified settings. The affine comparator reached 99.4295\% and reproduced those regulation benefits, showing that calibrated reference placement is sufficient to explain most of the advantage in this source family.
++
++The neural representation adds a current estimate and observable identification residuals. The matched static Wokwi pair and equal-input diagnostic replay show lower current error after parameter updates. Neither establishes an energy advantage from those updates. NN-V accepts bounded steps against current and power-slope criteria and records why proposals are admitted or rejected. Its active verification incurs an energy cost: aggregate efficiency is 99.4159\%, and its online--frozen energy contrast remains below the study's practical criterion. These results support a model-identification and verification capability, not universal superiority of neural or online control.
++
++The source is a single-maximum digital panel with a load-percentage actuator. The host comparison does not validate an ESP32 binary, converter dynamics, physical efficiency, fault recognition or transfer to the ten documentary commercial modules. The 29 Wokwi records retain their observed coverage and unmatched dynamic histories. A final physical-controller and matched dynamic assessment is needed before extending the claims beyond the reported simulation workflow.
+ 
+ \section*{Acknowledgments}
+ Generative AI assistance was used as described in Materials and methods. Institutional and individual acknowledgments remain to be confirmed by the authors.
+@@ -627,5 +333,6 @@
+ \bibitem{dounis2015} Dounis AI, Kofinas P, Papadakis G, Alafodimos C. A direct adaptive neural control for maximum power point tracking of photovoltaic system. Solar Energy. 2015;115:145-165. \url{https://doi.org/10.1016/j.solener.2015.02.004}.
+ \bibitem{bandara2024} Bandara A, Ratnayake K, Dissanayake R, Udawatte H, Godaliyadda R, Ekanayake P, Ekanayake J. LSTM-Based MPPT Algorithm for Efficient Energy Harvesting of a Solar PV System Under Different Operating Conditions. Electronics. 2024;13(24):4875. \url{https://doi.org/10.3390/electronics13244875}.
+ \bibitem{eladawy2026} Eladawy M, Lebied R, Elsadd MA. Hybrid ANN-Based MPPT Strategy for Boost Converter PV Systems Under Rapid Irradiance Variations. Machines. 2026;14(6):659. \url{https://doi.org/10.3390/machines14060659}.
++\bibitem{chen2019} Chen L, Wang X. Enhanced MPPT method based on ANN-assisted sequential Monte--Carlo and quickest change detection. IET Smart Grid. 2019;2(4):635-644. \url{https://doi.org/10.1049/iet-stg.2019.0012}.
+ \end{thebibliography}
+ \end{document}

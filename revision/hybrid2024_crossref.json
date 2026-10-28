@@ -1,0 +1,921 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        19
+      ]
+    ],
+    "date-time": "2026-08-19T18:43:47Z",
+    "timestamp": 1787165027073,
+    "version": "build-2736575974"
+  },
+  "reference-count": 74,
+  "publisher": "MDPI AG",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2024-01-25T00:00:00Z",
+        "timestamp": 1706140800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Sustainability"
+  ],
+  "abstract": "<jats:p>A maximum power point tracking (MPPT) controller optimizes power harvesting in photovoltaic (PV) systems under varying conditions. The perturb and observation (P&amp;O) algorithm is commonly used for MPP tracking, but suffers from slow response, loss of tracking direction, and entrapment. The current research proposes a neural network (NN) integrated with the P&amp;O algorithm to enhance tracking performance during sudden variations in solar irradiance. The proposed neural network updates the duty cycle change when detecting sudden changes. It effectively estimates the duty cycle change even when trained with a small dataset. The integration between the NN and P&amp;O significantly improves tracking performance compared with the conventional P&amp;O algorithm, especially under sudden irradiance changes.</jats:p>",
+  "DOI": "10.3390/su16031021",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ],
+    "date-time": "2024-01-25T03:59:42Z",
+    "timestamp": 1706155182000
+  },
+  "page": "1021",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 21,
+  "title": [
+    "Novel MPPT Controller Augmented with Neural Network for Use with Photovoltaic Systems Experiencing Rapid Solar Radiation Changes"
+  ],
+  "prefix": "10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "given": "Ahmad",
+      "family": "Dawahdeh",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Jordan University of Science and Technology, Irbid 22110, Jordan"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hussein",
+      "family": "Sharadga",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8309-908X",
+      "authenticated-orcid": false,
+      "given": "Sunil",
+      "family": "Kumar",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical Engineering, Texas A&M University, College Station, TX 77843, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "97",
+      "DOI": "10.1016/j.apenergy.2015.04.006",
+      "article-title": "An improved perturb and observe (P&O) maximum power point tracking(MPPT) algorithm for higher efficiency",
+      "volume": "150",
+      "author": "Ahmed",
+      "year": "2015",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "30",
+      "DOI": "10.1016/j.isatra.2015.08.006",
+      "article-title": "Simulation and experimental design of a new advanced variable stepsize Incremental Conductance MPPT algorithm for PV systems",
+      "volume": "62",
+      "author": "Loukriz",
+      "year": "2016",
+      "journal-title": "ISA Trans."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "547",
+      "DOI": "10.1016/j.solener.2018.06.080",
+      "article-title": "An improved perturb-and-observe based MPPT method for PV systems undervarying irradiation levels",
+      "volume": "171",
+      "author": "Goda",
+      "year": "2018",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "5549",
+      "DOI": "10.1109/TIE.2015.2407854",
+      "article-title": "Modified Perturb and Observe MPPT Algorithm for Drift Avoidance in Photovoltaic Systems",
+      "volume": "62",
+      "author": "Killi",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "1247",
+      "DOI": "10.1016/j.rser.2015.05.003",
+      "article-title": "Variable step size modified P&O MPPT algorithm using GA-based hybrid of fl ine/online PID controller",
+      "volume": "49",
+      "author": "Harrag",
+      "year": "2015",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "261",
+      "DOI": "10.1016/j.solener.2015.07.006",
+      "article-title": "A comparative study on maximum power point tracking techniques for photovoltaic generation systems operating under fast changing environments",
+      "volume": "119",
+      "author": "Chen",
+      "year": "2015",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ahmed, S., and Azar, A.T. (2023). Adaptive fractional tracking control of robotic manipulator using fixed-time method. Complex Intell. Syst., 1–14.",
+      "DOI": "10.1007/s40747-023-01164-7"
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ahmed, S., Azar, A.T., Tounsi, M., and Ibraheem, I.K. (2023). Adaptive Control Design for Euler–Lagrange Systems Using Fixed-Time Fractional Integral Sliding Mode Scheme. Fractal Fract., 7.",
+      "DOI": "10.3390/fractalfract7100712"
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ahmed, S., Azar, A.T., Tounsi, M., and Anjum, Z. (2023). Trajectory Tracking Control of Euler–Lagrange Systems Using a Fractional Fixed-Time Method. Fractal Fract., 7.",
+      "DOI": "10.3390/fractalfract7050355"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "5051",
+      "DOI": "10.1109/TIA.2016.2599899",
+      "article-title": "An Improved MPPT Method for PV System With Fast-Converging Speed and Zero Oscillation",
+      "volume": "52",
+      "author": "Li",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Ind. Appl."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "1157",
+      "DOI": "10.1109/TIA.2016.2623283",
+      "article-title": "MPPT of Photovoltaic Systems Using Sensorless Current-Based Model Predictive Control",
+      "volume": "53",
+      "author": "Metry",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Ind. Appl."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "466",
+      "DOI": "10.1016/j.energy.2015.10.133",
+      "article-title": "Novel fast dynamic MPPT (maximum power point tracking) technique with the capability of very high accurate power tracking",
+      "volume": "94",
+      "author": "Fathabadi",
+      "year": "2016",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1109/TSTE.2015.2482120",
+      "article-title": "A New MPPT Design Using Grey Wolf Optimization Technique for Photovoltaic System Under Partial Shading Conditions",
+      "volume": "7",
+      "author": "Mohanty",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "340",
+      "DOI": "10.1109/TEC.2016.2633722",
+      "article-title": "A Grey Wolf-Assisted Perturb & Observe MPPT Algorithm for a PV System",
+      "volume": "32",
+      "author": "Mohanty",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "first-page": "308",
+      "DOI": "10.1016/j.renene.2014.09.044",
+      "article-title": "Application of a combined particle swarm optimization and perturb and observe method for MPPT in PV systems under partial shading conditions",
+      "volume": "75",
+      "author": "Sundareswaran",
+      "year": "2015",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "377",
+      "DOI": "10.1016/j.rser.2017.02.051",
+      "article-title": "A comparison of di ff erent global MPPT techniques based on meta-heuristic algorithms for photovoltaic system subjected to partial shading conditions",
+      "volume": "74",
+      "author": "Rezk",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "118592",
+      "DOI": "10.1016/j.energy.2020.118592",
+      "article-title": "Metaheuristic based comparative MPPT methods for photovoltaic technology under partial shading condition",
+      "volume": "212",
+      "author": "Pal",
+      "year": "2020",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "120602",
+      "DOI": "10.1016/j.energy.2021.120602",
+      "article-title": "High-efficiency swarm intelligent maximum power point tracking control techniques for varying temperature and irradiance",
+      "volume": "228",
+      "author": "Mirza",
+      "year": "2021",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "422",
+      "DOI": "10.1016/j.enconman.2018.09.018",
+      "article-title": "A novel PV-MPPT method based on a second order sliding mode gradient observer",
+      "volume": "176",
+      "author": "Valenciaga",
+      "year": "2018",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "297",
+      "DOI": "10.1016/j.isatra.2018.11.020",
+      "article-title": "An improved MPPT scheme employing adaptive integral derivative sliding mode control for photovoltaic systems under fast irradiation changes",
+      "volume": "87",
+      "author": "Kihal",
+      "year": "2019",
+      "journal-title": "ISA Trans."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "2366",
+      "DOI": "10.1016/j.solener.2012.05.006",
+      "article-title": "A genetic algorithm optimized ANN-based MPPT algorithm for a stand-alone PV system with induction motor drive",
+      "volume": "86",
+      "author": "Akkaya",
+      "year": "2012",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_22",
+      "unstructured": "Amrouche, B., Belhamel, M., and Guessoum, A. (2023, December 12). Artificial intelligence based P&O MPPT method for photovoltaic systems. In Revue des Energies Renouvelables ICRESD-07 Tlemcen. Available online: https://www.cder.dz/download/ICRESD07_3.pdf."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Messalti, S., and Harrag, A.G. (2015, January 24–26). A New Neural Networks MPPT controller for PV Systems. Proceedings of the IREC2015 The Sixth International Renewable Energy Congress, Sousse, Tunisia.",
+      "DOI": "10.1109/IREC.2015.7110907"
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "383",
+      "DOI": "10.1016/j.egypro.2014.06.046",
+      "article-title": "Advanced Fuzzy MPPT Controller for a stand-alone PV system",
+      "volume": "50",
+      "author": "Bendib",
+      "year": "2014",
+      "journal-title": "Energy Procedia"
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "e12140",
+      "DOI": "10.1002/2050-7038.12140",
+      "article-title": "An improved step-up converter with a developed real-time fuzzy-based MPPT controller for PV-based residential applications",
+      "volume": "29",
+      "author": "Bayrak",
+      "year": "2019",
+      "journal-title": "Int. Trans. Electr. Energy Syst."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "2788",
+      "DOI": "10.1007/s12555-019-0512-8",
+      "article-title": "Design of a Fuzzy Logic-based MPPT Controller for a PV System Employing Design of a Fuzzy Logic-based MPPT Controller for a PV System Employing Sensorless Control of MRAS-based PMSM",
+      "volume": "18",
+      "author": "Anwer",
+      "year": "2020",
+      "journal-title": "Int. J. Control. Autom. Syst."
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hassan, T.U., Abbassi, R., Jerbi, H., Mehmood, K., Tahir, M.F., Cheema, K.M., Elavarasan, R.M., Ali, F., and Khan, I.A. (2020). A novel algorithm for MPPT of an isolated PV system using push pull converter with fuzzy logic controller. Energies, 13.",
+      "DOI": "10.3390/en13154007"
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "first-page": "376",
+      "DOI": "10.35833/MPCE.2019.000086",
+      "article-title": "Optimized Fuzzy Controller for MPPT of Grid-connected PV Systems in Rapidly Changing Atmospheric Conditions",
+      "volume": "9",
+      "author": "Dehghani",
+      "year": "2021",
+      "journal-title": "J. Mod. Power Syst. Clean Energy"
+    },
+    {
+      "key": "ref_29",
+      "first-page": "101",
+      "article-title": "Dynamic behaviour analysis of ANFIS based MPPT controller for standalone photovoltaic systems",
+      "volume": "10",
+      "author": "Haji",
+      "year": "2020",
+      "journal-title": "Int. J. Renew. Energy Res."
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "994",
+      "DOI": "10.1016/j.rser.2017.08.048",
+      "article-title": "PV system fuzzy logic MPPT method and PI control as a charge controller",
+      "volume": "81",
+      "author": "Yilmaz",
+      "year": "2018",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "1313",
+      "DOI": "10.1016/j.rser.2017.09.093",
+      "article-title": "Reconfigurable generic FPGA implementation of fuzzy logic controller for MPPT of PV systems",
+      "volume": "82",
+      "author": "Youssef",
+      "year": "2018",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "first-page": "2695",
+      "DOI": "10.1016/j.enconman.2011.01.021",
+      "article-title": "FPGA-based implementation of a fuzzy controller (MPPT) for photovoltaic module",
+      "volume": "52",
+      "author": "Messai",
+      "year": "2011",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "first-page": "2093",
+      "DOI": "10.1016/j.renene.2009.01.006",
+      "article-title": "Genetic algorithms optimized fuzzy logic control for the maximum power point tracking in photovoltaic system",
+      "volume": "34",
+      "author": "Larbes",
+      "year": "2009",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "265",
+      "DOI": "10.1016/j.solener.2010.12.004",
+      "article-title": "Maximum power point tracking using a GA optimized fuzzy logic controller and its FPGA implementation",
+      "volume": "85",
+      "author": "Messai",
+      "year": "2011",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "843",
+      "DOI": "10.1016/j.enconman.2013.07.093",
+      "article-title": "Adaptive fuzzy controller based MPPT for photovoltaic systems",
+      "volume": "78",
+      "author": "Guenounou",
+      "year": "2014",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "first-page": "573",
+      "DOI": "10.1109/TII.2012.2192282",
+      "article-title": "Efficiency optimization of a dsp-based standalone PV system using fuzzy logic and dual-MPPT control",
+      "volume": "8",
+      "author": "Dhaouadi",
+      "year": "2012",
+      "journal-title": "IEEE Trans. Ind. Inform."
+    },
+    {
+      "key": "ref_37",
+      "first-page": "130",
+      "article-title": "Optimatization of fuzzy based maximum power point tracking in PV system for rapidly changing solar irradiance",
+      "volume": "2",
+      "author": "Chin",
+      "year": "2011",
+      "journal-title": "Trans. Sol. Energy Plan."
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "first-page": "5338",
+      "DOI": "10.3390/en8065338",
+      "article-title": "Optimization of a fuzzy-logic-control-based MPPT algorithm using the particle Swarm optimization technique",
+      "volume": "8",
+      "author": "Cheng",
+      "year": "2015",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "6331",
+      "DOI": "10.1007/s00521-018-3456-7",
+      "article-title": "Fuzzy logic controller-based MPPT for hybrid photo-voltaic/wind/fuel cell power system",
+      "volume": "31",
+      "author": "Junaid",
+      "year": "2019",
+      "journal-title": "Neural Comput. Appl."
+    },
+    {
+      "key": "ref_40",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kumar, A., Chaudhary, P., and Rizwan, M. (2015, January 17–20). Development of Fuzzy Logic based MPPT controller for PV system at varying meteorological parameters. Proceedings of the 12th IEEE International Conference Electronics, Energy, Environment, Communication, Computer, Control: (E3-C3), INDICON, New Delhi, India.",
+      "DOI": "10.1109/INDICON.2015.7443203"
+    },
+    {
+      "key": "ref_41",
+      "doi-asserted-by": "crossref",
+      "first-page": "325",
+      "DOI": "10.1016/j.solener.2014.09.014",
+      "article-title": "Implementation of a modified incremental conductance MPPT algorithm with direct control based on a fuzzy duty cycle change estimator using dSPACE",
+      "volume": "110",
+      "author": "Radjai",
+      "year": "2014",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_42",
+      "doi-asserted-by": "crossref",
+      "first-page": "100",
+      "DOI": "10.3390/a8020100",
+      "article-title": "A study on the fuzzy-logic-based solar power MPPT algorithms using different fuzzy input variables",
+      "volume": "8",
+      "author": "Shiau",
+      "year": "2015",
+      "journal-title": "Algorithms"
+    },
+    {
+      "key": "ref_43",
+      "doi-asserted-by": "crossref",
+      "first-page": "3724",
+      "DOI": "10.1049/iet-rpg.2020.0893",
+      "article-title": "Design of a fuzzy current-sensor less maximum power point tracking algorithm for photovoltaic systems",
+      "volume": "14",
+      "author": "Saremi",
+      "year": "2021",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_44",
+      "doi-asserted-by": "crossref",
+      "first-page": "25457",
+      "DOI": "10.1016/j.ijhydene.2019.08.037",
+      "article-title": "Optimization of fuzzy-based MPPT controller via metaheuristic techniques for stand-alone PV systems",
+      "volume": "44",
+      "author": "Farajdadian",
+      "year": "2019",
+      "journal-title": "Int. J. Hydrogen Energy"
+    },
+    {
+      "key": "ref_45",
+      "doi-asserted-by": "crossref",
+      "first-page": "17748",
+      "DOI": "10.1016/j.ijhydene.2017.02.191",
+      "article-title": "Fuzzy logic based MPPT controller for high conversion ratio quadratic boost converter",
+      "volume": "42",
+      "author": "Ozdemir",
+      "year": "2017",
+      "journal-title": "Int. J. Hydrogen Energy"
+    },
+    {
+      "key": "ref_46",
+      "doi-asserted-by": "crossref",
+      "first-page": "183",
+      "DOI": "10.1049/iet-rpg.2012.0362",
+      "article-title": "Development of adaptive perturb and observe-fuzzy control maximum power point tracking for photovoltaic boost dc-dc converter",
+      "volume": "8",
+      "author": "Zainuri",
+      "year": "2014",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_47",
+      "doi-asserted-by": "crossref",
+      "first-page": "2177",
+      "DOI": "10.3390/en7042177",
+      "article-title": "An asymmetrical fuzzy-logic-control-based MPPT algorithm for photovoltaic systems",
+      "volume": "7",
+      "author": "Liu",
+      "year": "2014",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "ref_48",
+      "doi-asserted-by": "crossref",
+      "first-page": "416",
+      "DOI": "10.1016/j.renene.2018.06.071",
+      "article-title": "A novel beta parameter based fuzzy-logic controller for photovoltaic MPPT application",
+      "volume": "130",
+      "author": "Li",
+      "year": "2019",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_49",
+      "doi-asserted-by": "crossref",
+      "first-page": "1022",
+      "DOI": "10.1109/TPEL.2010.2090903",
+      "article-title": "Fuzzy-Logic-Control Approach of a Modified Hill-Climbing Method for Maximum Power Point in Microgrid Standalone Photovoltaic System",
+      "volume": "26",
+      "author": "Alajmi",
+      "year": "2011",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_50",
+      "doi-asserted-by": "crossref",
+      "first-page": "1147",
+      "DOI": "10.1016/j.rser.2017.02.054",
+      "article-title": "A new MPPT scheme based on a novel fuzzy approach",
+      "volume": "74",
+      "author": "Nabipour",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_51",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Khosrojerdi, F., Taheri, S., and Cretu, A.M. (2016, January 12–14). An adaptive neuro-fuzzy inference system-based MPPT controller for photovoltaic arrays. Proceedings of the 2016 IEEE Electrical Power and Energy Conference (EPEC), Ottawa, ON, Canada.",
+      "DOI": "10.1109/EPEC.2016.7771794"
+    },
+    {
+      "key": "ref_52",
+      "doi-asserted-by": "crossref",
+      "first-page": "2219",
+      "DOI": "10.1016/j.solener.2010.08.004",
+      "article-title": "A novel multi-model neuro-fuzzy-based MPPT for three-phase grid-connected photovoltaic system",
+      "volume": "84",
+      "author": "Chaouachi",
+      "year": "2010",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_53",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.4236/ijmnta.2014.33008",
+      "article-title": "Maximum Power Point Tracking Control Using Neural Networks for Stand-Alone Photovoltaic Systems",
+      "volume": "2",
+      "author": "Essefi",
+      "year": "2014",
+      "journal-title": "Int. J. Mod. Nonlinear Theory Appl."
+    },
+    {
+      "key": "ref_54",
+      "first-page": "1823",
+      "article-title": "A Neural Network and Fuzzy Logic based MPPT Algorithm for Photovoltaic Pumping System",
+      "volume": "9",
+      "author": "Assahout",
+      "year": "2018",
+      "journal-title": "Int. J. Power Electron. Drive Syst."
+    },
+    {
+      "key": "ref_55",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bendib, B., Krim, F., Belmili, H., Almi, M.F., and Bolouma, S. (2014, January 1–4). An intelligent MPPT approach based on neural-network voltage estimator and fuzzy controller, applied to a stand-alone PV system. Proceedings of the 2014 IEEE 23rd International Symposium on Industrial Electronics (ISIE), Istanbul, Turkey.",
+      "DOI": "10.1109/ISIE.2014.6864647"
+    },
+    {
+      "key": "ref_56",
+      "doi-asserted-by": "crossref",
+      "first-page": "210",
+      "DOI": "10.1016/j.enconman.2006.04.022",
+      "article-title": "DSP implementation of a PV system with GA-MLP-NN based MPPT controller supplying BLDC motor drive",
+      "volume": "48",
+      "author": "Akkaya",
+      "year": "2007",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_57",
+      "first-page": "1524",
+      "article-title": "Improving Efficiency of Photovoltaic System by Using Neural Network MPPT and Predictive Control of Converter",
+      "volume": "6",
+      "author": "Heidari",
+      "year": "2019",
+      "journal-title": "Int. J. Renew. Energy Res."
+    },
+    {
+      "key": "ref_58",
+      "doi-asserted-by": "crossref",
+      "first-page": "924",
+      "DOI": "10.1016/j.egypro.2017.03.255",
+      "article-title": "A new MPPT-based ANN for photovoltaic system under partial shading conditions",
+      "volume": "111",
+      "author": "Bouselham",
+      "year": "2017",
+      "journal-title": "Energy Procedia"
+    },
+    {
+      "key": "ref_59",
+      "doi-asserted-by": "crossref",
+      "first-page": "90",
+      "DOI": "10.1016/j.ijepes.2012.04.047",
+      "article-title": "Electrical Power and Energy Systems MPPT control design and performance improvements of a PV generator powered DC motor-pump system based on artificial neural networks",
+      "volume": "43",
+      "author": "Kassem",
+      "year": "2012",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "ref_60",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zazi, M., and Barradi, Y. (2014, January 17–19). The MPPT Control ofPV System by Using Neural Networks Based on Newton Raphson Method. Proceedings of the 2014 International Renewable and Sustainable Energy Conference (IRSEC), Ouarzazate, Morocco.",
+      "DOI": "10.1109/IRSEC.2014.7059894"
+    },
+    {
+      "key": "ref_61",
+      "doi-asserted-by": "crossref",
+      "first-page": "115881",
+      "DOI": "10.1016/j.energy.2019.115881",
+      "article-title": "New intelligent control strategy by robust neural network algorithm for real time detection of an optimized maximum power tracking control in photovoltaic systems",
+      "volume": "187",
+      "author": "Issaadi",
+      "year": "2019",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_62",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1016/j.solener.2013.12.026",
+      "article-title": "Intelligent maximum power point trackers for photovoltaic applications using FPGA chip: A comparative study",
+      "volume": "101",
+      "author": "Chekired",
+      "year": "2014",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_63",
+      "doi-asserted-by": "crossref",
+      "first-page": "145",
+      "DOI": "10.1016/j.solener.2015.02.004",
+      "article-title": "A direct adaptive neural control for maximum power point tracking of photovoltaic system",
+      "volume": "115",
+      "author": "Dounis",
+      "year": "2015",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_64",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ali, M.N., Mahmoud, K., and Lehtonen, M. (2021). Promising MPPT Methods Combining Metaheuristic, Fuzzy-Logic and ANN Techniques for Grid-Connected Photovoltaic. Sensors, 21.",
+      "DOI": "10.3390/s21041244"
+    },
+    {
+      "key": "ref_65",
+      "doi-asserted-by": "crossref",
+      "first-page": "239",
+      "DOI": "10.1049/iet-rpg:20080065",
+      "article-title": "Artificial neural network-polar coordinated fuzzy controller based maximum power point tracking control under partially shaded conditions",
+      "volume": "3",
+      "author": "Syafaruddin",
+      "year": "2009",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_66",
+      "doi-asserted-by": "crossref",
+      "first-page": "330",
+      "DOI": "10.1016/j.energy.2013.08.022",
+      "article-title": "Artificial neural network based modified incremental conductance algorithm for maximum power point tracking in photovoltaic system under partial shading conditions",
+      "volume": "62",
+      "author": "Punitha",
+      "year": "2013",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_67",
+      "unstructured": "Tsai, M., Tseng, C., Hong, G., and Lin, S. (2012, January 28–31). A Novel MPPT Control Design for PV Modules Using Neural Network Compensator. Proceedings of the 2012 IEEE International Symposium on Industrial Electronics, Hangzhou, China."
+    },
+    {
+      "key": "ref_68",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sheraz, M., and Abido, M.A. (2012, January 2–5). An Efficient MPPT controller Using Differential Evolution and Neural Network. Proceedings of the EEE International Conference on Power and Energy, Kota Kinabalu, Malaysia.",
+      "DOI": "10.1109/PECon.2012.6450241"
+    },
+    {
+      "key": "ref_69",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Singh, M.D., Shine, V.J., and Janamala, V. (2014, January 27–29). Application of Artificial Neural Networks in Optimizing MPPT Control for Standalone Solar PV System. Proceedings of the 2014 International Conference on Contemporary Computing and Informatics (IC3I), Mysuru, India.",
+      "DOI": "10.1109/IC3I.2014.7019778"
+    },
+    {
+      "key": "ref_70",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hidayat, A. (2019, January 27–28). Short Circuit Current Based ANN MPPT For Battery Charging. Proceedings of the 2019 International Electronics Symposium (IES), Surabaya, Indonesia.",
+      "DOI": "10.1109/ELECSYM.2019.8901608"
+    },
+    {
+      "key": "ref_71",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Habibi, M.N. (2019, January 27–28). Hybrid Maximum Power Point Tracking Using Artificial Neural Network-Incremental Conduction with Short Circuit Current of Solar Panel. Proceedings of the 2019 International Electronics Symposium (IES), Surabaya, Indonesia.",
+      "DOI": "10.1109/ELECSYM.2019.8901535"
+    },
+    {
+      "key": "ref_72",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zečević, Ž., and Rolevski, M. (2020). Neural Network Approach to MPPT Control and Irradiance Estimation. Appl. Sci., 10.",
+      "DOI": "10.3390/app10155051"
+    },
+    {
+      "key": "ref_73",
+      "first-page": "1329",
+      "article-title": "High performance PV system based on artificial neural network MPPT with PI controller for direct current water pump applications",
+      "volume": "10",
+      "author": "Attia",
+      "year": "2019",
+      "journal-title": "Int. J. Power Electron. Drive Syst."
+    },
+    {
+      "key": "ref_74",
+      "doi-asserted-by": "crossref",
+      "first-page": "1820",
+      "DOI": "10.1109/TSTE.2019.2941862",
+      "article-title": "Design of optimal power point tracking controller using forecasted photovoltaic power and demand",
+      "volume": "11",
+      "author": "Shafi",
+      "year": "2019",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    }
+  ],
+  "container-title": [
+    "Sustainability"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2071-1050/16/3/1021/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2025-10-10T13:48:53Z",
+    "timestamp": 1760104133000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2071-1050/16/3/1021"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ]
+  },
+  "references-count": 74,
+  "journal-issue": {
+    "issue": "3",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "su16031021"
+  ],
+  "URL": "https://doi.org/10.3390/su16031021",
+  "relation": {},
+  "ISSN": [
+    "2071-1050"
+  ],
+  "issn-type": [
+    {
+      "value": "2071-1050",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        25
+      ]
+    ]
+  }
+}

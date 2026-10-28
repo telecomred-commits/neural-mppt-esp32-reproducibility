@@ -1,0 +1,16 @@
+{
+  "source_file": "PV_Model_Comparison_English(2).pdf",
+  "source_library_file_id": "libfile_18361e5336948191a4142ca679e39804",
+  "source_sha256": "c65e96fe0ef87504b7b4ccbae6099a630eafe58abbe3899117580c9c1c5379e9",
+  "source_page": 6,
+  "source_figure": 4,
+  "article_figure": 1,
+  "reason_for_numbering": "First figure in the article. Sequential numbering retained.",
+  "source_xref": 181,
+  "original_pixels": [
+    2069,
+    1036
+  ],
+  "extraction": "Original embedded image and soft mask extracted at native resolution. No curve, label, value or data changed.",
+  "asset_sha256": "dbc0d3dc1bede7d1ac1da1a72d44bbae4402448353bd9e0d48599447600a414e"
+}

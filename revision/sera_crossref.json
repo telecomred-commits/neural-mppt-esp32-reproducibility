@@ -1,0 +1,498 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T14:09:13Z",
+    "timestamp": 1792937353555,
+    "version": "4.5.0"
+  },
+  "reference-count": 43,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2013-07-01T00:00:00Z",
+        "timestamp": 1372636800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2013-07-01T00:00:00Z",
+        "timestamp": 1372636800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2013-07-01T00:00:00Z",
+        "timestamp": 1372636800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE J. Photovoltaics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1109/jphotov.2013.2261118",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        20
+      ]
+    ],
+    "date-time": "2013-05-20T14:43:07Z",
+    "timestamp": 1369060987000
+  },
+  "page": "1070-1078",
+  "source": "Crossref",
+  "is-referenced-by-count": 725,
+  "title": [
+    "On the Perturb-and-Observe and Incremental Conductance MPPT Methods for PV Systems"
+  ],
+  "prefix": "10.1109",
+  "volume": "3",
+  "author": [
+    {
+      "given": "Dezso",
+      "family": "Sera",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Laszlo",
+      "family": "Mathe",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tamas",
+      "family": "Kerekes",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sergiu Viorel",
+      "family": "Spataru",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Remus",
+      "family": "Teodorescu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Energy Technology , Aalborg University, 9220 Aalborg, Denmark"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref39",
+      "first-page": "2598",
+      "article-title": "Development of a 250�kW PV PCS and adaptive MPPT method",
+      "author": "lee",
+      "year": "2010",
+      "journal-title": "Proc Int Power Electron Conf"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAS.1983.318109"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-epa:19990116"
+    },
+    {
+      "key": "ref32",
+      "year": "0"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2012.2218816"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2002.1182924"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2007.4374981"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2007.05.021"
+    },
+    {
+      "key": "ref34",
+      "first-page": "7",
+      "article-title": "A new approach for semi-automated measurement of PV inverters, especially MPP tracking efficiency, using a linear PV array simulator with high stability",
+      "author": "haeberlin",
+      "year": "2004",
+      "journal-title": "Proc Eur Photovoltaic Solar Energy Conf"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2000.916230"
+    },
+    {
+      "key": "ref40",
+      "year": "0"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2002.805594"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/APEC.2003.1179263"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.874230"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solmat.2005.10.023"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.2007.4383584"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2004.1571923"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "crossref",
+      "first-page": "489",
+      "DOI": "10.1109/PEDS.2005.1619736",
+      "article-title": "An improved maximum power point tracking algorithm with current-mode control for photovoltaic applications",
+      "volume": "1",
+      "author": "tan",
+      "year": "2005",
+      "journal-title": "Proc IEEE Power Electron Drive Syst"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2008.924036"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878331"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1108/03321640710713976"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2005.850975"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.egypro.2011.05.077"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCAS.2006.1693435"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355414"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2005.1569300"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355425"
+    },
+    {
+      "key": "ref8",
+      "first-page": "1",
+      "article-title": "Development of a novel hybrid maximum power point tracking methodology for photovoltaic systems",
+      "author": "zhang",
+      "year": "2012",
+      "journal-title": "Proc IEEE Int Conf Autom Comput"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.eswa.2009.06.068"
+    },
+    {
+      "key": "ref2",
+      "author": "femia",
+      "year": "2013",
+      "journal-title": "Power Electronics and Control Techniques for Maximum Energy Harvesting in Photovoltaic Systems"
+    },
+    {
+      "key": "ref1",
+      "first-page": "159",
+      "article-title": "An all-round success",
+      "volume": "6",
+      "year": "2010",
+      "journal-title": "Photon Int"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PCC.2002.997627"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878329"
+    },
+    {
+      "key": "ref22",
+      "first-page": "679",
+      "article-title": "Comparative study of peak power tracking techniques for solar storage system",
+      "volume": "2",
+      "author": "hua",
+      "year": "1998",
+      "journal-title": "Proc IEEE Appl Power Electron Conf"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhydene.2012.01.176"
+    },
+    {
+      "key": "ref42",
+      "first-page": "3273",
+      "article-title": "How fast does an MPP tracker really need to be?",
+      "author": "schmidt",
+      "year": "2009",
+      "journal-title": "Proc Eur Photovoltaic Solar Energy Conf"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.1999.822229"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/EPEPEMC.2006.4778635"
+    },
+    {
+      "key": "ref23",
+      "first-page": "1011",
+      "article-title": "A novel maximum power point tracking control for photovoltaic power system under rapidly changing solar radiation",
+      "volume": "2",
+      "author": "kim",
+      "year": "2001",
+      "journal-title": "Proc IEEE Int Symp Ind Electron"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2003.08.038"
+    },
+    {
+      "key": "ref43",
+      "year": "0"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.661310"
+    }
+  ],
+  "container-title": [
+    "IEEE Journal of Photovoltaics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/5503869/6542666/06517453.pdf?arnumber=6517453",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        4,
+        22
+      ]
+    ],
+    "date-time": "2025-04-22T13:41:27Z",
+    "timestamp": 1745329287000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/6517453/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  },
+  "references-count": 43,
+  "journal-issue": {
+    "issue": "3"
+  },
+  "URL": "https://doi.org/10.1109/jphotov.2013.2261118",
+  "relation": {},
+  "ISSN": [
+    "2156-3381",
+    "2156-3403"
+  ],
+  "issn-type": [
+    {
+      "value": "2156-3381",
+      "type": "print"
+    },
+    {
+      "value": "2156-3403",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        7
+      ]
+    ]
+  }
+}

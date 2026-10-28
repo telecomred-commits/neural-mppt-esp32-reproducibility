@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "files": 18,
+  "complete_rows": 4829,
+  "original_hashes_preserved": true,
+  "one_final_17_field_fragment_retained_and_excluded": true,
+  "all_complete_rows_finite": true,
+  "all_18_cadences_500ms": true,
+  "all_ACK_and_command_chains_consistent": true,
+  "frozen_9_records_zero_updates_and_displacement": true,
+  "online_9_records_positive_updates_and_displacement": true,
+  "S0_energy_independently_crosschecked": true,
+  "no_dynamic_paired_energy_claim": true,
+  "protected_panel_circuit_algorithm_and_weights_unchanged": true,
+  "unchanged_bibliography_items": 41,
+  "article_pages": 30,
+  "no_unresolved_references_or_overfull_boxes": true,
+  "visual_review_report_pages": 6,
+  "visual_review_plot_pages": 10,
+  "visual_review_manuscript_pages": 30,
+  "section_pages": {
+    "audit_methods": 18,
+    "static_results": 19,
+    "dynamic_results": 21,
+    "reference_limit": 26
+  }
+}

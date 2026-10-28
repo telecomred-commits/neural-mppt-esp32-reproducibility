@@ -1,0 +1,297 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2026-10-25T18:56:33Z",
+    "timestamp": 1792954593160,
+    "version": "4.5.0"
+  },
+  "reference-count": 19,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2008,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2008-07-01T00:00:00Z",
+        "timestamp": 1214870400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Ind. Electron."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2008,
+        7
+      ]
+    ]
+  },
+  "DOI": "10.1109/tie.2008.920550",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2008,
+        6,
+        24
+      ]
+    ],
+    "date-time": "2008-06-24T14:26:17Z",
+    "timestamp": 1214317577000
+  },
+  "page": "2622-2628",
+  "source": "Crossref",
+  "is-referenced-by-count": 1043,
+  "title": [
+    "A Variable Step Size INC MPPT Method for PV Systems"
+  ],
+  "prefix": "10.1109",
+  "volume": "55",
+  "author": [
+    {
+      "family": "Fangrui Liu",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "family": "Shanxu Duan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "family": "Fei Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "family": "Bangyin Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "family": "Yong Kang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.836344"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2003.814762"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878328"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.878331"
+    },
+    {
+      "key": "ref14",
+      "first-page": "212",
+      "article-title": "fpga implementation of mppt using variable step-size p&o algorithm for pv applications",
+      "author": "noppadol",
+      "year": "2006",
+      "journal-title": "Proc ISCIT"
+    },
+    {
+      "key": "ref15",
+      "first-page": "4387",
+      "article-title": "design issues in implementing mppt for improved tracking and dynamic performance",
+      "author": "pandey",
+      "year": "2006",
+      "journal-title": "Proc IEEE IECON"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355417"
+    },
+    {
+      "key": "ref17",
+      "first-page": "315",
+      "author": "mohan",
+      "year": "1995",
+      "journal-title": "Power Electronics Converter Applications and Design"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.2007.4383584"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2004.825226"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2006.295680"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2005.850975"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/63.903988"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.874230"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2003.08.038"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2002.805205"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1982.7072429"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2006.885526"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Industrial Electronics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/41/4550662/04470576.pdf?arnumber=4470576",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        29
+      ]
+    ],
+    "date-time": "2021-11-29T15:45:27Z",
+    "timestamp": 1638200727000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://ieeexplore.ieee.org/document/4470576/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2008,
+        7
+      ]
+    ]
+  },
+  "references-count": 19,
+  "journal-issue": {
+    "issue": "7"
+  },
+  "URL": "https://doi.org/10.1109/tie.2008.920550",
+  "relation": {},
+  "ISSN": [
+    "0278-0046"
+  ],
+  "issn-type": [
+    {
+      "value": "0278-0046",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2008,
+        7
+      ]
+    ]
+  }
+}

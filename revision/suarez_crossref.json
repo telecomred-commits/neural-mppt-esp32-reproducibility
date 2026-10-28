@@ -1,0 +1,618 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T08:19:46Z",
+    "timestamp": 1788337186737,
+    "version": "build-2803163510"
+  },
+  "reference-count": 34,
+  "publisher": "MDPI AG",
+  "issue": "17",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            2
+          ]
+        ],
+        "date-time": "2026-09-02T00:00:00Z",
+        "timestamp": 1788307200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Fundación Universitaria Los Libertadores",
+      "award": [
+        "120"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "120"
+          ]
+        }
+      ]
+    },
+    {
+      "award": [
+        "120"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "120"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "https://ror.org/05pm0vd24",
+          "id-type": "ROR",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Energies"
+  ],
+  "abstract": "<jats:p>As the photovoltaic (PV) generation sector expands, ensuring reliable maximum power point tracking (MPPT) in embedded controllers becomes increasingly important. However, many MPPT studies rely on idealized simulation assumptions that neglect practical sensing limitations, including ADC quantization, finite measurement resolution, sensor noise, offset, ripple, and scaling constraints. This paper presents a sensing-aware simulation-based digital twin framework for photovoltaic arrays that integrates dynamic environmental excitation with a virtual instrumentation layer and firmware-level execution on an ESP32 microcontroller (Espressif Systems, Shanghai, China). Unlike conventional model-in-the-loop simulations, the proposed framework ensures that the embedded control algorithm operates on reconstructed and quantized measurements rather than on ideal internal model states. The platform is evaluated using an Incremental Conductance MPPT implementation as a representative embedded workload. The results demonstrate that the proposed simulation-based digital twin framework enables repeatable firmware-level experimentation while exposing instrumentation-induced effects on tracking stability, control dynamics, and measurement-driven behavior under non-ideal sensing conditions. Furthermore, it provides structured datasets to support early-stage development, tuning, and validation of embedded MPPT algorithms before physical laboratory deployment.</jats:p>",
+  "DOI": "10.3390/en19174131",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T07:53:11Z",
+    "timestamp": 1788335591000
+  },
+  "page": "4131",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "A Sensing-Aware Simulation-Based Digital Twin Framework for Firmware-Level Validation of Photovoltaic MPPT Controllers"
+  ],
+  "prefix": "10.3390",
+  "volume": "19",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-7558-1503",
+      "authenticated-orcid": false,
+      "given": "Carlos René",
+      "family": "Suárez Suárez",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "conceptualization",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "methodology",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "software",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "formal-analysis",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "investigation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "resources",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "writing-original-draft",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "funding-acquisition",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "validation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "data-curation",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "project-administration",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "given": "Yimy Edisson",
+      "family": "García Vera",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "formal-analysis",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "resources",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "supervision",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "writing-review-editing",
+          "vocabulary": "credit"
+        },
+        {
+          "role": "funding-acquisition",
+          "vocabulary": "credit"
+        }
+      ]
+    },
+    {
+      "given": "Alfonso Durán",
+      "family": "Caicedo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Faculty of Engineering and Basic Sciences, Fundación Universitaria Los Libertadores, Bogotá 111221, Colombia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "543",
+      "DOI": "10.1016/j.renene.2015.03.062",
+      "article-title": "Analysis and Enhancement of PV Efficiency with Incremental Conductance MPPT Technique under Non-Linear Loading Conditions",
+      "volume": "81",
+      "author": "Sivakumar",
+      "year": "2015",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "617",
+      "DOI": "10.1016/j.ifacol.2024.07.551",
+      "article-title": "Comparison of the Performance of MPPT Control Techniques (Fuzzy Logic, Incremental Conductance and Perturb & Observe) under MATLAB/Simulink",
+      "volume": "Volume 58",
+      "author": "Zhani",
+      "year": "2024",
+      "journal-title": "Proceedings of the IFAC-PapersOnLine"
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "439",
+      "DOI": "10.1109/TEC.2006.874230",
+      "article-title": "Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques",
+      "volume": "22",
+      "author": "Esram",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "1132",
+      "DOI": "10.1109/TED.2019.2894009",
+      "article-title": "Assessing MPPT Techniques on Hot-Spotted and Partially Shaded Photovoltaic Modules: Comprehensive Review Based on Experimental Data",
+      "volume": "66",
+      "author": "Dhimish",
+      "year": "2019",
+      "journal-title": "IEEE Trans. Electron Devices"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "78",
+      "DOI": "10.1016/j.solener.2005.06.010",
+      "article-title": "Improvement and validation of a model for photovoltaic array performance",
+      "volume": "80",
+      "author": "Klein",
+      "year": "2006",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "1613",
+      "DOI": "10.1016/j.simpat.2011.04.005",
+      "article-title": "Modeling and Simulation of Photovoltaic (PV) System during Partial Shading Based on a Two-Diode Model",
+      "volume": "19",
+      "author": "Ishaque",
+      "year": "2011",
+      "journal-title": "Simul. Model. Pract. Theory"
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "125047",
+      "DOI": "10.1016/j.renene.2025.125047",
+      "article-title": "Integrated Perturbation and Global Peak Tracking MPPT Approach with Pattern Detection for PV Module",
+      "volume": "259",
+      "author": "Pal",
+      "year": "2026",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "first-page": "237",
+      "DOI": "10.1016/j.egyr.2024.06.012",
+      "article-title": "Advancements in Flexible Power Point Tracking and Power Control Strategies for Photovoltaic Power Plants: A Comprehensive Review",
+      "volume": "12",
+      "author": "Nusrat",
+      "year": "2024",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Grieves, M., and Vickers, J. (2017). Digital Twin: Mitigating Unpredictable, Undesirable Emergent Behavior in Complex Systems. Transdisciplinary Perspectives on Complex Systems, Springer International Publishing.",
+      "DOI": "10.1007/978-3-319-38756-7_4"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "335",
+      "DOI": "10.1016/j.procir.2016.11.152",
+      "article-title": "The Digital Twin: Realizing the Cyber-Physical Production System for Industry 4.0",
+      "volume": "Volume 61",
+      "author": "Uhlemann",
+      "year": "2017",
+      "journal-title": "Proceedings of the Procedia CIRP"
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "76",
+      "DOI": "10.1109/OAJPE.2022.3148777",
+      "article-title": "On Modeling Depths of Power Electronic Circuits for Real-Time Simulation—A Comparative Analysis for Power Systems",
+      "volume": "9",
+      "author": "Lauss",
+      "year": "2022",
+      "journal-title": "IEEE Open Access J. Power Energy"
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "63",
+      "DOI": "10.1109/JPETS.2015.2427370",
+      "article-title": "Real-Time Simulation Technologies for Power Systems Design, Testing, and Analysis",
+      "volume": "2",
+      "author": "Faruque",
+      "year": "2015",
+      "journal-title": "IEEE Power Energy Technol. Syst. J."
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "first-page": "1146",
+      "DOI": "10.1109/TIE.2009.2036647",
+      "article-title": "Hardware-in-the-Loop Simulation of Power Electronic Systems Using Adaptive Discretization",
+      "volume": "57",
+      "author": "Dinavahi",
+      "year": "2010",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al-Shammaa, A.A., Abdurraqeeb, A.M., Noman, A.M., Alkuhayli, A., and Farh, H.M.H. (2022). Hardware-In-the-Loop Validation of Direct MPPT Based Cuckoo Search Optimization for Partially Shaded Photovoltaic System. Electronics, 11.",
+      "DOI": "10.3390/electronics11101655"
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "first-page": "1722",
+      "DOI": "10.1109/TII.2018.2804917",
+      "article-title": "Experimentable Digital Twins-Streamlining Simulation-Based Systems Engineering for Industry 4.0",
+      "volume": "14",
+      "author": "Schluse",
+      "year": "2018",
+      "journal-title": "IEEE Trans. Ind. Inform."
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schreier, R., Pavan, S., and Temes, G.C. (2017). Understanding Delta-Sigma Data Converters, John Wiley & Sons.",
+      "DOI": "10.1002/9781119258308"
+    },
+    {
+      "key": "ref_17",
+      "unstructured": "Franco, S. (2001). Design with Operational Amplifiers and Analog Integrated Circuits, McGraw-Hill, Inc."
+    },
+    {
+      "key": "ref_18",
+      "first-page": "1",
+      "article-title": "MT-006 TUTORIAL ADC Noise Figure—An Often Misunderstood and Misinterpreted Specification",
+      "volume": "14",
+      "author": "Kester",
+      "year": "2014",
+      "journal-title": "Analog Devices"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "301",
+      "DOI": "10.1109/TPEL.2002.807092",
+      "article-title": "Quantization Resolution and Limit Cycling in Digitally Controlled PWM Converters",
+      "volume": "18",
+      "author": "Peterchev",
+      "year": "2003",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "González-Castaño, C., Restrepo, C., Giral, R., Vidal-Idiarte, E., and Calvente, J. (2020). Adc Quantization Effects in Two-Loop Digital Current Controlled Dc-Dc Power Converters: Analysis and Design Guidelines. Appl. Sci., 10.",
+      "DOI": "10.3390/app10207179"
+    },
+    {
+      "key": "ref_21",
+      "unstructured": "Buso, S., and Mattavelli, P. (2022). Digital Control in Power Electronics, Springer Nature."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "814",
+      "DOI": "10.6113/JPE.2013.13.5.814",
+      "article-title": "Uncertainty Modeling and Robust Control for LCL Resonant Inductive Power Transfer System",
+      "volume": "13",
+      "author": "Dai",
+      "year": "2013",
+      "journal-title": "J. Power Electron."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1049/ip-gtd:19951577",
+      "article-title": "Maximum Photovoltaic Power Tracking: An Algorithm for Rapidly Changing Atmospheric Conditions",
+      "volume": "142",
+      "author": "Hussein",
+      "year": "1995",
+      "journal-title": "IEE Proc.-Gener. Transm. Distrib."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "963",
+      "DOI": "10.1109/TPEL.2005.850975",
+      "article-title": "Optimization of Perturb and Observe Maximum Power Point Tracking Method",
+      "volume": "20",
+      "author": "Femia",
+      "year": "2005",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "1504",
+      "DOI": "10.1016/j.rser.2015.07.172",
+      "article-title": "Maximum Power Point Tracking Techniques for Photovoltaic Systems: A Comprehensive Review and Comparative Analysis",
+      "volume": "52",
+      "author": "Lyden",
+      "year": "2015",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1154",
+      "DOI": "10.1109/TIE.2010.2048834",
+      "article-title": "Simulation and Hardware Implementation of Incremental Conductance MPPT with Direct Control Method Using Cuk Converter",
+      "volume": "58",
+      "author": "Safari",
+      "year": "2011",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Worku, M.Y., Hassan, M.A., Maraaba, L.S., Shafiullah, M., Elkadeem, M.R., Hossain, M.I., and Abido, M.A. (2023). A Comprehensive Review of Recent Maximum Power Point Tracking Techniques for Photovoltaic Systems under Partial Shading. Sustainability, 15.",
+      "DOI": "10.3390/su151411132"
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Abdullah, B.U.D., Lata, S., Jaiswal, S.P., Bhadoria, V.S., Fotis, G., Santas, A., and Ekonomou, L. (2023). A Hybrid Artificial Ecosystem Optimizer and Incremental-Conductance Maximum-Power-Point-Tracking-Controlled Grid-Connected Photovoltaic System. Energies, 16.",
+      "DOI": "10.3390/en16145384"
+    },
+    {
+      "key": "ref_29",
+      "first-page": "486",
+      "article-title": "Experimental Evaluation of MPPT Algorithms: A Comparative Study",
+      "volume": "11",
+      "author": "Chellal",
+      "year": "2021",
+      "journal-title": "Int. J. Renew. Energy Res. (IJRER)"
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "933",
+      "DOI": "10.1016/j.rser.2015.03.080",
+      "article-title": "A Critical Evaluation on Maximum Power Point Tracking Methods for Partial Shading in PV Systems",
+      "volume": "47",
+      "author": "Ahmed",
+      "year": "2015",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pathy, S., Subramani, C., Sridhar, R., Thamizh Thentral, T.M., and Padmanaban, S. (2019). Nature-Inspired MPPT Algorithms for Partially Shaded PV Systems: A Comparative Study. Energies, 12.",
+      "DOI": "10.3390/en12081451"
+    },
+    {
+      "key": "ref_32",
+      "unstructured": "John, G., and Proakis, D.G.M. (2007). Digital Signal Processing, Pearson Prentice Hall. [4th ed.]."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "first-page": "110",
+      "DOI": "10.1103/PhysRev.32.110",
+      "article-title": "Thermal Agitation of Electric Charge in Conductors",
+      "volume": "32",
+      "author": "Nyquist",
+      "year": "1928",
+      "journal-title": "Phys. Rev."
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "118",
+      "DOI": "10.1016/j.apenergy.2013.12.062",
+      "article-title": "A Maximum Power Point Tracking (MPPT) for PV system using Cuckoo Search with partial shading capability",
+      "volume": "119",
+      "author": "Ahmed",
+      "year": "2014",
+      "journal-title": "Appl. Energy"
+    }
+  ],
+  "container-title": [
+    "Energies"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1996-1073/19/17/4131/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T07:54:33Z",
+    "timestamp": 1788335673000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/1996-1073/19/17/4131"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ]
+  },
+  "references-count": 34,
+  "journal-issue": {
+    "issue": "17",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "en19174131"
+  ],
+  "URL": "https://doi.org/10.3390/en19174131",
+  "relation": {},
+  "ISSN": [
+    "1996-1073"
+  ],
+  "issn-type": [
+    {
+      "value": "1996-1073",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ]
+  }
+}

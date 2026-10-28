@@ -1,0 +1,1448 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T19:11:04Z",
+    "timestamp": 1792869064637,
+    "version": "4.5.0"
+  },
+  "reference-count": 130,
+  "publisher": "MDPI AG",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            24
+          ]
+        ],
+        "date-time": "2023-02-24T00:00:00Z",
+        "timestamp": 1677196800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Energies"
+  ],
+  "abstract": "<jats:p>Renewable Energy technologies are becoming suitable options for fast and reliable universal electricity access for all. Solar photovoltaic, being one of the RE technologies, produces variable output power (due to variations in solar radiation, cell, and ambient temperatures), and the modules used have low conversion efficiency. Therefore, maximum power point trackers are needed to harvest more power from the sun and to improve the efficiency of photovoltaic systems. This paper reviews the methods used for maximum power point tracking in photovoltaic systems. These methods have been classified into conventional, intelligent, optimization, and hybrid techniques. A comparison has also been made of the different methods based on criteria such as tracking speed, efficiency, cost, stability, and complexity of implementation. From the literature, it is clear that hybrid techniques are highly efficient compared to conventional methods but are more complex in design and more expensive than the conventional methods. This review makes available useful information that can be exploited when choosing or designing MPPT controllers.</jats:p>",
+  "DOI": "10.3390/en16052206",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        27
+      ]
+    ],
+    "date-time": "2023-02-27T02:10:46Z",
+    "timestamp": 1677463846000
+  },
+  "page": "2206",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 320,
+  "title": [
+    "A Comprehensive Review of Maximum Power Point Tracking (MPPT) Techniques Used in Solar PV Systems"
+  ],
+  "prefix": "10.3390",
+  "volume": "16",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-3519-4098",
+      "authenticated-orcid": false,
+      "given": "Musong L.",
+      "family": "Katche",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+        },
+        {
+          "name": "Faculty of Engineering and Technology, University of Buea, Buea P.O. Box 63, Cameroon"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Augustine B.",
+      "family": "Makokha",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Siagi O.",
+      "family": "Zachary",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Mechanical, Production, and Energy Engineering, Moi University, Eldoret P.O. Box 3900-30100, Kenya"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1998-687X",
+      "authenticated-orcid": false,
+      "given": "Muyiwa S.",
+      "family": "Adaramola",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, 1430 Ås, Norway"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        24
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "first-page": "147",
+      "article-title": "Simple modeling and simulation of photovoltaic panels using matlab/simulink modeling of photovoltaic module",
+      "volume": "73",
+      "author": "Park",
+      "year": "2014",
+      "journal-title": "Adv. Sci. Technol. Lett."
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "1266",
+      "DOI": "10.1016/j.renene.2019.06.032",
+      "article-title": "Hybrid off-grid renewable power system for sustainable rural electrification in Benin",
+      "volume": "145",
+      "author": "Odou",
+      "year": "2019",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "6",
+      "DOI": "10.1109/MIE.2010.935860",
+      "article-title": "Global warming: Energy, environmental pollution, and the impact of power electronics",
+      "volume": "4",
+      "author": "Bose",
+      "year": "2010",
+      "journal-title": "IEEE Ind. Electron. Mag."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1016/j.rser.2014.05.079",
+      "article-title": "A review on integrated renewable energy system based power generation for stand-alone applications: Configurations, storage options, sizing methodologies and control",
+      "volume": "38",
+      "author": "Chauhan",
+      "year": "2014",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1029/2005GL023801",
+      "article-title": "Influence of coal based thermal power plants on aerosol optical properties in the Indo-Gangetic basin",
+      "volume": "33",
+      "author": "Prasad",
+      "year": "2006",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "5338",
+      "DOI": "10.3390/en8065338",
+      "article-title": "Optimization of a fuzzy-logic-control-based MPPT algorithm using the particle swarm optimization technique",
+      "volume": "8",
+      "author": "Cheng",
+      "year": "2015",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "1068",
+      "DOI": "10.3390/en6021068",
+      "article-title": "A photovoltaic power system using a high step-up converter for DC load applications",
+      "volume": "6",
+      "author": "Tseng",
+      "year": "2013",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Natividad, L.E., and Benalcazar, P. (2023). Hybrid renewable energy systems for sustainable rural development: Perspectives and challenges in energy systems modeling. Energies, 16.",
+      "DOI": "10.3390/en16031328"
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "225",
+      "DOI": "10.1007/s40243-022-00216-1",
+      "article-title": "Design of an isolated renewable hybrid energy system: A case study",
+      "volume": "11",
+      "author": "Nassar",
+      "year": "2022",
+      "journal-title": "Mater. Renew. Sustain. Energy"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Miao, C., Teng, K., Wang, Y., and Jiang, L. (2020). Technoeconomic analysis on a hybrid power system for the UK household using renewable energy: A case study. Energies, 13.",
+      "DOI": "10.3390/en13123231"
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sabishchenko, O., Rębilas, R., Sczygiol, N., and Urbański, M. (2020). Ukraine energy sector management using hybrid renewable energy systems. Energies, 13.",
+      "DOI": "10.3390/en13071776"
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bubalo, M., Bašić, M., Vukadinović, D., and Grgić, I. (2023). Hybrid wind-solar power system with a battery-assisted quasi-Z-source inverter: Optimal power generation by deploying minimum sensors. Energies, 16.",
+      "DOI": "10.3390/en16031488"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al Abri, A., Al Kaaf, A., Allouyahi, M., Al Wahaibi, A., Ahshan, R., Al Abri, R.S., and Al Abri, A. (2022). Techno-economic and environmental analysis of renewable mix hybrid energy system for sustainable electrification of Al-Dhafrat rural area in Oman. Energies, 16.",
+      "DOI": "10.3390/en16010288"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Islam, M.R., Akter, H., Howlader, H.O.R., and Senjyu, T. (2022). Optimal Sizing and Techno-Economic Analysis of Grid-Independent Hybrid Energy System for Sustained Rural Electrification in Developing Countries: A Case Study in Bangladesh. Energies, 15.",
+      "DOI": "10.3390/en15176381"
+    },
+    {
+      "key": "ref_15",
+      "unstructured": "Alex, Z. (2005, January 28–30). Design of an optimised PV system for a remote himalayan village. Proceedings of the ANZSES, Dunedin NZ, USA."
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Van Beuzekom, I., Gibescu, M., and Slootweg, J.G. (July, January 29). A review of multi-energy system planning and optimization tools for sustainable urban development. Proceedings of the 2015 IEEE Eindhoven PowerTech, Eindhoven, The Netherlands.",
+      "DOI": "10.1109/PTC.2015.7232360"
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "856",
+      "DOI": "10.1016/j.energy.2014.06.097",
+      "article-title": "Feasibility of satisfying electrical energy needs with hybrid systems for a medium-size hotel on Kish Island, Iran",
+      "volume": "73",
+      "author": "Fazelpour",
+      "year": "2014",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ludin, N.A., Affandi, N.A.A., Purvis-Roberts, K., Ahmad, A., Ibrahim, M.A., Sopian, K., and Jusoh, S. (2021). Environmental impact and levelised cost of energy analysis of solar photovoltaic systems in selected Asia pacific region: A cradle-to-grave approach. Sustainability, 13.",
+      "DOI": "10.3390/su13010396"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1177/0144598720965022",
+      "article-title": "Hybrid power systems—Sizes, efficiencies, and economics",
+      "volume": "39",
+      "author": "Rehman",
+      "year": "2020",
+      "journal-title": "Energy Explor. Exploit."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "617",
+      "DOI": "10.1016/j.rser.2016.08.028",
+      "article-title": "Application of artificial intelligence methods for hybrid energy system optimization",
+      "volume": "66",
+      "author": "Zahraee",
+      "year": "2016",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "677",
+      "DOI": "10.1016/j.egypro.2014.06.083",
+      "article-title": "Comparison of perturb & observe and fuzzy logic in maximum power point tracker for pv systems",
+      "volume": "50",
+      "author": "Bounechba",
+      "year": "2014",
+      "journal-title": "Energy Procedia"
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ngan, M.S., and Tan, C.W. (2011, January 18–19). A study of maximum power point tracking algorithms for stand-alone photovoltaic systems. Proceedings of the 2011 IEEE Applied Power Electronics Colloquium, Johor Bahru, Malaysia.",
+      "DOI": "10.1109/IAPEC.2011.5779863"
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "852",
+      "DOI": "10.1016/j.solener.2020.02.078",
+      "article-title": "Performance evaluation of concentrator photovoltaic systems integrated with a new jet impingement-microchannel heat sink and heat spreader",
+      "volume": "199",
+      "author": "Awad",
+      "year": "2020",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "817",
+      "DOI": "10.1016/j.jclepro.2018.07.223",
+      "article-title": "A sizing approach for stand-alone hybrid photovoltaic-wind-battery systems: A Sicilian case study",
+      "volume": "199",
+      "author": "Giallanza",
+      "year": "2018",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Murphy, F., and McDonnell, K. (2017). A feasibility assessment of photovoltaic power systems in Ireland; a case study for the Dublin region. Sustainability, 9.",
+      "DOI": "10.3390/su9020302"
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1155/2013/718596",
+      "article-title": "A novel numerical algorithm for optimal sizing of a photovoltaic/wind/diesel generator/battery microgrid using loss of load probability index",
+      "volume": "2013",
+      "author": "Kazem",
+      "year": "2013",
+      "journal-title": "Int. J. Photoenergy"
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "first-page": "234",
+      "DOI": "10.1016/j.energy.2019.04.095",
+      "article-title": "Optimization and cost-benefit assessment of hybrid power systems for off-grid rural electrification in Ethiopia",
+      "volume": "177",
+      "author": "Gebrehiwot",
+      "year": "2019",
+      "journal-title": "Energy"
+    },
+    {
+      "key": "ref_28",
+      "first-page": "100613",
+      "article-title": "Optimum design of hybrid renewable energy system through load forecasting and different operating strategies for rural electrification",
+      "volume": "37",
+      "author": "Murugaperumal",
+      "year": "2019",
+      "journal-title": "Sustain. Energy Technol. Assess."
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "225",
+      "DOI": "10.35833/MPCE.2019.000379",
+      "article-title": "Optimization methods of MPPT parameters for PV systems: Review, classification, and comparison",
+      "volume": "9",
+      "author": "Jalal",
+      "year": "2021",
+      "journal-title": "J. Mod. Power Syst. Clean Energy"
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "411",
+      "DOI": "10.1007/s42835-020-00598-0",
+      "article-title": "Comprehensive evaluation of machine learning MPPT algorithms for a PV system under different weather conditions",
+      "volume": "16",
+      "author": "Nkambule",
+      "year": "2020",
+      "journal-title": "J. Electr. Eng. Technol."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1002/pip.459",
+      "article-title": "Comparative study of maximum power point tracking algorithms",
+      "volume": "11",
+      "author": "Hohm",
+      "year": "2002",
+      "journal-title": "Prog. Photovolt. Res. Appl."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "first-page": "637",
+      "DOI": "10.1016/j.rser.2015.02.009",
+      "article-title": "A survey of the most used MPPT methods: Conventional and advanced algorithms applied for photovoltaic systems",
+      "volume": "45",
+      "author": "Bendib",
+      "year": "2015",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Martinez Lopez, V.A., Žindžiūtė, U., Ziar, H., Zeman, M., and Isabella, O. (2022). Study on the Effect of Irradiance Variability on the Efficiency of the Perturb-and-Observe Maximum Power Point Tracking Algorithm. Energies, 15.",
+      "DOI": "10.3390/en15207562"
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "435",
+      "DOI": "10.1016/j.rser.2016.06.053",
+      "article-title": "State of the art artificial intelligence-based MPPT techniques for mitigating partial shading effects on PV systems—A review",
+      "volume": "64",
+      "author": "Seyedmahmoudian",
+      "year": "2016",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "1138",
+      "DOI": "10.1016/j.rser.2017.02.009",
+      "article-title": "Design and overview of maximum power point tracking techniques in wind and solar photovoltaic systems: A review",
+      "volume": "73",
+      "author": "Ram",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_36",
+      "first-page": "100761",
+      "article-title": "Comparative analysis of MPPT algorithms based on Bat algorithm for PV systems under partial shading condition",
+      "volume": "40",
+      "author": "Sampaio",
+      "year": "2020",
+      "journal-title": "Sustain. Energy Technol. Assess."
+    },
+    {
+      "key": "ref_37",
+      "doi-asserted-by": "crossref",
+      "first-page": "1312",
+      "DOI": "10.1016/j.egyr.2020.05.013",
+      "article-title": "Classification and summarization of solar photovoltaic MPPT techniques: A review based on traditional and intelligent control strategies",
+      "volume": "6",
+      "author": "Mao",
+      "year": "2020",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "first-page": "261",
+      "DOI": "10.1016/j.solener.2015.07.006",
+      "article-title": "A comparative study on maximum power point tracking techniques for photovoltaic generation systems operating under fast changing environments",
+      "volume": "119",
+      "author": "Chen",
+      "year": "2015",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1109/TSTE.2012.2202294",
+      "article-title": "A comparative study on maximum power point tracking techniques for photovoltaic power systems",
+      "volume": "4",
+      "author": "Subudhi",
+      "year": "2012",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_40",
+      "doi-asserted-by": "crossref",
+      "first-page": "1555",
+      "DOI": "10.1016/j.solmat.2005.10.023",
+      "article-title": "Review of the maximum power point tracking algorithms for stand-alone photovoltaic systems",
+      "volume": "90",
+      "author": "Salas",
+      "year": "2006",
+      "journal-title": "Sol. Energy Mater. Sol. Cells"
+    },
+    {
+      "key": "ref_41",
+      "doi-asserted-by": "crossref",
+      "first-page": "100438",
+      "DOI": "10.1016/j.tsep.2019.100438",
+      "article-title": "Thermal regulation of photovoltaic panel installed in Upper Egyptian conditions in Qena",
+      "volume": "14",
+      "author": "Shmroukh",
+      "year": "2019",
+      "journal-title": "Therm. Sci. Eng. Prog."
+    },
+    {
+      "key": "ref_42",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Puig, N.I.P.D.L., Acho, L., and Rodellar, J. (2018). Design and experimental implementation of a hysteresis algorithm to optimize the maximum power point extracted from a photovoltaic system. Energies, 11.",
+      "DOI": "10.3390/en11071866"
+    },
+    {
+      "key": "ref_43",
+      "doi-asserted-by": "crossref",
+      "first-page": "82",
+      "DOI": "10.1016/j.rser.2018.10.015",
+      "article-title": "Power tracking techniques for efficient operation of photovoltaic array in solar applications—A review",
+      "volume": "101",
+      "author": "Ahmad",
+      "year": "2018",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_44",
+      "first-page": "9",
+      "article-title": "Hybrid, optimization, intelligent and classical PV MPPT techniques: A Review",
+      "volume": "7",
+      "author": "Bollipo",
+      "year": "2021",
+      "journal-title": "CSEE J. Power Energy Syst."
+    },
+    {
+      "key": "ref_45",
+      "doi-asserted-by": "crossref",
+      "first-page": "2447",
+      "DOI": "10.1007/s11831-020-09461-x",
+      "article-title": "Developments in perturb and observe algorithm for maximum power point tracking in photo voltaic panel: A review",
+      "volume": "28",
+      "author": "Kavya",
+      "year": "2020",
+      "journal-title": "Arch. Comput. Methods Eng."
+    },
+    {
+      "key": "ref_46",
+      "doi-asserted-by": "crossref",
+      "first-page": "118983",
+      "DOI": "10.1016/j.jclepro.2019.118983",
+      "article-title": "The most used MPPT algorithms: Review and the suitable low-cost embedded board for each algorithm",
+      "volume": "246",
+      "author": "Motahhir",
+      "year": "2019",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "ref_47",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.solener.2014.11.010",
+      "article-title": "A comprehensive comparison of different MPPT techniques for photovoltaic systems",
+      "volume": "112",
+      "author": "Rezk",
+      "year": "2015",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_48",
+      "doi-asserted-by": "crossref",
+      "first-page": "793",
+      "DOI": "10.1016/j.rser.2013.05.022",
+      "article-title": "MPPT techniques for photovoltaic applications",
+      "volume": "25",
+      "author": "Eltawil",
+      "year": "2013",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_49",
+      "doi-asserted-by": "crossref",
+      "first-page": "1156",
+      "DOI": "10.1109/TIE.2012.2198036",
+      "article-title": "Evaluation of the main MPPT techniques for photovoltaic applications",
+      "volume": "60",
+      "author": "Galotto",
+      "year": "2013",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_50",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.rser.2016.09.132",
+      "article-title": "General review and classification of different MPPT techniques",
+      "volume": "68",
+      "author": "Karami",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_51",
+      "doi-asserted-by": "crossref",
+      "first-page": "68",
+      "DOI": "10.1108/FEBE-03-2021-0019",
+      "article-title": "Review of maximum power point tracking algorithms of PV system",
+      "volume": "1",
+      "author": "Elbarbary",
+      "year": "2021",
+      "journal-title": "Front. Eng. Built Environ."
+    },
+    {
+      "key": "ref_52",
+      "doi-asserted-by": "crossref",
+      "first-page": "1018",
+      "DOI": "10.1016/j.rser.2015.10.068",
+      "article-title": "Maximum power point tracking (MPPT) techniques: Recapitulation in solar photovoltaic systems",
+      "volume": "54",
+      "author": "Verma",
+      "year": "2016",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_53",
+      "doi-asserted-by": "crossref",
+      "first-page": "2117",
+      "DOI": "10.11591/ijece.v10i2.pp2117-2127",
+      "article-title": "A literature review on industrially accepted MPPT techniques for solar PV system",
+      "volume": "10",
+      "author": "Yadav",
+      "year": "2020",
+      "journal-title": "Int. J. Electr. Comput. Eng. (IJECE)"
+    },
+    {
+      "key": "ref_54",
+      "doi-asserted-by": "crossref",
+      "first-page": "13235",
+      "DOI": "10.1016/j.egyr.2022.09.192",
+      "article-title": "Analysis of photovoltaic array maximum power point tracking under uniform environment and partial shading condition: A review",
+      "volume": "8",
+      "author": "Li",
+      "year": "2022",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "ref_55",
+      "unstructured": "Zainudin, H.N. (2010, January 19–21). Comparison study of maximum power point tracker techniques for pv systems. Proceedings of the 14th International Middle East Power Systems Conference (MEPCON’10), Cairo University, Egypt."
+    },
+    {
+      "key": "ref_56",
+      "doi-asserted-by": "crossref",
+      "first-page": "207",
+      "DOI": "10.17350/HJSE19030000231",
+      "article-title": "A review and classification of most used MPPT algorithms for photovoltaic systems",
+      "volume": "8",
+      "author": "TOZLU",
+      "year": "2021",
+      "journal-title": "Hittite J. Sci. Eng."
+    },
+    {
+      "key": "ref_57",
+      "first-page": "567",
+      "article-title": "A Review on Photo Voltaic MPPT Algorithms",
+      "volume": "6",
+      "author": "Selvan",
+      "year": "2016",
+      "journal-title": "Int. J. Electr. Comput. Eng."
+    },
+    {
+      "key": "ref_58",
+      "doi-asserted-by": "crossref",
+      "first-page": "106598",
+      "DOI": "10.1016/j.ijepes.2020.106598",
+      "article-title": "State of the art perturb and observe MPPT algorithms based wind energy conversion systems: A technology review",
+      "volume": "126",
+      "author": "Mousa",
+      "year": "2020",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "ref_59",
+      "doi-asserted-by": "crossref",
+      "first-page": "1113",
+      "DOI": "10.1016/j.rser.2016.09.112",
+      "article-title": "On a hybrid MPPT control scheme to improve energy harvesting performance of traditional two-stage inverters used in photovoltaic systems",
+      "volume": "69",
+      "author": "Jiang",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_60",
+      "doi-asserted-by": "crossref",
+      "first-page": "21",
+      "DOI": "10.1109/TSTE.2011.2168245",
+      "article-title": "Assessment of perturb and observe MPPT algorithm implementation techniques for PV pumping applications",
+      "volume": "3",
+      "author": "Elgendy",
+      "year": "2011",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_61",
+      "doi-asserted-by": "crossref",
+      "first-page": "745",
+      "DOI": "10.12928/telkomnika.v13i3.1439",
+      "article-title": "A Review on Perturb and Observe Maximum Power Point Tracking in Photovoltaic System",
+      "volume": "13",
+      "author": "Alik",
+      "year": "2015",
+      "journal-title": "TELKOMNIKA (Telecommun. Comput. Electron. Control)"
+    },
+    {
+      "key": "ref_62",
+      "first-page": "2017",
+      "article-title": "Implementation of a novel P & O MPPT controller for photovoltaic system at standard test conditions implementation of a novel P & O MPPT controller for photovoltaic system at standard test conditions",
+      "volume": "12",
+      "author": "Kolluru",
+      "year": "2017",
+      "journal-title": "Int. J. Appl. Eng. Res."
+    },
+    {
+      "key": "ref_63",
+      "doi-asserted-by": "crossref",
+      "first-page": "1070",
+      "DOI": "10.1109/JPHOTOV.2013.2261118",
+      "article-title": "On the perturb-and-observe and incremental conductance MPPT methods for PV systems",
+      "volume": "3",
+      "author": "Sera",
+      "year": "2013",
+      "journal-title": "IEEE J. Photovolt."
+    },
+    {
+      "key": "ref_64",
+      "first-page": "2829",
+      "article-title": "Perturb & observe MPPT technique used for PV system under different environmental conditions",
+      "volume": "6",
+      "author": "Pandey",
+      "year": "2019",
+      "journal-title": "Int. Res. J. Eng. Technol."
+    },
+    {
+      "key": "ref_65",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Khodair, D., Motahhir, S., Mostafa, H.H., Shaker, A., El Munim, H.A., Abouelatta, M., and Saeed, A. (2023). Modeling and Simulation of modified MPPT techniques under varying operating climatic conditions. Energies, 16.",
+      "DOI": "10.3390/en16010549"
+    },
+    {
+      "key": "ref_66",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Seguel, J.L., Seleme, S.I., and Morais, L.M.F. (2022). Comparative study of buck-boost, SEPIC, Cuk and Zeta DC-DC Converters using different MPPT methods for photovoltaic applications. Energies, 15.",
+      "DOI": "10.3390/en15217936"
+    },
+    {
+      "key": "ref_67",
+      "doi-asserted-by": "crossref",
+      "first-page": "317",
+      "DOI": "10.1049/iet-rpg.2009.0006",
+      "article-title": "Adaptive perturb and observe algorithm for photovoltaic maximum power point tracking",
+      "volume": "4",
+      "author": "Piegari",
+      "year": "2010",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_68",
+      "doi-asserted-by": "crossref",
+      "first-page": "111467",
+      "DOI": "10.1016/j.rser.2021.111467",
+      "article-title": "Experimental analysis of hill-climbing MPPT algorithms under low irradiance levels",
+      "volume": "150",
+      "author": "Jately",
+      "year": "2021",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_69",
+      "unstructured": "Noh, H.-J., Lee, D.-Y., and Hyun, D.-S. (2002, January 5–8). An improved MPPT converter with current compensation method for small scaled PV-applications. Proceedings of the IEEE 2002 28th Annual Conference of the Industrial Electronics Society, IECON 02, Sevilla, Spain."
+    },
+    {
+      "key": "ref_70",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Leedy, A.W., Guo, L.P., and Aganah, K.A. (2012, January 15–18). A constant voltage MPPT method for a solar powered boost converter with DC motor load. Proceedings of the 2012 IEEE Southeastcon, Orlando, FL, USA.",
+      "DOI": "10.1109/SECon.2012.6196885"
+    },
+    {
+      "key": "ref_71",
+      "doi-asserted-by": "crossref",
+      "first-page": "184",
+      "DOI": "10.1109/TSTE.2010.2052936",
+      "article-title": "Comparison of directly connected and constant voltage controlled photovoltaic pumping systems",
+      "volume": "1",
+      "author": "Elgendy",
+      "year": "2010",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_72",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kimball, J.W., and Krein, P.T. (2007, January 17–21). Digital ripple correlation control for photovoltaic applications. Proceedings of the 2007 IEEE Power Electronics Specialists Conference, Orlando, FL, USA.",
+      "DOI": "10.1109/PESC.2007.4342252"
+    },
+    {
+      "key": "ref_73",
+      "unstructured": "Ho, B.M.T., Chung, S.-H., and Hui, S.Y.R. (2004, January 22–26). An integrated inverter with maximum power tracking for grid-connected PV systems. Proceedings of the Nineteenth Annual IEEE Applied Power Electronics Conference and Exposition, APEC’04, Anaheim, CA, USA."
+    },
+    {
+      "key": "ref_74",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1186/s41601-018-0099-8",
+      "article-title": "Design of a P-&-O algorithm based MPPT charge controller for a stand-alone 200W PV system",
+      "volume": "3",
+      "author": "Salman",
+      "year": "2018",
+      "journal-title": "Prot. Control Mod. Power Syst."
+    },
+    {
+      "key": "ref_75",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sarvi, M., and Azadian, A. (2021). A Comprehensive Review and Classified Comparison of MPPT Algorithms in PV Systems, Springer.",
+      "DOI": "10.1007/s12667-021-00427-x"
+    },
+    {
+      "key": "ref_76",
+      "doi-asserted-by": "crossref",
+      "first-page": "192",
+      "DOI": "10.1109/60.282492",
+      "article-title": "Matching of a DC motor to a photovoltaic generator using a step-up converter with a current-locked loop",
+      "volume": "9",
+      "author": "Alghuwainem",
+      "year": "1994",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_77",
+      "doi-asserted-by": "crossref",
+      "first-page": "715",
+      "DOI": "10.1049/iet-rpg.2016.0749",
+      "article-title": "Adaptive reference voltage-based MPPT technique for PV applications",
+      "volume": "11",
+      "author": "Lasheen",
+      "year": "2017",
+      "journal-title": "IET Renew. Power Gener."
+    },
+    {
+      "key": "ref_78",
+      "doi-asserted-by": "crossref",
+      "first-page": "333",
+      "DOI": "10.1016/j.solener.2014.01.003",
+      "article-title": "Modified incremental conductance MPPT algorithm to mitigate inaccurate responses under fast-changing solar irradiation level",
+      "volume": "101",
+      "author": "Tey",
+      "year": "2014",
+      "journal-title": "Solar Energy"
+    },
+    {
+      "key": "ref_79",
+      "first-page": "147",
+      "article-title": "Maximum power tracking for photovoltaic power systems",
+      "volume": "8",
+      "author": "Jiang",
+      "year": "2005",
+      "journal-title": "J. Appl. Sci. Eng."
+    },
+    {
+      "key": "ref_80",
+      "doi-asserted-by": "crossref",
+      "first-page": "221",
+      "DOI": "10.1016/j.rser.2016.09.131",
+      "article-title": "A new variable step size neural networks MPPT controller: Review, simulation and hardware implementation",
+      "volume": "68",
+      "author": "Messalti",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_81",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Craciunescu, D., and Fara, L. (2023). Investigation of the Partial shading effect of photovoltaic panels and optimization of their performance based on high-efficiency FLC algorithm. Energies, 16.",
+      "DOI": "10.3390/en16031169"
+    },
+    {
+      "key": "ref_82",
+      "doi-asserted-by": "crossref",
+      "first-page": "416",
+      "DOI": "10.1016/j.renene.2018.06.071",
+      "article-title": "A novel beta parameter based fuzzy-logic controller for photovoltaic MPPT application",
+      "volume": "130",
+      "author": "Li",
+      "year": "2019",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_83",
+      "doi-asserted-by": "crossref",
+      "first-page": "297",
+      "DOI": "10.1016/j.isatra.2018.11.020",
+      "article-title": "An improved MPPT scheme employing adaptive integral derivative sliding mode control for photovoltaic systems under fast irradiation changes",
+      "volume": "87",
+      "author": "Kihal",
+      "year": "2018",
+      "journal-title": "ISA Trans."
+    },
+    {
+      "key": "ref_84",
+      "doi-asserted-by": "crossref",
+      "first-page": "1027",
+      "DOI": "10.1109/TIE.2006.878331",
+      "article-title": "New maximum power point tracker using sliding-mode observer for estimation of solar array current in the grid-connected photovoltaic system",
+      "volume": "53",
+      "author": "Kim",
+      "year": "2006",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_85",
+      "unstructured": "Miyatake, M., Inada, T., Hiratsuka, I., Zhao, H., Otsuka, H., and Nakano, M. (2004, January 14–16). Control characteristics of a Fibonacci-search-based maximum power point tracker when a photovoltaic array is partially shaded. Proceedings of the IPEMC 2004, The 4th International Power Electronics and Motion Control Conference, Xi’an, China."
+    },
+    {
+      "key": "ref_86",
+      "doi-asserted-by": "crossref",
+      "first-page": "754",
+      "DOI": "10.1016/j.ijepes.2012.06.031",
+      "article-title": "Maximum power point tracking of partially shaded solar PV system using modified Fibonacci search method with fuzzy controller",
+      "volume": "43",
+      "author": "Ramaprabha",
+      "year": "2012",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "ref_87",
+      "first-page": "163",
+      "article-title": "A MPPT Method based on improved Fibonacci search photovoltaic array",
+      "volume": "26",
+      "author": "Zhang",
+      "year": "2019",
+      "journal-title": "Teh. Vjesn."
+    },
+    {
+      "key": "ref_88",
+      "doi-asserted-by": "crossref",
+      "first-page": "2539",
+      "DOI": "10.1109/TIE.2007.899922",
+      "article-title": "Application of centered differentiation and steepest descent to maximum power point tracking",
+      "volume": "54",
+      "author": "Xiao",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_89",
+      "doi-asserted-by": "crossref",
+      "first-page": "2795",
+      "DOI": "10.1080/15567036.2019.1576075",
+      "article-title": "Resource estimation and sizing optimization of PV/micro hydro-based hybrid energy system in rural area of Western Himalayan Himachal Pradesh in India",
+      "volume": "41",
+      "author": "Kumar",
+      "year": "2019",
+      "journal-title": "Energy Sources Part A Recover. Util. Environ. Eff."
+    },
+    {
+      "key": "ref_90",
+      "doi-asserted-by": "crossref",
+      "first-page": "414",
+      "DOI": "10.1016/j.apenergy.2012.05.026",
+      "article-title": "A direct control based maximum power point tracking method for photovoltaic system under partial shading conditions using particle swarm optimization algorithm",
+      "volume": "99",
+      "author": "Ishaque",
+      "year": "2012",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "ref_91",
+      "doi-asserted-by": "crossref",
+      "first-page": "2997",
+      "DOI": "10.1016/j.asoc.2012.11.033",
+      "article-title": "A review of particle swarm optimization and its applications in solar photovoltaic system",
+      "volume": "13",
+      "author": "Khare",
+      "year": "2013",
+      "journal-title": "Appl. Soft Comput."
+    },
+    {
+      "key": "ref_92",
+      "doi-asserted-by": "crossref",
+      "first-page": "367",
+      "DOI": "10.1109/TAES.2011.5705681",
+      "article-title": "Maximum power point tracking of multiple photovoltaic arrays: A PSO approach",
+      "volume": "47",
+      "author": "Miyatake",
+      "year": "2011",
+      "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+    },
+    {
+      "key": "ref_93",
+      "doi-asserted-by": "crossref",
+      "first-page": "377",
+      "DOI": "10.1016/j.rser.2017.02.051",
+      "article-title": "A comparison of different global MPPT techniques based on meta-heuristic algorithms for photovoltaic system subjected to partial shading conditions",
+      "volume": "74",
+      "author": "Rezk",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_94",
+      "doi-asserted-by": "crossref",
+      "first-page": "108",
+      "DOI": "10.1016/j.conengprac.2018.10.013",
+      "article-title": "A hybrid intelligent GMPPT algorithm for partial shading PV system",
+      "volume": "83",
+      "author": "Mao",
+      "year": "2018",
+      "journal-title": "Control. Eng. Pr."
+    },
+    {
+      "key": "ref_95",
+      "doi-asserted-by": "crossref",
+      "first-page": "109372",
+      "DOI": "10.1016/j.rser.2019.109372",
+      "article-title": "A novel statistical performance evaluation of most modern optimization-based global MPPT techniques for partially shaded PV system",
+      "volume": "115",
+      "author": "Rezk",
+      "year": "2019",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_96",
+      "doi-asserted-by": "crossref",
+      "first-page": "1441",
+      "DOI": "10.1016/j.solmat.2010.04.011",
+      "article-title": "Maximum power point tracking of partially shaded solar photovoltaic arrays",
+      "volume": "94",
+      "author": "Chowdhury",
+      "year": "2010",
+      "journal-title": "Sol. Energy Mater. Sol. Cells"
+    },
+    {
+      "key": "ref_97",
+      "unstructured": "Kaewkamnerdpong, B., and Bentley, P.J. (2005, January 8–12). Perceptive particle swarm optimisation: An investigation. Proceedings of the 2005 IEEE Swarm Intelligence Symposium, Pasadena, CA, USA."
+    },
+    {
+      "key": "ref_98",
+      "doi-asserted-by": "crossref",
+      "first-page": "854",
+      "DOI": "10.1016/j.rser.2017.05.083",
+      "article-title": "A review on MPPT techniques of PV system under partial shading condition",
+      "volume": "80",
+      "author": "Mohapatra",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_99",
+      "first-page": "1",
+      "article-title": "An enhanced grey wolf optimization based feature selection wrapped kernel extreme learning machine for medical diagnosis",
+      "volume": "2017",
+      "author": "Li",
+      "year": "2017",
+      "journal-title": "Comput. Math. Methods Med."
+    },
+    {
+      "key": "ref_100",
+      "first-page": "54",
+      "article-title": "A New DC-DC Converter topology with grey wolf MPPT algorithm for photovoltaic system",
+      "volume": "5",
+      "author": "Rajkumar",
+      "year": "2017",
+      "journal-title": "Int. J. Emerg. Technol. Eng. Res."
+    },
+    {
+      "key": "ref_101",
+      "doi-asserted-by": "crossref",
+      "first-page": "77",
+      "DOI": "10.1007/s40998-018-0071-7",
+      "article-title": "Optimal sizing and placement of capacitors in radial distribution systems based on grey wolf, dragonfly and moth–flame optimization algorithms",
+      "volume": "43",
+      "author": "Diab",
+      "year": "2018",
+      "journal-title": "Iran. J. Sci. Technol. Trans. Electr. Eng."
+    },
+    {
+      "key": "ref_102",
+      "doi-asserted-by": "crossref",
+      "first-page": "203",
+      "DOI": "10.14710/ijred.6.3.203-212",
+      "article-title": "Enhanced grey wolf optimizer based MPPT algorithm of PV system under partial shaded condition",
+      "volume": "6",
+      "author": "Cherukuri",
+      "year": "2017",
+      "journal-title": "Int. J. Renew. Energy Dev."
+    },
+    {
+      "key": "ref_103",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1109/TSTE.2015.2482120",
+      "article-title": "A new MPPT design using grey wolf optimization technique for photovoltaic system under partial shading conditions",
+      "volume": "7",
+      "author": "Mohanty",
+      "year": "2015",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "ref_104",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hassan, S.Z., Li, H., Kamal, T., Arifoğlu, U., Mumtaz, S., and Khan, L. (2017). Neuro-fuzzy wavelet based adaptive MPPT algorithm for photovoltaic systems. Energies, 10.",
+      "DOI": "10.3390/en10030394"
+    },
+    {
+      "key": "ref_105",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Malik, H., Iqbal, A., and Yadav, A. (2020). Soft Computing in Condition Monitoring and Diagnostics of Electrical and Mechanical Systems, Springer.",
+      "DOI": "10.1007/978-981-15-1532-3"
+    },
+    {
+      "key": "ref_106",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Al-Majidi, S.D., Abbod, M.F., and Al-Raweshidy, H.S. (2019). Design of an efficient maximum power point tracker based on ANFIS using an experimental photovoltaic system data. Electronics, 8.",
+      "DOI": "10.3390/electronics8080858"
+    },
+    {
+      "key": "ref_107",
+      "doi-asserted-by": "crossref",
+      "first-page": "875",
+      "DOI": "10.1016/j.rser.2017.02.056",
+      "article-title": "Global maximum power point tracking based on ANFIS approach for PV array configurations under partial shading conditions",
+      "volume": "77",
+      "author": "Belhachat",
+      "year": "2017",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "ref_108",
+      "first-page": "6517",
+      "article-title": "Design and implementation of ANFIS based MPPT scheme with open loop boost converter for solar PV module",
+      "volume": "3",
+      "author": "Kharb",
+      "year": "2014",
+      "journal-title": "Int. J. Adv. Res. Electr. Electron. Instrum. Eng."
+    },
+    {
+      "key": "ref_109",
+      "doi-asserted-by": "crossref",
+      "first-page": "2641",
+      "DOI": "10.1007/s13369-015-1749-z",
+      "article-title": "An efficient ANFIS-based PI controller for maximum power point tracking of PV systems",
+      "volume": "40",
+      "author": "Abido",
+      "year": "2015",
+      "journal-title": "Arab. J. Sci. Eng."
+    },
+    {
+      "key": "ref_110",
+      "doi-asserted-by": "crossref",
+      "first-page": "383",
+      "DOI": "10.1080/1478646X.2011.587517",
+      "article-title": "Adaptive neuro-fuzzy inference system-based maximum power point tracking of solar PV modules for fast varying solar radiations",
+      "volume": "31",
+      "author": "Iqbal",
+      "year": "2012",
+      "journal-title": "Int. J. Sustain. Energy"
+    },
+    {
+      "key": "ref_111",
+      "unstructured": "Mohammed, S.S., Devaraj, D., and Ahamed, T.P.I. (2016, January 21–23). Maximum power point tracking system for stand alone solar PV Power system using adaptive neuro-fuzzy inference system. Proceedings of the 2016 Biennial International Conference on Power And Energy Systems: Towards Sustainable Energy (PESTSE), Bengaluru, India."
+    },
+    {
+      "key": "ref_112",
+      "unstructured": "Kumar, S., Sharma, S., Kurian, C.P., Varghese, M., and George, A.M. (2020, January 2–4). Adaptive Neuro-fuzzy control of solar-powered building integrated with daylight-artificial light system. Proceedings of the 2020 IEEE International Conference on Power Electronics, Smart Grid and Renewable Energy (PESGRE2020), Cochin, India."
+    },
+    {
+      "key": "ref_113",
+      "doi-asserted-by": "crossref",
+      "first-page": "1689",
+      "DOI": "10.1016/j.solener.2012.03.018",
+      "article-title": "Optimization of a fuzzy logic controller for PV grid inverter control using S-function based PSO",
+      "volume": "86",
+      "author": "Letting",
+      "year": "2012",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "ref_114",
+      "doi-asserted-by": "crossref",
+      "first-page": "962",
+      "DOI": "10.1049/iet-epa.2017.0804",
+      "article-title": "Fuzzy SVPWM-based inverter control realisation of grid integrated photovoltaic-wind system with fuzzy particle swarm optimisation maximum power point tracking algorithm for a grid-connected PV/wind power generation system: Hardware implementation",
+      "volume": "12",
+      "author": "Priyadarshi",
+      "year": "2018",
+      "journal-title": "IET Electr. Power Appl."
+    },
+    {
+      "key": "ref_115",
+      "doi-asserted-by": "crossref",
+      "first-page": "1002",
+      "DOI": "10.1016/j.enconman.2018.06.003",
+      "article-title": "Maximum power point tracking using Hill Climbing and ANFIS techniques for PV applications: A review and a novel hybrid approach",
+      "volume": "171",
+      "author": "Lasheen",
+      "year": "2018",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "ref_116",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1007/s42452-019-1886-1",
+      "article-title": "Maximum power point tracking using perturb and observe, fuzzy logic and ANFIS",
+      "volume": "2",
+      "author": "Mahdi",
+      "year": "2019",
+      "journal-title": "SN Appl. Sci."
+    },
+    {
+      "key": "ref_117",
+      "first-page": "241",
+      "article-title": "A neural network Based MPPT technique controller for photovoltaic pumping system",
+      "volume": "4",
+      "author": "Yaichi",
+      "year": "2014",
+      "journal-title": "Int. J. Power Electron. Drive Syst. (IJPEDS)"
+    },
+    {
+      "key": "ref_118",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ali, A., Hasan, A.N., and Marwala, T. (2014, January 19–22). Perturb and observe based on fuzzy logic controller maximum power point tracking (MPPT). Proceedings of the 2014 International Conference on Renewable Energy Research and Application (ICRERA), Milwaukee, WI, USA.",
+      "DOI": "10.1109/ICRERA.2014.7016418"
+    },
+    {
+      "key": "ref_119",
+      "doi-asserted-by": "crossref",
+      "first-page": "555",
+      "DOI": "10.1016/j.renene.2014.08.057",
+      "article-title": "Intelligent photovoltaic farms for robust frequency stabilization in multi-area interconnected power system based on PSO-based optimal Sugeno fuzzy logic control",
+      "volume": "74",
+      "author": "Ngamroo",
+      "year": "2015",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_120",
+      "doi-asserted-by": "crossref",
+      "first-page": "340",
+      "DOI": "10.1109/TEC.2016.2633722",
+      "article-title": "A grey wolf-assisted perturb & observe MPPT algorithm for a PV system",
+      "volume": "32",
+      "author": "Mohanty",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Energy Convers."
+    },
+    {
+      "key": "ref_121",
+      "doi-asserted-by": "crossref",
+      "first-page": "2622",
+      "DOI": "10.1109/TIE.2008.920550",
+      "article-title": "A variable step size INC MPPT method for PV systems",
+      "volume": "55",
+      "author": "Liu",
+      "year": "2008",
+      "journal-title": "IEEE Trans. Ind. Electron."
+    },
+    {
+      "key": "ref_122",
+      "first-page": "432",
+      "article-title": "Implementation of improved perturb & observe MPPT technique with confined search space for standalone photovoltaic system",
+      "volume": "32",
+      "author": "Kamran",
+      "year": "2018",
+      "journal-title": "J. King Saud Univ. Eng. Sci."
+    },
+    {
+      "key": "ref_123",
+      "doi-asserted-by": "crossref",
+      "first-page": "107805",
+      "DOI": "10.1016/j.ijepes.2021.107805",
+      "article-title": "Improved P&O MPPT algorithm with efficient open-circuit voltage estimation for two-stage grid-integrated PV system under realistic solar radiation",
+      "volume": "137",
+      "author": "Ali",
+      "year": "2021",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "ref_124",
+      "doi-asserted-by": "crossref",
+      "first-page": "625",
+      "DOI": "10.1016/j.renene.2021.07.043",
+      "article-title": "2-D lookup table based MPPT: Another choice of improving the generating capacity of a wave power system",
+      "volume": "179",
+      "author": "Yue",
+      "year": "2021",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "ref_125",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1155/2021/4925433",
+      "article-title": "Design of efficient off-grid solar photovoltaic water pumping system based on improved fractional open circuit voltage MPPT technique",
+      "volume": "2021",
+      "author": "Hmidet",
+      "year": "2021",
+      "journal-title": "Int. J. Photoenergy"
+    },
+    {
+      "key": "ref_126",
+      "doi-asserted-by": "crossref",
+      "first-page": "1399",
+      "DOI": "10.1109/JESTPE.2018.2864096",
+      "article-title": "Voltage-sensor-based MPPT for stand-alone PV systems through voltage reference control",
+      "volume": "7",
+      "author": "Killi",
+      "year": "2018",
+      "journal-title": "IEEE J. Emerg. Sel. Top. Power Electron."
+    },
+    {
+      "key": "ref_127",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Avila, E., Pozo, N., Pozo, M., Salazar, G., and Dominguez, X. (2017, January 4–7). Improved particle swarm optimization based MPPT for PV systems under partial shading conditions. Proceedings of the 2017 IEEE Southern Power Electronics Conference (SPEC), Puerto Varas, Chile.",
+      "DOI": "10.1109/SPEC.2017.8333634"
+    },
+    {
+      "key": "ref_128",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.3103/S0003701X21020080",
+      "article-title": "Simulation and dSPACE hardware implementation of an improved fractional short-circuit current MPPT algorithm for photovoltaic system",
+      "volume": "57",
+      "author": "Fapi",
+      "year": "2021",
+      "journal-title": "Appl. Sol. Energy"
+    },
+    {
+      "key": "ref_129",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Viswambaran, V.K., Ghani, A., and Zhou, E. (2016, January 6–8). Modelling and simulation of maximum power point tracking algorithms & review of MPPT techniques for PV applications. Proceedings of the 2016 5th International Conference on Electronic Devices, Systems and Applications (ICEDSA), Ras Al Khaimah, United Arab Emirates.",
+      "DOI": "10.1109/ICEDSA.2016.7818506"
+    },
+    {
+      "key": "ref_130",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Devarakonda, A.K., Karuppiah, N., Selvaraj, T., Balachandran, P.K., Shanmugasundaram, R., and Senjyu, T. (2022). A comparative analysis of maximum power point techniques for solar photovoltaic systems. Energies, 15.",
+      "DOI": "10.3390/en15228776"
+    }
+  ],
+  "container-title": [
+    "Energies"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/1996-1073/16/5/2206/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2025-10-10T18:41:48Z",
+    "timestamp": 1760121708000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/1996-1073/16/5/2206"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        24
+      ]
+    ]
+  },
+  "references-count": 130,
+  "journal-issue": {
+    "issue": "5",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "en16052206"
+  ],
+  "URL": "https://doi.org/10.3390/en16052206",
+  "relation": {},
+  "ISSN": [
+    "1996-1073"
+  ],
+  "issn-type": [
+    {
+      "value": "1996-1073",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        2,
+        24
+      ]
+    ]
+  }
+}

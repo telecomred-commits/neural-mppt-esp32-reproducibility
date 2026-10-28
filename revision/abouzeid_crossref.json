@@ -1,0 +1,908 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T18:52:30Z",
+    "timestamp": 1790275950572,
+    "version": "4.1.0"
+  },
+  "reference-count": 59,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2024-08-07T00:00:00Z",
+        "timestamp": 1722988800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2024-08-07T00:00:00Z",
+        "timestamp": 1722988800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Port Said University"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Sci Rep"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Maximum power point tracking (MPPT) is a technique involved in photovoltaic (PV) systems for optimizing the output power of solar panels. Traditional solutions like perturb and observe (P&amp;O) and Incremental Conductance (IC) are commonly utilized to follow the MPP under various environmental circumstances. However, these algorithms suffer from slow tracking speed and low dynamics under fast-changing environment conditions. To cope with these demerits, a data-driven artificial neural network (ANN) algorithm for MPPT is proposed in this paper. By leveraging the learning capabilities of the ANN, the PV operating point can be adapted to dynamic changes in solar irradiation and temperature. Consequently, it offers promising solutions for MPPT in fast-changing environments as well as overcoming the limitations of traditional MPPT techniques. In this paper, simulations verification and experimental validation of a proposed data-driven ANN-MPPT technique are presented. Additionally, the proposed technique is analyzed and compared to traditional MPPT methods. The numerical and experimental findings indicate that, of the examined MPPT methods, the proposed ANN-MPPT approach achieves the highest MPPT efficiency at 98.16% and the shortest tracking time of 1.3 s.</jats:p>",
+  "DOI": "10.1038/s41598-024-67306-0",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ],
+    "date-time": "2024-08-07T04:05:25Z",
+    "timestamp": 1723003525000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 51,
+  "title": [
+    "Experimental validation of a low-cost maximum power point tracking technique based on artificial neural network for photovoltaic systems"
+  ],
+  "prefix": "10.1038",
+  "volume": "14",
+  "author": [
+    {
+      "given": "Ahmed Fathy",
+      "family": "Abouzeid",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hadeer",
+      "family": "Eleraky",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ahmed",
+      "family": "Kalas",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Rawya",
+      "family": "Rizk",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mohamed Mohamed",
+      "family": "Elsakka",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ahmed",
+      "family": "Refaat",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "67306_CR1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.rser.2020.109927",
+      "volume": "128",
+      "author": "H Stančin",
+      "year": "2020",
+      "unstructured": "Stančin, H., Mikulčić, H., Wang, X. & Duić, N. A review on alternative fuels in future energy system. Renew. Sustain. Energy Rev. 128, 109927 (2020).",
+      "journal-title": "Renew. Sustain. Energy Rev."
+    },
+    {
+      "key": "67306_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "1260",
+      "DOI": "10.3390/mi12101260",
+      "volume": "12",
+      "author": "CG Villegas-Mier",
+      "year": "2021",
+      "unstructured": "Villegas-Mier, C. G. et al. artificial neural networks in MPPT algorithms for optimization of photovoltaic power systems: A review. Micromachines 12, 1260 (2021).",
+      "journal-title": "Micromachines"
+    },
+    {
+      "key": "67306_CR3",
+      "doi-asserted-by": "publisher",
+      "first-page": "1312",
+      "DOI": "10.1016/j.egyr.2020.05.013",
+      "volume": "6",
+      "author": "M Mao",
+      "year": "2020",
+      "unstructured": "Mao, M. et al. Classification and summarization of solar photovoltaic MPPT techniques: A review based on traditional and intelligent control strategies. Energy Rep. 6, 1312–1327. https://doi.org/10.1016/j.egyr.2020.05.013 (2020).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "293",
+      "DOI": "10.1007/s12667-021-00476-2",
+      "volume": "14",
+      "author": "A Nadeem",
+      "year": "2023",
+      "unstructured": "Nadeem, A. & Hussain, A. A comprehensive review of global maximum power point tracking algorithms for photovoltaic systems. Energy Syst. 14, 293–334 (2023).",
+      "journal-title": "Energy Syst."
+    },
+    {
+      "key": "67306_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "8944",
+      "DOI": "10.1038/s41598-024-59776-z",
+      "volume": "14",
+      "author": "SA Sarang",
+      "year": "2024",
+      "unstructured": "Sarang, S. A. et al. Maximizing solar power generation through conventional and digital MPPT techniques: A comparative analysis. Sci. Rep. 14, 8944 (2024).",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "67306_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "9",
+      "DOI": "10.17775/CSEEJPES.2019.02720",
+      "volume": "7",
+      "author": "RB Bollipo",
+      "year": "2021",
+      "unstructured": "Bollipo, R. B., Mikkili, S. & Bonthagorla, P. K. Hybrid, optimal, intelligent and classical PV MPPT techniques: A review. CSEE J. Power Energy Syst. 7, 9–33. https://doi.org/10.17775/CSEEJPES.2019.02720 (2021).",
+      "journal-title": "CSEE J. Power Energy Syst."
+    },
+    {
+      "key": "67306_CR7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2023.119718",
+      "volume": "220",
+      "author": "A Refaat",
+      "year": "2024",
+      "unstructured": "Refaat, A. et al. Extraction of maximum power from pv system based on horse herd optimization MPPT technique under various weather conditions. Renew. Energy 220, 119718. https://doi.org/10.1016/j.renene.2023.119718 (2024).",
+      "journal-title": "Renew. Energy"
+    },
+    {
+      "key": "67306_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "6471",
+      "DOI": "10.1038/s41598-024-57268-8",
+      "volume": "14",
+      "author": "C Mai",
+      "year": "2024",
+      "unstructured": "Mai, C. et al. A novel MPPT technology based on dung beetle optimization algorithm for pv systems under complex partial shade conditions. Sci. Rep. 14, 6471 (2024).",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "67306_CR9",
+      "doi-asserted-by": "publisher",
+      "first-page": "6827",
+      "DOI": "10.1038/s41598-024-57610-0",
+      "volume": "14",
+      "author": "N Deghfel",
+      "year": "2024",
+      "unstructured": "Deghfel, N., Badoud, A. E., Merahi, F., Bajaj, M. & Zaitsev, I. A new intelligently optimized model reference adaptive controller using ga and woa-based MPPT techniques for photovoltaic systems. Sci. Rep. 14, 6827 (2024).",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "67306_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "8205",
+      "DOI": "10.1038/s41598-024-59024-4",
+      "volume": "14",
+      "author": "L Zaghba",
+      "year": "2024",
+      "unstructured": "Zaghba, L. et al. Enhancing grid-connected photovoltaic system performance with novel hybrid MPPT technique in variable atmospheric conditions. Sci. Rep. 14, 8205 (2024).",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "67306_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "98",
+      "DOI": "10.33317/ssurj.433",
+      "volume": "12",
+      "author": "MMA Awan",
+      "year": "2022",
+      "unstructured": "Awan, M. M. A. A technical review of MPPT algorithms for solar photovoltaic system: Swot analysis of MPPT algorithms. Sir Syed Univ. Res. J. Eng. Technol. 12, 98–106 (2022).",
+      "journal-title": "Sir Syed Univ. Res. J. Eng. Technol."
+    },
+    {
+      "key": "67306_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "2104",
+      "DOI": "10.3390/en15062104",
+      "volume": "15",
+      "author": "MMA Awan",
+      "year": "2022",
+      "unstructured": "Awan, M. M. A., Javed, M. Y., Asghar, A. B. & Ejsmont, K. Performance optimization of a ten check MPPT algorithm for an off-grid solar photovoltaic system. Energies 15, 2104 (2022).",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "67306_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "3332",
+      "DOI": "10.3390/su15043332",
+      "volume": "15",
+      "author": "MMA Awan",
+      "year": "2023",
+      "unstructured": "Awan, M. M. A., Asghar, A. B., Javed, M. Y. & Conka, Z. Ordering technique for the maximum power point tracking of an islanded solar photovoltaic system. Sustainability 15, 3332 (2023).",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "67306_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1010",
+      "DOI": "10.1109/TPEL.2011.2106221",
+      "volume": "26",
+      "author": "AK Abdelsalam",
+      "year": "2011",
+      "unstructured": "Abdelsalam, A. K., Massoud, A. M., Ahmed, S. & Enjeti, P. N. High-performance adaptive perturb and observe MPPT technique for photovoltaic-based microgrids. IEEE Trans. Power Electron. 26, 1010–1021 (2011).",
+      "journal-title": "IEEE Trans. Power Electron."
+    },
+    {
+      "key": "67306_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "501",
+      "DOI": "10.22581/muet1982.1703.07",
+      "volume": "36",
+      "author": "MMA Awan",
+      "year": "2017",
+      "unstructured": "Awan, M. M. A. & Awan, F. G. Improvement of maximum power point tracking perturb and observe algorithm for a standalone solar photovoltaic system. Mehran Univ. Res. J. Eng. Technol. 36, 501–510 (2017).",
+      "journal-title": "Mehran Univ. Res. J. Eng. Technol."
+    },
+    {
+      "key": "67306_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "21",
+      "DOI": "10.1109/TSTE.2011.2168245",
+      "volume": "3",
+      "author": "MA Elgendy",
+      "year": "2011",
+      "unstructured": "Elgendy, M. A., Zahawi, B. & Atkinson, D. J. Assessment of perturb and observe MPPT algorithm implementation techniques for pv pumping applications. IEEE Trans. Sustain. Energy 3, 21–33 (2011).",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "67306_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "108",
+      "DOI": "10.1109/TSTE.2012.2202698",
+      "volume": "4",
+      "author": "MA Elgendy",
+      "year": "2012",
+      "unstructured": "Elgendy, M. A., Zahawi, B. & Atkinson, D. J. Assessment of the incremental conductance maximum power point tracking algorithm. IEEE Trans. Sustain. Energy 4, 108–117 (2012).",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "67306_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "1070",
+      "DOI": "10.1109/JPHOTOV.2013.2261118",
+      "volume": "3",
+      "author": "D Sera",
+      "year": "2013",
+      "unstructured": "Sera, D., Mathe, L., Kerekes, T., Spataru, S. V. & Teodorescu, R. On the perturb-and-observe and incremental conductance MPPT methods for pv systems. IEEE J. Photovolt. 3, 1070–1078 (2013).",
+      "journal-title": "IEEE J. Photovolt."
+    },
+    {
+      "key": "67306_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "22",
+      "DOI": "10.1016/j.egypro.2015.03.228",
+      "volume": "68",
+      "author": "RI Putri",
+      "year": "2015",
+      "unstructured": "Putri, R. I., Wibowo, S. & Rifa’i, M. maximum power point tracking for photovoltaic using incremental conductance method. Energy Proced. 68, 22–30 (2015).",
+      "journal-title": "Energy Proced."
+    },
+    {
+      "key": "67306_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "432",
+      "DOI": "10.1016/j.jksues.2018.04.006",
+      "volume": "32",
+      "author": "M Kamran",
+      "year": "2020",
+      "unstructured": "Kamran, M. et al. Implementation of improved perturb & observe MPPT technique with confined search space for standalone photovoltaic system. J. King Saud Univ. Eng. Sci. 32, 432–441. https://doi.org/10.1016/j.jksues.2018.04.006 (2020).",
+      "journal-title": "J. King Saud Univ. Eng. Sci."
+    },
+    {
+      "key": "67306_CR21",
+      "doi-asserted-by": "publisher",
+      "first-page": "422",
+      "DOI": "10.1007/s40565-018-0437-x",
+      "volume": "7",
+      "author": "Y Yang",
+      "year": "2019",
+      "unstructured": "Yang, Y. & Wen, H. Adaptive perturb and observe maximum power point tracking with current predictive and decoupled power control for grid-connected photovoltaic inverters. J. Modern Power Syst. Clean Energy 7, 422–432. https://doi.org/10.1007/s40565-018-0437-x (2019).",
+      "journal-title": "J. Modern Power Syst. Clean Energy"
+    },
+    {
+      "key": "67306_CR22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Saeed, F. et al. Performance benchmark of multi-layer neural network based solar MPPT for pv applications. 1–6 https://doi.org/10.1109/ICEPT51706.2021.9435583 (2021).",
+      "DOI": "10.1109/ICEPT51706.2021.9435583"
+    },
+    {
+      "key": "67306_CR23",
+      "doi-asserted-by": "publisher",
+      "first-page": "12038",
+      "DOI": "10.1088/1757-899X/674/1/012038",
+      "volume": "674",
+      "author": "D Suhardi",
+      "year": "2019",
+      "unstructured": "Suhardi, D. et al. Improvement of maximum power point tracking (MPPT) efficiency using grey wolf optimization (gwo) algorithm in photovoltaic (pv) system. IOP Conf. Ser. Mater. Sci. Eng. 674, 12038. https://doi.org/10.1088/1757-899X/674/1/012038 (2019).",
+      "journal-title": "IOP Conf. Ser. Mater. Sci. Eng."
+    },
+    {
+      "key": "67306_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "9091",
+      "DOI": "10.3390/en15239091",
+      "volume": "15",
+      "author": "M Zhang",
+      "year": "2022",
+      "unstructured": "Zhang, M. et al. MPPT control algorithm based on particle swarm optimization and adaptive linear active disturbance rejection control. Energies 15, 9091. https://doi.org/10.3390/en15239091 (2022).",
+      "journal-title": "Energies"
+    },
+    {
+      "key": "67306_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "605",
+      "DOI": "10.11591/ijeecs.v26.i2.pp605-616",
+      "volume": "26",
+      "author": "S Abdulaziz",
+      "year": "2022",
+      "unstructured": "Abdulaziz, S., Attlam, G., Zaki, G. & Nabil, E. Cuckoo search algorithm and particle swarm optimization based maximum power point tracking techniques. Indones. J. Electr. Eng. Comput. Sci. 26, 605–616. https://doi.org/10.11591/ijeecs.v26.i2.pp605-616 (2022).",
+      "journal-title": "Indones. J. Electr. Eng. Comput. Sci."
+    },
+    {
+      "key": "67306_CR26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.enconman.2023.117124",
+      "volume": "287",
+      "author": "A Refaat",
+      "year": "2023",
+      "unstructured": "Refaat, A. et al. A novel metaheuristic MPPT technique based on enhanced autonomous group particle swarm optimization algorithm to track the gmpp under partial shading conditions - experimental validation. Energy Convers. Manag. 287, 117124. https://doi.org/10.1016/j.enconman.2023.117124 (2023).",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "67306_CR27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Elbaz, A., Elfar, M. H., Kalas, A. & Refaat, A. Maximum power extraction from polymer electrolyte membrane (PEM) fuel cell based on deterministic particle swarm optimization algorithm. In 2022 Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus) 613–619 (IEEE, 2022).",
+      "DOI": "10.1109/ElConRus54750.2022.9755807"
+    },
+    {
+      "key": "67306_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "627",
+      "DOI": "10.1016/j.gloei.2022.12.005",
+      "volume": "5",
+      "author": "JA Salim",
+      "year": "2022",
+      "unstructured": "Salim, J. A., Albaker, B. M., Alwan, M. S. & Hasanuzzaman, M. Hybrid MPPT approach using cuckoo search and grey wolf optimizer for PV systems under variant operating conditions. Global Energy Interconnect. 5, 627–644. https://doi.org/10.1016/j.gloei.2022.12.005 (2022).",
+      "journal-title": "Global Energy Interconnect."
+    },
+    {
+      "key": "67306_CR29",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Khalifa, A. E., Refaat, A., Kalas, A. & Elfar, M. H. Two bio-inspired MPPT algorithms to harvest the maximum power from partially shaded PV arrays. 670–674 https://doi.org/10.1109/ElConRus54750.2022.9755769 (2022).",
+      "DOI": "10.1109/ElConRus54750.2022.9755769"
+    },
+    {
+      "key": "67306_CR30",
+      "doi-asserted-by": "publisher",
+      "first-page": "10653",
+      "DOI": "10.1016/j.ijhydene.2020.12.158",
+      "volume": "46",
+      "author": "B Laxman",
+      "year": "2021",
+      "unstructured": "Laxman, B., Annamraju, A. & Srikanth, N. V. A grey wolf optimized fuzzy logic-based MPPT for shaded solar photovoltaic systems in microgrids. Int. J. Hydrogen Energy 46, 10653–10665. https://doi.org/10.1016/j.ijhydene.2020.12.158 (2021).",
+      "journal-title": "Int. J. Hydrogen Energy"
+    },
+    {
+      "key": "67306_CR31",
+      "doi-asserted-by": "publisher",
+      "first-page": "95",
+      "DOI": "10.22581/muet1982.2204.10",
+      "volume": "41",
+      "author": "MMA Awan",
+      "year": "2022",
+      "unstructured": "Awan, M. M. A. & Mahmood, T. Modified flower pollination algorithm for an off-grid solar photovoltaic system. Mehran Univ. Res. J. Eng. Technol. 41, 95–105 (2022).",
+      "journal-title": "Mehran Univ. Res. J. Eng. Technol."
+    },
+    {
+      "key": "67306_CR32",
+      "doi-asserted-by": "publisher",
+      "first-page": "324",
+      "DOI": "10.1016/j.egyr.2023.05.163",
+      "volume": "9",
+      "author": "FSM Abdallah",
+      "year": "2023",
+      "unstructured": "Abdallah, F. S. M., Abdullah, M. N., Musirin, I. & Elshamy, A. M. Intelligent solar panel monitoring system and shading detection using artificial neural networks. Energy Rep. 9, 324–334. https://doi.org/10.1016/j.egyr.2023.05.163 (2023).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "2837",
+      "DOI": "10.1016/j.egyr.2023.09.097",
+      "volume": "10",
+      "author": "G Sahin",
+      "year": "2023",
+      "unstructured": "Sahin, G., Isik, G. & van Sark, W. G. Predictive modeling of PV solar power plant efficiency considering weather conditions: A comparative analysis of artificial neural networks and multiple linear regression. Energy Rep. 10, 2837–2849. https://doi.org/10.1016/j.egyr.2023.09.097 (2023).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR34",
+      "first-page": "252",
+      "volume-title": "High Efficient and Low Cost MPPT Technique of Photovoltaic System Based on anns",
+      "author": "AA Abdelfattah",
+      "year": "2021",
+      "unstructured": "Abdelfattah, A. A., Mamdouh, W., Ali, M. N. & Abdelqawee, I. M. High Efficient and Low Cost MPPT Technique of Photovoltaic System Based on anns 252–258 (Institute of Electrical and Electronics Engineers Inc., 2021)."
+    },
+    {
+      "key": "67306_CR35",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Divyasharon, R., Banu, R. N. & Devaraj, D. artificial neural network based MPPT with cuk converter topology for pv systems under varying climatic conditions. 1–6 https://doi.org/10.1109/INCOS45849.2019.8951321 (2019).",
+      "DOI": "10.1109/INCOS45849.2019.8951321"
+    },
+    {
+      "key": "67306_CR36",
+      "doi-asserted-by": "publisher",
+      "first-page": "124",
+      "DOI": "10.1016/j.apenergy.2015.01.077",
+      "volume": "145",
+      "author": "SA Rizzo",
+      "year": "2015",
+      "unstructured": "Rizzo, S. A. & Scelba, G. ANN based MPPT method for rapidly variable shading conditions. Appl. Energy 145, 124–132. https://doi.org/10.1016/j.apenergy.2015.01.077 (2015).",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "67306_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "11144",
+      "DOI": "10.3390/su151411144",
+      "volume": "15",
+      "author": "MT Hussain",
+      "year": "2023",
+      "unstructured": "Hussain, M. T. et al. An evaluation of ANN algorithm performance for MPPT energy harvesting in solar PV systems. Sustainability (Switzerland) 15, 11144. https://doi.org/10.3390/su151411144 (2023).",
+      "journal-title": "Sustainability (Switzerland)"
+    },
+    {
+      "key": "67306_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "742",
+      "DOI": "10.1016/j.solener.2020.02.068",
+      "volume": "199",
+      "author": "AM Humada",
+      "year": "2020",
+      "unstructured": "Humada, A. M. et al. Modeling of PV system and parameter extraction based on experimental data: Review and investigation. Sol. Energy 199, 742–760. https://doi.org/10.1016/j.solener.2020.02.068 (2020).",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "67306_CR39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.apenergy.2020.116239",
+      "volume": "283",
+      "author": "MJ Mayer",
+      "year": "2021",
+      "unstructured": "Mayer, M. J. & Gróf, G. Extensive comparison of physical models for photovoltaic power forecasting. Appl. Energy 283, 116239. https://doi.org/10.1016/j.apenergy.2020.116239 (2021).",
+      "journal-title": "Appl. Energy"
+    },
+    {
+      "key": "67306_CR40",
+      "doi-asserted-by": "publisher",
+      "first-page": "13047",
+      "DOI": "10.1016/j.egyr.2022.09.193",
+      "volume": "8",
+      "author": "Analysis and case studies",
+      "year": "2022",
+      "unstructured": "Analysis and case studies. A comparative study of optimization algorithms for parameter estimation of pv solar cells and modules. Energy Rep. 8, 13047–13065. https://doi.org/10.1016/j.egyr.2022.09.193 (2022).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhydene.2023.10.051",
+      "author": "SA Hamad",
+      "year": "2023",
+      "unstructured": "Hamad, S. A. & Ghalib, M. A. Fuzzy MPPT operation-based model predictive flux control for linear induction motors. Int. J. Hydrogen Energyhttps://doi.org/10.1016/j.ijhydene.2023.10.051 (2023).",
+      "journal-title": "Int. J. Hydrogen Energy"
+    },
+    {
+      "key": "67306_CR42",
+      "doi-asserted-by": "publisher",
+      "first-page": "243",
+      "DOI": "10.1016/j.enganabound.2023.04.010",
+      "volume": "152",
+      "author": "A Sohani",
+      "year": "2023",
+      "unstructured": "Sohani, A. et al. An in-depth thermo-electrical evaluation of a rooftop PV technology for a residential building using advanced infrared thermography. Eng. Anal. Bound. Elem. 152, 243–258. https://doi.org/10.1016/j.enganabound.2023.04.010 (2023).",
+      "journal-title": "Eng. Anal. Bound. Elem."
+    },
+    {
+      "key": "67306_CR43",
+      "doi-asserted-by": "publisher",
+      "first-page": "106427",
+      "DOI": "10.1109/ACCESS.2019.2932694",
+      "volume": "7",
+      "author": "H Rezk",
+      "year": "2019",
+      "unstructured": "Rezk, H., Aly, M., Al-Dhaifallah, M. & Shoyama, M. Design and hardware implementation of new adaptive fuzzy logic-based MPPT control method for photovoltaic applications. IEEE Access 7, 106427–106438. https://doi.org/10.1109/ACCESS.2019.2932694 (2019).",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "key": "67306_CR44",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Osman, M. H., Ahmed, M. K., Refaat, A. & Korovkin, N. V. A comparative study of MPPT for PV system based on modified perturbation & observation method. 1023–1026 https://doi.org/10.1109/ElConRus51938.2021.9396444 (2021).",
+      "DOI": "10.1109/ElConRus51938.2021.9396444"
+    },
+    {
+      "key": "67306_CR45",
+      "doi-asserted-by": "publisher",
+      "first-page": "322",
+      "DOI": "10.1016/j.solener.2017.12.016",
+      "volume": "160",
+      "author": "R Ayop",
+      "year": "2018",
+      "unstructured": "Ayop, R. & Tan, C. W. Design of boost converter based on maximum power point resistance for photovoltaic applications. Sol. Energy 160, 322–335. https://doi.org/10.1016/j.solener.2017.12.016 (2018).",
+      "journal-title": "Sol. Energy"
+    },
+    {
+      "key": "67306_CR46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.enconman.2023.118014",
+      "volume": "301",
+      "author": "A Refaat",
+      "year": "2024",
+      "unstructured": "Refaat, A. et al. Performance evaluation of a novel self-tuning particle swarm optimization algorithm-based maximum power point tracker for porton exchange membrane fuel cells under different operating conditions. Energy Convers. Manag. 301, 118014 (2024).",
+      "journal-title": "Energy Convers. Manag."
+    },
+    {
+      "key": "67306_CR47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/J.IJEPES.2021.107805",
+      "volume": "137",
+      "author": "AIM Ali",
+      "year": "2022",
+      "unstructured": "Ali, A. I. M. & Mohamed, H. R. A. Improved P&O MPPT algorithm with efficient open-circuit voltage estimation for two-stage grid-integrated PV system under realistic solar radiation. Int. J. Electr. Power Energy Syst. 137, 107805. https://doi.org/10.1016/J.IJEPES.2021.107805 (2022).",
+      "journal-title": "Int. J. Electr. Power Energy Syst."
+    },
+    {
+      "key": "67306_CR48",
+      "doi-asserted-by": "publisher",
+      "first-page": "6709",
+      "DOI": "10.1016/j.ijhydene.2020.11.121",
+      "volume": "46",
+      "author": "S Srinivasan",
+      "year": "2021",
+      "unstructured": "Srinivasan, S., Tiwari, R., Krishnamoorthy, M., Lalitha, M. P. & Raj, K. K. Neural network based MPPT control with reconfigured quadratic boost converter for fuel cell application. Int. J. Hydrogen Energy 46, 6709–6719. https://doi.org/10.1016/j.ijhydene.2020.11.121 (2021).",
+      "journal-title": "Int. J. Hydrogen Energy"
+    },
+    {
+      "key": "67306_CR49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijleo.2023.170657",
+      "volume": "278",
+      "author": "H Abouobaida",
+      "year": "2023",
+      "unstructured": "Abouobaida, H. et al. Performance optimization of the INC-COND fuzzy MPPT based on a variable step for photovoltaic systems. Optik 278, 170657. https://doi.org/10.1016/j.ijleo.2023.170657 (2023).",
+      "journal-title": "Optik"
+    },
+    {
+      "key": "67306_CR50",
+      "doi-asserted-by": "publisher",
+      "first-page": "34",
+      "DOI": "10.21608/ERJ.2019.139807",
+      "volume": "162",
+      "author": "M Elzalik",
+      "year": "2019",
+      "unstructured": "Elzalik, M., Rezk, H., Shehata, E. G., Thomas, J. & Mostafa, R. INC-MPPT algorithm for maximizing energy conversion efficiency of thermoelectric generating system. J. Eng. Res. 162, 34–49. https://doi.org/10.21608/ERJ.2019.139807 (2019).",
+      "journal-title": "J. Eng. Res."
+    },
+    {
+      "key": "67306_CR51",
+      "doi-asserted-by": "publisher",
+      "first-page": "1338",
+      "DOI": "10.1016/j.egyr.2021.02.051",
+      "volume": "7",
+      "author": "M Fathi",
+      "year": "2021",
+      "unstructured": "Fathi, M. & Parian, J. A. Intelligent MPPT for photovoltaic panels using a novel fuzzy logic and artificial neural networks based on evolutionary algorithms. Energy Rep. 7, 1338–1348. https://doi.org/10.1016/j.egyr.2021.02.051 (2021).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR52",
+      "doi-asserted-by": "publisher",
+      "first-page": "11144",
+      "DOI": "10.3390/su151411144",
+      "volume": "15",
+      "author": "MT Hussain",
+      "year": "2023",
+      "unstructured": "Hussain, M. T. et al. An evaluation of ann algorithm performance for MPPT energy harvesting in solar PV systems. Sustainability 15, 11144 (2023).",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "67306_CR53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jclepro.2019.118983",
+      "volume": "246",
+      "author": "S Motahhir",
+      "year": "2020",
+      "unstructured": "Motahhir, S., Hammoumi, A. E. & Ghzizal, A. E. The most used MPPT algorithms: Review and the suitable low-cost embedded board for each algorithm. J. Clean. Prod. 246, 118983. https://doi.org/10.1016/j.jclepro.2019.118983 (2020).",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "67306_CR54",
+      "doi-asserted-by": "publisher",
+      "first-page": "102137",
+      "DOI": "10.1109/ACCESS.2021.3096864",
+      "volume": "9",
+      "author": "RB Roy",
+      "year": "2021",
+      "unstructured": "Roy, R. B. et al. A comparative performance analysis of ANN algorithms for MPPT energy harvesting in solar PV system. IEEE Access 9, 102137–102152. https://doi.org/10.1109/ACCESS.2021.3096864 (2021).",
+      "journal-title": "IEEE Access"
+    },
+    {
+      "key": "67306_CR55",
+      "doi-asserted-by": "publisher",
+      "first-page": "1960",
+      "DOI": "10.11591/eei.v12i4.5099",
+      "volume": "12",
+      "author": "L Hichem",
+      "year": "2023",
+      "unstructured": "Hichem, L., Amar, O. & Leila, M. Optimized ANN-fuzzy MPPT controller for a stand-alone PV system under fast-changing atmospheric conditions. Bull. Electr. Eng. Inform. 12, 1960–1981. https://doi.org/10.11591/eei.v12i4.5099 (2023).",
+      "journal-title": "Bull. Electr. Eng. Inform."
+    },
+    {
+      "key": "67306_CR56",
+      "doi-asserted-by": "publisher",
+      "first-page": "324",
+      "DOI": "10.1016/j.egyr.2023.05.163",
+      "volume": "9",
+      "author": "FSM Abdallah",
+      "year": "2023",
+      "unstructured": "Abdallah, F. S. M., Abdullah, M., Musirin, I. & Elshamy, A. M. Intelligent solar panel monitoring system and shading detection using artificial neural networks. Energy Rep. 9, 324–334 (2023).",
+      "journal-title": "Energy Rep."
+    },
+    {
+      "key": "67306_CR57",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mishra, S. K., Mohanty, D., Sahu, J. K. & Mohanty, S. artificial neural network based MPPT controller for stand-alone solar PV system. In 2021 International Conference on System, Computation, Automation and Networking (ICSCAN) 1–6 (IEEE, 2021).",
+      "DOI": "10.1109/ICSCAN53069.2021.9526518"
+    },
+    {
+      "key": "67306_CR58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSTE.2023.3284866",
+      "author": "SP Ye",
+      "year": "2023",
+      "unstructured": "Ye, S. P., Liu, Y. H., Pai, H. Y., Sangwongwanich, A. & Blaabjerg, F. A novel ANN-based GMPPT method for PV systems under complex partial shading conditions. IEEE Trans. Sustain. Energyhttps://doi.org/10.1109/TSTE.2023.3284866 (2023).",
+      "journal-title": "IEEE Trans. Sustain. Energy"
+    },
+    {
+      "key": "67306_CR59",
+      "doi-asserted-by": "publisher",
+      "first-page": "15",
+      "DOI": "10.1002/ceat.202100339",
+      "volume": "45",
+      "author": "M Zakaria",
+      "year": "2022",
+      "unstructured": "Zakaria, M. et al. Water desalination using solar thermal collectors enhanced by nanofluids. Chem. Eng. Technol. 45, 15–25. https://doi.org/10.1002/ceat.202100339 (2022).",
+      "journal-title": "Chem. Eng. Technol."
+    }
+  ],
+  "container-title": [
+    "Scientific Reports"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.nature.com/articles/s41598-024-67306-0.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41598-024-67306-0",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://www.nature.com/articles/s41598-024-67306-0.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ],
+    "date-time": "2024-08-07T04:07:43Z",
+    "timestamp": 1723003663000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.nature.com/articles/s41598-024-67306-0"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ]
+  },
+  "references-count": 59,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "67306"
+  ],
+  "URL": "https://doi.org/10.1038/s41598-024-67306-0",
+  "relation": {},
+  "ISSN": [
+    "2045-2322"
+  ],
+  "issn-type": [
+    {
+      "value": "2045-2322",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        7
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "25 April 2024",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "10 July 2024",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "7 August 2024",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "18280"
+}

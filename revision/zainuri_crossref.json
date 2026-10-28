@@ -1,0 +1,597 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        7
+      ]
+    ],
+    "date-time": "2026-10-07T17:03:13Z",
+    "timestamp": 1791392593453,
+    "version": "4.3.3"
+  },
+  "reference-count": 55,
+  "publisher": "Institution of Engineering and Technology (IET)",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2014-03-01T00:00:00Z",
+        "timestamp": 1393632000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "ietresearch.onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "IET Renewable Power Gen"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2014,
+        3
+      ]
+    ]
+  },
+  "abstract": "<jats:p>This study presents an adaptive perturb and observe (P&amp;O)‐fuzzy control maximum power point tracking (MPPT) for photovoltaic (PV) boost dc–dc converter. P&amp;O is known as a very simple MPPT algorithm and used widely. Fuzzy logic is also simple to be developed and provides fast response. The proposed technique combines both of their advantages. It should improve MPPT performance especially with existing of noise. For evaluation and comparison analysis, conventional P&amp;O and fuzzy logic control algorithms have been developed too. All the algorithms were simulated in MATLAB‐Simulink, respectively, together with PV module of Kyocera KD210GH‐2PU connected to PV boost dc–dc converter. For hardware implementation, the proposed adaptive P&amp;O‐fuzzy control MPPT was programmed in TMS320F28335 digital signal processing board. The other two conventional MPPT methods were also programmed for comparison purpose. Performance assessment covers overshoot, time response, maximum power ratio, oscillation and stability as described further in this study. From the results and analysis, the adaptive P&amp;O‐fuzzy control MPPT shows the best performance with fast time response, less overshoot and more stable operation. It has high maximum power ratio as compared to the other two conventional MPPT algorithms especially with existing of noise in the system at low irradiance.</jats:p>",
+  "DOI": "10.1049/iet-rpg.2012.0362",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        8,
+        27
+      ]
+    ],
+    "date-time": "2013-08-27T15:18:08Z",
+    "timestamp": 1377616688000
+  },
+  "page": "183-194",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 228,
+  "title": [
+    "Development of adaptive perturb and observe‐fuzzy control maximum power point tracking for photovoltaic boost dc–dc converter"
+  ],
+  "prefix": "10.1049",
+  "volume": "8",
+  "author": [
+    {
+      "given": "Muhammad Ammirrul Atiqi Mohd",
+      "family": "Zainuri",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mohd Amran Mohd",
+      "family": "Radzi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Azura",
+      "family": "Che Soh",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electrical and Electronic Engineering Faculty of Engineering Universiti Putra Malaysia UPM Serdang Selangor Malaysia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nasrudin Abd",
+      "family": "Rahim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Malaya Power Energy Dedicated Advanced Centre (UMPEDAC) Kuala Lumpur Malaysia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "265",
+  "published-online": {
+    "date-parts": [
+      [
+        2014,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_8_2_1",
+      "first-page": "446",
+      "article-title": "Energy comparison of MPPT techniques for PV systems",
+      "volume": "3",
+      "author": "Faranda R.",
+      "year": "2008",
+      "journal-title": "WSEAS Trans. Power Syst."
+    },
+    {
+      "key": "e_1_2_8_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2012.03.013"
+    },
+    {
+      "key": "e_1_2_8_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2006.06.009"
+    },
+    {
+      "key": "e_1_2_8_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg.2010.0175"
+    },
+    {
+      "key": "e_1_2_8_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg.2009.0199"
+    },
+    {
+      "key": "e_1_2_8_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2010.04.006"
+    },
+    {
+      "key": "e_1_2_8_8_1",
+      "first-page": "147",
+      "article-title": "Maximum power tracking for photovoltaic power systems",
+      "volume": "8",
+      "author": "Jiang J.",
+      "year": "2005",
+      "journal-title": "Tamkang J. Sci. Eng."
+    },
+    {
+      "key": "e_1_2_8_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2010.11.019"
+    },
+    {
+      "key": "e_1_2_8_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2007.08.015"
+    },
+    {
+      "key": "e_1_2_8_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/UPEC.2012.6398443"
+    },
+    {
+      "key": "e_1_2_8_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2004.1571953"
+    },
+    {
+      "key": "e_1_2_8_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2011.6119946"
+    },
+    {
+      "key": "e_1_2_8_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2003.08.038"
+    },
+    {
+      "key": "e_1_2_8_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.rser.2012.11.032"
+    },
+    {
+      "key": "e_1_2_8_16_1",
+      "first-page": "116",
+      "article-title": "An improved maximum power point tracking controller for PV systems using artificial neural network",
+      "volume": "3",
+      "author": "Younis M.A.",
+      "year": "2012",
+      "journal-title": "Prz. Elektrotech. (Electr. Rev.)"
+    },
+    {
+      "key": "e_1_2_8_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/APEC.2005.1453286"
+    },
+    {
+      "key": "e_1_2_8_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/APEC.2003.1179263"
+    },
+    {
+      "key": "e_1_2_8_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "key": "e_1_2_8_20_1",
+      "first-page": "47",
+      "article-title": "Fuzzy logic and neuro‐fuzzy system: a systematic introduction",
+      "volume": "2",
+      "author": "Wu Y.",
+      "year": "2011",
+      "journal-title": "Int. J. Artif. Intell. Expert Syst. (IJAE)"
+    },
+    {
+      "key": "e_1_2_8_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2008.05.039"
+    },
+    {
+      "key": "e_1_2_8_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PEDS.2003.1283074"
+    },
+    {
+      "key": "e_1_2_8_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ENERGYCON.2010.5771737"
+    },
+    {
+      "key": "e_1_2_8_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2010.08.004"
+    },
+    {
+      "key": "e_1_2_8_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijepes.2012.04.047"
+    },
+    {
+      "key": "e_1_2_8_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijepes.2011.12.006"
+    },
+    {
+      "key": "e_1_2_8_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijepes.2012.06.031"
+    },
+    {
+      "key": "e_1_2_8_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg:20080065"
+    },
+    {
+      "key": "e_1_2_8_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2010.12.004"
+    },
+    {
+      "key": "e_1_2_8_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00542-012-1518-9"
+    },
+    {
+      "key": "e_1_2_8_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.24084/repqj10.615"
+    },
+    {
+      "key": "e_1_2_8_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.875430"
+    },
+    {
+      "key": "e_1_2_8_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.solener.2012.04.005"
+    },
+    {
+      "key": "e_1_2_8_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SSD.2010.5585530"
+    },
+    {
+      "key": "e_1_2_8_35_1",
+      "unstructured": "Harjai A. Bhardwaj A. Sandhibigraha M.: ‘Study of maximum power point tracking (MPPT) techniques in a solar photovoltaic array’. Thesis Department of Electrical Engineering National Institute of Technology Rourkela Orissa 2011 pp.43–49"
+    },
+    {
+      "key": "e_1_2_8_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAPEC.2011.5779863"
+    },
+    {
+      "key": "e_1_2_8_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijepes.2012.10.048"
+    },
+    {
+      "key": "e_1_2_8_38_1",
+      "first-page": "86",
+      "volume-title": "Proc. 29th Annual IEEE Power Electronics Specialists Conf. (PESC)",
+      "author": "Hua C.",
+      "year": "1998"
+    },
+    {
+      "issue": "4",
+      "key": "e_1_2_8_39_1",
+      "first-page": "2174",
+      "article-title": "Design and analysis of P&O and IP&O MPPT techniques for photovoltaic system",
+      "volume": "2",
+      "author": "Surya Kumari J.",
+      "year": "2012",
+      "journal-title": "Int. J. Modern Eng. Res. (IJMER)"
+    },
+    {
+      "key": "e_1_2_8_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.renene.2007.08.015"
+    },
+    {
+      "key": "e_1_2_8_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/pip.459"
+    },
+    {
+      "key": "e_1_2_8_42_1",
+      "first-page": "1",
+      "volume-title": "European Committee for Electro technical Standardization",
+      "author": "European Standard",
+      "year": "2010"
+    },
+    {
+      "key": "e_1_2_8_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/OPTIM.2008.4602445"
+    },
+    {
+      "key": "e_1_2_8_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2009.5414780"
+    },
+    {
+      "key": "e_1_2_8_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.2000.883139"
+    },
+    {
+      "key": "e_1_2_8_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.2002.1042685"
+    },
+    {
+      "key": "e_1_2_8_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2005.850975"
+    },
+    {
+      "key": "e_1_2_8_48_1",
+      "first-page": "387",
+      "article-title": "Maximum power point tracking using a fuzzy logic control scheme",
+      "volume": "10",
+      "author": "Aït Cheikh M.S.",
+      "year": "2007",
+      "journal-title": "Revue des Energies Renouvelables"
+    },
+    {
+      "key": "e_1_2_8_49_1",
+      "first-page": "735",
+      "volume-title": "Proc. 26th Annual Conf. IEEE on Industrial Electronics Society (IECON)",
+      "author": "Mahmoud A.M.A.",
+      "year": "2000"
+    },
+    {
+      "issue": "6",
+      "key": "e_1_2_8_50_1",
+      "first-page": "1",
+      "article-title": "Simulation and implementation of a fuzzy‐based maximum power point tracker under variable insulation and temperature conditions",
+      "volume": "29",
+      "author": "Masoum M.A.S.",
+      "year": "2005",
+      "journal-title": "Iranian J. Sci. Technol."
+    },
+    {
+      "key": "e_1_2_8_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2006.875430"
+    },
+    {
+      "key": "e_1_2_8_52_1",
+      "first-page": "303",
+      "article-title": "Design and stability analysis of single‐input fuzzy logic controller, systems, man, and cybernetics, Part B: cybernetics",
+      "volume": "30",
+      "author": "Byung‐Jae C.",
+      "year": "2000",
+      "journal-title": "IEEE Trans."
+    },
+    {
+      "key": "e_1_2_8_53_1",
+      "first-page": "3105",
+      "volume-title": "Proc. 24th European Photovoltaic Solar Energy Conf.",
+      "author": "Bründlinger R.",
+      "year": "2009"
+    },
+    {
+      "key": "e_1_2_8_54_1",
+      "first-page": "1",
+      "volume-title": "IEEE 33rd Int. Telecommunications Energy Conf. (INTELEC)",
+      "author": "Yu B.",
+      "year": "2011"
+    },
+    {
+      "key": "e_1_2_8_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/iet-rpg.2010.0175"
+    },
+    {
+      "key": "e_1_2_8_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2005.1581620"
+    }
+  ],
+  "container-title": [
+    "IET Renewable Power Generation"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/iet-rpg.2012.0362",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/iet-rpg.2012.0362",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-rpg.2012.0362",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        28
+      ]
+    ],
+    "date-time": "2025-10-28T17:56:31Z",
+    "timestamp": 1761674191000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/iet-rpg.2012.0362"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2014,
+        3
+      ]
+    ]
+  },
+  "references-count": 55,
+  "journal-issue": {
+    "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          3
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1049/iet-rpg.2012.0362"
+  ],
+  "URL": "https://doi.org/10.1049/iet-rpg.2012.0362",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1752-1416",
+    "1752-1424"
+  ],
+  "issn-type": [
+    {
+      "value": "1752-1416",
+      "type": "print"
+    },
+    {
+      "value": "1752-1424",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2014,
+        3
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2012-12-06",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2013-05-17",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2014-03-01",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

@@ -1,0 +1,685 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        26
+      ]
+    ],
+    "date-time": "2026-10-26T16:56:46Z",
+    "timestamp": 1793033806097,
+    "version": "4.5.0"
+  },
+  "reference-count": 91,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2007,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2007-06-01T00:00:00Z",
+        "timestamp": 1180656000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. On Energy Conversion"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2007,
+        6
+      ]
+    ]
+  },
+  "DOI": "10.1109/tec.2006.874230",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        6,
+        1
+      ]
+    ],
+    "date-time": "2007-06-01T16:04:04Z",
+    "timestamp": 1180713844000
+  },
+  "page": "439-449",
+  "source": "Crossref",
+  "is-referenced-by-count": 4321,
+  "title": [
+    "Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques"
+  ],
+  "prefix": "10.1109",
+  "volume": "22",
+  "author": [
+    {
+      "given": "Trishan",
+      "family": "Esram",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Patrick L.",
+      "family": "Chapman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.1992.254498"
+    },
+    {
+      "key": "ref72",
+      "author": "landsman",
+      "year": "1978",
+      "journal-title": "Maximum Power Point Tracker for Photovoltaic Arrays"
+    },
+    {
+      "key": "ref71",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2001.975971"
+    },
+    {
+      "key": "ref70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.1999.801599"
+    },
+    {
+      "key": "ref76",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1994.373812"
+    },
+    {
+      "key": "ref77",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.2004.1348562"
+    },
+    {
+      "key": "ref74",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1993.472020"
+    },
+    {
+      "key": "ref39",
+      "author": "buresch",
+      "year": "1983",
+      "journal-title": "Photovoltaic Energy Systems"
+    },
+    {
+      "key": "ref75",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1993.471984"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1982.7072429"
+    },
+    {
+      "key": "ref78",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-epa:20040978"
+    },
+    {
+      "key": "ref79",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1992.254813"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.925586"
+    },
+    {
+      "key": "ref32",
+      "first-page": "1011",
+      "article-title": "a novel maximum power point tracking control for photovoltaic power system under rapidly changing solar radiation",
+      "author": "kim",
+      "year": "2001",
+      "journal-title": "IEEE Int Symp Ind Electron"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2000.916232"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1999.785575"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2005.1581919"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/APEC.2003.1179263"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PES.2003.1271058"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2002.1190903"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.707608"
+    },
+    {
+      "key": "ref62",
+      "first-page": "822",
+      "article-title": "a research on photovoltaic energy controlling system with maximum power point tracking",
+      "author": "sun",
+      "year": "2002",
+      "journal-title": "Proc Power Convers Conf"
+    },
+    {
+      "key": "ref61",
+      "first-page": "607",
+      "article-title": "the dynamic performance of photovoltaic supplied dc motor fed from dc--dc converter and controlled by neural networks",
+      "author": "hussein",
+      "year": "2002",
+      "journal-title": "Proc Int Joint Conf Neural Netw"
+    },
+    {
+      "key": "ref63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/cp:20020083"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INTLEC.1989.88351"
+    },
+    {
+      "key": "ref64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1996.548811"
+    },
+    {
+      "key": "ref27",
+      "first-page": "1449",
+      "article-title": "comparison of candidate solar array maximum power utilization approaches",
+      "author": "costogue",
+      "year": "1976",
+      "journal-title": "Intersociety Energy Conversion Engineering Conf"
+    },
+    {
+      "key": "ref65",
+      "first-page": "507",
+      "article-title": "maximum power point tracker for photovoltaic power plants",
+      "author": "arcidiacono",
+      "year": "1982",
+      "journal-title": "Proc IEEE Photovoltaic Spec Conf"
+    },
+    {
+      "key": "ref66",
+      "doi-asserted-by": "crossref",
+      "first-page": "997",
+      "DOI": "10.1049/el:20000730",
+      "article-title": "simple maximum power point tracker for photovoltaic arrays",
+      "volume": "36",
+      "author": "hong",
+      "year": "2000",
+      "journal-title": "Electronics Letters"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-gtd:19951577"
+    },
+    {
+      "key": "ref67",
+      "first-page": "199",
+      "article-title": "synthesis, simulation and experimental verification of a maximum power point tracker from nonlinear dynamics",
+      "author": "lim",
+      "year": "2001",
+      "journal-title": "Proc 32nd Annu IEEE Power Electron Spec Conf"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2000.916183"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MELCON.1994.380992"
+    },
+    {
+      "key": "ref2",
+      "first-page": "766",
+      "article-title": "a study of wind power converter with microprocessor based power control utilizing an oversynchronous electronic scherbius cascade",
+      "author": "van wyk",
+      "year": "1983",
+      "journal-title": "Proc IEEE Int Power Electron Conf"
+    },
+    {
+      "key": "ref1",
+      "first-page": "523",
+      "article-title": "the energy balance associated with the use of a mppt in a 100 kw peak power system",
+      "author": "buciarelli",
+      "year": "1980",
+      "journal-title": "Proc IEEE Conf Photovoltaic Spec"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LPEL.2004.828444"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2005.850975"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CCECE.2004.1345317"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2005.1581620"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2005.1581619"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TAES.1968.5408938"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2005.851602"
+    },
+    {
+      "key": "ref50",
+      "first-page": "396",
+      "article-title": "a new maximum power point tracker of photovoltaic arrays using fuzzy controller",
+      "author": "won",
+      "year": "1994",
+      "journal-title": "Proc 25th Annu IEEE Power Electron Spec Conf"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICIT.1994.467196"
+    },
+    {
+      "key": "ref91",
+      "doi-asserted-by": "crossref",
+      "first-page": "5591",
+      "DOI": "10.1109/WCICA.2004.1343805",
+      "article-title": "the application of slide technology in pv maximum power point tracking system",
+      "author": "zhang",
+      "year": "2004",
+      "journal-title": "Proc Fifth World Congr Intell Contr Automat"
+    },
+    {
+      "key": "ref90",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355436"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/60.391904"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2004.1432228"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TIE.2003.814762"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.2002.1182924"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESW.2002.985022"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ROMAN.2000.892487"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.1998.707796"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.1996.564403"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.1996.570673"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECEC.1996.553352"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0379-6787(84)90008-5"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "crossref",
+      "first-page": "80",
+      "DOI": "10.1049/cp:19980504",
+      "article-title": "optimal control of a grid-connected pv system for maximum power point tracking and unity power factor",
+      "author": "al-amoudi",
+      "year": "1998",
+      "journal-title": "Seventh International Conference on Power Electronics and Variable Speed Drives (IEE Conf Publ No 456)"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "crossref",
+      "first-page": "130",
+      "DOI": "10.1049/cp:20000233",
+      "article-title": "maximum power point tracking with capacitor identifier for photovoltaic power system",
+      "author": "kasa",
+      "year": "2000",
+      "journal-title": "Proceedings of 8th International Conference on Power Electronics and Variable Speed Drives"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "crossref",
+      "first-page": "124",
+      "DOI": "10.1049/cp:20000232",
+      "article-title": "real-time maximum power point tracking for grid-connected photovoltaic systems",
+      "author": "zhang",
+      "year": "2000",
+      "journal-title": "Proceedings of 8th International Conference on Power Electronics and Variable Speed Drives"
+    },
+    {
+      "key": "ref15",
+      "first-page": "1",
+      "article-title": "fully digital control of distributed photovoltaic power systems",
+      "author": "hua",
+      "year": "2001",
+      "journal-title": "Proc IEEE Int Symp Ind Electron"
+    },
+    {
+      "key": "ref82",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/el:20010007"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PCC.2002.998566"
+    },
+    {
+      "key": "ref81",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/41.678996"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2002.1190902"
+    },
+    {
+      "key": "ref84",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MELCON.1989.49971"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ESSCIRC.2010.5619887"
+    },
+    {
+      "key": "ref83",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DRPT.2004.1338094"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PVSC.2002.1190873"
+    },
+    {
+      "key": "ref80",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PCCON.1997.638281"
+    },
+    {
+      "key": "ref89",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TDC.2004.1432366"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECEC.1996.553353"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1993.472018"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/63.903988"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.2000.883139"
+    },
+    {
+      "key": "ref85",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECON.1999.822229"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355417"
+    },
+    {
+      "key": "ref86",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IECEC.2000.870713"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-epa:20010656"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IAS.1992.244319"
+    },
+    {
+      "key": "ref87",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2004.833457"
+    },
+    {
+      "key": "ref88",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPEL.2004.833458"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAS.1983.318109"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISIE.2000.930504"
+    },
+    {
+      "key": "ref45",
+      "first-page": "1125",
+      "article-title": "finding an optimal pv panel maximum power point tracking method",
+      "author": "bekker",
+      "year": "2004",
+      "journal-title": "Proc 7th AFRICON Conf Africa"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCAS.2003.1205040"
+    },
+    {
+      "key": "ref47",
+      "first-page": "1489",
+      "article-title": "prediction-data-based maximum-power-point-tracking method for photovoltaic power generation systems",
+      "author": "mutoh",
+      "year": "2002",
+      "journal-title": "Proc 33rd Annu IEEE Power Electron Spec Conf"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEC.2002.805205"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.1990.131245"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PESC.2004.1355451"
+    },
+    {
+      "key": "ref43",
+      "first-page": "1113",
+      "article-title": "an improved mppt converter with current compensation method for small scaled pv-applications",
+      "author": "noh",
+      "year": "2002",
+      "journal-title": "Proc 28th Annu Conf Ind Electron Soc"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Energy Conversion"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/60/4207419/04207429.pdf?arnumber=4207429",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        11,
+        29
+      ]
+    ],
+    "date-time": "2021-11-29T15:43:55Z",
+    "timestamp": 1638200635000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://ieeexplore.ieee.org/document/4207429/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2007,
+        6
+      ]
+    ]
+  },
+  "references-count": 91,
+  "journal-issue": {
+    "issue": "2"
+  },
+  "URL": "https://doi.org/10.1109/tec.2006.874230",
+  "relation": {},
+  "ISSN": [
+    "0885-8969"
+  ],
+  "issn-type": [
+    {
+      "value": "0885-8969",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2007,
+        6
+      ]
+    ]
+  }
+}
