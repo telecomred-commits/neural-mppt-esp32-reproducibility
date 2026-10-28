@@ -1,0 +1,6 @@
+# Audit environment tested on Python 3.13.5, not a historically documented toolchain.
+# Use only in a fresh virtual environment; do not modify source data.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
